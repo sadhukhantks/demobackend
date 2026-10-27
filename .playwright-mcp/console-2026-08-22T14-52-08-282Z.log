@@ -1,0 +1,48 @@
+[     127ms] [LOG] [Fast Refresh] rebuilding @ http://dev3.localhost:3000/_next/static/chunks/5ce7f_next_dist_b6c93851._.js:2297
+[     753ms] [LOG] [Fast Refresh] done in 734ms @ http://dev3.localhost:3000/_next/static/chunks/5ce7f_next_dist_b6c93851._.js:2297
+[     939ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://dev3.localhost:3000/_next/static/chunks/5ce7f_next_dist_b6c93851._.js:2297
+[     967ms] [LOG] [HMR] connected @ http://dev3.localhost:3000/_next/static/chunks/5ce7f_next_dist_b6c93851._.js:2297
+[    1098ms] [LOG] Detected Host: dev3.localhost:3000 http://dev3.localhost:3000/dashboardportal/jutePurchase/reports @ http://dev3.localhost:3000/_next/static/chunks/5ce7f_next_dist_b6c93851._.js:2297
+[    1098ms] [LOG] Detected Host: dev3.localhost:3000 http://dev3.localhost:3000/dashboardportal/jutePurchase/reports @ http://dev3.localhost:3000/_next/static/chunks/5ce7f_next_dist_b6c93851._.js:2297
+[    1150ms] [LOG] Detected Host: dev3.localhost:3000 http://dev3.localhost:3000/dashboardportal/jutePurchase/reports @ http://dev3.localhost:3000/_next/static/chunks/5ce7f_next_dist_b6c93851._.js:2297
+[    1152ms] [LOG] Detected Host: dev3.localhost:3000 http://dev3.localhost:3000/dashboardportal/jutePurchase/reports @ http://dev3.localhost:3000/_next/static/chunks/5ce7f_next_dist_b6c93851._.js:2297
+[    1173ms] [LOG] Detected Host: dev3.localhost:3000 http://dev3.localhost:3000/dashboardportal/jutePurchase/reports @ http://dev3.localhost:3000/_next/static/chunks/5ce7f_next_dist_b6c93851._.js:2297
+[    1176ms] [LOG] Detected Host: dev3.localhost:3000 http://dev3.localhost:3000/dashboardportal/jutePurchase/reports @ http://dev3.localhost:3000/_next/static/chunks/5ce7f_next_dist_b6c93851._.js:2297
+[    1203ms] [LOG] Detected Host: dev3.localhost:3000 http://dev3.localhost:3000/dashboardportal/jutePurchase/reports @ http://dev3.localhost:3000/_next/static/chunks/5ce7f_next_dist_b6c93851._.js:2297
+[    1204ms] [LOG] Detected Host: dev3.localhost:3000 http://dev3.localhost:3000/dashboardportal/jutePurchase/reports @ http://dev3.localhost:3000/_next/static/chunks/5ce7f_next_dist_b6c93851._.js:2297
+[    1227ms] [LOG] Detected Host: dev3.localhost:3000 http://dev3.localhost:3000/dashboardportal/jutePurchase/reports @ http://dev3.localhost:3000/_next/static/chunks/5ce7f_next_dist_b6c93851._.js:2297
+[    1228ms] [LOG] Detected Host: dev3.localhost:3000 http://dev3.localhost:3000/dashboardportal/jutePurchase/reports @ http://dev3.localhost:3000/_next/static/chunks/5ce7f_next_dist_b6c93851._.js:2297
+[    1250ms] [LOG] Detected Host: dev3.localhost:3000 http://dev3.localhost:3000/dashboardportal/jutePurchase/reports @ http://dev3.localhost:3000/_next/static/chunks/5ce7f_next_dist_b6c93851._.js:2297
+[    1251ms] [LOG] Detected Host: dev3.localhost:3000 http://dev3.localhost:3000/dashboardportal/jutePurchase/reports @ http://dev3.localhost:3000/_next/static/chunks/5ce7f_next_dist_b6c93851._.js:2297
+[   24784ms] [LOG] [Fast Refresh] rebuilding @ http://dev3.localhost:3000/_next/static/chunks/5ce7f_next_dist_b6c93851._.js:2297
+[   26560ms] [LOG] [Fast Refresh] done in 1878ms @ http://dev3.localhost:3000/_next/static/chunks/5ce7f_next_dist_b6c93851._.js:2297
+[   26595ms] [LOG] Detected Host: dev3.localhost:3000 http://dev3.localhost:3000/dashboardportal/jutePurchase/reports @ http://dev3.localhost:3000/_next/static/chunks/5ce7f_next_dist_b6c93851._.js:2297
+[   26596ms] [LOG] Detected Host: dev3.localhost:3000 http://dev3.localhost:3000/dashboardportal/jutePurchase/reports @ http://dev3.localhost:3000/_next/static/chunks/5ce7f_next_dist_b6c93851._.js:2297
+[   26612ms] [LOG] Detected Host: dev3.localhost:3000 http://dev3.localhost:3000/dashboardportal/jutePurchase/reports @ http://dev3.localhost:3000/_next/static/chunks/5ce7f_next_dist_b6c93851._.js:2297
+[   26613ms] [LOG] Detected Host: dev3.localhost:3000 http://dev3.localhost:3000/dashboardportal/jutePurchase/reports @ http://dev3.localhost:3000/_next/static/chunks/5ce7f_next_dist_b6c93851._.js:2297
+[   26875ms] [LOG] Detected Host: dev3.localhost:3000 http://dev3.localhost:3000/dashboardportal/jutePurchase/reports @ http://dev3.localhost:3000/_next/static/chunks/5ce7f_next_dist_b6c93851._.js:2297
+[   26876ms] [LOG] Detected Host: dev3.localhost:3000 http://dev3.localhost:3000/dashboardportal/jutePurchase/reports @ http://dev3.localhost:3000/_next/static/chunks/5ce7f_next_dist_b6c93851._.js:2297
+[   27148ms] [LOG] [Fast Refresh] rebuilding @ http://dev3.localhost:3000/_next/static/chunks/5ce7f_next_dist_b6c93851._.js:2297
+[   27319ms] [LOG] [Fast Refresh] done in 468ms @ http://dev3.localhost:3000/_next/static/chunks/5ce7f_next_dist_b6c93851._.js:2297
+[  272391ms] [LOG] [Fast Refresh] rebuilding @ http://dev3.localhost:3000/_next/static/chunks/5ce7f_next_dist_b6c93851._.js:2297
+[  272651ms] [LOG] [Fast Refresh] done in 394ms @ http://dev3.localhost:3000/_next/static/chunks/5ce7f_next_dist_b6c93851._.js:2297
+[  379921ms] [LOG] Detected Host: dev3.localhost:3000 http://dev3.localhost:3000/dashboardportal/jutePurchase/reports/mrIssueDetail?branch_id=2&date=2026-08-21 @ http://dev3.localhost:3000/_next/static/chunks/5ce7f_next_dist_b6c93851._.js:2297
+[  379922ms] [LOG] Detected Host: dev3.localhost:3000 http://dev3.localhost:3000/dashboardportal/jutePurchase/reports/mrIssueDetail?branch_id=2&date=2026-08-21 @ http://dev3.localhost:3000/_next/static/chunks/5ce7f_next_dist_b6c93851._.js:2297
+[  399346ms] [LOG] Detected Host: dev3.localhost:3000 http://dev3.localhost:3000/dashboardportal/jutePurchase/reports/mrIssueDetail?branch_id=2&date=2026-08-21 @ http://dev3.localhost:3000/_next/static/chunks/5ce7f_next_dist_b6c93851._.js:2297
+[  399347ms] [LOG] Detected Host: dev3.localhost:3000 http://dev3.localhost:3000/dashboardportal/jutePurchase/reports/mrIssueDetail?branch_id=2&date=2026-08-21 @ http://dev3.localhost:3000/_next/static/chunks/5ce7f_next_dist_b6c93851._.js:2297
+[  399482ms] [LOG] Detected Host: dev3.localhost:3000 http://dev3.localhost:3000/dashboardportal/jutePurchase/reports/mrIssueDetail?branch_id=2&date=2026-08-21 @ http://dev3.localhost:3000/_next/static/chunks/5ce7f_next_dist_b6c93851._.js:2297
+[  399483ms] [LOG] Detected Host: dev3.localhost:3000 http://dev3.localhost:3000/dashboardportal/jutePurchase/reports/mrIssueDetail?branch_id=2&date=2026-08-21 @ http://dev3.localhost:3000/_next/static/chunks/5ce7f_next_dist_b6c93851._.js:2297
+[  399819ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://dev3.localhost:3000/_next/static/chunks/5ce7f_next_dist_b6c93851._.js:2297
+[  399839ms] [LOG] [HMR] connected @ http://dev3.localhost:3000/_next/static/chunks/5ce7f_next_dist_b6c93851._.js:2297
+[  399940ms] [LOG] Detected Host: dev3.localhost:3000 http://dev3.localhost:3000/dashboardportal @ http://dev3.localhost:3000/_next/static/chunks/5ce7f_next_dist_b6c93851._.js:2297
+[  399940ms] [LOG] Detected Host: dev3.localhost:3000 http://dev3.localhost:3000/dashboardportal @ http://dev3.localhost:3000/_next/static/chunks/5ce7f_next_dist_b6c93851._.js:2297
+[  399960ms] [LOG] Detected Host: dev3.localhost:3000 http://dev3.localhost:3000/dashboardportal @ http://dev3.localhost:3000/_next/static/chunks/5ce7f_next_dist_b6c93851._.js:2297
+[  399961ms] [LOG] Detected Host: dev3.localhost:3000 http://dev3.localhost:3000/dashboardportal @ http://dev3.localhost:3000/_next/static/chunks/5ce7f_next_dist_b6c93851._.js:2297
+[  399967ms] [LOG] Detected Host: dev3.localhost:3000 http://dev3.localhost:3000/dashboardportal @ http://dev3.localhost:3000/_next/static/chunks/5ce7f_next_dist_b6c93851._.js:2297
+[  399969ms] [LOG] Detected Host: dev3.localhost:3000 http://dev3.localhost:3000/dashboardportal @ http://dev3.localhost:3000/_next/static/chunks/5ce7f_next_dist_b6c93851._.js:2297
+[  399979ms] [LOG] Detected Host: dev3.localhost:3000 http://dev3.localhost:3000/dashboardportal @ http://dev3.localhost:3000/_next/static/chunks/5ce7f_next_dist_b6c93851._.js:2297
+[  399981ms] [LOG] Detected Host: dev3.localhost:3000 http://dev3.localhost:3000/dashboardportal @ http://dev3.localhost:3000/_next/static/chunks/5ce7f_next_dist_b6c93851._.js:2297
+[  399994ms] [LOG] Detected Host: dev3.localhost:3000 http://dev3.localhost:3000/dashboardportal @ http://dev3.localhost:3000/_next/static/chunks/5ce7f_next_dist_b6c93851._.js:2297
+[  399995ms] [LOG] Detected Host: dev3.localhost:3000 http://dev3.localhost:3000/dashboardportal @ http://dev3.localhost:3000/_next/static/chunks/5ce7f_next_dist_b6c93851._.js:2297
+[  400003ms] [LOG] Detected Host: dev3.localhost:3000 http://dev3.localhost:3000/dashboardportal @ http://dev3.localhost:3000/_next/static/chunks/5ce7f_next_dist_b6c93851._.js:2297
+[  400004ms] [LOG] Detected Host: dev3.localhost:3000 http://dev3.localhost:3000/dashboardportal @ http://dev3.localhost:3000/_next/static/chunks/5ce7f_next_dist_b6c93851._.js:2297

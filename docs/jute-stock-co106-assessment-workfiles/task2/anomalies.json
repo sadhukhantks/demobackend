@@ -1,0 +1,328 @@
+[
+ {
+  "kind": "mr_header_status_31_undocumented",
+  "count": 963,
+  "qtl_impact": 78033.49,
+  "examples": [
+   "7950",
+   "7951",
+   "8225",
+   "8226",
+   "8227"
+  ],
+  "why": "599 MR headers carry mr_good_recept_status='31', a code outside the documented set; all have branch_id NULL, dates 2021-05-29..2024-03-13"
+ },
+ {
+  "kind": "mr_status_1_21_24_carrying_weight",
+  "count": 9,
+  "qtl_impact": 939.55,
+  "examples": [
+   "34782",
+   "35010",
+   "35011",
+   "38464",
+   "38472"
+  ],
+  "why": "MRs still open/draft/transfer-pending but carrying receipt weight \u2014 included in the 151,148.56 receipts baseline"
+ },
+ {
+  "kind": "issue_null_date",
+  "count": 0,
+  "qtl_impact": 0,
+  "examples": [],
+  "why": "jute_issue rows with NULL issue_date cannot be placed on either side of the 31-Mar cut"
+ },
+ {
+  "kind": "issue_future_date",
+  "count": 0,
+  "qtl_impact": 0,
+  "examples": [],
+  "why": "issue dated after today"
+ },
+ {
+  "kind": "issue_stock_id_null_or_zero",
+  "count": 0,
+  "qtl_impact": 0,
+  "examples": [],
+  "why": "issue rows with no MR-line target: weight leaves stock but cannot be attributed to any receipt line"
+ },
+ {
+  "kind": "issue_stock_id_dangling",
+  "count": 0,
+  "qtl_impact": 0,
+  "examples": [],
+  "why": "issue.stock_id points to a scm_mr_line_item row that does not exist anywhere in vowsls"
+ },
+ {
+  "kind": "issue_target_other_company",
+  "count": 0,
+  "qtl_impact": 0,
+  "examples": [],
+  "why": "issue booked under company 106 but consuming an MR line owned by a different company"
+ },
+ {
+  "kind": "issue_target_rejected_mr",
+  "count": 0,
+  "qtl_impact": 0,
+  "examples": [],
+  "why": "issue consumes a line on a REJECTED MR \u2014 the receipt was never added to stock, so the issue drives stock negative"
+ },
+ {
+  "kind": "issue_target_inactive_line",
+  "count": 0,
+  "qtl_impact": 0,
+  "examples": [],
+  "why": "issue consumes a soft-deleted (is_active=0) MR line"
+ },
+ {
+  "kind": "issue_before_receipt_date",
+  "count": 1,
+  "qtl_impact": 34.79,
+  "examples": [
+   "75717"
+  ],
+  "why": "approved issue dated earlier than the MR it consumes \u2014 any date-sliced stock report shows negative stock on the intervening days"
+ },
+ {
+  "kind": "duplicate_issue_rows",
+  "count": 4,
+  "qtl_impact": 15.0,
+  "examples": [
+   "81650",
+   "81654",
+   "81759",
+   "81763"
+  ],
+  "why": "approved issues identical in (stock_id, date, quantity, weight) \u2014 likely double-posted; qtl impact = weight of the surplus copies"
+ },
+ {
+  "kind": "invoice_null_date",
+  "count": 2,
+  "qtl_impact": 113.1,
+  "examples": [
+   "17744",
+   "17744"
+  ],
+  "why": "approved raw-jute invoices with invoice_date NULL \u2014 a date-filtered 31-Mar report silently drops them, an unfiltered one keeps them"
+ },
+ {
+  "kind": "draft_open_invoice_holding_stock",
+  "count": 18,
+  "qtl_impact": 1181.34,
+  "examples": [
+   "4146",
+   "4146",
+   "6199",
+   "6199",
+   "6200"
+  ],
+  "why": "invoices still in status 0/1 (open/draft) but already consuming MR-line weight \u2014 stock is neither sold nor free"
+ },
+ {
+  "kind": "sales_line_mr_line_id_null_or_zero",
+  "count": 0,
+  "qtl_impact": 0,
+  "examples": [],
+  "why": "sales lines with no MR-line link \u2014 weight sold cannot be deducted from any receipt line, so per-line stock overstates"
+ },
+ {
+  "kind": "sales_line_mr_line_dangling",
+  "count": 1,
+  "qtl_impact": 110.1,
+  "examples": [
+   "2941"
+  ],
+  "why": "sales line points at a non-existent MR line"
+ },
+ {
+  "kind": "sales_line_mr_line_other_company",
+  "count": 3,
+  "qtl_impact": 215.1,
+  "examples": [
+   "2944",
+   "4146",
+   "4146"
+  ],
+  "why": "company-106 invoice selling an MR line owned by another company"
+ },
+ {
+  "kind": "line_negative_stock",
+  "count": 1,
+  "qtl_impact": 0.01,
+  "examples": [
+   "38607"
+  ],
+  "why": "MR lines where approved issues+sales exceed accepted receipt weight as at 31-Mar \u2014 a per-line stock report either shows negative stock or (if clamped at 0) loses this weight"
+ },
+ {
+  "kind": "tran_on_exhausted_line",
+  "count": 0,
+  "qtl_impact": 0.0,
+  "examples": [],
+  "why": "an issue/sale posted against an MR line already fully issued or sold \u2014 the whole of that transaction's weight is unbacked"
+ },
+ {
+  "kind": "line_qty_zero_weight_residue",
+  "count": 0,
+  "qtl_impact": 0,
+  "examples": [],
+  "why": "0 bales / 0 loose / 0 qty but non-zero weight \u2014 bale-count stock reports show nothing, weight reports show stock"
+ },
+ {
+  "kind": "line_weight_zero_qty_residue",
+  "count": 0,
+  "qtl_impact": 0.0,
+  "examples": [],
+  "why": "bales/loose present but zero weight \u2014 weight reports show nothing, bale-count reports show stock"
+ },
+ {
+  "kind": "accepted_vs_mill_shortage_mismatch",
+  "count": 682,
+  "qtl_impact": 434.25,
+  "examples": [
+   "44644",
+   "44564",
+   "44974",
+   "41218",
+   "44074"
+  ],
+  "why": "mill weight - accepted weight does not equal shortage_kgs; the two candidate 'receipt' figures differ by an amount the data cannot explain"
+ },
+ {
+  "kind": "line_rate_zero_or_null",
+  "count": 9,
+  "qtl_impact": 977.0,
+  "examples": [
+   "39432",
+   "40295",
+   "41489",
+   "42038",
+   "42555"
+  ],
+  "why": "MR line with rate 0/NULL \u2014 the closing-stock VALUE for this weight is zero, so any valued stock report understates"
+ },
+ {
+  "kind": "line_quality_id_unresolvable",
+  "count": 1,
+  "qtl_impact": 150.69,
+  "examples": [
+   "29343"
+  ],
+  "why": "actual_quality missing from jute_quality_price_master \u2014 quality-wise stock report drops or mislabels the row"
+ },
+ {
+  "kind": "issue_quality_id_unresolvable",
+  "count": 0,
+  "qtl_impact": 0,
+  "examples": [],
+  "why": "approved issue whose jute_quality is not a jute_quality_price_master id"
+ },
+ {
+  "kind": "sales_quality_id_unresolvable",
+  "count": 0,
+  "qtl_impact": 0,
+  "examples": [],
+  "why": "approved sales line whose quality_id is not a jute_quality_price_master id"
+ },
+ {
+  "kind": "mr_unit_conversion_null",
+  "count": 0,
+  "qtl_impact": 0,
+  "examples": [],
+  "why": "MR header unit_conversion NULL \u2014 BALE vs LOOSE cannot be decided, so bale/drum stock buckets are wrong"
+ },
+ {
+  "kind": "mr_unit_conversion_inconsistent",
+  "count": 1,
+  "qtl_impact": 105.95,
+  "examples": [
+   "45014"
+  ],
+  "why": "header says BALE but line has no bales (or has loose), or vice versa \u2014 bale/drum split unreliable"
+ },
+ {
+  "kind": "mr_header_weight_ne_sum_lines",
+  "count": 0,
+  "qtl_impact": 0.0,
+  "examples": [],
+  "why": "scm_mr_hdr.weight disagrees with SUM(line actual_weight) \u2014 header-level and line-level receipt totals differ"
+ },
+ {
+  "kind": "denorm_sales_weight_disagrees",
+  "count": 17,
+  "qtl_impact": 1190.44,
+  "examples": [
+   "15360",
+   "15362",
+   "15364",
+   "15352",
+   "15358"
+  ],
+  "why": "scm_mr_line_item.sales_weight (used by the old stock widgets) disagrees with the sum of approved invoice lines"
+ },
+ {
+  "kind": "denorm_weight_consumed_dead",
+  "count": 701,
+  "qtl_impact": 60951.72,
+  "examples": [
+   "40238",
+   "41465",
+   "40294",
+   "42371",
+   "40240"
+  ],
+  "why": "scm_mr_line_item.weight_consumed / bales_consumed never maintained (all zero) while 60,951 qtl of approved issues exist \u2014 any report reading the counter shows zero consumption"
+ },
+ {
+  "kind": "denorm_sales_bales_disagrees",
+  "count": 17,
+  "qtl_impact": 0.0,
+  "examples": [
+   "7950",
+   "15352",
+   "15353",
+   "15354",
+   "15355"
+  ],
+  "why": "scm_mr_line_item.sales_bales disagrees with approved invoice sales_bale (bales, not qtl)"
+ },
+ {
+  "kind": "inactive_line_with_weight",
+  "count": 7,
+  "qtl_impact": 590.95,
+  "examples": [
+   "37496",
+   "37497",
+   "38164",
+   "44990",
+   "44991"
+  ],
+  "why": "soft-deleted (is_active=0) MR lines that still carry receipt weight and in some cases transactions"
+ },
+ {
+  "kind": "rejected_mr_lines",
+  "count": 21,
+  "qtl_impact": 1738.58,
+  "examples": [
+   "15761",
+   "15762",
+   "33279",
+   "33280",
+   "33289"
+  ],
+  "why": "REJECTED MRs (status 4) \u2014 excluded by view_jute_mr_in_stock but present in raw sums; a raw SUM(accepted_weight) over-receipts by this much"
+ },
+ {
+  "kind": "pre_fy25_line_never_moved",
+  "count": 18,
+  "qtl_impact": 1341.13,
+  "examples": [
+   "7950",
+   "15352",
+   "15353",
+   "15354",
+   "15355"
+  ],
+  "why": "MR lines received before 2024-04 that were never issued or sold in either system \u2014 they still sit as open stock on 31-Mar-2026"
+ }
+]

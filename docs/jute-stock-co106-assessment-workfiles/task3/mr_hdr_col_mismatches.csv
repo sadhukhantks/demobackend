@@ -1,0 +1,3603 @@
+id,col,old,sls
+5320,jute_receive_dt vs out_date,2021-05-29,2020-03-31
+5321,jute_receive_dt vs out_date,2021-05-29,2020-03-31
+5496,jute_receive_dt vs out_date,2021-06-03,
+5497,jute_receive_dt vs out_date,2021-06-03,
+5498,jute_receive_dt vs out_date,2021-06-03,
+5499,jute_receive_dt vs out_date,2021-06-03,
+5500,jute_receive_dt vs out_date,2021-06-03,
+5543,jute_receive_dt vs out_date,2021-06-03,
+5544,jute_receive_dt vs out_date,2021-06-03,
+5545,jute_receive_dt vs out_date,2021-06-03,
+5546,jute_receive_dt vs out_date,2021-06-03,
+5547,jute_receive_dt vs out_date,2021-06-03,
+5548,jute_receive_dt vs out_date,2021-06-03,
+5549,jute_receive_dt vs out_date,2021-06-03,
+5550,jute_receive_dt vs out_date,2021-06-03,
+5551,jute_receive_dt vs out_date,2021-06-03,
+5552,jute_receive_dt vs out_date,2021-06-03,
+5553,jute_receive_dt vs out_date,2021-06-03,
+5554,jute_receive_dt vs out_date,2021-06-03,
+5555,jute_receive_dt vs out_date,2021-06-03,
+5556,jute_receive_dt vs out_date,2021-06-03,
+5557,jute_receive_dt vs out_date,2021-06-03,
+5558,jute_receive_dt vs out_date,2021-06-03,
+5559,jute_receive_dt vs out_date,2021-06-03,
+5560,jute_receive_dt vs out_date,2021-06-03,
+5561,jute_receive_dt vs out_date,2021-06-03,
+5562,jute_receive_dt vs out_date,2021-06-03,
+5563,jute_receive_dt vs out_date,2021-06-03,
+5564,jute_receive_dt vs out_date,2021-06-03,
+5565,jute_receive_dt vs out_date,2021-06-03,
+5901,jute_receive_dt vs out_date,2021-06-11,2020-12-17
+5913,jute_receive_dt vs out_date,2021-06-14,2020-12-17
+5914,jute_receive_dt vs out_date,2021-06-14,2021-02-11
+5915,jute_receive_dt vs out_date,2021-06-14,2021-02-11
+5916,jute_receive_dt vs out_date,2021-06-14,2021-02-12
+5917,jute_receive_dt vs out_date,2021-06-14,2021-02-15
+5918,jute_receive_dt vs out_date,2021-06-14,2021-02-15
+5919,jute_receive_dt vs out_date,2021-06-14,2021-02-16
+5920,jute_receive_dt vs out_date,2021-06-14,2021-02-16
+5921,jute_receive_dt vs out_date,2021-06-14,2021-02-16
+5922,jute_receive_dt vs out_date,2021-06-14,2021-02-17
+5923,jute_receive_dt vs out_date,2021-06-14,2021-02-17
+5924,jute_receive_dt vs out_date,2021-06-14,2021-02-18
+5925,jute_receive_dt vs out_date,2021-06-14,2021-02-18
+5926,jute_receive_dt vs out_date,2021-06-14,2021-02-19
+5927,jute_receive_dt vs out_date,2021-06-14,2021-02-19
+5928,jute_receive_dt vs out_date,2021-06-14,2021-02-19
+6189,jute_receive_dt vs out_date,2021-06-22,2020-03-31
+6190,jute_receive_dt vs out_date,2021-06-22,2020-03-31
+6191,jute_receive_dt vs out_date,2021-06-22,2020-03-31
+6192,jute_receive_dt vs out_date,2021-06-22,2020-03-31
+6193,jute_receive_dt vs out_date,2021-06-22,2020-03-31
+6194,jute_receive_dt vs out_date,2021-06-22,2020-03-31
+6195,jute_receive_dt vs out_date,2021-06-22,2020-03-31
+6196,jute_receive_dt vs out_date,2021-06-22,2020-03-31
+6197,jute_receive_dt vs out_date,2021-06-22,2020-03-31
+6198,jute_receive_dt vs out_date,2021-06-22,2020-03-31
+6199,jute_receive_dt vs out_date,2021-06-22,2020-03-31
+6200,jute_receive_dt vs out_date,2021-06-22,2020-03-31
+6201,jute_receive_dt vs out_date,2021-06-22,2020-03-31
+6202,jute_receive_dt vs out_date,2021-06-22,2020-03-31
+6203,jute_receive_dt vs out_date,2021-06-22,2020-03-31
+6204,jute_receive_dt vs out_date,2021-06-22,2020-03-31
+6205,jute_receive_dt vs out_date,2021-06-22,2020-03-31
+6206,jute_receive_dt vs out_date,2021-06-22,2020-03-31
+6207,jute_receive_dt vs out_date,2021-06-22,2020-03-31
+6208,jute_receive_dt vs out_date,2021-06-22,2020-03-31
+6209,jute_receive_dt vs out_date,2021-06-22,2020-03-31
+6210,jute_receive_dt vs out_date,2021-06-22,2020-03-31
+6211,jute_receive_dt vs out_date,2021-06-22,2020-03-31
+6212,jute_receive_dt vs out_date,2021-06-22,2020-03-31
+6627,jute_receive_dt vs out_date,2021-07-20,2021-03-27
+6628,jute_receive_dt vs out_date,2021-07-20,2021-03-30
+6629,jute_receive_dt vs out_date,2021-07-20,2021-03-27
+6630,jute_receive_dt vs out_date,2021-07-20,2021-03-31
+6641,jute_receive_dt vs out_date,2021-07-20,
+6650,jute_receive_dt vs out_date,2021-07-21,2021-02-24
+6651,jute_receive_dt vs out_date,2021-07-21,2021-02-24
+6652,jute_receive_dt vs out_date,2021-07-21,2021-02-24
+6653,jute_receive_dt vs out_date,2021-07-21,2021-02-24
+6654,jute_receive_dt vs out_date,2021-07-21,2021-02-24
+6655,jute_receive_dt vs out_date,2021-07-21,2021-02-25
+6656,jute_receive_dt vs out_date,2021-07-21,2021-02-25
+6657,jute_receive_dt vs out_date,2021-07-21,2021-02-25
+6658,jute_receive_dt vs out_date,2021-07-21,2021-02-25
+6659,jute_receive_dt vs out_date,2021-07-21,2021-02-26
+6660,jute_receive_dt vs out_date,2021-07-21,2021-03-01
+6661,jute_receive_dt vs out_date,2021-07-21,2021-03-01
+6662,jute_receive_dt vs out_date,2021-07-21,2021-03-01
+6692,jute_receive_dt vs out_date,2021-07-23,2020-03-31
+6742,jute_receive_dt vs out_date,2021-07-27,2021-04-20
+6743,jute_receive_dt vs out_date,2021-07-27,2021-04-22
+6744,jute_receive_dt vs out_date,2021-07-27,2021-04-23
+6745,jute_receive_dt vs out_date,2021-07-27,2021-04-23
+6746,jute_receive_dt vs out_date,2021-07-27,2021-04-20
+6747,jute_receive_dt vs out_date,2021-07-27,2021-04-20
+6748,jute_receive_dt vs out_date,2021-07-27,2021-04-24
+7110,jute_receive_dt vs out_date,2021-08-23,2021-07-01
+7111,jute_receive_dt vs out_date,2021-08-23,2021-07-07
+7112,jute_receive_dt vs out_date,2021-08-23,2021-07-07
+7113,jute_receive_dt vs out_date,2021-08-23,2021-07-08
+7114,jute_receive_dt vs out_date,2021-08-23,2021-07-12
+7115,jute_receive_dt vs out_date,2021-08-23,2021-07-12
+7116,jute_receive_dt vs out_date,2021-08-23,2021-07-13
+7117,jute_receive_dt vs out_date,2021-08-23,2021-07-14
+7118,jute_receive_dt vs out_date,2021-08-23,2021-07-15
+7119,jute_receive_dt vs out_date,2021-08-23,2021-07-17
+7130,jute_receive_dt vs out_date,2021-08-24,2021-05-04
+7131,jute_receive_dt vs out_date,2021-08-24,2021-05-04
+7132,jute_receive_dt vs out_date,2021-08-24,2021-05-05
+7133,jute_receive_dt vs out_date,2021-08-24,2021-05-06
+7134,jute_receive_dt vs out_date,2021-08-24,2021-05-06
+7191,jute_receive_dt vs out_date,2021-08-26,
+7192,jute_receive_dt vs out_date,2021-08-26,
+7193,jute_receive_dt vs out_date,2021-08-26,
+7194,jute_receive_dt vs out_date,2021-08-26,
+7195,jute_receive_dt vs out_date,2021-08-26,
+7196,jute_receive_dt vs out_date,2021-08-26,
+7197,jute_receive_dt vs out_date,2021-08-26,
+7198,jute_receive_dt vs out_date,2021-08-26,
+7199,jute_receive_dt vs out_date,2021-08-26,
+7200,jute_receive_dt vs out_date,2021-08-26,
+7201,jute_receive_dt vs out_date,2021-08-26,
+7311,jute_receive_dt vs out_date,2021-09-01,
+7312,jute_receive_dt vs out_date,2021-09-01,
+7313,jute_receive_dt vs out_date,2021-09-01,
+7314,jute_receive_dt vs out_date,2021-09-01,
+7315,jute_receive_dt vs out_date,2021-09-01,
+7316,jute_receive_dt vs out_date,2021-09-01,
+7417,jute_receive_dt vs out_date,2021-09-08,2021-08-23
+7418,jute_receive_dt vs out_date,2021-09-08,2021-08-23
+7420,jute_receive_dt vs out_date,2021-09-08,2021-08-23
+7500,jute_receive_dt vs out_date,2021-09-13,2020-03-31
+7501,jute_receive_dt vs out_date,2021-09-13,2020-03-31
+7716,jute_receive_dt vs out_date,2021-09-21,
+7717,jute_receive_dt vs out_date,2021-09-21,
+7718,jute_receive_dt vs out_date,2021-09-21,
+7719,jute_receive_dt vs out_date,2021-09-21,
+7720,jute_receive_dt vs out_date,2021-09-21,
+7721,jute_receive_dt vs out_date,2021-09-21,
+7800,jute_receive_dt vs out_date,2021-09-30,2021-05-03
+8133,jute_receive_dt vs out_date,2021-11-05,
+8134,jute_receive_dt vs out_date,2021-11-05,
+8135,jute_receive_dt vs out_date,2021-11-05,
+8136,jute_receive_dt vs out_date,2021-11-05,
+8137,jute_receive_dt vs out_date,2021-11-05,
+8138,jute_receive_dt vs out_date,2021-11-05,
+8139,jute_receive_dt vs out_date,2021-11-05,
+8140,jute_receive_dt vs out_date,2021-11-05,
+8141,jute_receive_dt vs out_date,2021-11-05,
+8286,jute_receive_dt vs out_date,2021-11-17,
+8287,jute_receive_dt vs out_date,2021-11-17,
+8288,jute_receive_dt vs out_date,2021-11-17,
+8289,jute_receive_dt vs out_date,2021-11-17,
+8290,jute_receive_dt vs out_date,2021-11-17,
+8291,jute_receive_dt vs out_date,2021-11-17,
+8292,jute_receive_dt vs out_date,2021-11-17,
+8293,jute_receive_dt vs out_date,2021-11-17,
+8294,jute_receive_dt vs out_date,2021-11-17,
+8295,jute_receive_dt vs out_date,2021-11-17,
+8296,jute_receive_dt vs out_date,2021-11-17,
+8598,jute_receive_dt vs out_date,2021-12-10,2021-11-13
+8599,jute_receive_dt vs out_date,2021-12-10,2021-11-13
+8600,jute_receive_dt vs out_date,2021-12-10,2021-11-06
+8601,jute_receive_dt vs out_date,2021-12-10,2021-11-11
+8602,jute_receive_dt vs out_date,2021-12-10,2021-11-13
+8603,jute_receive_dt vs out_date,2021-12-10,2021-11-12
+8604,jute_receive_dt vs out_date,2021-12-10,2021-11-13
+8605,jute_receive_dt vs out_date,2021-12-10,2021-11-16
+8606,jute_receive_dt vs out_date,2021-12-10,2021-11-16
+8607,jute_receive_dt vs out_date,2021-12-10,2021-11-17
+8608,jute_receive_dt vs out_date,2021-12-10,2021-11-17
+8609,jute_receive_dt vs out_date,2021-12-10,2021-11-16
+8610,jute_receive_dt vs out_date,2021-12-10,2021-11-19
+8611,jute_receive_dt vs out_date,2021-12-10,2021-11-19
+8627,jute_receive_dt vs out_date,2021-12-13,2021-11-22
+8628,jute_receive_dt vs out_date,2021-12-13,2021-10-08
+8629,jute_receive_dt vs out_date,2021-12-13,2021-10-04
+8630,jute_receive_dt vs out_date,2021-12-13,2021-10-10
+8631,jute_receive_dt vs out_date,2021-12-13,2021-10-10
+8632,jute_receive_dt vs out_date,2021-12-13,2021-10-11
+8633,jute_receive_dt vs out_date,2021-12-13,2021-10-11
+8634,jute_receive_dt vs out_date,2021-12-13,2021-10-20
+8635,jute_receive_dt vs out_date,2021-12-13,2021-10-21
+8636,jute_receive_dt vs out_date,2021-12-13,2021-10-21
+8637,jute_receive_dt vs out_date,2021-12-13,2021-10-22
+8638,jute_receive_dt vs out_date,2021-12-13,2021-10-23
+8639,jute_receive_dt vs out_date,2021-12-13,2021-10-28
+8640,jute_receive_dt vs out_date,2021-12-13,2021-11-02
+8641,jute_receive_dt vs out_date,2021-12-13,2021-11-16
+8642,jute_receive_dt vs out_date,2021-12-13,2021-11-18
+8925,jute_receive_dt vs out_date,2022-01-10,2021-12-15
+8926,jute_receive_dt vs out_date,2022-01-10,2021-12-16
+8927,jute_receive_dt vs out_date,2022-01-10,2021-12-17
+8928,jute_receive_dt vs out_date,2022-01-10,2021-12-22
+9133,jute_receive_dt vs out_date,2022-01-21,2021-12-24
+9134,jute_receive_dt vs out_date,2022-01-21,2021-12-24
+9135,jute_receive_dt vs out_date,2022-01-21,2021-12-25
+9136,jute_receive_dt vs out_date,2022-01-21,2021-12-27
+9137,jute_receive_dt vs out_date,2022-01-21,2021-12-27
+9157,jute_receive_dt vs out_date,2022-01-21,2021-12-30
+9159,jute_receive_dt vs out_date,2022-01-21,2021-12-31
+9161,jute_receive_dt vs out_date,2022-01-21,2021-12-29
+9186,jute_receive_dt vs out_date,2022-01-25,2022-01-04
+9187,jute_receive_dt vs out_date,2022-01-25,2022-01-04
+9188,jute_receive_dt vs out_date,2022-01-25,2022-01-05
+9189,jute_receive_dt vs out_date,2022-01-25,2022-01-05
+9190,jute_receive_dt vs out_date,2022-01-25,2022-01-07
+9191,jute_receive_dt vs out_date,2022-01-25,2022-01-07
+10027,jute_receive_dt vs out_date,2022-05-26,
+10028,jute_receive_dt vs out_date,2022-05-26,
+10029,jute_receive_dt vs out_date,2022-05-26,
+10030,jute_receive_dt vs out_date,2022-05-26,
+10031,jute_receive_dt vs out_date,2022-05-26,
+10032,jute_receive_dt vs out_date,2022-05-26,
+10033,jute_receive_dt vs out_date,2022-05-26,
+10078,jute_receive_dt vs out_date,2022-06-06,2022-05-19
+10079,jute_receive_dt vs out_date,2022-06-06,2022-05-20
+10080,jute_receive_dt vs out_date,2022-06-06,2022-05-20
+10081,jute_receive_dt vs out_date,2022-06-06,2022-05-21
+10963,jute_receive_dt vs out_date,2022-09-12,2022-08-05
+10964,jute_receive_dt vs out_date,2022-09-12,2022-08-07
+10969,jute_receive_dt vs out_date,2022-09-12,2022-08-12
+10975,jute_receive_dt vs out_date,2022-09-13,2022-08-13
+10976,jute_receive_dt vs out_date,2022-09-13,2022-08-13
+10977,jute_receive_dt vs out_date,2022-09-13,2022-08-14
+10978,jute_receive_dt vs out_date,2022-09-13,2022-08-14
+11010,jute_receive_dt vs out_date,2022-09-17,2022-08-14
+11011,jute_receive_dt vs out_date,2022-09-17,2022-08-16
+11012,jute_receive_dt vs out_date,2022-09-17,2022-08-16
+11013,jute_receive_dt vs out_date,2022-09-17,2022-08-16
+11014,jute_receive_dt vs out_date,2022-09-17,2022-08-16
+11015,jute_receive_dt vs out_date,2022-09-17,2022-08-16
+11016,jute_receive_dt vs out_date,2022-09-17,2022-08-17
+11017,jute_receive_dt vs out_date,2022-09-17,2022-08-17
+11018,jute_receive_dt vs out_date,2022-09-17,2022-08-17
+11327,jute_receive_dt vs out_date,2022-10-20,2022-08-16
+11328,jute_receive_dt vs out_date,2022-10-20,2022-09-19
+11329,jute_receive_dt vs out_date,2022-10-20,2022-09-19
+11330,jute_receive_dt vs out_date,2022-10-20,2022-09-20
+11331,jute_receive_dt vs out_date,2022-10-20,2022-09-19
+11332,jute_receive_dt vs out_date,2022-10-20,2022-09-20
+11333,jute_receive_dt vs out_date,2022-10-20,2022-09-20
+11334,jute_receive_dt vs out_date,2022-10-20,2022-09-21
+11335,jute_receive_dt vs out_date,2022-10-20,2022-09-21
+11336,jute_receive_dt vs out_date,2022-10-20,2022-09-22
+11337,jute_receive_dt vs out_date,2022-10-20,2022-09-22
+11338,jute_receive_dt vs out_date,2022-10-20,2022-09-22
+11339,jute_receive_dt vs out_date,2022-10-20,2022-09-22
+11340,jute_receive_dt vs out_date,2022-10-20,2022-09-23
+11341,jute_receive_dt vs out_date,2022-10-20,2022-09-23
+11342,jute_receive_dt vs out_date,2022-10-20,2022-09-25
+11343,jute_receive_dt vs out_date,2022-10-20,2022-09-26
+11344,jute_receive_dt vs out_date,2022-10-20,2022-09-26
+11691,jute_receive_dt vs out_date,2022-11-20,2022-11-22
+11693,jute_receive_dt vs out_date,2022-11-21,2022-11-22
+11985,jute_receive_dt vs out_date,2022-12-20,2022-10-25
+11986,jute_receive_dt vs out_date,2022-12-20,2022-10-25
+12087,jute_receive_dt vs out_date,2022-12-28,2022-12-01
+12089,jute_receive_dt vs out_date,2022-12-28,2022-12-04
+12091,jute_receive_dt vs out_date,2022-12-28,2022-12-05
+12093,jute_receive_dt vs out_date,2022-12-28,2022-12-05
+12095,jute_receive_dt vs out_date,2022-12-28,2022-12-07
+12097,jute_receive_dt vs out_date,2022-12-28,2022-12-07
+12098,jute_receive_dt vs out_date,2022-12-28,2022-12-08
+12103,jute_receive_dt vs out_date,2022-12-28,2022-12-08
+12104,jute_receive_dt vs out_date,2022-12-28,2022-12-09
+12105,jute_receive_dt vs out_date,2022-12-28,2022-12-10
+12106,jute_receive_dt vs out_date,2022-12-28,2022-12-11
+12107,jute_receive_dt vs out_date,2022-12-28,2022-12-11
+13959,jute_receive_dt vs out_date,2023-05-06,2023-01-25
+13960,jute_receive_dt vs out_date,2023-05-06,2023-01-28
+13961,jute_receive_dt vs out_date,2023-05-06,2023-01-28
+13962,jute_receive_dt vs out_date,2023-05-06,2023-01-30
+13963,jute_receive_dt vs out_date,2023-05-06,2023-01-30
+13964,jute_receive_dt vs out_date,2023-05-06,2023-01-30
+13965,jute_receive_dt vs out_date,2023-05-06,2023-01-31
+13966,jute_receive_dt vs out_date,2023-05-06,2023-01-31
+13967,jute_receive_dt vs out_date,2023-05-06,2023-02-01
+13968,jute_receive_dt vs out_date,2023-05-06,2023-02-02
+13969,jute_receive_dt vs out_date,2023-05-06,2023-02-02
+13970,jute_receive_dt vs out_date,2023-05-06,2023-02-03
+13971,jute_receive_dt vs out_date,2023-05-06,2023-02-04
+13972,jute_receive_dt vs out_date,2023-05-06,2023-02-04
+13977,jute_receive_dt vs out_date,2023-05-06,2023-02-07
+14498,jute_receive_dt vs out_date,2023-06-17,2022-11-19
+14499,jute_receive_dt vs out_date,2023-06-17,2022-11-19
+14500,jute_receive_dt vs out_date,2023-06-17,2022-11-18
+14501,jute_receive_dt vs out_date,2023-06-17,2022-11-21
+14502,jute_receive_dt vs out_date,2023-06-17,2022-11-21
+14503,jute_receive_dt vs out_date,2023-06-17,2022-11-21
+14504,jute_receive_dt vs out_date,2023-06-17,2022-11-22
+14505,jute_receive_dt vs out_date,2023-06-17,2022-11-23
+14506,jute_receive_dt vs out_date,2023-06-17,2022-11-24
+14507,jute_receive_dt vs out_date,2023-06-17,2022-11-24
+14508,jute_receive_dt vs out_date,2023-06-17,2022-11-25
+14509,jute_receive_dt vs out_date,2023-06-17,2022-11-25
+14510,jute_receive_dt vs out_date,2023-06-17,2022-11-29
+14511,jute_receive_dt vs out_date,2023-06-17,2022-12-12
+14512,jute_receive_dt vs out_date,2023-06-17,2022-12-13
+14513,jute_receive_dt vs out_date,2023-06-17,2022-12-16
+14514,jute_receive_dt vs out_date,2023-06-17,2022-12-16
+14515,jute_receive_dt vs out_date,2023-06-17,2022-12-16
+14991,jute_receive_dt vs out_date,2023-06-26,2023-01-25
+15010,jute_receive_dt vs out_date,2023-06-28,2022-09-21
+15011,jute_receive_dt vs out_date,2023-06-28,2022-09-22
+15012,jute_receive_dt vs out_date,2023-06-28,2022-09-22
+15013,jute_receive_dt vs out_date,2023-06-28,2022-09-23
+15014,jute_receive_dt vs out_date,2023-06-28,2022-09-25
+15015,jute_receive_dt vs out_date,2023-06-28,2022-09-26
+15016,jute_receive_dt vs out_date,2023-06-28,2022-09-26
+15017,jute_receive_dt vs out_date,2023-06-28,2022-09-27
+15018,jute_receive_dt vs out_date,2023-06-28,2022-09-28
+15020,jute_receive_dt vs out_date,2023-06-28,2022-09-29
+15034,jute_receive_dt vs out_date,2023-06-28,2022-10-27
+15035,jute_receive_dt vs out_date,2023-06-28,2022-10-27
+15036,jute_receive_dt vs out_date,2023-06-28,2022-10-28
+15037,jute_receive_dt vs out_date,2023-06-28,2022-10-28
+15038,jute_receive_dt vs out_date,2023-06-28,2022-10-31
+15039,jute_receive_dt vs out_date,2023-06-28,2022-10-31
+15040,jute_receive_dt vs out_date,2023-06-28,2022-11-01
+15041,jute_receive_dt vs out_date,2023-06-28,2022-11-03
+15042,jute_receive_dt vs out_date,2023-06-28,2022-11-03
+15043,jute_receive_dt vs out_date,2023-06-28,2022-11-05
+15044,jute_receive_dt vs out_date,2023-06-28,2022-11-06
+15045,jute_receive_dt vs out_date,2023-06-28,2022-11-06
+15046,jute_receive_dt vs out_date,2023-06-28,2022-11-07
+15047,jute_receive_dt vs out_date,2023-06-28,2022-11-07
+15048,jute_receive_dt vs out_date,2023-06-28,2022-11-09
+15049,jute_receive_dt vs out_date,2023-06-28,2022-11-08
+15050,jute_receive_dt vs out_date,2023-06-28,2022-11-08
+15052,jute_receive_dt vs out_date,2023-06-28,2022-11-10
+15053,jute_receive_dt vs out_date,2023-06-28,2022-11-11
+15054,jute_receive_dt vs out_date,2023-06-28,2022-11-12
+15055,jute_receive_dt vs out_date,2023-06-28,2022-11-13
+15056,jute_receive_dt vs out_date,2023-06-28,2022-11-13
+15057,jute_receive_dt vs out_date,2023-06-28,2022-11-14
+15058,jute_receive_dt vs out_date,2023-06-28,2022-11-15
+15059,jute_receive_dt vs out_date,2023-06-28,2022-11-16
+15060,jute_receive_dt vs out_date,2023-06-28,2022-11-16
+15130,jute_receive_dt vs out_date,2023-06-28,2023-01-17
+15133,jute_receive_dt vs out_date,2023-06-28,2023-01-27
+15134,jute_receive_dt vs out_date,2023-06-28,2023-01-29
+15135,jute_receive_dt vs out_date,2023-06-28,2023-01-31
+15136,jute_receive_dt vs out_date,2023-06-28,2023-02-02
+15137,jute_receive_dt vs out_date,2023-06-28,2023-02-04
+15757,jute_receive_dt vs out_date,2023-08-10,2022-11-10
+15765,jute_receive_dt vs out_date,2023-08-10,2022-11-18
+15766,jute_receive_dt vs out_date,2023-08-10,2022-11-21
+15767,jute_receive_dt vs out_date,2023-08-10,2022-11-23
+15768,jute_receive_dt vs out_date,2023-08-10,2022-12-03
+15769,jute_receive_dt vs out_date,2023-08-10,2022-12-03
+15792,jute_receive_dt vs out_date,2023-08-11,2022-12-01
+15882,jute_receive_dt vs out_date,2023-08-28,2023-02-06
+16056,jute_receive_dt vs out_date,2023-08-30,2023-07-28
+16057,jute_receive_dt vs out_date,2023-08-30,2023-07-28
+16058,jute_receive_dt vs out_date,2023-08-30,2023-07-24
+16059,jute_receive_dt vs out_date,2023-08-30,2023-07-22
+16060,jute_receive_dt vs out_date,2023-08-30,2023-07-24
+16061,jute_receive_dt vs out_date,2023-08-30,2023-07-25
+16062,jute_receive_dt vs out_date,2023-08-30,2023-07-25
+16063,jute_receive_dt vs out_date,2023-08-30,2023-07-26
+16064,jute_receive_dt vs out_date,2023-08-30,2023-07-24
+16065,jute_receive_dt vs out_date,2023-08-30,2023-07-26
+16066,jute_receive_dt vs out_date,2023-08-30,2023-07-26
+16067,jute_receive_dt vs out_date,2023-08-30,2023-07-26
+16068,jute_receive_dt vs out_date,2023-08-30,2023-07-25
+16069,jute_receive_dt vs out_date,2023-08-30,2023-07-25
+16070,jute_receive_dt vs out_date,2023-08-30,2023-07-27
+16071,jute_receive_dt vs out_date,2023-08-30,2023-07-27
+16072,jute_receive_dt vs out_date,2023-08-30,2023-07-27
+16073,jute_receive_dt vs out_date,2023-08-30,2023-07-28
+16163,jute_receive_dt vs out_date,2023-08-30,2023-05-16
+16164,jute_receive_dt vs out_date,2023-08-30,2023-05-18
+16165,jute_receive_dt vs out_date,2023-08-30,2023-05-26
+16166,jute_receive_dt vs out_date,2023-08-30,2023-05-24
+16167,jute_receive_dt vs out_date,2023-08-30,2023-05-26
+16168,jute_receive_dt vs out_date,2023-08-30,2023-05-29
+16169,jute_receive_dt vs out_date,2023-08-30,2023-05-30
+16170,jute_receive_dt vs out_date,2023-08-30,2023-06-03
+16171,jute_receive_dt vs out_date,2023-08-30,2023-06-03
+16172,jute_receive_dt vs out_date,2023-08-30,2023-06-09
+16173,jute_receive_dt vs out_date,2023-08-30,2023-06-13
+16174,jute_receive_dt vs out_date,2023-08-30,2023-06-14
+16175,jute_receive_dt vs out_date,2023-08-30,2023-06-14
+16176,jute_receive_dt vs out_date,2023-08-30,2023-06-15
+16177,jute_receive_dt vs out_date,2023-08-30,2023-06-15
+16178,jute_receive_dt vs out_date,2023-08-30,2023-06-16
+16327,jute_receive_dt vs out_date,2023-08-30,2023-07-13
+16328,jute_receive_dt vs out_date,2023-08-30,2023-07-13
+16329,jute_receive_dt vs out_date,2023-08-30,2023-07-14
+16330,jute_receive_dt vs out_date,2023-08-30,2023-07-15
+16331,jute_receive_dt vs out_date,2023-08-30,2023-07-17
+16332,jute_receive_dt vs out_date,2023-08-30,2023-07-17
+17446,jute_receive_dt vs out_date,2023-10-30,2023-07-28
+17447,jute_receive_dt vs out_date,2023-10-30,2023-07-31
+17448,jute_receive_dt vs out_date,2023-10-30,2023-07-31
+17449,jute_receive_dt vs out_date,2023-10-30,2023-07-31
+17450,jute_receive_dt vs out_date,2023-10-30,2023-07-31
+17451,jute_receive_dt vs out_date,2023-10-30,2023-07-31
+18450,jute_receive_dt vs out_date,2023-12-15,2023-10-14
+18451,jute_receive_dt vs out_date,2023-12-15,2023-10-15
+18452,jute_receive_dt vs out_date,2023-12-15,2023-10-16
+18453,jute_receive_dt vs out_date,2023-12-15,2023-10-16
+18454,jute_receive_dt vs out_date,2023-12-15,2023-10-16
+18455,jute_receive_dt vs out_date,2023-12-15,2023-10-16
+18456,jute_receive_dt vs out_date,2023-12-15,2023-10-19
+18457,jute_receive_dt vs out_date,2023-12-15,2023-10-19
+18458,jute_receive_dt vs out_date,2023-12-15,2023-10-19
+18459,jute_receive_dt vs out_date,2023-12-15,2023-10-20
+18460,jute_receive_dt vs out_date,2023-12-15,2023-10-20
+18461,jute_receive_dt vs out_date,2023-12-15,2023-10-20
+18462,jute_receive_dt vs out_date,2023-12-15,2023-10-21
+18463,jute_receive_dt vs out_date,2023-12-15,2023-10-21
+18464,jute_receive_dt vs out_date,2023-12-15,2023-10-26
+18465,jute_receive_dt vs out_date,2023-12-15,2023-10-26
+18466,jute_receive_dt vs out_date,2023-12-15,2023-10-27
+18467,jute_receive_dt vs out_date,2023-12-15,2023-10-28
+18468,jute_receive_dt vs out_date,2023-12-15,2023-10-30
+18469,jute_receive_dt vs out_date,2023-12-15,2023-10-13
+18470,jute_receive_dt vs out_date,2023-12-15,2023-10-28
+18471,jute_receive_dt vs out_date,2023-12-15,2023-10-30
+18472,jute_receive_dt vs out_date,2023-12-15,2023-10-30
+18473,jute_receive_dt vs out_date,2023-12-15,2023-10-30
+18474,jute_receive_dt vs out_date,2023-12-15,2023-10-31
+18475,jute_receive_dt vs out_date,2023-12-15,2023-11-01
+18476,jute_receive_dt vs out_date,2023-12-15,2023-11-01
+18477,jute_receive_dt vs out_date,2023-12-15,2023-04-06
+18478,jute_receive_dt vs out_date,2023-12-15,2023-04-06
+18479,jute_receive_dt vs out_date,2023-12-15,2023-04-07
+18480,jute_receive_dt vs out_date,2023-12-15,2023-04-08
+18481,jute_receive_dt vs out_date,2023-12-15,2023-04-08
+18482,jute_receive_dt vs out_date,2023-12-15,2023-04-08
+18483,jute_receive_dt vs out_date,2023-12-15,2023-04-09
+18484,jute_receive_dt vs out_date,2023-12-15,2023-04-09
+18485,jute_receive_dt vs out_date,2023-12-15,2023-04-11
+18486,jute_receive_dt vs out_date,2023-12-15,2023-04-12
+18487,jute_receive_dt vs out_date,2023-12-15,2023-04-13
+18488,jute_receive_dt vs out_date,2023-12-15,2023-04-13
+18489,jute_receive_dt vs out_date,2023-12-15,2023-04-14
+18490,jute_receive_dt vs out_date,2023-12-15,2023-04-14
+18491,jute_receive_dt vs out_date,2023-12-15,2023-04-16
+18492,jute_receive_dt vs out_date,2023-12-15,2023-04-15
+18493,jute_receive_dt vs out_date,2023-12-15,2023-04-25
+18494,jute_receive_dt vs out_date,2023-12-15,2023-04-26
+18495,jute_receive_dt vs out_date,2023-12-15,
+18496,jute_receive_dt vs out_date,2023-12-15,2023-04-28
+18497,jute_receive_dt vs out_date,2023-12-15,2023-04-29
+18498,jute_receive_dt vs out_date,2023-12-15,2023-04-29
+18499,jute_receive_dt vs out_date,2023-12-15,2023-04-30
+18500,jute_receive_dt vs out_date,2023-12-15,2023-04-30
+18501,jute_receive_dt vs out_date,2023-12-15,2023-05-02
+18502,jute_receive_dt vs out_date,2023-12-15,2023-05-02
+18503,jute_receive_dt vs out_date,2023-12-15,2023-05-02
+18504,jute_receive_dt vs out_date,2023-12-15,2023-05-03
+18505,jute_receive_dt vs out_date,2023-12-15,2023-05-03
+18506,jute_receive_dt vs out_date,2023-12-15,2023-05-02
+18507,jute_receive_dt vs out_date,2023-12-15,2023-05-03
+18514,jute_receive_dt vs out_date,2023-12-16,2023-05-04
+18515,jute_receive_dt vs out_date,2023-12-16,2023-05-05
+18546,jute_receive_dt vs out_date,2023-12-16,2023-07-17
+18547,jute_receive_dt vs out_date,2023-12-16,2023-07-15
+18548,jute_receive_dt vs out_date,2023-12-16,2023-07-18
+18549,jute_receive_dt vs out_date,2023-12-16,2023-07-16
+18550,jute_receive_dt vs out_date,2023-12-16,2023-07-18
+18551,jute_receive_dt vs out_date,2023-12-16,2023-07-19
+18552,jute_receive_dt vs out_date,2023-12-16,2023-07-22
+18553,jute_receive_dt vs out_date,2023-12-16,2023-07-23
+18554,jute_receive_dt vs out_date,2023-12-16,2023-07-23
+18555,jute_receive_dt vs out_date,2023-12-16,2023-07-24
+18556,jute_receive_dt vs out_date,2023-12-16,2023-07-27
+18557,jute_receive_dt vs out_date,2023-12-16,2023-07-29
+18558,jute_receive_dt vs out_date,2023-12-16,2023-07-31
+18559,jute_receive_dt vs out_date,2023-12-16,2023-08-01
+18560,jute_receive_dt vs out_date,2023-12-16,2023-08-01
+18561,jute_receive_dt vs out_date,2023-12-16,2023-08-02
+18562,jute_receive_dt vs out_date,2023-12-16,2023-08-02
+18563,jute_receive_dt vs out_date,2023-12-16,2023-08-06
+18564,jute_receive_dt vs out_date,2023-12-16,2023-08-07
+18565,jute_receive_dt vs out_date,2023-12-16,2023-08-07
+18566,jute_receive_dt vs out_date,2023-12-16,2023-08-06
+18567,jute_receive_dt vs out_date,2023-12-16,2023-08-08
+18568,jute_receive_dt vs out_date,2023-12-16,2023-08-09
+18569,jute_receive_dt vs out_date,2023-12-16,2023-08-10
+18570,jute_receive_dt vs out_date,2023-12-16,2023-08-10
+18571,jute_receive_dt vs out_date,2023-12-16,2023-08-11
+18572,jute_receive_dt vs out_date,2023-12-16,2023-08-12
+18573,jute_receive_dt vs out_date,2023-12-16,2023-08-13
+18574,jute_receive_dt vs out_date,2023-12-16,2023-08-14
+18575,jute_receive_dt vs out_date,2023-12-16,2023-08-16
+18576,jute_receive_dt vs out_date,2023-12-16,2023-08-16
+18577,jute_receive_dt vs out_date,2023-12-16,2023-08-18
+18578,jute_receive_dt vs out_date,2023-12-16,2023-08-23
+18579,jute_receive_dt vs out_date,2023-12-16,2023-08-24
+18580,jute_receive_dt vs out_date,2023-12-16,2023-08-28
+18581,jute_receive_dt vs out_date,2023-12-16,2023-08-28
+18972,jute_receive_dt vs out_date,2023-12-20,2023-11-20
+18973,jute_receive_dt vs out_date,2023-12-20,2023-11-18
+18974,jute_receive_dt vs out_date,2023-12-20,2023-11-18
+18975,jute_receive_dt vs out_date,2023-12-20,2023-11-18
+19010,jute_receive_dt vs out_date,2023-12-20,2023-09-12
+19011,jute_receive_dt vs out_date,2023-12-20,2023-09-15
+19012,jute_receive_dt vs out_date,2023-12-20,2023-09-16
+19013,jute_receive_dt vs out_date,2023-12-20,2023-09-16
+19014,jute_receive_dt vs out_date,2023-12-20,2023-09-16
+19015,jute_receive_dt vs out_date,2023-12-20,2023-09-17
+19016,jute_receive_dt vs out_date,2023-12-20,2023-09-17
+19017,jute_receive_dt vs out_date,2023-12-20,2023-09-19
+19018,jute_receive_dt vs out_date,2023-12-20,2023-09-19
+19019,jute_receive_dt vs out_date,2023-12-20,2023-09-17
+19020,jute_receive_dt vs out_date,2023-12-20,2023-09-20
+19021,jute_receive_dt vs out_date,2023-12-20,2023-09-20
+19022,jute_receive_dt vs out_date,2023-12-20,2023-09-20
+19023,jute_receive_dt vs out_date,2023-12-20,2023-09-20
+19024,jute_receive_dt vs out_date,2023-12-20,2023-09-21
+19025,jute_receive_dt vs out_date,2023-12-20,2023-09-21
+19026,jute_receive_dt vs out_date,2023-12-20,2023-09-21
+19027,jute_receive_dt vs out_date,2023-12-20,2023-09-22
+19028,jute_receive_dt vs out_date,2023-12-20,2023-09-22
+19029,jute_receive_dt vs out_date,2023-12-20,2023-09-23
+19030,jute_receive_dt vs out_date,2023-12-20,2023-09-23
+19031,jute_receive_dt vs out_date,2023-12-20,2023-09-23
+19260,jute_receive_dt vs out_date,2024-01-04,2023-03-31
+19519,jute_receive_dt vs out_date,2024-01-18,2023-12-01
+19520,jute_receive_dt vs out_date,2024-01-18,2023-12-01
+19521,jute_receive_dt vs out_date,2024-01-18,2023-12-01
+19522,jute_receive_dt vs out_date,2024-01-18,2023-12-01
+19523,jute_receive_dt vs out_date,2024-01-18,2023-12-01
+19524,jute_receive_dt vs out_date,2024-01-18,2023-12-02
+19525,jute_receive_dt vs out_date,2024-01-18,2023-12-02
+19526,jute_receive_dt vs out_date,2024-01-18,2023-12-02
+19527,jute_receive_dt vs out_date,2024-01-18,2023-12-02
+19528,jute_receive_dt vs out_date,2024-01-18,2023-12-01
+19529,jute_receive_dt vs out_date,2024-01-18,2023-12-04
+19532,jute_receive_dt vs out_date,2024-01-18,2023-12-04
+19533,jute_receive_dt vs out_date,2024-01-18,2023-12-04
+19534,jute_receive_dt vs out_date,2024-01-18,2023-12-04
+19535,jute_receive_dt vs out_date,2024-01-18,2023-12-04
+19536,jute_receive_dt vs out_date,2024-01-18,2023-12-04
+19537,jute_receive_dt vs out_date,2024-01-18,2023-12-04
+19869,jute_receive_dt vs out_date,2024-02-06,2023-04-27
+20000,jute_receive_dt vs out_date,2024-02-22,2024-01-05
+20001,jute_receive_dt vs out_date,2024-02-22,2024-01-09
+20002,jute_receive_dt vs out_date,2024-02-22,2024-01-10
+20003,jute_receive_dt vs out_date,2024-02-22,2024-01-10
+20004,jute_receive_dt vs out_date,2024-02-22,2024-01-11
+20005,jute_receive_dt vs out_date,2024-02-22,2024-01-12
+20006,jute_receive_dt vs out_date,2024-02-22,2024-01-12
+20007,jute_receive_dt vs out_date,2024-02-22,2024-01-12
+20008,jute_receive_dt vs out_date,2024-02-22,2024-01-13
+20009,jute_receive_dt vs out_date,2024-02-22,2024-01-13
+20010,jute_receive_dt vs out_date,2024-02-22,2024-01-15
+20011,jute_receive_dt vs out_date,2024-02-22,2024-01-15
+20012,jute_receive_dt vs out_date,2024-02-22,2024-01-15
+20013,jute_receive_dt vs out_date,2024-02-22,2024-01-15
+20014,jute_receive_dt vs out_date,2024-02-22,2024-01-15
+20015,jute_receive_dt vs out_date,2024-02-22,2024-01-16
+20016,jute_receive_dt vs out_date,2024-02-22,2024-01-16
+20017,jute_receive_dt vs out_date,2024-02-22,2024-01-15
+20018,jute_receive_dt vs out_date,2024-02-22,2024-01-15
+20019,jute_receive_dt vs out_date,2024-02-22,2024-01-12
+20020,jute_receive_dt vs out_date,2024-02-22,2024-01-12
+20021,jute_receive_dt vs out_date,2024-02-22,2024-01-15
+20022,jute_receive_dt vs out_date,2024-02-22,2024-01-17
+20023,jute_receive_dt vs out_date,2024-02-22,2024-01-18
+20024,jute_receive_dt vs out_date,2024-02-22,2024-01-19
+20025,jute_receive_dt vs out_date,2024-02-22,2024-01-19
+20026,jute_receive_dt vs out_date,2024-02-22,2024-01-19
+20055,jute_receive_dt vs out_date,2024-02-22,2023-10-14
+20056,jute_receive_dt vs out_date,2024-02-22,2023-10-20
+20057,jute_receive_dt vs out_date,2024-02-22,2023-10-21
+20058,jute_receive_dt vs out_date,2024-02-22,2023-10-23
+20059,jute_receive_dt vs out_date,2024-02-22,2023-10-23
+20060,jute_receive_dt vs out_date,2024-02-22,2023-10-23
+20061,jute_receive_dt vs out_date,2024-02-22,2023-10-25
+20062,jute_receive_dt vs out_date,2024-02-22,2023-10-27
+20063,jute_receive_dt vs out_date,2024-02-22,2023-10-30
+20064,jute_receive_dt vs out_date,2024-02-22,2023-10-30
+20065,jute_receive_dt vs out_date,2024-02-22,2023-10-31
+20066,jute_receive_dt vs out_date,2024-02-22,2023-11-02
+20067,jute_receive_dt vs out_date,2024-02-22,2023-11-02
+20068,jute_receive_dt vs out_date,2024-02-22,2023-11-02
+20069,jute_receive_dt vs out_date,2024-02-22,2023-11-03
+20070,jute_receive_dt vs out_date,2024-02-22,2023-11-04
+20071,jute_receive_dt vs out_date,2024-02-22,2023-11-04
+20072,jute_receive_dt vs out_date,2024-02-22,2023-11-05
+20073,jute_receive_dt vs out_date,2024-02-22,2023-11-06
+20074,jute_receive_dt vs out_date,2024-02-22,2023-11-06
+20573,jute_receive_dt vs out_date,2024-03-13,2023-12-07
+20574,jute_receive_dt vs out_date,2024-03-13,2023-12-07
+20575,jute_receive_dt vs out_date,2024-03-13,2023-12-09
+20576,jute_receive_dt vs out_date,2024-03-13,2023-12-09
+20577,jute_receive_dt vs out_date,2024-03-13,2023-12-10
+20578,jute_receive_dt vs out_date,2024-03-13,2023-12-11
+20579,jute_receive_dt vs out_date,2024-03-13,2023-12-12
+20580,jute_receive_dt vs out_date,2024-03-13,2023-12-12
+20581,jute_receive_dt vs out_date,2024-03-13,2023-12-16
+20582,jute_receive_dt vs out_date,2024-03-13,2023-12-16
+20583,jute_receive_dt vs out_date,2024-03-13,2023-12-21
+20584,jute_receive_dt vs out_date,2024-03-13,2023-12-23
+20585,jute_receive_dt vs out_date,2024-03-13,2023-12-28
+21453,jute_receive_dt vs out_date,2024-04-03,2024-04-02
+21813,jute_receive_dt vs out_date,2024-05-25,2024-05-24
+21859,jute_receive_dt vs out_date,2024-05-26,2024-05-27
+23500,jute_receive_dt vs out_date,2024-12-27,2024-12-21
+23501,jute_receive_dt vs out_date,2024-12-27,2024-12-24
+23994,jute_receive_dt vs out_date,2025-03-04,2025-03-05
+23999,jute_receive_dt vs out_date,2025-03-06,2025-03-07
+24001,jute_receive_dt vs out_date,2025-03-07,2025-03-08
+24002,jute_receive_dt vs out_date,2025-03-09,2025-03-10
+24003,jute_receive_dt vs out_date,2025-03-09,2025-03-10
+24004,jute_receive_dt vs out_date,2025-03-10,2025-03-11
+24007,jute_receive_dt vs out_date,2025-03-13,2025-03-14
+24008,jute_receive_dt vs out_date,2025-03-13,2025-03-14
+24009,jute_receive_dt vs out_date,2025-03-13,2025-03-14
+24010,jute_receive_dt vs out_date,2025-03-14,2025-03-15
+24012,jute_receive_dt vs out_date,2025-03-15,2025-03-16
+24093,jute_receive_dt vs out_date,2025-03-23,2025-03-24
+24103,jute_receive_dt vs out_date,2025-03-25,2025-03-26
+24322,jute_receive_dt vs out_date,2025-04-09,2025-04-10
+24324,jute_receive_dt vs out_date,2025-04-12,2025-04-13
+24445,jute_receive_dt vs out_date,2025-05-02,2025-05-03
+24448,jute_receive_dt vs out_date,2025-05-05,2025-05-06
+24450,jute_receive_dt vs out_date,2025-05-06,2025-05-07
+24453,jute_receive_dt vs out_date,2025-05-07,2025-05-08
+24454,jute_receive_dt vs out_date,2025-05-07,2025-05-08
+24456,jute_receive_dt vs out_date,2025-05-09,2025-05-08
+24559,jute_receive_dt vs out_date,2025-05-23,2025-05-21
+24595,jute_receive_dt vs out_date,2025-05-24,
+24622,jute_receive_dt vs out_date,2025-05-27,2025-05-28
+24623,jute_receive_dt vs out_date,2025-05-27,2025-05-26
+24685,jute_receive_dt vs out_date,2025-05-29,2025-05-30
+24778,jute_receive_dt vs out_date,2025-06-04,
+24999,jute_receive_dt vs out_date,2025-06-18,2025-06-17
+25000,jute_receive_dt vs out_date,2025-06-18,2025-06-17
+25096,jute_receive_dt vs out_date,2025-06-24,2025-06-26
+25325,jute_receive_dt vs out_date,2025-07-15,2025-07-14
+25326,jute_receive_dt vs out_date,2025-07-15,2025-07-14
+25335,jute_receive_dt vs out_date,2025-07-15,2025-07-16
+25336,jute_receive_dt vs out_date,2025-07-16,2025-07-17
+25337,jute_receive_dt vs out_date,2025-07-16,2025-07-17
+25338,jute_receive_dt vs out_date,2025-07-17,2025-07-18
+25350,jute_receive_dt vs out_date,2025-07-19,2025-07-18
+25373,jute_receive_dt vs out_date,2025-07-22,2025-07-21
+25395,jute_receive_dt vs out_date,2025-07-23,2025-07-22
+25402,jute_receive_dt vs out_date,2025-07-24,2025-07-22
+25419,jute_receive_dt vs out_date,2025-07-28,2025-07-26
+25424,jute_receive_dt vs out_date,2025-07-28,2025-07-27
+25425,jute_receive_dt vs out_date,2025-07-28,2025-07-27
+25426,jute_receive_dt vs out_date,2025-07-28,2025-07-27
+25431,jute_receive_dt vs out_date,2025-07-29,2025-07-28
+25433,jute_receive_dt vs out_date,2025-07-31,2025-07-30
+25738,jute_receive_dt vs out_date,2025-08-01,2025-08-02
+25739,jute_receive_dt vs out_date,2025-08-01,2025-08-03
+25864,jute_receive_dt vs out_date,2025-08-04,
+25897,jute_receive_dt vs out_date,2025-08-08,2025-08-09
+25899,jute_receive_dt vs out_date,2025-08-11,2025-08-09
+25916,jute_receive_dt vs out_date,2025-08-13,2025-08-12
+25918,jute_receive_dt vs out_date,2025-08-14,2025-08-13
+25930,jute_receive_dt vs out_date,2025-08-16,2025-08-14
+25931,jute_receive_dt vs out_date,2025-08-16,2025-08-15
+25969,jute_receive_dt vs out_date,2025-08-18,2025-08-17
+25984,jute_receive_dt vs out_date,2025-08-20,2025-08-18
+25985,jute_receive_dt vs out_date,2025-08-20,2025-08-19
+25986,jute_receive_dt vs out_date,2025-08-20,2025-08-19
+25990,jute_receive_dt vs out_date,2025-08-21,2025-08-20
+25994,jute_receive_dt vs out_date,2025-08-23,2025-08-22
+26019,jute_receive_dt vs out_date,2025-08-25,2025-08-24
+26020,jute_receive_dt vs out_date,2025-08-25,2025-08-22
+26024,jute_receive_dt vs out_date,2025-08-25,2025-08-23
+26342,jute_receive_dt vs out_date,2025-09-08,2025-09-07
+26343,jute_receive_dt vs out_date,2025-09-08,2025-09-07
+26344,jute_receive_dt vs out_date,2025-09-08,2025-09-05
+26353,jute_receive_dt vs out_date,2025-09-10,2025-09-09
+26472,jute_receive_dt vs out_date,2025-09-19,2025-09-18
+26484,jute_receive_dt vs out_date,2025-09-18,2025-09-19
+26485,jute_receive_dt vs out_date,2025-09-22,2025-09-20
+26486,jute_receive_dt vs out_date,2025-09-22,2025-09-21
+26487,jute_receive_dt vs out_date,2025-09-22,2025-09-21
+26488,jute_receive_dt vs out_date,2025-09-18,2025-09-19
+26494,jute_receive_dt vs out_date,2025-09-22,2025-09-21
+26546,jute_receive_dt vs out_date,2025-09-26,2025-09-25
+26566,jute_receive_dt vs out_date,2025-09-29,2025-09-27
+26570,jute_receive_dt vs out_date,2025-09-29,2025-09-28
+26687,jute_receive_dt vs out_date,2025-10-06,2025-10-03
+26688,jute_receive_dt vs out_date,2025-10-06,2025-10-04
+26689,jute_receive_dt vs out_date,2025-10-06,2025-10-04
+26690,jute_receive_dt vs out_date,2025-10-06,2025-10-05
+26697,jute_receive_dt vs out_date,2025-10-07,2025-10-06
+26701,jute_receive_dt vs out_date,2025-10-08,2025-10-06
+26702,jute_receive_dt vs out_date,2025-10-08,2025-10-07
+26705,jute_receive_dt vs out_date,2025-10-09,2025-10-08
+26785,jute_receive_dt vs out_date,2025-10-13,2025-10-07
+26799,jute_receive_dt vs out_date,2025-10-13,2025-10-11
+26829,jute_receive_dt vs out_date,2025-10-14,2025-10-13
+26839,jute_receive_dt vs out_date,2025-10-16,2025-10-14
+26910,jute_receive_dt vs out_date,2025-10-21,2025-10-18
+26911,jute_receive_dt vs out_date,2025-10-21,2025-10-19
+26912,jute_receive_dt vs out_date,2025-10-21,2025-10-19
+26913,jute_receive_dt vs out_date,2025-10-21,2025-10-19
+26914,jute_receive_dt vs out_date,2025-10-21,2025-10-19
+26915,jute_receive_dt vs out_date,2025-10-21,2025-10-20
+26916,jute_receive_dt vs out_date,2025-10-21,2025-10-20
+26917,jute_receive_dt vs out_date,2025-10-21,2025-10-20
+26942,jute_receive_dt vs out_date,2025-10-22,2025-10-21
+26953,jute_receive_dt vs out_date,2025-10-22,2025-10-21
+26971,jute_receive_dt vs out_date,2025-10-27,2025-10-24
+26972,jute_receive_dt vs out_date,2025-10-27,2025-10-24
+26974,jute_receive_dt vs out_date,2025-10-27,2025-10-26
+26975,jute_receive_dt vs out_date,2025-10-27,2025-10-26
+26976,jute_receive_dt vs out_date,2025-10-27,2025-10-26
+26995,jute_receive_dt vs out_date,2025-10-28,2025-10-27
+26997,jute_receive_dt vs out_date,2025-10-29,2025-10-28
+26998,jute_receive_dt vs out_date,2025-10-29,2025-10-28
+27007,jute_receive_dt vs out_date,2025-11-01,2025-10-31
+27009,jute_receive_dt vs out_date,2025-11-01,2025-10-31
+27025,jute_receive_dt vs out_date,2025-11-04,2025-11-03
+27026,jute_receive_dt vs out_date,2025-11-04,2025-11-03
+27143,jute_receive_dt vs out_date,2025-11-08,2025-11-09
+27275,jute_receive_dt vs out_date,2025-11-13,2025-11-12
+27334,jute_receive_dt vs out_date,2025-11-17,2025-11-16
+27335,jute_receive_dt vs out_date,2025-11-17,2025-11-16
+27343,jute_receive_dt vs out_date,2025-11-18,2025-11-17
+27408,jute_receive_dt vs out_date,2025-11-21,2025-11-20
+27421,jute_receive_dt vs out_date,2025-11-24,2025-11-22
+27504,jute_receive_dt vs out_date,2025-11-30,2025-11-29
+27528,jute_receive_dt vs out_date,2025-12-02,2025-12-01
+27603,jute_receive_dt vs out_date,2025-12-12,2025-12-11
+27604,jute_receive_dt vs out_date,2025-12-15,2025-12-13
+27607,jute_receive_dt vs out_date,2025-12-16,2025-12-14
+27608,jute_receive_dt vs out_date,2025-12-16,2025-12-15
+27610,jute_receive_dt vs out_date,2025-12-16,2025-12-15
+27620,jute_receive_dt vs out_date,2025-12-18,2025-12-13
+27628,jute_receive_dt vs out_date,2025-12-19,2025-12-16
+27637,jute_receive_dt vs out_date,2025-12-20,2025-12-19
+27672,jute_receive_dt vs out_date,2025-12-24,2025-12-23
+27674,jute_receive_dt vs out_date,2025-12-16,2025-12-14
+27680,jute_receive_dt vs out_date,2025-12-26,2025-12-25
+27684,jute_receive_dt vs out_date,2025-12-29,2025-12-27
+27705,jute_receive_dt vs out_date,2026-01-02,2026-01-01
+27706,jute_receive_dt vs out_date,2026-01-02,2026-01-01
+27734,jute_receive_dt vs out_date,2026-01-05,2026-01-04
+27735,jute_receive_dt vs out_date,2026-01-05,2026-01-04
+27745,jute_receive_dt vs out_date,2026-01-07,2026-01-06
+27746,jute_receive_dt vs out_date,2026-01-07,2026-01-06
+27758,jute_receive_dt vs out_date,2026-01-08,2026-01-07
+27779,jute_receive_dt vs out_date,2026-01-09,2026-01-08
+27791,jute_receive_dt vs out_date,2026-01-13,2026-01-12
+27873,jute_receive_dt vs out_date,2026-01-25,2026-01-26
+27874,jute_receive_dt vs out_date,2026-01-27,2026-01-26
+27877,jute_receive_dt vs out_date,2026-01-28,
+27879,jute_receive_dt vs out_date,2026-02-02,2026-01-31
+27917,jute_receive_dt vs out_date,2026-02-04,2026-02-02
+27920,jute_receive_dt vs out_date,2026-02-09,2026-02-07
+27922,jute_receive_dt vs out_date,2026-02-14,2026-02-13
+27923,jute_receive_dt vs out_date,2026-02-14,2026-02-13
+27927,jute_receive_dt vs out_date,2026-02-23,2026-02-21
+27931,jute_receive_dt vs out_date,2026-02-27,2026-02-26
+27932,jute_receive_dt vs out_date,2026-02-27,2026-02-26
+27933,jute_receive_dt vs out_date,2026-02-28,2026-02-27
+27934,jute_receive_dt vs out_date,2026-03-02,2026-03-01
+27935,jute_receive_dt vs out_date,2026-03-03,2026-03-02
+27936,jute_receive_dt vs out_date,2026-03-05,2026-03-03
+27937,jute_receive_dt vs out_date,2026-03-06,2026-03-05
+27938,jute_receive_dt vs out_date,2026-03-06,2026-03-05
+27939,jute_receive_dt vs out_date,2026-03-06,2026-03-05
+27940,jute_receive_dt vs out_date,2026-03-06,2026-03-05
+27941,jute_receive_dt vs out_date,2026-03-09,2026-03-08
+27943,jute_receive_dt vs out_date,2026-03-10,2026-03-03
+27945,jute_receive_dt vs out_date,2026-03-13,2026-03-11
+27946,jute_receive_dt vs out_date,2026-03-13,2026-03-12
+27947,jute_receive_dt vs out_date,2026-03-21,2026-03-20
+27949,jute_receive_dt vs out_date,2026-03-23,2026-03-21
+27951,jute_receive_dt vs out_date,2026-03-26,2026-03-25
+27952,jute_receive_dt vs out_date,2026-03-31,2026-03-28
+5320,gate_entry_no,12093,47
+5321,gate_entry_no,12094,48
+5496,gate_entry_no,10790,0
+5497,gate_entry_no,10808,0
+5498,gate_entry_no,10817,0
+5499,gate_entry_no,10818,0
+5500,gate_entry_no,10849,0
+5543,gate_entry_no,11706,0
+5544,gate_entry_no,11730,0
+5545,gate_entry_no,11726,0
+5546,gate_entry_no,11738,0
+5547,gate_entry_no,11690,0
+5548,gate_entry_no,11705,0
+5549,gate_entry_no,11685,0
+5550,gate_entry_no,11697,0
+5551,gate_entry_no,11678,0
+5552,gate_entry_no,11684,0
+5553,gate_entry_no,11683,0
+5554,gate_entry_no,11677,0
+5555,gate_entry_no,11679,0
+5556,gate_entry_no,11676,0
+5557,gate_entry_no,11663,0
+5558,gate_entry_no,11672,0
+5559,gate_entry_no,11674,0
+5560,gate_entry_no,11675,0
+5561,gate_entry_no,11659,0
+5562,gate_entry_no,11660,0
+5563,gate_entry_no,11652,0
+5564,gate_entry_no,11654,0
+5565,gate_entry_no,11657,0
+5901,gate_entry_no,11630,522
+5913,gate_entry_no,11634,525
+5914,gate_entry_no,11884,615
+5915,gate_entry_no,11886,617
+5916,gate_entry_no,11890,620
+5917,gate_entry_no,11892,622
+5918,gate_entry_no,11894,623
+5919,gate_entry_no,11895,624
+5920,gate_entry_no,11896,625
+5921,gate_entry_no,11898,627
+5922,gate_entry_no,11900,629
+5923,gate_entry_no,11899,628
+5924,gate_entry_no,11901,630
+5925,gate_entry_no,11902,631
+5926,gate_entry_no,11903,632
+5927,gate_entry_no,11904,633
+5928,gate_entry_no,11905,634
+6189,gate_entry_no,11818,18
+6190,gate_entry_no,11819,19
+6191,gate_entry_no,12060,20
+6192,gate_entry_no,12061,21
+6193,gate_entry_no,12062,22
+6194,gate_entry_no,12064,23
+6195,gate_entry_no,12065,24
+6196,gate_entry_no,12070,25
+6197,gate_entry_no,12071,26
+6198,gate_entry_no,12072,27
+6199,gate_entry_no,12073,28
+6200,gate_entry_no,12074,29
+6201,gate_entry_no,12075,30
+6202,gate_entry_no,12076,31
+6203,gate_entry_no,12077,32
+6204,gate_entry_no,12078,33
+6205,gate_entry_no,12079,34
+6206,gate_entry_no,12080,35
+6207,gate_entry_no,12081,36
+6208,gate_entry_no,12082,37
+6209,gate_entry_no,12083,38
+6210,gate_entry_no,12084,39
+6211,gate_entry_no,12085,40
+6212,gate_entry_no,12086,41
+6627,gate_entry_no,12031,727
+6628,gate_entry_no,12035,729
+6629,gate_entry_no,12038,730
+6630,gate_entry_no,12039,731
+6641,gate_entry_no,10819,0
+6650,gate_entry_no,11917,645
+6651,gate_entry_no,11918,646
+6652,gate_entry_no,11919,647
+6653,gate_entry_no,11920,648
+6654,gate_entry_no,11921,649
+6655,gate_entry_no,11923,651
+6656,gate_entry_no,11924,652
+6657,gate_entry_no,11925,653
+6658,gate_entry_no,11926,654
+6659,gate_entry_no,11930,655
+6660,gate_entry_no,11935,657
+6661,gate_entry_no,11937,659
+6662,gate_entry_no,11939,660
+6692,gate_entry_no,12092,46
+6742,gate_entry_no,12118,22
+6743,gate_entry_no,12121,25
+6744,gate_entry_no,12120,24
+6745,gate_entry_no,12119,23
+6746,gate_entry_no,12122,26
+6747,gate_entry_no,12123,27
+6748,gate_entry_no,12126,30
+7110,gate_entry_no,12238,95
+7111,gate_entry_no,12242,99
+7112,gate_entry_no,12243,100
+7113,gate_entry_no,12244,101
+7114,gate_entry_no,12248,105
+7115,gate_entry_no,12249,106
+7116,gate_entry_no,12260,116
+7117,gate_entry_no,12262,118
+7118,gate_entry_no,12263,119
+7119,gate_entry_no,12266,122
+7130,gate_entry_no,12147,45
+7131,gate_entry_no,12148,46
+7132,gate_entry_no,12153,47
+7133,gate_entry_no,12157,49
+7134,gate_entry_no,12158,50
+7191,gate_entry_no,11658,0
+7192,gate_entry_no,11662,0
+7193,gate_entry_no,11664,0
+7194,gate_entry_no,11665,0
+7195,gate_entry_no,11666,0
+7196,gate_entry_no,11667,0
+7197,gate_entry_no,11670,0
+7198,gate_entry_no,11671,0
+7199,gate_entry_no,11681,0
+7200,gate_entry_no,11682,0
+7201,gate_entry_no,11686,0
+7311,gate_entry_no,12281,0
+7312,gate_entry_no,12282,0
+7313,gate_entry_no,12309,0
+7314,gate_entry_no,12313,0
+7315,gate_entry_no,12388,0
+7316,gate_entry_no,12416,0
+7417,gate_entry_no,12494,213
+7418,gate_entry_no,12495,214
+7420,gate_entry_no,12497,216
+7500,gate_entry_no,12093,47
+7501,gate_entry_no,12095,49
+7716,gate_entry_no,12420,0
+7717,gate_entry_no,12421,0
+7718,gate_entry_no,12431,0
+7719,gate_entry_no,12432,0
+7720,gate_entry_no,12440,0
+7721,gate_entry_no,12443,0
+7800,gate_entry_no,12146,44
+8133,gate_entry_no,12138,0
+8134,gate_entry_no,12511,0
+8135,gate_entry_no,12512,0
+8136,gate_entry_no,12513,0
+8137,gate_entry_no,12514,0
+8138,gate_entry_no,12520,0
+8139,gate_entry_no,12521,0
+8140,gate_entry_no,12523,0
+8141,gate_entry_no,12524,0
+8286,gate_entry_no,12560,0
+8287,gate_entry_no,12561,0
+8288,gate_entry_no,12562,0
+8289,gate_entry_no,12563,0
+8290,gate_entry_no,12579,0
+8291,gate_entry_no,12580,0
+8292,gate_entry_no,12574,0
+8293,gate_entry_no,12588,0
+8294,gate_entry_no,12590,0
+8295,gate_entry_no,12598,0
+8296,gate_entry_no,12606,0
+8598,gate_entry_no,12804,418
+8599,gate_entry_no,12811,421
+8600,gate_entry_no,12783,407
+8601,gate_entry_no,12795,411
+8602,gate_entry_no,12807,419
+8603,gate_entry_no,12800,415
+8604,gate_entry_no,12801,416
+8605,gate_entry_no,12815,424
+8606,gate_entry_no,12817,426
+8607,gate_entry_no,12824,430
+8608,gate_entry_no,12823,429
+8609,gate_entry_no,12827,432
+8610,gate_entry_no,12836,436
+8611,gate_entry_no,12839,438
+8627,gate_entry_no,12849,444
+8628,gate_entry_no,12688,342
+8629,gate_entry_no,12689,343
+8630,gate_entry_no,12692,346
+8631,gate_entry_no,12695,349
+8632,gate_entry_no,12700,354
+8633,gate_entry_no,12711,357
+8634,gate_entry_no,12727,361
+8635,gate_entry_no,12732,366
+8636,gate_entry_no,12735,368
+8637,gate_entry_no,12736,369
+8638,gate_entry_no,12737,370
+8639,gate_entry_no,12745,378
+8640,gate_entry_no,12772,396
+8641,gate_entry_no,12816,425
+8642,gate_entry_no,12826,431
+8925,gate_entry_no,12912,482
+8926,gate_entry_no,12916,484
+8927,gate_entry_no,12920,488
+8928,gate_entry_no,12937,495
+9133,gate_entry_no,12942,500
+9134,gate_entry_no,12943,501
+9135,gate_entry_no,12946,504
+9136,gate_entry_no,12949,506
+9137,gate_entry_no,12952,508
+9157,gate_entry_no,12961,517
+9159,gate_entry_no,12963,519
+9161,gate_entry_no,12953,509
+9186,gate_entry_no,12971,527
+9187,gate_entry_no,12973,529
+9188,gate_entry_no,12974,530
+9189,gate_entry_no,12976,532
+9190,gate_entry_no,12981,537
+9191,gate_entry_no,12983,539
+10027,gate_entry_no,12155,
+10028,gate_entry_no,12156,
+10029,gate_entry_no,12159,
+10030,gate_entry_no,12176,
+10031,gate_entry_no,12180,
+10032,gate_entry_no,12183,
+10033,gate_entry_no,12207,
+10078,gate_entry_no,13315,838
+10079,gate_entry_no,13316,839
+10080,gate_entry_no,13317,840
+10081,gate_entry_no,13319,842
+10185,gate_entry_no,13389,912
+10186,gate_entry_no,13390,913
+10187,gate_entry_no,13391,914
+10188,gate_entry_no,13392,915
+10192,gate_entry_no,13394,917
+10194,gate_entry_no,13395,918
+10198,gate_entry_no,13397,920
+10200,gate_entry_no,13398,921
+10202,gate_entry_no,13399,922
+10204,gate_entry_no,13402,923
+10206,gate_entry_no,13403,924
+10212,gate_entry_no,13409,927
+10214,gate_entry_no,13414,928
+10216,gate_entry_no,13417,929
+10218,gate_entry_no,13422,930
+10220,gate_entry_no,13423,931
+10223,gate_entry_no,13427,932
+10241,gate_entry_no,13430,935
+10247,gate_entry_no,13434,938
+10249,gate_entry_no,13435,939
+10251,gate_entry_no,13436,940
+10255,gate_entry_no,13438,942
+10260,gate_entry_no,13441,943
+10263,gate_entry_no,13442,944
+10267,gate_entry_no,13443,945
+10273,gate_entry_no,13450,948
+10280,gate_entry_no,13453,949
+10963,gate_entry_no,13560,1028
+10964,gate_entry_no,13570,1031
+10969,gate_entry_no,13581,1039
+10975,gate_entry_no,13582,1040
+10976,gate_entry_no,13583,1041
+10977,gate_entry_no,13585,1042
+10978,gate_entry_no,13586,1043
+11010,gate_entry_no,13587,1044
+11011,gate_entry_no,13588,1045
+11012,gate_entry_no,13589,1046
+11013,gate_entry_no,13590,1047
+11014,gate_entry_no,13591,1048
+11015,gate_entry_no,13592,1049
+11016,gate_entry_no,13594,1051
+11017,gate_entry_no,13596,1053
+11018,gate_entry_no,13598,1054
+11327,gate_entry_no,13593,1050
+11328,gate_entry_no,13723,1143
+11329,gate_entry_no,13725,1144
+11330,gate_entry_no,13728,1147
+11331,gate_entry_no,13730,1149
+11332,gate_entry_no,13729,1148
+11333,gate_entry_no,13736,1152
+11334,gate_entry_no,13731,1150
+11335,gate_entry_no,13735,1151
+11336,gate_entry_no,13737,1153
+11337,gate_entry_no,13738,1154
+11338,gate_entry_no,13739,1155
+11339,gate_entry_no,13740,1156
+11340,gate_entry_no,13741,1157
+11341,gate_entry_no,13743,1159
+11342,gate_entry_no,13747,1162
+11343,gate_entry_no,13750,1163
+11344,gate_entry_no,13751,1164
+11657,gate_entry_no,13968,186
+11691,gate_entry_no,14005,192
+11693,gate_entry_no,14004,191
+11706,gate_entry_no,14012,196
+11719,gate_entry_no,14017,198
+11766,gate_entry_no,14044,214
+11787,gate_entry_no,14049,217
+11985,gate_entry_no,13875,1246
+11986,gate_entry_no,13876,1247
+12087,gate_entry_no,14018,199
+12089,gate_entry_no,14028,204
+12091,gate_entry_no,14029,205
+12093,gate_entry_no,14030,206
+12095,gate_entry_no,14038,209
+12097,gate_entry_no,14039,210
+12098,gate_entry_no,14041,212
+12103,gate_entry_no,14043,213
+12104,gate_entry_no,14047,215
+12105,gate_entry_no,14051,218
+12106,gate_entry_no,14052,219
+12107,gate_entry_no,14053,220
+12250,gate_entry_no,14114,242
+12283,gate_entry_no,14152,259
+12438,gate_entry_no,14176,272
+12460,gate_entry_no,14181,275
+12462,gate_entry_no,14193,280
+12466,gate_entry_no,14190,278
+12468,gate_entry_no,14192,279
+12544,gate_entry_no,14217,286
+12631,gate_entry_no,14250,293
+12655,gate_entry_no,14272,302
+12683,gate_entry_no,14287,309
+12689,gate_entry_no,14290,312
+12691,gate_entry_no,14289,311
+12699,gate_entry_no,14299,315
+12715,gate_entry_no,14302,316
+12747,gate_entry_no,14321,320
+12797,gate_entry_no,14334,325
+12804,gate_entry_no,14348,328
+12864,gate_entry_no,14375,339
+12867,gate_entry_no,14380,341
+12902,gate_entry_no,14394,346
+12904,gate_entry_no,14395,347
+12934,gate_entry_no,14417,350
+13001,gate_entry_no,14436,359
+13003,gate_entry_no,14441,361
+13345,gate_entry_no,14472,2
+13347,gate_entry_no,14471,1
+13389,gate_entry_no,14476,6
+13445,gate_entry_no,14491,9
+13515,gate_entry_no,14512,19
+13560,gate_entry_no,14522,22
+13959,gate_entry_no,14211,1450
+13960,gate_entry_no,14222,1457
+13961,gate_entry_no,14223,1458
+13962,gate_entry_no,14232,1465
+13963,gate_entry_no,14233,1466
+13964,gate_entry_no,14234,1467
+13965,gate_entry_no,14236,1468
+13966,gate_entry_no,14237,1469
+13967,gate_entry_no,14238,1470
+13968,gate_entry_no,14244,1475
+13969,gate_entry_no,14245,1476
+13970,gate_entry_no,14253,1481
+13971,gate_entry_no,14260,1484
+13972,gate_entry_no,14261,1485
+13977,gate_entry_no,14269,1489
+14498,gate_entry_no,13987,1319
+14499,gate_entry_no,13988,1320
+14500,gate_entry_no,13989,1321
+14501,gate_entry_no,13992,1324
+14502,gate_entry_no,13993,1325
+14503,gate_entry_no,13994,1326
+14504,gate_entry_no,13995,1327
+14505,gate_entry_no,13996,1328
+14506,gate_entry_no,13998,1330
+14507,gate_entry_no,13999,1331
+14508,gate_entry_no,14001,1333
+14509,gate_entry_no,14007,1335
+14510,gate_entry_no,14013,1338
+14511,gate_entry_no,14055,222
+14512,gate_entry_no,14061,223
+14513,gate_entry_no,14064,224
+14514,gate_entry_no,14065,225
+14515,gate_entry_no,14066,226
+14991,gate_entry_no,14209,1448
+15010,gate_entry_no,13724,103
+15011,gate_entry_no,13732,104
+15012,gate_entry_no,13733,105
+15013,gate_entry_no,13734,106
+15014,gate_entry_no,13746,107
+15015,gate_entry_no,13748,108
+15016,gate_entry_no,13749,109
+15017,gate_entry_no,13753,110
+15018,gate_entry_no,13758,111
+15020,gate_entry_no,13761,113
+15034,gate_entry_no,13878,152
+15035,gate_entry_no,13879,153
+15036,gate_entry_no,13882,155
+15037,gate_entry_no,13883,156
+15038,gate_entry_no,13889,157
+15039,gate_entry_no,13890,158
+15040,gate_entry_no,13899,159
+15041,gate_entry_no,13905,161
+15042,gate_entry_no,13906,162
+15043,gate_entry_no,13914,165
+15044,gate_entry_no,13917,166
+15045,gate_entry_no,13918,167
+15046,gate_entry_no,13919,168
+15047,gate_entry_no,13920,169
+15048,gate_entry_no,13921,170
+15049,gate_entry_no,13922,171
+15050,gate_entry_no,13924,173
+15052,gate_entry_no,13941,176
+15053,gate_entry_no,13945,177
+15054,gate_entry_no,13948,179
+15055,gate_entry_no,13956,180
+15056,gate_entry_no,13957,181
+15057,gate_entry_no,13958,182
+15058,gate_entry_no,13965,184
+15059,gate_entry_no,13967,185
+15060,gate_entry_no,13969,187
+15130,gate_entry_no,14188,277
+15133,gate_entry_no,14215,284
+15134,gate_entry_no,14225,287
+15135,gate_entry_no,14235,289
+15136,gate_entry_no,14240,290
+15137,gate_entry_no,14257,296
+15757,gate_entry_no,13932,174
+15765,gate_entry_no,13978,189
+15766,gate_entry_no,14003,190
+15767,gate_entry_no,14006,193
+15768,gate_entry_no,14024,203
+15769,gate_entry_no,14023,202
+15792,gate_entry_no,14015,197
+15882,gate_entry_no,14266,1488
+16056,gate_entry_no,14928,270
+16057,gate_entry_no,14931,273
+16058,gate_entry_no,14907,253
+16059,gate_entry_no,14893,243
+16060,gate_entry_no,14911,257
+16061,gate_entry_no,14909,255
+16062,gate_entry_no,14910,256
+16063,gate_entry_no,14914,259
+16064,gate_entry_no,14913,258
+16065,gate_entry_no,14915,260
+16066,gate_entry_no,14916,261
+16067,gate_entry_no,14917,262
+16068,gate_entry_no,14918,263
+16069,gate_entry_no,14920,264
+16070,gate_entry_no,14921,265
+16071,gate_entry_no,14922,266
+16072,gate_entry_no,14923,267
+16073,gate_entry_no,14927,269
+16163,gate_entry_no,14632,65
+16164,gate_entry_no,14640,67
+16165,gate_entry_no,14674,74
+16166,gate_entry_no,14657,70
+16167,gate_entry_no,14675,75
+16168,gate_entry_no,14684,78
+16169,gate_entry_no,14691,80
+16170,gate_entry_no,14701,82
+16171,gate_entry_no,14703,83
+16172,gate_entry_no,14715,87
+16173,gate_entry_no,14727,89
+16174,gate_entry_no,14731,90
+16175,gate_entry_no,14732,91
+16176,gate_entry_no,14736,94
+16177,gate_entry_no,14735,93
+16178,gate_entry_no,14739,95
+16327,gate_entry_no,14866,227
+16328,gate_entry_no,14867,228
+16329,gate_entry_no,14871,230
+16330,gate_entry_no,14873,231
+16331,gate_entry_no,14878,232
+16332,gate_entry_no,14879,233
+17446,gate_entry_no,14929,271
+17447,gate_entry_no,14938,274
+17448,gate_entry_no,14940,275
+17449,gate_entry_no,14941,276
+17450,gate_entry_no,14942,277
+17451,gate_entry_no,14943,278
+18450,gate_entry_no,15251,488
+18451,gate_entry_no,15258,493
+18452,gate_entry_no,15257,492
+18453,gate_entry_no,15260,495
+18454,gate_entry_no,15261,496
+18455,gate_entry_no,15262,497
+18456,gate_entry_no,15269,504
+18457,gate_entry_no,15270,505
+18458,gate_entry_no,15271,506
+18459,gate_entry_no,15273,507
+18460,gate_entry_no,15274,508
+18461,gate_entry_no,15275,509
+18462,gate_entry_no,15277,510
+18463,gate_entry_no,15278,511
+18464,gate_entry_no,15286,512
+18465,gate_entry_no,15287,513
+18466,gate_entry_no,15289,514
+18467,gate_entry_no,15291,516
+18468,gate_entry_no,15296,519
+18469,gate_entry_no,15248,486
+18470,gate_entry_no,15292,517
+18471,gate_entry_no,15295,518
+18472,gate_entry_no,15297,520
+18473,gate_entry_no,15298,521
+18474,gate_entry_no,15300,522
+18475,gate_entry_no,15301,523
+18476,gate_entry_no,15307,526
+18477,gate_entry_no,14489,7
+18478,gate_entry_no,14490,8
+18479,gate_entry_no,14494,12
+18480,gate_entry_no,14503,15
+18481,gate_entry_no,14502,14
+18482,gate_entry_no,14504,16
+18483,gate_entry_no,14511,18
+18484,gate_entry_no,14510,17
+18485,gate_entry_no,14520,20
+18486,gate_entry_no,14521,21
+18487,gate_entry_no,14525,23
+18488,gate_entry_no,14526,24
+18489,gate_entry_no,14530,25
+18490,gate_entry_no,14531,26
+18491,gate_entry_no,14538,28
+18492,gate_entry_no,14537,27
+18493,gate_entry_no,14557,39
+18494,gate_entry_no,14558,40
+18495,gate_entry_no,6402,
+18496,gate_entry_no,14569,42
+18497,gate_entry_no,14573,43
+18498,gate_entry_no,14574,44
+18499,gate_entry_no,14579,45
+18500,gate_entry_no,14580,46
+18501,gate_entry_no,14582,48
+18502,gate_entry_no,14581,47
+18503,gate_entry_no,14584,50
+18504,gate_entry_no,14590,52
+18505,gate_entry_no,14589,51
+18506,gate_entry_no,14583,49
+18507,gate_entry_no,14591,53
+18514,gate_entry_no,14596,55
+18515,gate_entry_no,14603,56
+18546,gate_entry_no,14877,140
+18547,gate_entry_no,14872,136
+18548,gate_entry_no,14881,142
+18549,gate_entry_no,14875,138
+18550,gate_entry_no,14880,141
+18551,gate_entry_no,14882,143
+18552,gate_entry_no,14891,144
+18553,gate_entry_no,14899,145
+18554,gate_entry_no,14900,146
+18555,gate_entry_no,14901,147
+18556,gate_entry_no,14919,150
+18557,gate_entry_no,14934,155
+18558,gate_entry_no,14936,157
+18559,gate_entry_no,14937,158
+18560,gate_entry_no,14945,160
+18561,gate_entry_no,14948,162
+18562,gate_entry_no,14939,159
+18563,gate_entry_no,14964,166
+18564,gate_entry_no,14965,167
+18565,gate_entry_no,14966,168
+18566,gate_entry_no,14975,171
+18567,gate_entry_no,14967,169
+18568,gate_entry_no,14974,170
+18569,gate_entry_no,14976,172
+18570,gate_entry_no,14982,173
+18571,gate_entry_no,14985,174
+18572,gate_entry_no,14990,175
+18573,gate_entry_no,14993,176
+18574,gate_entry_no,14994,177
+18575,gate_entry_no,14995,178
+18576,gate_entry_no,14996,179
+18577,gate_entry_no,15003,181
+18578,gate_entry_no,15016,183
+18579,gate_entry_no,15020,184
+18580,gate_entry_no,15031,188
+18581,gate_entry_no,15035,189
+18972,gate_entry_no,15368,568
+18973,gate_entry_no,15364,565
+18974,gate_entry_no,15365,566
+18975,gate_entry_no,15366,567
+19010,gate_entry_no,15093,203
+19011,gate_entry_no,15108,204
+19012,gate_entry_no,15116,206
+19013,gate_entry_no,15117,207
+19014,gate_entry_no,15118,208
+19015,gate_entry_no,15119,209
+19016,gate_entry_no,15125,211
+19017,gate_entry_no,15127,213
+19018,gate_entry_no,15137,214
+19019,gate_entry_no,15124,210
+19020,gate_entry_no,15140,216
+19021,gate_entry_no,15138,215
+19022,gate_entry_no,15141,217
+19023,gate_entry_no,15147,218
+19024,gate_entry_no,15154,220
+19025,gate_entry_no,15165,226
+19026,gate_entry_no,15155,221
+19027,gate_entry_no,15158,222
+19028,gate_entry_no,15160,224
+19029,gate_entry_no,15159,223
+19030,gate_entry_no,15164,225
+19031,gate_entry_no,15170,227
+19260,gate_entry_no,14467,364
+19519,gate_entry_no,15394,586
+19520,gate_entry_no,15395,587
+19521,gate_entry_no,15396,588
+19522,gate_entry_no,15397,589
+19523,gate_entry_no,15398,590
+19524,gate_entry_no,15399,591
+19525,gate_entry_no,15400,592
+19526,gate_entry_no,15401,593
+19527,gate_entry_no,15403,594
+19528,gate_entry_no,15404,595
+19529,gate_entry_no,15405,596
+19532,gate_entry_no,15406,597
+19533,gate_entry_no,15407,598
+19534,gate_entry_no,15408,599
+19535,gate_entry_no,15409,600
+19536,gate_entry_no,15410,601
+19537,gate_entry_no,15411,602
+19869,gate_entry_no,14564,41
+20000,gate_entry_no,15543,697
+20001,gate_entry_no,15544,698
+20002,gate_entry_no,15546,699
+20003,gate_entry_no,15547,700
+20004,gate_entry_no,15549,701
+20005,gate_entry_no,15552,702
+20006,gate_entry_no,15553,703
+20007,gate_entry_no,15554,704
+20008,gate_entry_no,15557,705
+20009,gate_entry_no,15558,706
+20010,gate_entry_no,15562,708
+20011,gate_entry_no,15563,709
+20012,gate_entry_no,15564,710
+20013,gate_entry_no,15565,711
+20014,gate_entry_no,15566,712
+20015,gate_entry_no,15569,715
+20016,gate_entry_no,15570,716
+20017,gate_entry_no,15571,717
+20018,gate_entry_no,15572,718
+20019,gate_entry_no,15580,719
+20020,gate_entry_no,15581,720
+20021,gate_entry_no,15582,721
+20022,gate_entry_no,15583,722
+20023,gate_entry_no,15586,723
+20024,gate_entry_no,15589,725
+20025,gate_entry_no,15590,726
+20026,gate_entry_no,15591,727
+20055,gate_entry_no,15244,256
+20056,gate_entry_no,15272,260
+20057,gate_entry_no,15276,261
+20058,gate_entry_no,15281,264
+20059,gate_entry_no,15283,266
+20060,gate_entry_no,15284,267
+20061,gate_entry_no,15285,268
+20062,gate_entry_no,15288,269
+20063,gate_entry_no,15293,270
+20064,gate_entry_no,15294,271
+20065,gate_entry_no,15299,272
+20066,gate_entry_no,15302,273
+20067,gate_entry_no,15304,275
+20068,gate_entry_no,15303,274
+20069,gate_entry_no,15308,276
+20070,gate_entry_no,15312,277
+20071,gate_entry_no,15313,278
+20072,gate_entry_no,15317,280
+20073,gate_entry_no,15318,281
+20074,gate_entry_no,15319,282
+20228,gate_entry_no,15687,398
+20283,gate_entry_no,15697,401
+20557,gate_entry_no,15756,420
+20573,gate_entry_no,15430,309
+20574,gate_entry_no,15429,308
+20575,gate_entry_no,15435,310
+20576,gate_entry_no,15436,311
+20577,gate_entry_no,15439,313
+20578,gate_entry_no,15441,315
+20579,gate_entry_no,15448,317
+20580,gate_entry_no,15447,316
+20581,gate_entry_no,15462,323
+20582,gate_entry_no,15463,324
+20583,gate_entry_no,15472,329
+20584,gate_entry_no,15478,330
+20585,gate_entry_no,15493,332
+20695,gate_entry_no,15775,422
+20703,gate_entry_no,15776,423
+20707,gate_entry_no,15786,428
+20709,gate_entry_no,15784,426
+20714,gate_entry_no,15793,431
+20911,gate_entry_no,15849,3
+20914,gate_entry_no,15853,5
+20915,gate_entry_no,15854,6
+20916,gate_entry_no,15855,7
+20917,gate_entry_no,15856,8
+20919,gate_entry_no,15857,9
+20920,gate_entry_no,15858,10
+21123,gate_entry_no,15866,11
+21126,gate_entry_no,15868,12
+21127,gate_entry_no,15869,13
+21128,gate_entry_no,15870,14
+21129,gate_entry_no,15871,15
+21195,gate_entry_no,15892,1
+21196,gate_entry_no,15893,2
+21197,gate_entry_no,15894,3
+21214,gate_entry_no,15911,4
+21419,gate_entry_no,15939,8
+21427,gate_entry_no,15944,9
+21428,gate_entry_no,15945,10
+21429,gate_entry_no,15946,11
+21434,gate_entry_no,15948,12
+21435,gate_entry_no,15949,13
+21437,gate_entry_no,15950,14
+21439,gate_entry_no,15936,6
+21443,gate_entry_no,15925,5
+21445,gate_entry_no,15938,7
+21449,gate_entry_no,15955,17
+21450,gate_entry_no,15956,18
+21451,gate_entry_no,15957,19
+21452,gate_entry_no,15958,20
+21453,gate_entry_no,15961,23
+21457,gate_entry_no,15954,16
+21459,gate_entry_no,15965,24
+21460,gate_entry_no,15966,25
+21461,gate_entry_no,15959,21
+21463,gate_entry_no,15960,22
+21475,gate_entry_no,15967,26
+21477,gate_entry_no,15968,27
+21489,gate_entry_no,15971,29
+21491,gate_entry_no,15969,28
+21499,gate_entry_no,15976,30
+21506,gate_entry_no,15983,31
+21576,gate_entry_no,15984,32
+21599,gate_entry_no,15985,33
+21606,gate_entry_no,15989,34
+21612,gate_entry_no,15995,37
+21614,gate_entry_no,15993,36
+21677,gate_entry_no,15999,38
+21750,gate_entry_no,16015,40
+21761,gate_entry_no,16018,41
+21806,gate_entry_no,16022,42
+21808,gate_entry_no,16024,43
+21813,gate_entry_no,16026,44
+21857,gate_entry_no,16028,45
+21859,gate_entry_no,16029,46
+21861,gate_entry_no,16030,47
+21878,gate_entry_no,16041,48
+21927,gate_entry_no,16049,49
+21929,gate_entry_no,16053,50
+21947,gate_entry_no,16058,51
+21949,gate_entry_no,16060,52
+21951,gate_entry_no,16069,54
+21979,gate_entry_no,16067,53
+21981,gate_entry_no,16077,55
+22070,gate_entry_no,16078,56
+22072,gate_entry_no,16081,57
+22096,gate_entry_no,16087,58
+22098,gate_entry_no,16088,59
+23450,gate_entry_no,16361,420
+23451,gate_entry_no,16363,422
+23452,gate_entry_no,16366,425
+23453,gate_entry_no,16367,426
+23455,gate_entry_no,16368,427
+23457,gate_entry_no,16369,428
+23460,gate_entry_no,16371,430
+23462,gate_entry_no,16372,431
+23466,gate_entry_no,16374,433
+23474,gate_entry_no,16378,437
+23500,gate_entry_no,16384,443
+23501,gate_entry_no,16385,444
+23514,gate_entry_no,16386,445
+23820,gate_entry_no,16516,80
+23822,gate_entry_no,16519,82
+23823,gate_entry_no,16520,83
+23824,gate_entry_no,16524,84
+23992,gate_entry_no,16532,87
+23993,gate_entry_no,16470,60
+23994,gate_entry_no,16476,61
+23995,gate_entry_no,16477,62
+23996,gate_entry_no,16481,63
+23997,gate_entry_no,16482,64
+23998,gate_entry_no,16483,65
+23999,gate_entry_no,16484,66
+24001,gate_entry_no,16490,67
+24002,gate_entry_no,16492,68
+24003,gate_entry_no,16493,69
+24004,gate_entry_no,16499,70
+24005,gate_entry_no,16500,71
+24006,gate_entry_no,16501,72
+24007,gate_entry_no,16505,73
+24008,gate_entry_no,16506,74
+24009,gate_entry_no,16507,75
+24010,gate_entry_no,16508,76
+24011,gate_entry_no,16509,77
+24012,gate_entry_no,16510,78
+24013,gate_entry_no,16514,79
+24014,gate_entry_no,16518,81
+24015,gate_entry_no,16526,85
+24016,gate_entry_no,16527,86
+24017,gate_entry_no,16537,88
+24093,gate_entry_no,16540,89
+24094,gate_entry_no,16541,90
+24095,gate_entry_no,16548,92
+24103,gate_entry_no,16547,91
+24320,gate_entry_no,16557,0
+24321,gate_entry_no,16558,1
+24322,gate_entry_no,16570,2
+24323,gate_entry_no,16571,3
+24324,gate_entry_no,16573,4
+24325,gate_entry_no,16574,5
+24359,gate_entry_no,16582,6
+24360,gate_entry_no,16583,7
+24361,gate_entry_no,16594,8
+24362,gate_entry_no,16598,9
+24363,gate_entry_no,16599,10
+24364,gate_entry_no,16600,11
+24365,gate_entry_no,16603,12
+24366,gate_entry_no,16604,13
+24443,gate_entry_no,16608,14
+24444,gate_entry_no,16609,15
+24445,gate_entry_no,16612,16
+24446,gate_entry_no,16613,17
+24447,gate_entry_no,16615,18
+24448,gate_entry_no,16618,19
+24449,gate_entry_no,16619,20
+24450,gate_entry_no,16620,21
+24451,gate_entry_no,16621,22
+24452,gate_entry_no,16622,23
+24453,gate_entry_no,16623,24
+24454,gate_entry_no,16624,25
+24455,gate_entry_no,16625,26
+24456,gate_entry_no,16626,27
+24524,gate_entry_no,16641,28
+24559,gate_entry_no,16648,29
+24595,gate_entry_no,16669,31
+24596,gate_entry_no,16670,32
+24622,gate_entry_no,16671,33
+24623,gate_entry_no,16680,34
+24624,gate_entry_no,16681,35
+24625,gate_entry_no,16683,36
+24626,gate_entry_no,16684,37
+24683,gate_entry_no,16686,38
+24684,gate_entry_no,16688,40
+24685,gate_entry_no,16690,42
+24686,gate_entry_no,16691,43
+24687,gate_entry_no,16692,44
+24688,gate_entry_no,16697,45
+24689,gate_entry_no,16700,46
+24690,gate_entry_no,16701,47
+24691,gate_entry_no,16702,48
+24774,gate_entry_no,16707,49
+24775,gate_entry_no,16708,50
+24776,gate_entry_no,16709,51
+24777,gate_entry_no,16714,52
+24778,gate_entry_no,16719,53
+24827,gate_entry_no,16734,54
+24828,gate_entry_no,16735,55
+24829,gate_entry_no,16736,56
+24830,gate_entry_no,16737,57
+24831,gate_entry_no,16738,58
+24832,gate_entry_no,16739,59
+24833,gate_entry_no,16740,60
+24919,gate_entry_no,16760,61
+24920,gate_entry_no,16761,62
+24921,gate_entry_no,16763,63
+24922,gate_entry_no,16766,64
+24923,gate_entry_no,16767,65
+24924,gate_entry_no,16768,66
+24999,gate_entry_no,16774,67
+25000,gate_entry_no,16775,68
+25001,gate_entry_no,16776,69
+25032,gate_entry_no,16793,70
+25039,gate_entry_no,16802,98
+25040,gate_entry_no,16797,93
+25041,gate_entry_no,16798,94
+25042,gate_entry_no,16799,95
+25043,gate_entry_no,16800,96
+25044,gate_entry_no,16801,97
+25079,gate_entry_no,16803,71
+25080,gate_entry_no,16804,72
+25081,gate_entry_no,16807,73
+25082,gate_entry_no,16808,74
+25083,gate_entry_no,16809,75
+25096,gate_entry_no,16813,76
+25097,gate_entry_no,16814,77
+25098,gate_entry_no,16815,78
+25099,gate_entry_no,16816,79
+25111,gate_entry_no,16820,80
+25117,gate_entry_no,16824,81
+25118,gate_entry_no,16825,82
+25133,gate_entry_no,16832,83
+25134,gate_entry_no,16833,84
+25159,gate_entry_no,16840,86
+25160,gate_entry_no,16841,87
+25161,gate_entry_no,16846,88
+25162,gate_entry_no,16847,89
+25163,gate_entry_no,16848,90
+25169,gate_entry_no,16850,91
+25170,gate_entry_no,16851,92
+25222,gate_entry_no,16857,93
+25223,gate_entry_no,16858,94
+25229,gate_entry_no,16861,95
+25283,gate_entry_no,16863,96
+25294,gate_entry_no,16867,97
+25296,gate_entry_no,16870,98
+25302,gate_entry_no,16871,99
+25303,gate_entry_no,16872,100
+25313,gate_entry_no,16873,101
+25314,gate_entry_no,16875,102
+25315,gate_entry_no,16877,103
+25316,gate_entry_no,16878,104
+25325,gate_entry_no,16880,105
+25326,gate_entry_no,16881,106
+25330,gate_entry_no,16882,107
+25332,gate_entry_no,16883,108
+25335,gate_entry_no,16884,109
+25336,gate_entry_no,16887,110
+25337,gate_entry_no,16889,111
+25338,gate_entry_no,16890,112
+25339,gate_entry_no,16891,113
+25350,gate_entry_no,16893,115
+25361,gate_entry_no,16898,116
+25363,gate_entry_no,16899,117
+25367,gate_entry_no,16892,114
+25373,gate_entry_no,16902,118
+25375,gate_entry_no,16903,119
+25395,gate_entry_no,16907,120
+25402,gate_entry_no,16910,121
+25403,gate_entry_no,16914,122
+25412,gate_entry_no,16917,123
+25415,gate_entry_no,16918,124
+25416,gate_entry_no,16919,125
+25419,gate_entry_no,16920,126
+25424,gate_entry_no,16922,127
+25425,gate_entry_no,16923,128
+25426,gate_entry_no,16924,129
+25431,gate_entry_no,16925,130
+25433,gate_entry_no,16928,131
+25592,gate_entry_no,16930,132
+25738,gate_entry_no,16931,133
+25739,gate_entry_no,16934,134
+25740,gate_entry_no,16938,136
+25864,gate_entry_no,16937,135
+25865,gate_entry_no,16942,137
+25866,gate_entry_no,16943,138
+25867,gate_entry_no,16944,139
+25868,gate_entry_no,16945,140
+25869,gate_entry_no,16947,141
+25886,gate_entry_no,16949,142
+25891,gate_entry_no,16951,143
+25897,gate_entry_no,16953,144
+25899,gate_entry_no,16955,145
+25908,gate_entry_no,16959,147
+25916,gate_entry_no,16958,146
+25918,gate_entry_no,16961,148
+25920,gate_entry_no,16965,149
+25930,gate_entry_no,16966,150
+25931,gate_entry_no,16967,151
+25969,gate_entry_no,16979,155
+25971,gate_entry_no,16977,153
+25984,gate_entry_no,16978,154
+25985,gate_entry_no,16985,156
+25986,gate_entry_no,16988,158
+25990,gate_entry_no,16986,157
+25994,gate_entry_no,16989,159
+26019,gate_entry_no,17004,162
+26020,gate_entry_no,16990,160
+26024,gate_entry_no,16996,161
+26055,gate_entry_no,17015,163
+26059,gate_entry_no,17017,164
+26100,gate_entry_no,17018,165
+26101,gate_entry_no,17019,166
+26108,gate_entry_no,17021,167
+26109,gate_entry_no,17023,168
+26110,gate_entry_no,17024,169
+26116,gate_entry_no,17027,170
+26217,gate_entry_no,17036,171
+26220,gate_entry_no,17038,173
+26227,gate_entry_no,17047,175
+26271,gate_entry_no,17058,176
+26294,gate_entry_no,17060,177
+26327,gate_entry_no,17062,179
+26328,gate_entry_no,17046,174
+26341,gate_entry_no,17072,181
+26342,gate_entry_no,17067,180
+26343,gate_entry_no,17074,182
+26344,gate_entry_no,17061,178
+26348,gate_entry_no,17077,184
+26353,gate_entry_no,17076,183
+26362,gate_entry_no,17078,185
+26363,gate_entry_no,17081,186
+26388,gate_entry_no,17093,187
+26390,gate_entry_no,17094,188
+26403,gate_entry_no,17096,189
+26408,gate_entry_no,17097,190
+26431,gate_entry_no,17105,191
+26445,gate_entry_no,17106,192
+26446,gate_entry_no,17107,193
+26450,gate_entry_no,17108,194
+26457,gate_entry_no,17111,195
+26465,gate_entry_no,17113,197
+26472,gate_entry_no,17112,196
+26473,gate_entry_no,17118,198
+26484,gate_entry_no,17119,199
+26485,gate_entry_no,17125,200
+26486,gate_entry_no,17127,201
+26487,gate_entry_no,17129,203
+26488,gate_entry_no,17136,206
+26494,gate_entry_no,17128,202
+26495,gate_entry_no,17132,204
+26507,gate_entry_no,17140,208
+26512,gate_entry_no,17137,207
+26518,gate_entry_no,17141,209
+26520,gate_entry_no,17143,210
+26546,gate_entry_no,17146,211
+26560,gate_entry_no,17151,213
+26566,gate_entry_no,17147,212
+26570,gate_entry_no,17152,214
+26634,gate_entry_no,17156,215
+26687,gate_entry_no,17157,216
+26688,gate_entry_no,17160,217
+26689,gate_entry_no,17161,218
+26690,gate_entry_no,17166,219
+26691,gate_entry_no,17167,220
+26697,gate_entry_no,17168,221
+26701,gate_entry_no,17169,222
+26702,gate_entry_no,17173,223
+26705,gate_entry_no,17176,225
+26785,gate_entry_no,17174,224
+26799,gate_entry_no,17183,226
+26809,gate_entry_no,17188,227
+26829,gate_entry_no,17189,228
+26833,gate_entry_no,17197,230
+26839,gate_entry_no,17193,229
+26878,gate_entry_no,17204,231
+26879,gate_entry_no,17205,232
+26910,gate_entry_no,17209,233
+26911,gate_entry_no,17214,234
+26912,gate_entry_no,17215,235
+26913,gate_entry_no,17216,236
+26914,gate_entry_no,17217,237
+26915,gate_entry_no,17219,238
+26916,gate_entry_no,17220,239
+26917,gate_entry_no,17221,240
+26938,gate_entry_no,17222,241
+26942,gate_entry_no,17225,242
+26953,gate_entry_no,17226,243
+26954,gate_entry_no,17228,244
+26971,gate_entry_no,17234,245
+26972,gate_entry_no,17235,246
+26974,gate_entry_no,17238,248
+26975,gate_entry_no,17239,249
+26976,gate_entry_no,17240,250
+26986,gate_entry_no,17241,251
+26987,gate_entry_no,17246,253
+26995,gate_entry_no,17245,252
+26997,gate_entry_no,17247,254
+26998,gate_entry_no,17248,255
+26999,gate_entry_no,17252,256
+27000,gate_entry_no,17253,257
+27002,gate_entry_no,17254,258
+27004,gate_entry_no,17255,259
+27007,gate_entry_no,17256,260
+27008,gate_entry_no,17259,262
+27009,gate_entry_no,17257,261
+27017,gate_entry_no,17260,263
+27018,gate_entry_no,17261,264
+27025,gate_entry_no,17265,265
+27026,gate_entry_no,17266,266
+27035,gate_entry_no,17269,267
+27040,gate_entry_no,17270,268
+27092,gate_entry_no,17275,269
+27101,gate_entry_no,17282,270
+27103,gate_entry_no,17283,271
+27143,gate_entry_no,17284,272
+27181,gate_entry_no,17287,273
+27262,gate_entry_no,17289,274
+27263,gate_entry_no,17291,275
+27268,gate_entry_no,17292,276
+27275,gate_entry_no,17295,277
+27276,gate_entry_no,17299,278
+27279,gate_entry_no,17300,279
+27281,gate_entry_no,17301,280
+27319,gate_entry_no,17306,281
+27334,gate_entry_no,17308,282
+27335,gate_entry_no,17309,283
+27343,gate_entry_no,17310,284
+27344,gate_entry_no,17312,285
+27346,gate_entry_no,17313,286
+27357,gate_entry_no,17315,287
+27371,gate_entry_no,17317,289
+27389,gate_entry_no,17316,288
+27390,gate_entry_no,17319,290
+27408,gate_entry_no,17323,291
+27413,gate_entry_no,17325,292
+27414,gate_entry_no,17326,293
+27421,gate_entry_no,17331,294
+27437,gate_entry_no,17332,295
+27444,gate_entry_no,17339,296
+27445,gate_entry_no,17340,297
+27456,gate_entry_no,17344,298
+27457,gate_entry_no,17347,299
+27470,gate_entry_no,17349,300
+27504,gate_entry_no,17353,301
+27507,gate_entry_no,17356,302
+27528,gate_entry_no,17357,303
+27532,gate_entry_no,17361,304
+27591,gate_entry_no,17368,305
+27597,gate_entry_no,17370,306
+27601,gate_entry_no,17372,307
+27603,gate_entry_no,17373,308
+27604,gate_entry_no,17374,309
+27607,gate_entry_no,17377,312
+27608,gate_entry_no,17378,313
+27610,gate_entry_no,17379,314
+27612,gate_entry_no,17381,316
+27620,gate_entry_no,17375,310
+27621,gate_entry_no,17382,317
+27628,gate_entry_no,17380,315
+27637,gate_entry_no,17388,319
+27646,gate_entry_no,17389,320
+27661,gate_entry_no,17390,321
+27672,gate_entry_no,17391,322
+27674,gate_entry_no,17376,311
+27680,gate_entry_no,17393,323
+27684,gate_entry_no,17398,324
+27685,gate_entry_no,17400,325
+27697,gate_entry_no,17401,326
+27698,gate_entry_no,17402,327
+27705,gate_entry_no,17406,328
+27706,gate_entry_no,17407,329
+27727,gate_entry_no,17408,330
+27728,gate_entry_no,17409,331
+27734,gate_entry_no,17411,332
+27735,gate_entry_no,17412,333
+27745,gate_entry_no,17414,334
+27746,gate_entry_no,17419,335
+27758,gate_entry_no,17422,337
+27779,gate_entry_no,17425,340
+27783,gate_entry_no,17424,339
+27791,gate_entry_no,17427,341
+27814,gate_entry_no,17429,342
+27815,gate_entry_no,17430,343
+27816,gate_entry_no,17433,345
+27817,gate_entry_no,17434,346
+27818,gate_entry_no,17435,347
+27819,gate_entry_no,17437,348
+27820,gate_entry_no,17438,349
+27821,gate_entry_no,17431,344
+27873,gate_entry_no,17481,351
+27874,gate_entry_no,17482,352
+27875,gate_entry_no,17477,350
+27876,gate_entry_no,17483,353
+27877,gate_entry_no,17484,354
+27878,gate_entry_no,17485,355
+27879,gate_entry_no,17486,356
+27917,gate_entry_no,17487,357
+27918,gate_entry_no,17488,358
+27919,gate_entry_no,17489,359
+27920,gate_entry_no,17490,360
+27921,gate_entry_no,17491,361
+27922,gate_entry_no,17492,362
+27923,gate_entry_no,17493,363
+27924,gate_entry_no,17494,364
+27925,gate_entry_no,17495,365
+27926,gate_entry_no,17496,366
+27927,gate_entry_no,17498,368
+27928,gate_entry_no,17497,367
+27929,gate_entry_no,17499,369
+27930,gate_entry_no,17500,370
+27931,gate_entry_no,17501,371
+27932,gate_entry_no,17502,372
+27933,gate_entry_no,17503,373
+27934,gate_entry_no,17504,374
+27935,gate_entry_no,17505,375
+27936,gate_entry_no,17506,376
+27937,gate_entry_no,17508,378
+27938,gate_entry_no,17509,379
+27939,gate_entry_no,17511,381
+27940,gate_entry_no,17510,380
+27941,gate_entry_no,17512,382
+27942,gate_entry_no,17513,383
+27943,gate_entry_no,17507,377
+27944,gate_entry_no,17514,384
+27945,gate_entry_no,17515,385
+27946,gate_entry_no,17516,386
+27947,gate_entry_no,17517,387
+27948,gate_entry_no,17518,388
+27949,gate_entry_no,17519,389
+27950,gate_entry_no,17520,390
+27951,gate_entry_no,17521,391
+27952,gate_entry_no,17522,392
+27953,gate_entry_no,17523,393
+5320,mukam_id,809,787
+5321,mukam_id,809,787
+5496,mukam_id,914,8
+5497,mukam_id,914,8
+5498,mukam_id,914,8
+5499,mukam_id,914,8
+5500,mukam_id,914,8
+5543,mukam_id,941,17
+5544,mukam_id,942,5
+5545,mukam_id,943,341
+5546,mukam_id,944,3
+5547,mukam_id,945,185
+5548,mukam_id,941,17
+5549,mukam_id,946,22
+5550,mukam_id,945,185
+5551,mukam_id,943,341
+5552,mukam_id,947,20
+5553,mukam_id,943,341
+5554,mukam_id,945,185
+5555,mukam_id,945,185
+5556,mukam_id,948,69
+5557,mukam_id,948,69
+5558,mukam_id,945,185
+5559,mukam_id,949,656
+5560,mukam_id,946,22
+5561,mukam_id,950,12
+5562,mukam_id,945,185
+5563,mukam_id,945,185
+5564,mukam_id,945,185
+5565,mukam_id,945,185
+5901,mukam_id,1013,9
+5913,mukam_id,1016,3
+5914,mukam_id,1016,3
+5915,mukam_id,1016,3
+5916,mukam_id,1017,56
+5917,mukam_id,1018,6
+5918,mukam_id,1019,51
+5919,mukam_id,1016,3
+5920,mukam_id,1020,341
+5921,mukam_id,941,17
+5922,mukam_id,1013,9
+5923,mukam_id,1021,27
+5924,mukam_id,1018,6
+5925,mukam_id,945,185
+5926,mukam_id,1019,51
+5927,mukam_id,942,5
+5928,mukam_id,1016,3
+6189,mukam_id,809,787
+6190,mukam_id,809,787
+6191,mukam_id,809,787
+6192,mukam_id,809,787
+6193,mukam_id,809,787
+6194,mukam_id,809,787
+6195,mukam_id,809,787
+6196,mukam_id,809,787
+6197,mukam_id,809,787
+6198,mukam_id,809,787
+6199,mukam_id,809,787
+6200,mukam_id,809,787
+6201,mukam_id,809,787
+6202,mukam_id,809,787
+6203,mukam_id,809,787
+6204,mukam_id,809,787
+6205,mukam_id,809,787
+6206,mukam_id,809,787
+6207,mukam_id,809,787
+6208,mukam_id,809,787
+6209,mukam_id,809,787
+6210,mukam_id,809,787
+6211,mukam_id,809,787
+6212,mukam_id,809,787
+6627,mukam_id,1016,3
+6628,mukam_id,1021,27
+6629,mukam_id,1018,6
+6630,mukam_id,1016,3
+6641,mukam_id,914,8
+6650,mukam_id,1102,10
+6651,mukam_id,942,5
+6652,mukam_id,1016,3
+6653,mukam_id,1013,9
+6654,mukam_id,1016,3
+6655,mukam_id,1103,11
+6656,mukam_id,1104,339
+6657,mukam_id,1013,9
+6658,mukam_id,1013,9
+6659,mukam_id,1016,3
+6660,mukam_id,1018,6
+6661,mukam_id,1016,3
+6662,mukam_id,1021,27
+6692,mukam_id,809,787
+6742,mukam_id,1104,339
+6743,mukam_id,1016,3
+6744,mukam_id,1016,3
+6745,mukam_id,1016,3
+6746,mukam_id,950,12
+6747,mukam_id,950,12
+6748,mukam_id,1016,3
+7110,mukam_id,1020,341
+7111,mukam_id,1139,1084
+7112,mukam_id,942,5
+7113,mukam_id,1021,27
+7114,mukam_id,1016,3
+7115,mukam_id,1018,6
+7116,mukam_id,1103,11
+7117,mukam_id,1140,1094
+7118,mukam_id,1141,373
+7119,mukam_id,1021,27
+7130,mukam_id,1016,3
+7131,mukam_id,1146,7
+7132,mukam_id,1146,7
+7133,mukam_id,1146,7
+7134,mukam_id,1016,3
+7191,mukam_id,1013,9
+7192,mukam_id,1013,9
+7193,mukam_id,1013,9
+7194,mukam_id,1013,9
+7195,mukam_id,1013,9
+7196,mukam_id,1013,9
+7197,mukam_id,1013,9
+7198,mukam_id,1013,9
+7199,mukam_id,1013,9
+7200,mukam_id,1013,9
+7201,mukam_id,1013,9
+7311,mukam_id,1167,24
+7312,mukam_id,942,5
+7313,mukam_id,947,20
+7314,mukam_id,1167,24
+7315,mukam_id,942,5
+7316,mukam_id,1103,11
+7417,mukam_id,1181,37
+7418,mukam_id,1182,224
+7420,mukam_id,1183,43
+7500,mukam_id,809,787
+7501,mukam_id,809,787
+7716,mukam_id,1198,4
+7717,mukam_id,947,20
+7718,mukam_id,942,5
+7719,mukam_id,914,8
+7720,mukam_id,942,5
+7721,mukam_id,947,20
+7800,mukam_id,1016,3
+8133,mukam_id,948,69
+8134,mukam_id,1102,10
+8135,mukam_id,1225,23
+8136,mukam_id,914,8
+8137,mukam_id,914,8
+8138,mukam_id,914,8
+8139,mukam_id,1167,24
+8140,mukam_id,946,22
+8141,mukam_id,941,17
+8286,mukam_id,914,8
+8287,mukam_id,914,8
+8288,mukam_id,1167,24
+8289,mukam_id,1225,23
+8290,mukam_id,1231,1107
+8291,mukam_id,1103,11
+8292,mukam_id,914,8
+8293,mukam_id,1231,1107
+8294,mukam_id,1198,4
+8295,mukam_id,950,12
+8296,mukam_id,1225,23
+8598,mukam_id,1198,4
+8599,mukam_id,1253,395
+8600,mukam_id,1254,1125
+8601,mukam_id,1016,3
+8602,mukam_id,1198,4
+8603,mukam_id,1021,27
+8604,mukam_id,1021,27
+8605,mukam_id,1103,11
+8606,mukam_id,1255,136
+8607,mukam_id,1021,27
+8608,mukam_id,1182,224
+8609,mukam_id,1102,10
+8610,mukam_id,942,5
+8611,mukam_id,1103,11
+8627,mukam_id,1103,11
+8628,mukam_id,1016,3
+8629,mukam_id,1256,59
+8630,mukam_id,1016,3
+8631,mukam_id,1016,3
+8632,mukam_id,1016,3
+8633,mukam_id,1018,6
+8634,mukam_id,1016,3
+8635,mukam_id,1018,6
+8636,mukam_id,1016,3
+8637,mukam_id,1016,3
+8638,mukam_id,1018,6
+8639,mukam_id,1018,6
+8640,mukam_id,1018,6
+8641,mukam_id,1016,3
+8642,mukam_id,1016,3
+8925,mukam_id,1021,27
+8926,mukam_id,1021,27
+8927,mukam_id,1021,27
+8928,mukam_id,1021,27
+9133,mukam_id,1016,3
+9134,mukam_id,1021,27
+9135,mukam_id,1018,6
+9136,mukam_id,1269,44
+9137,mukam_id,1183,43
+9157,mukam_id,1016,3
+9159,mukam_id,1016,3
+9161,mukam_id,1183,43
+9186,mukam_id,1103,11
+9187,mukam_id,1198,4
+9188,mukam_id,1103,11
+9189,mukam_id,1183,43
+9190,mukam_id,1103,11
+9191,mukam_id,1272,16
+10027,mukam_id,1013,9
+10028,mukam_id,946,22
+10029,mukam_id,1013,9
+10030,mukam_id,1013,9
+10031,mukam_id,1013,9
+10032,mukam_id,1013,9
+10033,mukam_id,1013,9
+10078,mukam_id,947,20
+10079,mukam_id,1304,178
+10080,mukam_id,1305,50
+10081,mukam_id,1269,44
+10185,mukam_id,1103,11
+10186,mukam_id,1305,50
+10187,mukam_id,1269,44
+10188,mukam_id,1198,4
+10192,mukam_id,1103,11
+10194,mukam_id,1198,4
+10198,mukam_id,1269,44
+10200,mukam_id,1021,27
+10202,mukam_id,1016,3
+10204,mukam_id,1021,27
+10206,mukam_id,1103,11
+10212,mukam_id,1021,27
+10214,mukam_id,1103,11
+10216,mukam_id,1016,3
+10218,mukam_id,1103,11
+10220,mukam_id,1021,27
+10223,mukam_id,1198,4
+10241,mukam_id,1305,50
+10247,mukam_id,1103,11
+10249,mukam_id,1103,11
+10251,mukam_id,942,5
+10255,mukam_id,1146,7
+10260,mukam_id,1103,11
+10263,mukam_id,1312,18
+10267,mukam_id,1021,27
+10273,mukam_id,1198,4
+10280,mukam_id,1103,11
+10963,mukam_id,1146,7
+10964,mukam_id,946,22
+10969,mukam_id,1021,27
+10975,mukam_id,950,12
+10976,mukam_id,1368,716
+10977,mukam_id,1103,11
+10978,mukam_id,1198,4
+11010,mukam_id,1021,27
+11011,mukam_id,1103,11
+11012,mukam_id,1253,395
+11013,mukam_id,1198,4
+11014,mukam_id,1198,4
+11015,mukam_id,1269,44
+11016,mukam_id,1146,7
+11017,mukam_id,1103,11
+11018,mukam_id,1198,4
+11327,mukam_id,914,8
+11328,mukam_id,1103,11
+11329,mukam_id,1384,38
+11330,mukam_id,1013,9
+11331,mukam_id,1385,186
+11332,mukam_id,1013,9
+11333,mukam_id,1312,18
+11334,mukam_id,1386,39
+11335,mukam_id,1102,10
+11336,mukam_id,1103,11
+11337,mukam_id,1182,224
+11338,mukam_id,1016,3
+11339,mukam_id,1013,9
+11340,mukam_id,1305,50
+11341,mukam_id,1013,9
+11342,mukam_id,1387,371
+11343,mukam_id,1103,11
+11344,mukam_id,1387,371
+11657,mukam_id,948,69
+11691,mukam_id,948,69
+11693,mukam_id,949,656
+11706,mukam_id,948,69
+11719,mukam_id,948,69
+11766,mukam_id,948,69
+11787,mukam_id,948,69
+11985,mukam_id,942,5
+11986,mukam_id,1016,3
+12087,mukam_id,1447,214
+12089,mukam_id,1304,178
+12091,mukam_id,1447,214
+12093,mukam_id,1013,9
+12095,mukam_id,1304,178
+12097,mukam_id,1198,4
+12098,mukam_id,950,12
+12103,mukam_id,914,8
+12104,mukam_id,914,8
+12105,mukam_id,1013,9
+12106,mukam_id,1447,214
+12107,mukam_id,1013,9
+12250,mukam_id,948,69
+12283,mukam_id,948,69
+12438,mukam_id,942,5
+12460,mukam_id,1198,4
+12462,mukam_id,1304,178
+12466,mukam_id,1253,395
+12468,mukam_id,1141,373
+12544,mukam_id,1253,395
+12631,mukam_id,1253,395
+12655,mukam_id,1103,11
+12683,mukam_id,942,5
+12689,mukam_id,1253,395
+12691,mukam_id,1103,11
+12699,mukam_id,1103,11
+12715,mukam_id,1253,395
+12747,mukam_id,1103,11
+12797,mukam_id,1103,11
+12804,mukam_id,1103,11
+12864,mukam_id,1103,11
+12867,mukam_id,1103,11
+12902,mukam_id,1103,11
+12904,mukam_id,1103,11
+12934,mukam_id,1103,11
+13001,mukam_id,1103,11
+13003,mukam_id,1103,11
+13345,mukam_id,1103,11
+13347,mukam_id,1529,338
+13389,mukam_id,1103,11
+13445,mukam_id,1103,11
+13515,mukam_id,1103,11
+13560,mukam_id,1103,11
+13959,mukam_id,1021,27
+13960,mukam_id,914,8
+13961,mukam_id,1387,371
+13962,mukam_id,1018,6
+13963,mukam_id,1564,74
+13964,mukam_id,1013,9
+13965,mukam_id,1387,371
+13966,mukam_id,1146,7
+13967,mukam_id,1198,4
+13968,mukam_id,1387,371
+13969,mukam_id,1020,341
+13970,mukam_id,1018,6
+13971,mukam_id,1146,7
+13972,mukam_id,1565,68
+13977,mukam_id,1146,7
+14498,mukam_id,1103,11
+14499,mukam_id,1198,4
+14500,mukam_id,950,12
+14501,mukam_id,1601,65
+14502,mukam_id,1564,74
+14503,mukam_id,1602,123
+14504,mukam_id,1198,4
+14505,mukam_id,1387,371
+14506,mukam_id,1198,4
+14507,mukam_id,1021,27
+14508,mukam_id,1021,27
+14509,mukam_id,914,8
+14510,mukam_id,1103,11
+14511,mukam_id,914,8
+14512,mukam_id,942,5
+14513,mukam_id,914,8
+14514,mukam_id,942,5
+14515,mukam_id,1103,11
+14991,mukam_id,1387,371
+15010,mukam_id,1183,43
+15011,mukam_id,1103,11
+15012,mukam_id,1253,395
+15013,mukam_id,1013,9
+15014,mukam_id,1013,9
+15015,mukam_id,1103,11
+15016,mukam_id,1198,4
+15017,mukam_id,1253,395
+15018,mukam_id,1225,23
+15020,mukam_id,1304,178
+15034,mukam_id,914,8
+15035,mukam_id,949,656
+15036,mukam_id,946,22
+15037,mukam_id,942,5
+15038,mukam_id,949,656
+15039,mukam_id,1630,1217
+15040,mukam_id,949,656
+15041,mukam_id,1103,11
+15042,mukam_id,949,656
+15043,mukam_id,914,8
+15044,mukam_id,1225,23
+15045,mukam_id,1447,214
+15046,mukam_id,1631,40
+15047,mukam_id,948,69
+15048,mukam_id,1198,4
+15049,mukam_id,948,69
+15050,mukam_id,948,69
+15052,mukam_id,1103,11
+15053,mukam_id,949,656
+15054,mukam_id,1225,23
+15055,mukam_id,1225,23
+15056,mukam_id,1630,1217
+15057,mukam_id,1447,214
+15058,mukam_id,948,69
+15059,mukam_id,942,5
+15060,mukam_id,1632,214
+15130,mukam_id,1635,42
+15133,mukam_id,948,69
+15134,mukam_id,914,8
+15135,mukam_id,1102,10
+15136,mukam_id,1447,214
+15137,mukam_id,1447,214
+15757,mukam_id,1198,4
+15765,mukam_id,1447,214
+15766,mukam_id,1103,11
+15767,mukam_id,1304,178
+15768,mukam_id,914,8
+15769,mukam_id,946,22
+15792,mukam_id,942,5
+15882,mukam_id,1564,74
+16056,mukam_id,1635,42
+16057,mukam_id,1146,7
+16058,mukam_id,1146,7
+16059,mukam_id,1103,11
+16060,mukam_id,942,5
+16061,mukam_id,1674,394
+16062,mukam_id,942,5
+16063,mukam_id,1305,50
+16064,mukam_id,1013,9
+16065,mukam_id,942,5
+16066,mukam_id,1146,7
+16067,mukam_id,1183,43
+16068,mukam_id,1021,27
+16069,mukam_id,1387,371
+16070,mukam_id,1674,394
+16071,mukam_id,1635,42
+16072,mukam_id,1674,394
+16073,mukam_id,942,5
+16163,mukam_id,1167,24
+16164,mukam_id,942,5
+16165,mukam_id,914,8
+16166,mukam_id,1102,10
+16167,mukam_id,1102,10
+16168,mukam_id,947,20
+16169,mukam_id,942,5
+16170,mukam_id,914,8
+16171,mukam_id,1102,10
+16172,mukam_id,914,8
+16173,mukam_id,914,8
+16174,mukam_id,914,8
+16175,mukam_id,1198,4
+16176,mukam_id,1103,11
+16177,mukam_id,1103,11
+16178,mukam_id,947,20
+16327,mukam_id,1183,43
+16328,mukam_id,1146,7
+16329,mukam_id,1146,7
+16330,mukam_id,1674,394
+16331,mukam_id,1021,27
+16332,mukam_id,1021,27
+17446,mukam_id,1021,27
+17447,mukam_id,1387,371
+17448,mukam_id,1305,50
+17449,mukam_id,1674,394
+17450,mukam_id,1167,24
+17451,mukam_id,1013,9
+18450,mukam_id,1635,42
+18451,mukam_id,1013,9
+18452,mukam_id,1013,9
+18453,mukam_id,1635,42
+18454,mukam_id,1198,4
+18455,mukam_id,1387,371
+18456,mukam_id,1635,42
+18457,mukam_id,1635,42
+18458,mukam_id,914,8
+18459,mukam_id,1635,42
+18460,mukam_id,1635,42
+18461,mukam_id,942,5
+18462,mukam_id,950,12
+18463,mukam_id,1635,42
+18464,mukam_id,1635,42
+18465,mukam_id,942,5
+18466,mukam_id,1674,394
+18467,mukam_id,1635,42
+18468,mukam_id,942,5
+18469,mukam_id,1021,27
+18470,mukam_id,1021,27
+18471,mukam_id,1632,214
+18472,mukam_id,1016,3
+18473,mukam_id,1740,204
+18474,mukam_id,1018,6
+18475,mukam_id,1635,42
+18476,mukam_id,1103,11
+18477,mukam_id,1447,214
+18478,mukam_id,1447,214
+18479,mukam_id,1741,41
+18480,mukam_id,1447,214
+18481,mukam_id,941,17
+18482,mukam_id,1447,214
+18483,mukam_id,1447,214
+18484,mukam_id,1198,4
+18485,mukam_id,1198,4
+18486,mukam_id,914,8
+18487,mukam_id,914,8
+18488,mukam_id,914,8
+18489,mukam_id,914,8
+18490,mukam_id,1742,1545
+18491,mukam_id,914,8
+18492,mukam_id,942,5
+18493,mukam_id,914,8
+18494,mukam_id,914,8
+18496,mukam_id,914,8
+18497,mukam_id,1103,11
+18498,mukam_id,949,656
+18499,mukam_id,914,8
+18500,mukam_id,942,5
+18501,mukam_id,1102,10
+18502,mukam_id,1103,11
+18503,mukam_id,914,8
+18504,mukam_id,950,12
+18505,mukam_id,1304,178
+18506,mukam_id,942,5
+18507,mukam_id,1743,61
+18514,mukam_id,914,8
+18515,mukam_id,1103,11
+18546,mukam_id,1102,10
+18547,mukam_id,1103,11
+18548,mukam_id,1102,10
+18549,mukam_id,1103,11
+18550,mukam_id,1102,10
+18551,mukam_id,1102,10
+18552,mukam_id,1102,10
+18553,mukam_id,947,20
+18554,mukam_id,1447,214
+18555,mukam_id,1103,11
+18556,mukam_id,914,8
+18557,mukam_id,1103,11
+18558,mukam_id,1103,11
+18559,mukam_id,914,8
+18560,mukam_id,914,8
+18561,mukam_id,942,5
+18562,mukam_id,1013,9
+18563,mukam_id,914,8
+18564,mukam_id,942,5
+18565,mukam_id,1103,11
+18566,mukam_id,1103,11
+18567,mukam_id,914,8
+18568,mukam_id,942,5
+18569,mukam_id,914,8
+18570,mukam_id,914,8
+18571,mukam_id,1225,23
+18572,mukam_id,941,17
+18573,mukam_id,914,8
+18574,mukam_id,914,8
+18575,mukam_id,914,8
+18576,mukam_id,947,20
+18577,mukam_id,1103,11
+18578,mukam_id,1103,11
+18579,mukam_id,914,8
+18580,mukam_id,947,20
+18581,mukam_id,942,5
+18972,mukam_id,1198,4
+18973,mukam_id,1632,214
+18974,mukam_id,1021,27
+18975,mukam_id,1635,42
+19010,mukam_id,914,8
+19011,mukam_id,942,5
+19012,mukam_id,948,69
+19013,mukam_id,1103,11
+19014,mukam_id,1103,11
+19015,mukam_id,914,8
+19016,mukam_id,942,5
+19017,mukam_id,1304,178
+19018,mukam_id,914,8
+19019,mukam_id,942,5
+19020,mukam_id,914,8
+19021,mukam_id,914,8
+19022,mukam_id,1103,11
+19023,mukam_id,1103,11
+19024,mukam_id,942,5
+19025,mukam_id,914,8
+19026,mukam_id,1103,11
+19027,mukam_id,914,8
+19028,mukam_id,1146,7
+19029,mukam_id,914,8
+19030,mukam_id,914,8
+19031,mukam_id,942,5
+19260,mukam_id,1198,4
+19519,mukam_id,1387,371
+19520,mukam_id,1635,42
+19521,mukam_id,1635,42
+19522,mukam_id,942,5
+19523,mukam_id,942,5
+19524,mukam_id,942,5
+19525,mukam_id,1021,27
+19526,mukam_id,1792,341
+19527,mukam_id,1674,394
+19528,mukam_id,1021,27
+19529,mukam_id,1674,394
+19532,mukam_id,1198,4
+19533,mukam_id,1013,9
+19534,mukam_id,1635,42
+19535,mukam_id,1635,42
+19536,mukam_id,1013,9
+19537,mukam_id,1674,394
+19869,mukam_id,1102,10
+20000,mukam_id,1103,11
+20001,mukam_id,1021,27
+20002,mukam_id,943,341
+20003,mukam_id,1102,10
+20004,mukam_id,1102,10
+20005,mukam_id,1103,11
+20006,mukam_id,1102,10
+20007,mukam_id,1021,27
+20008,mukam_id,1102,10
+20009,mukam_id,1021,27
+20010,mukam_id,1102,10
+20011,mukam_id,1102,10
+20012,mukam_id,1102,10
+20013,mukam_id,1102,10
+20014,mukam_id,1021,27
+20015,mukam_id,942,5
+20016,mukam_id,1368,716
+20017,mukam_id,1802,13
+20018,mukam_id,1016,3
+20019,mukam_id,943,341
+20020,mukam_id,1013,9
+20021,mukam_id,1102,10
+20022,mukam_id,1102,10
+20023,mukam_id,1102,10
+20024,mukam_id,1103,11
+20025,mukam_id,1102,10
+20026,mukam_id,1102,10
+20055,mukam_id,914,8
+20056,mukam_id,914,8
+20057,mukam_id,942,5
+20058,mukam_id,914,8
+20059,mukam_id,1103,11
+20060,mukam_id,942,5
+20061,mukam_id,1103,11
+20062,mukam_id,1225,23
+20063,mukam_id,914,8
+20064,mukam_id,914,8
+20065,mukam_id,914,8
+20066,mukam_id,1253,395
+20067,mukam_id,942,5
+20068,mukam_id,942,5
+20069,mukam_id,914,8
+20070,mukam_id,914,8
+20071,mukam_id,942,5
+20072,mukam_id,1103,11
+20073,mukam_id,914,8
+20074,mukam_id,914,8
+20228,mukam_id,1198,4
+20283,mukam_id,941,17
+20557,mukam_id,941,17
+20573,mukam_id,1103,11
+20574,mukam_id,914,8
+20575,mukam_id,914,8
+20576,mukam_id,942,5
+20577,mukam_id,914,8
+20578,mukam_id,914,8
+20579,mukam_id,942,5
+20580,mukam_id,914,8
+20581,mukam_id,914,8
+20582,mukam_id,941,17
+20583,mukam_id,1103,11
+20584,mukam_id,1103,11
+20585,mukam_id,1304,178
+20695,mukam_id,1225,23
+20703,mukam_id,941,17
+20707,mukam_id,1198,4
+20709,mukam_id,1198,4
+20714,mukam_id,1013,9
+20911,mukam_id,1836,1530
+20914,mukam_id,1198,4
+20915,mukam_id,914,8
+20916,mukam_id,941,17
+20917,mukam_id,941,17
+20919,mukam_id,1836,1530
+20920,mukam_id,1837,70
+21123,mukam_id,1837,70
+21126,mukam_id,1837,70
+21127,mukam_id,1837,70
+21128,mukam_id,1837,70
+21129,mukam_id,1837,70
+21195,mukam_id,1103,11
+21196,mukam_id,1103,11
+21197,mukam_id,948,69
+21214,mukam_id,1198,4
+21419,mukam_id,1862,1
+21427,mukam_id,1103,11
+21428,mukam_id,1863,1803
+21429,mukam_id,1862,1
+21434,mukam_id,1198,4
+21435,mukam_id,1863,1803
+21437,mukam_id,1863,1803
+21439,mukam_id,1861,758
+21443,mukam_id,948,69
+21445,mukam_id,1103,11
+21449,mukam_id,1861,758
+21450,mukam_id,1837,70
+21451,mukam_id,1837,70
+21452,mukam_id,1837,70
+21453,mukam_id,1837,70
+21457,mukam_id,914,8
+21459,mukam_id,1861,758
+21460,mukam_id,1861,758
+21461,mukam_id,1103,11
+21463,mukam_id,1103,11
+21475,mukam_id,1103,11
+21477,mukam_id,914,8
+21491,mukam_id,1863,1803
+21499,mukam_id,1103,11
+21506,mukam_id,1103,11
+21576,mukam_id,1103,11
+21599,mukam_id,1103,11
+21606,mukam_id,941,17
+21612,mukam_id,914,8
+21614,mukam_id,914,8
+21677,mukam_id,950,12
+21750,mukam_id,1861,758
+21808,mukam_id,1103,11
+21813,mukam_id,1103,11
+21857,mukam_id,914,8
+21859,mukam_id,941,17
+21861,mukam_id,914,8
+21878,mukam_id,1198,4
+21927,mukam_id,948,69
+21929,mukam_id,1862,1
+21947,mukam_id,1103,11
+21949,mukam_id,1861,758
+21951,mukam_id,1861,758
+21979,mukam_id,1862,1
+21981,mukam_id,1103,11
+22070,mukam_id,1103,11
+22072,mukam_id,942,5
+22096,mukam_id,1198,4
+22098,mukam_id,941,17
+23450,mukam_id,1923,45
+23451,mukam_id,1923,45
+23452,mukam_id,1923,45
+23453,mukam_id,1923,45
+23455,mukam_id,1923,45
+23457,mukam_id,1923,45
+23460,mukam_id,1923,45
+23462,mukam_id,1923,45
+23466,mukam_id,1923,45
+23474,mukam_id,1923,45
+23500,mukam_id,1923,45
+23501,mukam_id,1923,45
+23514,mukam_id,1923,45
+23820,mukam_id,949,656
+23822,mukam_id,1103,11
+23823,mukam_id,914,8
+23824,mukam_id,914,8
+23992,mukam_id,1632,214
+23993,mukam_id,1103,11
+23994,mukam_id,1103,11
+23995,mukam_id,1103,11
+23996,mukam_id,1632,214
+23997,mukam_id,949,656
+23998,mukam_id,941,17
+23999,mukam_id,941,17
+24001,mukam_id,1632,214
+24002,mukam_id,950,12
+24003,mukam_id,1632,214
+24004,mukam_id,1103,11
+24005,mukam_id,1103,11
+24006,mukam_id,941,17
+24007,mukam_id,1632,214
+24008,mukam_id,1632,214
+24009,mukam_id,1632,214
+24010,mukam_id,1632,214
+24011,mukam_id,1943,249
+24012,mukam_id,1103,11
+24013,mukam_id,1943,249
+24014,mukam_id,1632,214
+24015,mukam_id,1225,23
+24016,mukam_id,1103,11
+24017,mukam_id,1103,11
+24093,mukam_id,914,8
+24094,mukam_id,914,8
+24095,mukam_id,949,656
+24103,mukam_id,941,17
+24320,mukam_id,914,8
+24321,mukam_id,948,69
+24322,mukam_id,941,17
+24323,mukam_id,1632,214
+24324,mukam_id,1632,214
+24325,mukam_id,948,69
+24359,mukam_id,1632,214
+24360,mukam_id,949,656
+24361,mukam_id,1225,23
+24362,mukam_id,949,656
+24363,mukam_id,949,656
+24364,mukam_id,949,656
+24365,mukam_id,1632,214
+24366,mukam_id,914,8
+24443,mukam_id,949,656
+24444,mukam_id,949,656
+24445,mukam_id,1632,214
+24446,mukam_id,1632,214
+24447,mukam_id,941,17
+24448,mukam_id,948,69
+24449,mukam_id,1632,214
+24450,mukam_id,941,17
+24451,mukam_id,1861,758
+24452,mukam_id,914,8
+24453,mukam_id,914,8
+24454,mukam_id,1632,214
+24455,mukam_id,941,17
+24456,mukam_id,1632,214
+24524,mukam_id,1632,214
+24559,mukam_id,1632,214
+24595,mukam_id,948,69
+24596,mukam_id,948,69
+24622,mukam_id,948,69
+24623,mukam_id,948,69
+24624,mukam_id,1632,214
+24625,mukam_id,1103,11
+24626,mukam_id,942,5
+24683,mukam_id,1632,214
+24684,mukam_id,1632,214
+24685,mukam_id,941,17
+24686,mukam_id,1632,214
+24687,mukam_id,948,69
+24688,mukam_id,1103,11
+24689,mukam_id,914,8
+24690,mukam_id,948,69
+24691,mukam_id,914,8
+24774,mukam_id,1630,1217
+24775,mukam_id,1225,23
+24776,mukam_id,941,17
+24777,mukam_id,941,17
+24778,mukam_id,948,69
+24827,mukam_id,1861,758
+24828,mukam_id,1632,214
+24829,mukam_id,1632,214
+24830,mukam_id,1225,23
+24832,mukam_id,942,5
+24833,mukam_id,914,8
+24919,mukam_id,1632,214
+24920,mukam_id,1103,11
+24921,mukam_id,1632,214
+24922,mukam_id,1632,214
+24923,mukam_id,1632,214
+24924,mukam_id,948,69
+24999,mukam_id,1632,214
+25000,mukam_id,1632,214
+25001,mukam_id,1103,11
+25032,mukam_id,914,8
+25039,mukam_id,1983,1735
+25040,mukam_id,1983,1735
+25041,mukam_id,1983,1735
+25042,mukam_id,1983,1735
+25043,mukam_id,1983,1735
+25044,mukam_id,1983,1735
+25079,mukam_id,1103,11
+25080,mukam_id,941,17
+25081,mukam_id,1601,65
+25082,mukam_id,1564,74
+25083,mukam_id,942,5
+25096,mukam_id,1632,214
+25097,mukam_id,1632,214
+25098,mukam_id,1632,214
+25099,mukam_id,941,17
+25111,mukam_id,1632,214
+25117,mukam_id,1632,214
+25118,mukam_id,1103,11
+25133,mukam_id,1632,214
+25134,mukam_id,1632,214
+25159,mukam_id,1103,11
+25160,mukam_id,1632,214
+25161,mukam_id,1861,758
+25162,mukam_id,1103,11
+25163,mukam_id,1103,11
+25169,mukam_id,1103,11
+25170,mukam_id,1861,758
+25222,mukam_id,1632,214
+25223,mukam_id,1861,758
+25229,mukam_id,1861,758
+25283,mukam_id,1861,758
+25294,mukam_id,1861,758
+25296,mukam_id,1225,23
+25302,mukam_id,1861,758
+25303,mukam_id,1861,758
+25313,mukam_id,941,17
+25314,mukam_id,1632,214
+25315,mukam_id,1632,214
+25316,mukam_id,1632,214
+25325,mukam_id,1103,11
+25326,mukam_id,1632,214
+25330,mukam_id,1632,214
+25332,mukam_id,1632,214
+25335,mukam_id,914,8
+25336,mukam_id,1632,214
+25337,mukam_id,914,8
+25338,mukam_id,1861,758
+25350,mukam_id,1632,214
+25361,mukam_id,1861,758
+25363,mukam_id,948,69
+25367,mukam_id,1632,214
+25373,mukam_id,941,17
+25375,mukam_id,1632,214
+25395,mukam_id,1632,214
+25403,mukam_id,914,8
+25412,mukam_id,1632,214
+25415,mukam_id,1632,214
+25416,mukam_id,948,69
+25419,mukam_id,1632,214
+25424,mukam_id,1103,11
+25425,mukam_id,1861,758
+25426,mukam_id,1632,214
+25431,mukam_id,1632,214
+25433,mukam_id,1861,758
+25592,mukam_id,1861,758
+25738,mukam_id,914,8
+25739,mukam_id,1632,214
+25740,mukam_id,1861,758
+25864,mukam_id,941,17
+25865,mukam_id,1632,214
+25866,mukam_id,914,8
+25867,mukam_id,1632,214
+25868,mukam_id,1632,214
+25869,mukam_id,948,69
+25886,mukam_id,1601,65
+25891,mukam_id,1632,214
+25897,mukam_id,1632,214
+25899,mukam_id,1601,65
+25908,mukam_id,1632,214
+25916,mukam_id,1632,214
+25918,mukam_id,1103,11
+25920,mukam_id,1632,214
+25930,mukam_id,1632,214
+25931,mukam_id,1632,214
+25969,mukam_id,1601,65
+25971,mukam_id,943,341
+25984,mukam_id,948,69
+25985,mukam_id,1632,214
+25986,mukam_id,1632,214
+25990,mukam_id,1601,65
+26019,mukam_id,1632,214
+26020,mukam_id,943,341
+26024,mukam_id,1601,65
+26055,mukam_id,1632,214
+26059,mukam_id,1601,65
+26100,mukam_id,1225,23
+26101,mukam_id,1632,214
+26108,mukam_id,1632,214
+26110,mukam_id,1225,23
+26116,mukam_id,1225,23
+26217,mukam_id,1601,65
+26220,mukam_id,943,341
+26227,mukam_id,1103,11
+26271,mukam_id,943,341
+26294,mukam_id,1103,11
+26327,mukam_id,1632,214
+26328,mukam_id,1632,214
+26341,mukam_id,1225,23
+26342,mukam_id,1632,214
+26343,mukam_id,1632,214
+26344,mukam_id,1632,214
+26348,mukam_id,1103,11
+26353,mukam_id,943,341
+26362,mukam_id,1632,214
+26363,mukam_id,1225,23
+26388,mukam_id,1632,214
+26390,mukam_id,1632,214
+26403,mukam_id,1632,214
+26408,mukam_id,1632,214
+26431,mukam_id,1225,23
+26445,mukam_id,1103,11
+26446,mukam_id,1632,214
+26450,mukam_id,1632,214
+26457,mukam_id,942,5
+26465,mukam_id,1861,758
+26472,mukam_id,1601,65
+26473,mukam_id,1632,214
+26484,mukam_id,914,8
+26485,mukam_id,1601,65
+26486,mukam_id,1225,23
+26487,mukam_id,1225,23
+26488,mukam_id,914,8
+26494,mukam_id,1632,214
+26495,mukam_id,1632,214
+26507,mukam_id,942,5
+26512,mukam_id,1632,214
+26518,mukam_id,1225,23
+26520,mukam_id,1601,65
+26546,mukam_id,1632,214
+26560,mukam_id,1632,214
+26566,mukam_id,1601,65
+26570,mukam_id,1632,214
+26634,mukam_id,1632,214
+26687,mukam_id,1601,65
+26688,mukam_id,1632,214
+26689,mukam_id,1601,65
+26690,mukam_id,1632,214
+26691,mukam_id,1632,214
+26697,mukam_id,1632,214
+26701,mukam_id,1225,23
+26702,mukam_id,1632,214
+26705,mukam_id,943,341
+26785,mukam_id,1632,214
+26799,mukam_id,1632,214
+26809,mukam_id,1632,214
+26829,mukam_id,1225,23
+26833,mukam_id,1632,214
+26839,mukam_id,948,69
+26878,mukam_id,948,69
+26879,mukam_id,1632,214
+26910,mukam_id,2056,66
+26911,mukam_id,1225,23
+26912,mukam_id,1632,214
+26913,mukam_id,1632,214
+26914,mukam_id,1632,214
+26915,mukam_id,948,69
+26916,mukam_id,1632,214
+26917,mukam_id,2056,66
+26938,mukam_id,948,69
+26942,mukam_id,1632,214
+26953,mukam_id,1225,23
+26954,mukam_id,1632,214
+26971,mukam_id,1632,214
+26972,mukam_id,948,69
+26974,mukam_id,1632,214
+26975,mukam_id,948,69
+26976,mukam_id,948,69
+26986,mukam_id,1632,214
+26987,mukam_id,1863,1803
+26995,mukam_id,1632,214
+26997,mukam_id,2056,66
+26998,mukam_id,948,69
+26999,mukam_id,948,69
+27000,mukam_id,1863,1803
+27002,mukam_id,1632,214
+27004,mukam_id,948,69
+27007,mukam_id,948,69
+27008,mukam_id,1632,214
+27009,mukam_id,948,69
+27017,mukam_id,1601,65
+27018,mukam_id,1632,214
+27025,mukam_id,2056,66
+27026,mukam_id,948,69
+27035,mukam_id,948,69
+27040,mukam_id,914,8
+27092,mukam_id,1632,214
+27101,mukam_id,1225,23
+27103,mukam_id,948,69
+27143,mukam_id,1632,214
+27181,mukam_id,948,69
+27262,mukam_id,1565,68
+27263,mukam_id,1632,214
+27268,mukam_id,948,69
+27275,mukam_id,1863,1803
+27276,mukam_id,1632,214
+27279,mukam_id,948,69
+27281,mukam_id,948,69
+27319,mukam_id,948,69
+27334,mukam_id,1632,214
+27335,mukam_id,1632,214
+27343,mukam_id,1601,65
+27344,mukam_id,948,69
+27346,mukam_id,948,69
+27357,mukam_id,1632,214
+27371,mukam_id,1632,214
+27389,mukam_id,948,69
+27390,mukam_id,948,69
+27408,mukam_id,1632,214
+27413,mukam_id,1632,214
+27414,mukam_id,948,69
+27421,mukam_id,1225,23
+27437,mukam_id,948,69
+27444,mukam_id,1601,65
+27445,mukam_id,948,69
+27456,mukam_id,948,69
+27457,mukam_id,948,69
+27470,mukam_id,948,69
+27504,mukam_id,1601,65
+27507,mukam_id,948,69
+27528,mukam_id,1632,214
+27532,mukam_id,1632,214
+27591,mukam_id,948,69
+27597,mukam_id,1632,214
+27601,mukam_id,1632,214
+27603,mukam_id,948,69
+27604,mukam_id,1225,23
+27607,mukam_id,948,69
+27608,mukam_id,1632,214
+27610,mukam_id,1632,214
+27612,mukam_id,948,69
+27620,mukam_id,948,69
+27621,mukam_id,948,69
+27628,mukam_id,948,69
+27637,mukam_id,941,17
+27646,mukam_id,948,69
+27661,mukam_id,1861,758
+27672,mukam_id,948,69
+27674,mukam_id,1632,214
+27680,mukam_id,948,69
+27684,mukam_id,948,69
+27685,mukam_id,1601,65
+27697,mukam_id,1632,214
+27698,mukam_id,1632,214
+27705,mukam_id,914,8
+27706,mukam_id,1863,1803
+27727,mukam_id,1225,23
+27728,mukam_id,1632,214
+27734,mukam_id,948,69
+27735,mukam_id,948,69
+27745,mukam_id,948,69
+27746,mukam_id,1632,214
+27758,mukam_id,1632,214
+27779,mukam_id,1225,23
+27783,mukam_id,948,69
+27791,mukam_id,948,69
+27814,mukam_id,1632,214
+27815,mukam_id,941,17
+27816,mukam_id,1632,214
+27817,mukam_id,1632,214
+27818,mukam_id,1632,214
+27819,mukam_id,1632,214
+27820,mukam_id,1632,214
+27821,mukam_id,948,69
+27873,mukam_id,948,69
+27874,mukam_id,948,69
+27875,mukam_id,1632,214
+27876,mukam_id,1632,214
+27877,mukam_id,1632,214
+27878,mukam_id,1861,758
+27879,mukam_id,948,69
+27917,mukam_id,941,17
+27918,mukam_id,1225,23
+27919,mukam_id,948,69
+27920,mukam_id,1632,214
+27921,mukam_id,1632,214
+27922,mukam_id,948,69
+27923,mukam_id,941,17
+27924,mukam_id,948,69
+27925,mukam_id,948,69
+27926,mukam_id,948,69
+27927,mukam_id,948,69
+27928,mukam_id,1863,1803
+27929,mukam_id,1632,214
+27930,mukam_id,1632,214
+27931,mukam_id,1632,214
+27932,mukam_id,1601,65
+27933,mukam_id,1632,214
+27934,mukam_id,1632,214
+27935,mukam_id,1632,214
+27936,mukam_id,1632,214
+27937,mukam_id,1632,214
+27938,mukam_id,1632,214
+27939,mukam_id,1632,214
+27940,mukam_id,948,69
+27941,mukam_id,1632,214
+27942,mukam_id,948,69
+27943,mukam_id,1861,758
+27944,mukam_id,1861,758
+27945,mukam_id,948,69
+27946,mukam_id,1863,1803
+27947,mukam_id,948,69
+27948,mukam_id,1861,758
+27949,mukam_id,948,69
+27950,mukam_id,948,69
+27951,mukam_id,1861,758
+27952,mukam_id,948,69
+27953,mukam_id,1632,214
+5320,frieght_paid,,0.0
+5321,frieght_paid,,0.0
+5496,frieght_paid,,0.0
+5497,frieght_paid,,0.0
+5498,frieght_paid,,0.0
+5499,frieght_paid,,0.0
+5500,frieght_paid,,0.0
+5543,frieght_paid,,0.0
+5544,frieght_paid,,0.0
+5545,frieght_paid,,0.0
+5546,frieght_paid,,0.0
+5547,frieght_paid,,0.0
+5548,frieght_paid,,0.0
+5549,frieght_paid,,0.0
+5550,frieght_paid,,0.0
+5551,frieght_paid,,0.0
+5552,frieght_paid,,0.0
+5553,frieght_paid,,0.0
+5554,frieght_paid,,0.0
+5555,frieght_paid,,0.0
+5556,frieght_paid,,0.0
+5557,frieght_paid,,0.0
+5558,frieght_paid,,0.0
+5559,frieght_paid,,0.0
+5560,frieght_paid,,0.0
+5561,frieght_paid,,0.0
+5562,frieght_paid,,0.0
+5563,frieght_paid,,0.0
+5564,frieght_paid,,0.0
+5565,frieght_paid,,0.0
+5901,frieght_paid,,0.0
+5913,frieght_paid,,0.0
+5914,frieght_paid,,0.0
+5915,frieght_paid,,0.0
+5916,frieght_paid,,0.0
+5917,frieght_paid,,0.0
+5918,frieght_paid,,0.0
+5919,frieght_paid,,0.0
+5920,frieght_paid,,0.0
+5921,frieght_paid,,0.0
+5922,frieght_paid,,0.0
+5923,frieght_paid,,0.0
+5924,frieght_paid,,0.0
+5925,frieght_paid,,0.0
+5926,frieght_paid,,0.0
+5927,frieght_paid,,0.0
+5928,frieght_paid,,0.0
+6189,frieght_paid,,0.0
+6190,frieght_paid,,0.0
+6191,frieght_paid,,0.0
+6192,frieght_paid,,0.0
+6193,frieght_paid,,0.0
+6194,frieght_paid,,0.0
+6195,frieght_paid,,0.0
+6196,frieght_paid,,0.0
+6197,frieght_paid,,0.0
+6198,frieght_paid,,0.0
+6199,frieght_paid,,0.0
+6200,frieght_paid,,0.0
+6201,frieght_paid,,0.0
+6202,frieght_paid,,0.0
+6203,frieght_paid,,0.0
+6204,frieght_paid,,0.0
+6205,frieght_paid,,0.0
+6206,frieght_paid,,0.0
+6207,frieght_paid,,0.0
+6208,frieght_paid,,0.0
+6209,frieght_paid,,0.0
+6210,frieght_paid,,0.0
+6211,frieght_paid,,0.0
+6212,frieght_paid,,0.0
+6627,frieght_paid,,0.0
+6628,frieght_paid,,0.0
+6629,frieght_paid,,0.0
+6630,frieght_paid,,0.0
+6641,frieght_paid,,0.0
+6650,frieght_paid,,0.0
+6651,frieght_paid,,0.0
+6652,frieght_paid,,0.0
+6653,frieght_paid,,0.0
+6654,frieght_paid,,0.0
+6655,frieght_paid,,0.0
+6656,frieght_paid,,0.0
+6657,frieght_paid,,0.0
+6658,frieght_paid,,0.0
+6659,frieght_paid,,0.0
+6660,frieght_paid,,0.0
+6661,frieght_paid,,0.0
+6662,frieght_paid,,0.0
+6692,frieght_paid,,0.0
+6742,frieght_paid,,0.0
+6743,frieght_paid,,0.0
+6744,frieght_paid,,0.0
+6745,frieght_paid,,0.0
+6746,frieght_paid,,0.0
+6747,frieght_paid,,0.0
+6748,frieght_paid,,0.0
+7110,frieght_paid,,0.0
+7111,frieght_paid,,0.0
+7112,frieght_paid,,0.0
+7113,frieght_paid,,0.0
+7114,frieght_paid,,0.0
+7115,frieght_paid,,0.0
+7116,frieght_paid,,0.0
+7117,frieght_paid,,0.0
+7118,frieght_paid,,0.0
+7119,frieght_paid,,0.0
+7130,frieght_paid,,0.0
+7131,frieght_paid,,0.0
+7132,frieght_paid,,0.0
+7133,frieght_paid,,0.0
+7134,frieght_paid,,0.0
+7191,frieght_paid,,0.0
+7192,frieght_paid,,0.0
+7193,frieght_paid,,0.0
+7194,frieght_paid,,0.0
+7195,frieght_paid,,0.0
+7196,frieght_paid,,0.0
+7197,frieght_paid,,0.0
+7198,frieght_paid,,0.0
+7199,frieght_paid,,0.0
+7200,frieght_paid,,0.0
+7201,frieght_paid,,0.0
+7311,frieght_paid,,0.0
+7312,frieght_paid,,0.0
+7313,frieght_paid,,0.0
+7314,frieght_paid,,0.0
+7315,frieght_paid,,0.0
+7316,frieght_paid,,0.0
+7417,frieght_paid,,0.0
+7418,frieght_paid,,0.0
+7420,frieght_paid,,0.0
+7500,frieght_paid,,0.0
+7501,frieght_paid,,0.0
+7716,frieght_paid,,0.0
+7717,frieght_paid,,0.0
+7718,frieght_paid,,0.0
+7719,frieght_paid,,0.0
+7720,frieght_paid,,0.0
+7721,frieght_paid,,0.0
+7800,frieght_paid,,0.0
+8133,frieght_paid,,0.0
+8134,frieght_paid,,0.0
+8135,frieght_paid,,0.0
+8136,frieght_paid,,0.0
+8137,frieght_paid,,0.0
+8138,frieght_paid,,0.0
+8139,frieght_paid,,0.0
+8140,frieght_paid,,0.0
+8141,frieght_paid,,0.0
+8286,frieght_paid,,0.0
+8287,frieght_paid,,0.0
+8288,frieght_paid,,0.0
+8289,frieght_paid,,0.0
+8290,frieght_paid,,0.0
+8291,frieght_paid,,0.0
+8292,frieght_paid,,0.0
+8293,frieght_paid,,0.0
+8294,frieght_paid,,0.0
+8295,frieght_paid,,0.0
+8296,frieght_paid,,0.0
+8598,frieght_paid,,0.0
+8599,frieght_paid,,0.0
+8600,frieght_paid,,0.0
+8601,frieght_paid,,0.0
+8602,frieght_paid,,0.0
+8603,frieght_paid,,0.0
+8604,frieght_paid,,0.0
+8605,frieght_paid,,0.0
+8606,frieght_paid,,0.0
+8607,frieght_paid,,0.0
+8608,frieght_paid,,0.0
+8609,frieght_paid,,0.0
+8610,frieght_paid,,0.0
+8611,frieght_paid,,0.0
+8627,frieght_paid,,0.0
+8628,frieght_paid,,0.0
+8629,frieght_paid,,0.0
+8630,frieght_paid,,0.0
+8631,frieght_paid,,0.0
+8632,frieght_paid,,0.0
+8633,frieght_paid,,0.0
+8634,frieght_paid,,0.0
+8635,frieght_paid,,0.0
+8636,frieght_paid,,0.0
+8637,frieght_paid,,0.0
+8638,frieght_paid,,0.0
+8639,frieght_paid,,0.0
+8640,frieght_paid,,0.0
+8641,frieght_paid,,0.0
+8642,frieght_paid,,0.0
+5320,src_com_id,,7237
+5321,src_com_id,,7238
+5496,src_com_id,,7433
+5497,src_com_id,,7435
+5498,src_com_id,,7438
+5499,src_com_id,,7439
+5500,src_com_id,,7450
+5543,src_com_id,,7496
+5544,src_com_id,,7497
+5545,src_com_id,,7498
+5546,src_com_id,,7499
+5547,src_com_id,,7500
+5548,src_com_id,,7501
+5549,src_com_id,,7502
+5550,src_com_id,,7503
+5551,src_com_id,,7504
+5552,src_com_id,,7505
+5553,src_com_id,,7506
+5554,src_com_id,,7507
+5555,src_com_id,,7508
+5556,src_com_id,,7509
+5557,src_com_id,,7510
+5558,src_com_id,,7511
+5559,src_com_id,,7512
+5560,src_com_id,,7513
+5561,src_com_id,,7514
+5562,src_com_id,,7515
+5563,src_com_id,,7516
+5564,src_com_id,,7517
+5565,src_com_id,,7518
+5901,src_com_id,,7971
+5913,src_com_id,,7990
+5914,src_com_id,,7991
+5915,src_com_id,,7992
+5916,src_com_id,,7993
+5917,src_com_id,,7994
+5918,src_com_id,,7995
+5919,src_com_id,,7996
+5920,src_com_id,,7997
+5921,src_com_id,,7998
+5922,src_com_id,,7999
+5923,src_com_id,,8000
+5924,src_com_id,,8001
+5925,src_com_id,,8002
+5926,src_com_id,,8003
+5927,src_com_id,,8004
+5928,src_com_id,,8005
+6189,src_com_id,,8315
+6190,src_com_id,,8316
+6191,src_com_id,,8317
+6192,src_com_id,,8318
+6193,src_com_id,,8319
+6194,src_com_id,,8320
+6195,src_com_id,,8321
+6196,src_com_id,,8322
+6197,src_com_id,,8323
+6198,src_com_id,,8324
+6199,src_com_id,,8325
+6200,src_com_id,,8326
+6201,src_com_id,,8327
+6202,src_com_id,,8328
+6203,src_com_id,,8329
+6204,src_com_id,,8330
+6205,src_com_id,,8331
+6206,src_com_id,,8332
+6207,src_com_id,,8333
+6208,src_com_id,,8334
+6209,src_com_id,,8335
+6210,src_com_id,,8336
+6211,src_com_id,,8337
+6212,src_com_id,,8338
+6627,src_com_id,,9313
+6628,src_com_id,,9314
+6629,src_com_id,,9315
+6630,src_com_id,,9316
+6641,src_com_id,,9354
+6650,src_com_id,,9359
+6651,src_com_id,,9360
+6652,src_com_id,,9361
+6653,src_com_id,,9362
+6654,src_com_id,,9363
+6655,src_com_id,,9364
+6656,src_com_id,,9365
+6657,src_com_id,,9366
+6658,src_com_id,,9367
+6659,src_com_id,,9368
+6660,src_com_id,,9369
+6661,src_com_id,,9370
+6662,src_com_id,,9371
+6692,src_com_id,,9443
+6742,src_com_id,,9527
+6743,src_com_id,,9528
+6744,src_com_id,,9529
+6745,src_com_id,,9530
+6746,src_com_id,,9531
+6747,src_com_id,,9532
+6748,src_com_id,,9533
+7110,src_com_id,,10061
+7111,src_com_id,,10062
+7112,src_com_id,,10063
+7113,src_com_id,,10064
+7114,src_com_id,,10065
+7115,src_com_id,,10066
+7116,src_com_id,,10067
+7117,src_com_id,,10068
+7118,src_com_id,,10069
+7119,src_com_id,,10070
+7130,src_com_id,,10082
+7131,src_com_id,,10083
+7132,src_com_id,,10084
+7133,src_com_id,,10085
+7134,src_com_id,,10086
+7191,src_com_id,,10158
+7192,src_com_id,,10159
+7193,src_com_id,,10160
+7194,src_com_id,,10161
+7195,src_com_id,,10162
+7196,src_com_id,,10163
+7197,src_com_id,,10164
+7198,src_com_id,,10165
+7199,src_com_id,,10166
+7200,src_com_id,,10167
+7201,src_com_id,,10168
+7311,src_com_id,,10350
+7312,src_com_id,,10351
+7313,src_com_id,,10352
+7314,src_com_id,,10353
+7315,src_com_id,,10354
+7316,src_com_id,,10355
+7417,src_com_id,,10533
+7418,src_com_id,,10534
+7420,src_com_id,,10536
+7500,src_com_id,,10664
+7501,src_com_id,,10667
+7716,src_com_id,,11017
+7717,src_com_id,,11018
+7718,src_com_id,,11019
+7719,src_com_id,,11020
+7720,src_com_id,,11021
+7721,src_com_id,,11022
+7800,src_com_id,,11193
+8133,src_com_id,,11938
+8134,src_com_id,,11939
+8135,src_com_id,,11942
+8136,src_com_id,,11943
+8137,src_com_id,,11945
+8138,src_com_id,,11947
+8139,src_com_id,,11948
+8140,src_com_id,,11949
+8141,src_com_id,,11950
+8286,src_com_id,,12186
+8287,src_com_id,,12187
+8288,src_com_id,,12188
+8289,src_com_id,,12189
+8290,src_com_id,,12190
+8291,src_com_id,,12191
+8292,src_com_id,,12192
+8293,src_com_id,,12193
+8294,src_com_id,,12194
+8295,src_com_id,,12195
+8296,src_com_id,,12196
+8598,src_com_id,,12757
+8599,src_com_id,,12758
+8600,src_com_id,,12759
+8601,src_com_id,,12760
+8602,src_com_id,,12761
+8603,src_com_id,,12762
+8604,src_com_id,,12763
+8605,src_com_id,,12764
+8606,src_com_id,,12765
+8607,src_com_id,,12766
+8608,src_com_id,,12767
+8609,src_com_id,,12768
+8610,src_com_id,,12769
+8611,src_com_id,,12770
+8627,src_com_id,,12788
+8628,src_com_id,,12789
+8629,src_com_id,,12790
+8630,src_com_id,,12791
+8631,src_com_id,,12792
+8632,src_com_id,,12793
+8633,src_com_id,,12794
+8634,src_com_id,,12795
+8635,src_com_id,,12796
+8636,src_com_id,,12797
+8637,src_com_id,,12798
+8638,src_com_id,,12799
+8639,src_com_id,,12800
+8640,src_com_id,,12801
+8641,src_com_id,,12802
+8642,src_com_id,,12803
+8925,src_com_id,,13306
+8926,src_com_id,,13307
+8927,src_com_id,,13308
+8928,src_com_id,,13309
+9133,src_com_id,,13520
+9134,src_com_id,,13521
+9135,src_com_id,,13522
+9136,src_com_id,,13523
+9137,src_com_id,,13524
+9157,src_com_id,,13544
+9159,src_com_id,,13546
+9161,src_com_id,,13548
+9186,src_com_id,,13606
+9187,src_com_id,,13607
+9188,src_com_id,,13608
+9189,src_com_id,,13609
+9190,src_com_id,,13610
+9191,src_com_id,,13612
+10185,src_hdr_id vs src_jute_mr_id,10181,
+10186,src_hdr_id vs src_jute_mr_id,10182,
+10187,src_hdr_id vs src_jute_mr_id,10183,
+10188,src_hdr_id vs src_jute_mr_id,10184,
+10192,src_hdr_id vs src_jute_mr_id,10191,
+10194,src_hdr_id vs src_jute_mr_id,10193,
+10198,src_hdr_id vs src_jute_mr_id,10197,
+10200,src_hdr_id vs src_jute_mr_id,10199,
+10202,src_hdr_id vs src_jute_mr_id,10201,
+10204,src_hdr_id vs src_jute_mr_id,10203,
+10206,src_hdr_id vs src_jute_mr_id,10205,
+10212,src_hdr_id vs src_jute_mr_id,10211,
+10214,src_hdr_id vs src_jute_mr_id,10213,
+10216,src_hdr_id vs src_jute_mr_id,10215,
+10218,src_hdr_id vs src_jute_mr_id,10217,
+10220,src_hdr_id vs src_jute_mr_id,10219,
+10223,src_hdr_id vs src_jute_mr_id,10222,
+10241,src_hdr_id vs src_jute_mr_id,10240,
+10247,src_hdr_id vs src_jute_mr_id,10246,
+10249,src_hdr_id vs src_jute_mr_id,10248,
+10251,src_hdr_id vs src_jute_mr_id,10250,
+10255,src_hdr_id vs src_jute_mr_id,10254,
+10260,src_hdr_id vs src_jute_mr_id,10259,
+10263,src_hdr_id vs src_jute_mr_id,10262,
+10267,src_hdr_id vs src_jute_mr_id,10266,
+10273,src_hdr_id vs src_jute_mr_id,10272,
+10280,src_hdr_id vs src_jute_mr_id,10279,
+11657,src_hdr_id vs src_jute_mr_id,11652,
+11691,src_hdr_id vs src_jute_mr_id,11690,
+11693,src_hdr_id vs src_jute_mr_id,11692,
+11706,src_hdr_id vs src_jute_mr_id,11705,
+11719,src_hdr_id vs src_jute_mr_id,11718,
+11766,src_hdr_id vs src_jute_mr_id,11765,
+11787,src_hdr_id vs src_jute_mr_id,11786,
+12250,src_hdr_id vs src_jute_mr_id,12249,
+12283,src_hdr_id vs src_jute_mr_id,12282,
+12438,src_hdr_id vs src_jute_mr_id,12437,
+12460,src_hdr_id vs src_jute_mr_id,12459,
+12462,src_hdr_id vs src_jute_mr_id,12461,
+12466,src_hdr_id vs src_jute_mr_id,12465,
+12468,src_hdr_id vs src_jute_mr_id,12467,
+12544,src_hdr_id vs src_jute_mr_id,12543,
+12631,src_hdr_id vs src_jute_mr_id,12630,
+12655,src_hdr_id vs src_jute_mr_id,12654,
+12683,src_hdr_id vs src_jute_mr_id,12682,
+12689,src_hdr_id vs src_jute_mr_id,12688,
+12691,src_hdr_id vs src_jute_mr_id,12690,
+12699,src_hdr_id vs src_jute_mr_id,12698,
+12715,src_hdr_id vs src_jute_mr_id,12714,
+12747,src_hdr_id vs src_jute_mr_id,12746,
+12797,src_hdr_id vs src_jute_mr_id,12796,
+12804,src_hdr_id vs src_jute_mr_id,12802,
+12864,src_hdr_id vs src_jute_mr_id,12863,
+12867,src_hdr_id vs src_jute_mr_id,12866,
+12902,src_hdr_id vs src_jute_mr_id,12901,
+12904,src_hdr_id vs src_jute_mr_id,12903,
+12934,src_hdr_id vs src_jute_mr_id,12933,
+13001,src_hdr_id vs src_jute_mr_id,13000,
+13003,src_hdr_id vs src_jute_mr_id,13002,
+13345,src_hdr_id vs src_jute_mr_id,13344,
+13347,src_hdr_id vs src_jute_mr_id,13346,
+13389,src_hdr_id vs src_jute_mr_id,13388,
+13445,src_hdr_id vs src_jute_mr_id,13444,
+13515,src_hdr_id vs src_jute_mr_id,13514,
+13560,src_hdr_id vs src_jute_mr_id,13559,
+20228,src_hdr_id vs src_jute_mr_id,20227,
+20283,src_hdr_id vs src_jute_mr_id,20282,
+20557,src_hdr_id vs src_jute_mr_id,20556,
+20695,src_hdr_id vs src_jute_mr_id,20694,
+20703,src_hdr_id vs src_jute_mr_id,20702,
+20707,src_hdr_id vs src_jute_mr_id,20706,
+20709,src_hdr_id vs src_jute_mr_id,20708,
+20714,src_hdr_id vs src_jute_mr_id,20713,
+23450,src_hdr_id vs src_jute_mr_id,23426,
+23451,src_hdr_id vs src_jute_mr_id,23443,
+23452,src_hdr_id vs src_jute_mr_id,23446,
+23453,src_hdr_id vs src_jute_mr_id,23448,
+23455,src_hdr_id vs src_jute_mr_id,23454,
+23457,src_hdr_id vs src_jute_mr_id,23456,
+23460,src_hdr_id vs src_jute_mr_id,23459,
+23462,src_hdr_id vs src_jute_mr_id,23461,
+23466,src_hdr_id vs src_jute_mr_id,23465,
+23474,src_hdr_id vs src_jute_mr_id,23473,
+23500,src_hdr_id vs src_jute_mr_id,23485,
+23501,src_hdr_id vs src_jute_mr_id,23486,
+23514,src_hdr_id vs src_jute_mr_id,23487,

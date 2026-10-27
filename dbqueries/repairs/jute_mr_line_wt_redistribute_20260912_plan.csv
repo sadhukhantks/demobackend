@@ -1,0 +1,5 @@
+jute_mr_id,status_id,header_kg,jute_mr_li_id,actual_qty,allowable_moisture,actual_moisture,old_weight,old_shortage,old_accepted,new_actual_weight,new_shortage_kgs,new_accepted_weight
+28186,1,19000.0,45599,78.0,20.0,23.10,0.0,0,0.0,19000,589,18411
+28187,1,19890.0,45600,79.0,20.0,23.10,0.0,0,0.0,19890,617,19273
+28188,1,18380.0,45608,215.0,20.0,26.29,0.0,0,0.0,13674,860,12814
+28188,1,18380.0,45609,74.0,20.0,26.30,0.0,0,0.0,4706,296,4410

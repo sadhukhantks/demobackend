@@ -1,0 +1,449 @@
+- generic [ref=f11e1]:
+  - generic [ref=f11e2]:
+    - generic [ref=f11e5]:
+      - img "Logo" [ref=f11e8]
+      - paragraph [ref=f11e11]
+      - generic [ref=f11e13]:
+        - generic [ref=f11e15]:
+          - generic [ref=f11e16] [cursor=pointer]
+          - link "Jute Procurement" [ref=f11e19] [cursor=pointer]:
+            - /url: /dashboardportal/jutePurchase
+        - generic [ref=f11e21]:
+          - generic [ref=f11e22] [cursor=pointer]
+          - link "Procurement" [ref=f11e25] [cursor=pointer]:
+            - /url: /dashboardportal/procurement
+        - generic [ref=f11e27]:
+          - generic [ref=f11e28] [cursor=pointer]
+          - link "Masters" [ref=f11e31] [cursor=pointer]:
+            - /url: /dashboardportal/masters
+        - generic [ref=f11e33]:
+          - generic [ref=f11e34] [cursor=pointer]
+          - link "Inventory" [ref=f11e37] [cursor=pointer]:
+            - /url: /dashboardportal/inventory
+        - generic [ref=f11e39]:
+          - generic [ref=f11e40] [cursor=pointer]
+          - link "Sales" [ref=f11e43] [cursor=pointer]:
+            - /url: /dashboardportal/sales
+        - generic [ref=f11e45]:
+          - generic [ref=f11e46] [cursor=pointer]
+          - link "HRMS" [ref=f11e49] [cursor=pointer]:
+            - /url: /dashboardportal/hrms
+        - generic [ref=f11e51]:
+          - generic [ref=f11e52] [cursor=pointer]
+          - link "BOM and Costing" [ref=f11e55] [cursor=pointer]:
+            - /url: /dashboardportal/BomCosting
+        - generic [ref=f11e57]:
+          - generic [ref=f11e58] [cursor=pointer]
+          - link "Accounting" [ref=f11e61] [cursor=pointer]:
+            - /url: /dashboardportal/accounting
+        - generic [ref=f11e63]:
+          - generic [ref=f11e64] [cursor=pointer]
+          - link "HRMS Master" [ref=f11e67] [cursor=pointer]:
+            - /url: /dashboardportal/hrmsmasters
+        - generic [ref=f11e69]:
+          - generic [ref=f11e70] [cursor=pointer]
+          - link "Jute Production" [ref=f11e73] [cursor=pointer]:
+            - /url: /dashboardportal/juteProduction
+        - generic [ref=f11e75]:
+          - generic [ref=f11e76] [cursor=pointer]
+          - link "Jute SQC" [ref=f11e79] [cursor=pointer]:
+            - /url: /dashboardportal/juteSQC
+        - generic [ref=f11e81]:
+          - link:
+            - /url: /dashboardportal/null
+      - generic [ref=f11e83] [cursor=pointer]
+    - main [ref=f11e90]:
+      - button [ref=f11e92] [cursor=pointer]
+      - generic [ref=f11e96]:
+        - heading "Jute MR Issue Detail - GE-7 | 2025-12-04 | SHIVAM ENTERPRISES (all issues, dates ignored)" [level=5] [ref=f11e674]
+        - generic [ref=f11e99]:
+          - generic [ref=f11e101]:
+            - generic [ref=f11e102]: Branch
+            - generic [ref=f11e103]:
+              - combobox "Branch" [ref=f11e104]: Factory
+              - button "Open" [ref=f11e106] [cursor=pointer]
+              - group:
+                - generic: Branch
+          - generic [ref=f11e109]:
+            - generic [ref=f11e110]: From Date
+            - generic [ref=f11e111]:
+              - textbox "From Date" [ref=f11e112]: 2030-01-01
+              - group:
+                - generic: From Date
+          - generic [ref=f11e113]:
+            - generic [ref=f11e114]: To Date
+            - generic [ref=f11e115]:
+              - textbox "To Date" [ref=f11e116]: 2030-12-31
+              - group:
+                - generic: To Date
+          - generic [ref=f11e118]:
+            - generic [ref=f11e659]: MR (blank = all)
+            - generic [ref=f11e119]:
+              - combobox "MR (blank = all)" [active] [ref=f11e120]: EJM/F/JMR/25-26/00003 | 2026-01-03 | LAHOTY BROTHERS PRIVATE LIMITED
+              - generic [ref=f11e121]:
+                - button "Clear" [ref=f11e660] [cursor=pointer]
+                - button "Open" [ref=f11e122] [cursor=pointer]
+              - group:
+                - generic: MR (blank = all)
+          - button "Submit" [ref=f11e206] [cursor=pointer]
+          - button "Export to Excel" [ref=f11e207] [cursor=pointer]
+        - generic [ref=f11e131]:
+          - grid [ref=f11e132]:
+            - row [ref=f11e1052]:
+              - 'columnheader "MR # Sort MR # column menu" [ref=f11e1053] [cursor=pointer]':
+                - generic [ref=f11e135]: "MR #"
+                - generic "Sort" [ref=f11e666]:
+                  - button "Sort" [ref=f11e667]
+                - 'button "MR # column menu" [ref=f11e671]'
+              - columnheader "MR / Inward Date Sort" [ref=f11e138] [cursor=pointer]:
+                - generic [ref=f11e139]: MR / Inward Date
+                - generic "Sort" [ref=f11e142]:
+                  - button "Sort" [ref=f11e143]
+              - 'columnheader "GE #" [ref=f11e147] [cursor=pointer]'
+              - columnheader "Party" [ref=f11e151] [cursor=pointer]
+              - columnheader "Godown" [ref=f11e155] [cursor=pointer]
+              - columnheader "Quality" [ref=f11e159] [cursor=pointer]
+              - columnheader "Marka" [ref=f11e163] [cursor=pointer]
+              - columnheader "Crop Year" [ref=f11e167] [cursor=pointer]
+              - columnheader "Recv Qty" [ref=f11e677] [cursor=pointer]
+              - columnheader "Recv Wt" [ref=f11e681] [cursor=pointer]
+              - columnheader "Rate" [ref=f11e685] [cursor=pointer]
+              - 'columnheader "Issue #" [ref=f11e689] [cursor=pointer]'
+              - columnheader "Issue Date" [ref=f11e693] [cursor=pointer]
+              - columnheader "Issued Qty" [ref=f11e697] [cursor=pointer]
+              - columnheader "Issued Wt" [ref=f11e701] [cursor=pointer]
+              - columnheader "Issue Value" [ref=f11e705] [cursor=pointer]
+              - columnheader "Issue Item" [ref=f11e709] [cursor=pointer]
+              - columnheader "Yarn Type" [ref=f11e713] [cursor=pointer]
+              - columnheader "Issue Status" [ref=f11e717] [cursor=pointer]
+              - columnheader "Bal Qty" [ref=f11e721] [cursor=pointer]
+              - columnheader "Bal Wt" [ref=f11e725] [cursor=pointer]
+              - columnheader "Updated By" [ref=f11e729] [cursor=pointer]
+              - columnheader "Updated On" [ref=f11e733] [cursor=pointer]
+            - rowgroup [ref=f11e265]:
+              - row [ref=f11e737]:
+                - gridcell "GE-7" [ref=f11e738]
+                - gridcell "2025-12-04" [ref=f11e739]
+                - gridcell "7" [ref=f11e740]
+                - gridcell "SHIVAM ENTERPRISES" [ref=f11e741]
+                - gridcell "3A" [ref=f11e742]
+                - gridcell "M6 (B.BOT)" [ref=f11e743]
+                - gridcell [ref=f11e744]
+                - gridcell [ref=f11e745]
+                - gridcell "201.00" [ref=f11e746]
+                - gridcell "7900.00" [ref=f11e747]
+                - gridcell "8750.00" [ref=f11e748]
+                - gridcell "81164" [ref=f11e749]
+                - gridcell "2025-12-06" [ref=f11e750]
+                - gridcell "19.00" [ref=f11e751]
+                - gridcell "746.77" [ref=f11e752]
+                - gridcell "65342.04" [ref=f11e753]
+                - gridcell "M6 (B.BOT)" [ref=f11e754]
+                - gridcell "9-HSWP" [ref=f11e755]
+                - gridcell "APPROVED" [ref=f11e756]
+                - gridcell "0.00" [ref=f11e757]
+                - gridcell "-0.01" [ref=f11e758]
+                - gridcell "system" [ref=f11e759]
+                - gridcell "2026-02-13T10:29:38" [ref=f11e760]
+              - row [ref=f11e761]:
+                - gridcell "GE-7" [ref=f11e762]
+                - gridcell "2025-12-04" [ref=f11e763]
+                - gridcell "7" [ref=f11e764]
+                - gridcell "SHIVAM ENTERPRISES" [ref=f11e765]
+                - gridcell "3A" [ref=f11e766]
+                - gridcell "M6 (B.BOT)" [ref=f11e767]
+                - gridcell [ref=f11e768]
+                - gridcell [ref=f11e769]
+                - gridcell "201.00" [ref=f11e770]
+                - gridcell "7900.00" [ref=f11e771]
+                - gridcell "8750.00" [ref=f11e772]
+                - gridcell "81165" [ref=f11e773]
+                - gridcell "2025-12-06" [ref=f11e774]
+                - gridcell "4.00" [ref=f11e775]
+                - gridcell "157.21" [ref=f11e776]
+                - gridcell "13756.22" [ref=f11e777]
+                - gridcell "M6 (B.BOT)" [ref=f11e778]
+                - gridcell "9.5-HSWP" [ref=f11e779]
+                - gridcell "APPROVED" [ref=f11e780]
+                - gridcell "0.00" [ref=f11e781]
+                - gridcell "-0.01" [ref=f11e782]
+                - gridcell "system" [ref=f11e783]
+                - gridcell "2026-02-13T10:29:38" [ref=f11e784]
+              - row [ref=f11e785]:
+                - gridcell "GE-7" [ref=f11e786]
+                - gridcell "2025-12-04" [ref=f11e787]
+                - gridcell "7" [ref=f11e788]
+                - gridcell "SHIVAM ENTERPRISES" [ref=f11e789]
+                - gridcell "3A" [ref=f11e790]
+                - gridcell "M6 (B.BOT)" [ref=f11e791]
+                - gridcell [ref=f11e792]
+                - gridcell [ref=f11e793]
+                - gridcell "201.00" [ref=f11e794]
+                - gridcell "7900.00" [ref=f11e795]
+                - gridcell "8750.00" [ref=f11e796]
+                - gridcell "81166" [ref=f11e797]
+                - gridcell "2025-12-06" [ref=f11e798]
+                - gridcell "19.00" [ref=f11e799]
+                - gridcell "746.77" [ref=f11e800]
+                - gridcell "65342.04" [ref=f11e801]
+                - gridcell "M6 (B.BOT)" [ref=f11e802]
+                - gridcell "13-SKWP" [ref=f11e803]
+                - gridcell "APPROVED" [ref=f11e804]
+                - gridcell "0.00" [ref=f11e805]
+                - gridcell "-0.01" [ref=f11e806]
+                - gridcell "system" [ref=f11e807]
+                - gridcell "2026-02-13T10:29:38" [ref=f11e808]
+              - row [ref=f11e809]:
+                - gridcell "GE-7" [ref=f11e810]
+                - gridcell "2025-12-04" [ref=f11e811]
+                - gridcell "7" [ref=f11e812]
+                - gridcell "SHIVAM ENTERPRISES" [ref=f11e813]
+                - gridcell "3A" [ref=f11e814]
+                - gridcell "M6 (B.BOT)" [ref=f11e815]
+                - gridcell [ref=f11e816]
+                - gridcell [ref=f11e817]
+                - gridcell "201.00" [ref=f11e818]
+                - gridcell "7900.00" [ref=f11e819]
+                - gridcell "8750.00" [ref=f11e820]
+                - gridcell "81167" [ref=f11e821]
+                - gridcell "2025-12-06" [ref=f11e822]
+                - gridcell "15.00" [ref=f11e823]
+                - gridcell "589.55" [ref=f11e824]
+                - gridcell "51585.82" [ref=f11e825]
+                - gridcell "M6 (B.BOT)" [ref=f11e826]
+                - gridcell "16-SKWP" [ref=f11e827]
+                - gridcell "APPROVED" [ref=f11e828]
+                - gridcell "0.00" [ref=f11e829]
+                - gridcell "-0.01" [ref=f11e830]
+                - gridcell "system" [ref=f11e831]
+                - gridcell "2026-02-13T10:29:39" [ref=f11e832]
+              - row [ref=f11e833]:
+                - gridcell "GE-7" [ref=f11e834]
+                - gridcell "2025-12-04" [ref=f11e835]
+                - gridcell "7" [ref=f11e836]
+                - gridcell "SHIVAM ENTERPRISES" [ref=f11e837]
+                - gridcell "3A" [ref=f11e838]
+                - gridcell "M6 (B.BOT)" [ref=f11e839]
+                - gridcell [ref=f11e840]
+                - gridcell [ref=f11e841]
+                - gridcell "201.00" [ref=f11e842]
+                - gridcell "7900.00" [ref=f11e843]
+                - gridcell "8750.00" [ref=f11e844]
+                - gridcell "81555" [ref=f11e845]
+                - gridcell "2025-12-08" [ref=f11e846]
+                - gridcell "12.00" [ref=f11e847]
+                - gridcell "471.64" [ref=f11e848]
+                - gridcell "41268.66" [ref=f11e849]
+                - gridcell "MESTA" [ref=f11e850]
+                - gridcell "9-HSWP" [ref=f11e851]
+                - gridcell "APPROVED" [ref=f11e852]
+                - gridcell "0.00" [ref=f11e853]
+                - gridcell "-0.01" [ref=f11e854]
+                - gridcell "system" [ref=f11e855]
+                - gridcell "2026-02-18T05:26:09" [ref=f11e856]
+              - row [ref=f11e857]:
+                - gridcell "GE-7" [ref=f11e858]
+                - gridcell "2025-12-04" [ref=f11e859]
+                - gridcell "7" [ref=f11e860]
+                - gridcell "SHIVAM ENTERPRISES" [ref=f11e861]
+                - gridcell "3A" [ref=f11e862]
+                - gridcell "M6 (B.BOT)" [ref=f11e863]
+                - gridcell [ref=f11e864]
+                - gridcell [ref=f11e865]
+                - gridcell "201.00" [ref=f11e866]
+                - gridcell "7900.00" [ref=f11e867]
+                - gridcell "8750.00" [ref=f11e868]
+                - gridcell "81556" [ref=f11e869]
+                - gridcell "2025-12-08" [ref=f11e870]
+                - gridcell "12.00" [ref=f11e871]
+                - gridcell "471.64" [ref=f11e872]
+                - gridcell "41268.66" [ref=f11e873]
+                - gridcell "MESTA" [ref=f11e874]
+                - gridcell "13-SKWP" [ref=f11e875]
+                - gridcell "APPROVED" [ref=f11e876]
+                - gridcell "0.00" [ref=f11e877]
+                - gridcell "-0.01" [ref=f11e878]
+                - gridcell "system" [ref=f11e879]
+                - gridcell "2026-02-18T05:26:09" [ref=f11e880]
+              - row [ref=f11e881]:
+                - gridcell "GE-7" [ref=f11e882]
+                - gridcell "2025-12-04" [ref=f11e883]
+                - gridcell "7" [ref=f11e884]
+                - gridcell "SHIVAM ENTERPRISES" [ref=f11e885]
+                - gridcell "3A" [ref=f11e886]
+                - gridcell "M6 (B.BOT)" [ref=f11e887]
+                - gridcell [ref=f11e888]
+                - gridcell [ref=f11e889]
+                - gridcell "201.00" [ref=f11e890]
+                - gridcell "7900.00" [ref=f11e891]
+                - gridcell "8750.00" [ref=f11e892]
+                - gridcell "81557" [ref=f11e893]
+                - gridcell "2025-12-08" [ref=f11e894]
+                - gridcell "12.00" [ref=f11e895]
+                - gridcell "471.64" [ref=f11e896]
+                - gridcell "41268.66" [ref=f11e897]
+                - gridcell "MESTA" [ref=f11e898]
+                - gridcell "16-SKWP" [ref=f11e899]
+                - gridcell "APPROVED" [ref=f11e900]
+                - gridcell "0.00" [ref=f11e901]
+                - gridcell "-0.01" [ref=f11e902]
+                - gridcell "system" [ref=f11e903]
+                - gridcell "2026-02-18T05:26:09" [ref=f11e904]
+              - row [ref=f11e905]:
+                - gridcell "GE-7" [ref=f11e906]
+                - gridcell "2025-12-04" [ref=f11e907]
+                - gridcell "7" [ref=f11e908]
+                - gridcell "SHIVAM ENTERPRISES" [ref=f11e909]
+                - gridcell "3A" [ref=f11e910]
+                - gridcell "M6 (B.BOT)" [ref=f11e911]
+                - gridcell [ref=f11e912]
+                - gridcell [ref=f11e913]
+                - gridcell "201.00" [ref=f11e914]
+                - gridcell "7900.00" [ref=f11e915]
+                - gridcell "8750.00" [ref=f11e916]
+                - gridcell "81192" [ref=f11e917]
+                - gridcell "2025-12-09" [ref=f11e918]
+                - gridcell "11.00" [ref=f11e919]
+                - gridcell "432.34" [ref=f11e920]
+                - gridcell "37829.60" [ref=f11e921]
+                - gridcell "M6 (B.BOT)" [ref=f11e922]
+                - gridcell "9-HSWP" [ref=f11e923]
+                - gridcell "APPROVED" [ref=f11e924]
+                - gridcell "0.00" [ref=f11e925]
+                - gridcell "-0.01" [ref=f11e926]
+                - gridcell "system" [ref=f11e927]
+                - gridcell "2026-02-13T11:12:27" [ref=f11e928]
+              - row [ref=f11e929]:
+                - gridcell "GE-7" [ref=f11e930]
+                - gridcell "2025-12-04" [ref=f11e931]
+                - gridcell "7" [ref=f11e932]
+                - gridcell "SHIVAM ENTERPRISES" [ref=f11e933]
+                - gridcell "3A" [ref=f11e934]
+                - gridcell "M6 (B.BOT)" [ref=f11e935]
+                - gridcell [ref=f11e936]
+                - gridcell [ref=f11e937]
+                - gridcell "201.00" [ref=f11e938]
+                - gridcell "7900.00" [ref=f11e939]
+                - gridcell "8750.00" [ref=f11e940]
+                - gridcell "81193" [ref=f11e941]
+                - gridcell "2025-12-09" [ref=f11e942]
+                - gridcell "16.00" [ref=f11e943]
+                - gridcell "628.86" [ref=f11e944]
+                - gridcell "55024.88" [ref=f11e945]
+                - gridcell "M6 (B.BOT)" [ref=f11e946]
+                - gridcell "13-SKWP" [ref=f11e947]
+                - gridcell "APPROVED" [ref=f11e948]
+                - gridcell "0.00" [ref=f11e949]
+                - gridcell "-0.01" [ref=f11e950]
+                - gridcell "system" [ref=f11e951]
+                - gridcell "2026-02-13T11:12:27" [ref=f11e952]
+              - row [ref=f11e953]:
+                - gridcell "GE-7" [ref=f11e954]
+                - gridcell "2025-12-04" [ref=f11e955]
+                - gridcell "7" [ref=f11e956]
+                - gridcell "SHIVAM ENTERPRISES" [ref=f11e957]
+                - gridcell "3A" [ref=f11e958]
+                - gridcell "M6 (B.BOT)" [ref=f11e959]
+                - gridcell [ref=f11e960]
+                - gridcell [ref=f11e961]
+                - gridcell "201.00" [ref=f11e962]
+                - gridcell "7900.00" [ref=f11e963]
+                - gridcell "8750.00" [ref=f11e964]
+                - gridcell "81194" [ref=f11e965]
+                - gridcell "2025-12-09" [ref=f11e966]
+                - gridcell "11.00" [ref=f11e967]
+                - gridcell "432.34" [ref=f11e968]
+                - gridcell "37829.60" [ref=f11e969]
+                - gridcell "M6 (B.BOT)" [ref=f11e970]
+                - gridcell "16-SKWP" [ref=f11e971]
+                - gridcell "APPROVED" [ref=f11e972]
+                - gridcell "0.00" [ref=f11e973]
+                - gridcell "-0.01" [ref=f11e974]
+                - gridcell "system" [ref=f11e975]
+                - gridcell "2026-02-13T11:12:27" [ref=f11e976]
+              - row [ref=f11e977]:
+                - gridcell "GE-7" [ref=f11e978]
+                - gridcell "2025-12-04" [ref=f11e979]
+                - gridcell "7" [ref=f11e980]
+                - gridcell "SHIVAM ENTERPRISES" [ref=f11e981]
+                - gridcell "3A" [ref=f11e982]
+                - gridcell "M6 (B.BOT)" [ref=f11e983]
+                - gridcell [ref=f11e984]
+                - gridcell [ref=f11e985]
+                - gridcell "201.00" [ref=f11e986]
+                - gridcell "7900.00" [ref=f11e987]
+                - gridcell "8750.00" [ref=f11e988]
+                - gridcell "81202" [ref=f11e989]
+                - gridcell "2025-12-12" [ref=f11e990]
+                - gridcell "22.00" [ref=f11e991]
+                - gridcell "864.68" [ref=f11e992]
+                - gridcell "75659.20" [ref=f11e993]
+                - gridcell "M6 (B.BOT)" [ref=f11e994]
+                - gridcell "9-HSWP" [ref=f11e995]
+                - gridcell "APPROVED" [ref=f11e996]
+                - gridcell "0.00" [ref=f11e997]
+                - gridcell "-0.01" [ref=f11e998]
+                - gridcell "system" [ref=f11e999]
+                - gridcell "2026-02-13T11:37:48" [ref=f11e1000]
+              - row [ref=f11e1001]:
+                - gridcell "GE-7" [ref=f11e1002]
+                - gridcell "2025-12-04" [ref=f11e1003]
+                - gridcell "7" [ref=f11e1004]
+                - gridcell "SHIVAM ENTERPRISES" [ref=f11e1005]
+                - gridcell "3A" [ref=f11e1006]
+                - gridcell "M6 (B.BOT)" [ref=f11e1007]
+                - gridcell [ref=f11e1008]
+                - gridcell [ref=f11e1009]
+                - gridcell "201.00" [ref=f11e1010]
+                - gridcell "7900.00" [ref=f11e1011]
+                - gridcell "8750.00" [ref=f11e1012]
+                - gridcell "81203" [ref=f11e1013]
+                - gridcell "2025-12-12" [ref=f11e1014]
+                - gridcell "22.00" [ref=f11e1015]
+                - gridcell "864.68" [ref=f11e1016]
+                - gridcell "75659.20" [ref=f11e1017]
+                - gridcell "M6 (B.BOT)" [ref=f11e1018]
+                - gridcell "13-SKWP" [ref=f11e1019]
+                - gridcell "APPROVED" [ref=f11e1020]
+                - gridcell "0.00" [ref=f11e1021]
+                - gridcell "-0.01" [ref=f11e1022]
+                - gridcell "system" [ref=f11e1023]
+                - gridcell "2026-02-13T11:37:48" [ref=f11e1024]
+              - row [ref=f11e1025]:
+                - gridcell "GE-7" [ref=f11e1026]
+                - gridcell "2025-12-04" [ref=f11e1027]
+                - gridcell "7" [ref=f11e1028]
+                - gridcell "SHIVAM ENTERPRISES" [ref=f11e1029]
+                - gridcell "3A" [ref=f11e1030]
+                - gridcell "M6 (B.BOT)" [ref=f11e1031]
+                - gridcell [ref=f11e1032]
+                - gridcell [ref=f11e1033]
+                - gridcell "201.00" [ref=f11e1034]
+                - gridcell "7900.00" [ref=f11e1035]
+                - gridcell "8750.00" [ref=f11e1036]
+                - gridcell "81204" [ref=f11e1037]
+                - gridcell "2025-12-12" [ref=f11e1038]
+                - gridcell "26.00" [ref=f11e1039]
+                - gridcell "1021.89" [ref=f11e1040]
+                - gridcell "89415.42" [ref=f11e1041]
+                - gridcell "M6 (B.BOT)" [ref=f11e1042]
+                - gridcell "16-SKWP" [ref=f11e1043]
+                - gridcell "APPROVED" [ref=f11e1044]
+                - gridcell "0.00" [ref=f11e1045]
+                - gridcell "-0.01" [ref=f11e1046]
+                - gridcell "system" [ref=f11e1047]
+                - gridcell "2026-02-13T11:37:48" [ref=f11e1048]
+          - generic [ref=f11e182]:
+            - paragraph [ref=f11e183]: "Rows per page:"
+            - generic [ref=f11e184]:
+              - 'combobox "Rows per page: 50" [ref=f11e185] [cursor=pointer]': "50"
+              - textbox: "50"
+            - paragraph [ref=f11e186]: 1–13 of 13
+            - generic [ref=f11e187]:
+              - button "Go to previous page" [disabled]
+              - button "Go to next page" [disabled]
+    - button "Raise a support ticket" [ref=f11e188] [cursor=pointer]
+  - region "Notifications (F8)":
+    - list
+  - button "Open Next.js Dev Tools" [ref=f11e201] [cursor=pointer]
+  - alert [ref=f11e205]

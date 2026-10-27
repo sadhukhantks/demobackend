@@ -1,0 +1,117 @@
+- generic [active] [ref=f11e1]:
+  - generic [ref=f11e2]:
+    - generic [ref=f11e5]:
+      - img "Logo" [ref=f11e8]
+      - paragraph [ref=f11e11]
+      - generic [ref=f11e13]:
+        - generic [ref=f11e15]:
+          - generic [ref=f11e16] [cursor=pointer]
+          - link "Jute Procurement" [ref=f11e19] [cursor=pointer]:
+            - /url: /dashboardportal/jutePurchase
+        - generic [ref=f11e21]:
+          - generic [ref=f11e22] [cursor=pointer]
+          - link "Procurement" [ref=f11e25] [cursor=pointer]:
+            - /url: /dashboardportal/procurement
+        - generic [ref=f11e27]:
+          - generic [ref=f11e28] [cursor=pointer]
+          - link "Masters" [ref=f11e31] [cursor=pointer]:
+            - /url: /dashboardportal/masters
+        - generic [ref=f11e33]:
+          - generic [ref=f11e34] [cursor=pointer]
+          - link "Inventory" [ref=f11e37] [cursor=pointer]:
+            - /url: /dashboardportal/inventory
+        - generic [ref=f11e39]:
+          - generic [ref=f11e40] [cursor=pointer]
+          - link "Sales" [ref=f11e43] [cursor=pointer]:
+            - /url: /dashboardportal/sales
+        - generic [ref=f11e45]:
+          - generic [ref=f11e46] [cursor=pointer]
+          - link "HRMS" [ref=f11e49] [cursor=pointer]:
+            - /url: /dashboardportal/hrms
+        - generic [ref=f11e51]:
+          - generic [ref=f11e52] [cursor=pointer]
+          - link "BOM and Costing" [ref=f11e55] [cursor=pointer]:
+            - /url: /dashboardportal/BomCosting
+        - generic [ref=f11e57]:
+          - generic [ref=f11e58] [cursor=pointer]
+          - link "Accounting" [ref=f11e61] [cursor=pointer]:
+            - /url: /dashboardportal/accounting
+        - generic [ref=f11e63]:
+          - generic [ref=f11e64] [cursor=pointer]
+          - link "HRMS Master" [ref=f11e67] [cursor=pointer]:
+            - /url: /dashboardportal/hrmsmasters
+        - generic [ref=f11e69]:
+          - generic [ref=f11e70] [cursor=pointer]
+          - link "Jute Production" [ref=f11e73] [cursor=pointer]:
+            - /url: /dashboardportal/juteProduction
+        - generic [ref=f11e75]:
+          - generic [ref=f11e76] [cursor=pointer]
+          - link "Jute SQC" [ref=f11e79] [cursor=pointer]:
+            - /url: /dashboardportal/juteSQC
+        - generic [ref=f11e81]:
+          - link:
+            - /url: /dashboardportal/null
+      - generic [ref=f11e83] [cursor=pointer]
+    - main [ref=f11e90]:
+      - button [ref=f11e92] [cursor=pointer]
+      - generic [ref=f11e96]:
+        - heading "Jute MR Issue Detail (all MRs in period)" [level=5] [ref=f11e97]
+        - generic [ref=f11e99]:
+          - generic [ref=f11e101]:
+            - generic [ref=f11e102]: Branch
+            - generic [ref=f11e103]:
+              - combobox "Branch" [ref=f11e104]: Factory
+              - button "Open" [ref=f11e106] [cursor=pointer]
+              - group:
+                - generic: Branch
+          - generic [ref=f11e109]:
+            - generic [ref=f11e110]: From Date
+            - generic [ref=f11e111]:
+              - textbox "From Date" [ref=f11e112]: 2030-01-01
+              - group:
+                - generic: From Date
+          - generic [ref=f11e113]:
+            - generic [ref=f11e114]: To Date
+            - generic [ref=f11e115]:
+              - textbox "To Date" [ref=f11e116]: 2030-12-31
+              - group:
+                - generic: To Date
+          - generic [ref=f11e118]:
+            - generic: MR (blank = all)
+            - generic [ref=f11e119]:
+              - combobox "MR (blank = all)" [ref=f11e120]
+              - button "Open" [ref=f11e122] [cursor=pointer]
+              - group:
+                - generic: MR (blank = all)
+          - button "Submit" [ref=f11e206] [cursor=pointer]
+          - button "Export to Excel" [disabled]
+        - generic [ref=f11e131]:
+          - grid [ref=f11e132]:
+            - row [ref=f11e656]:
+              - 'columnheader "MR #" [ref=f11e134] [cursor=pointer]'
+              - columnheader "MR / Inward Date Sort" [ref=f11e138] [cursor=pointer]:
+                - generic [ref=f11e139]: MR / Inward Date
+                - generic "Sort" [ref=f11e142]:
+                  - button "Sort" [ref=f11e143]
+              - 'columnheader "GE #" [ref=f11e147] [cursor=pointer]'
+              - columnheader "Party" [ref=f11e151] [cursor=pointer]
+              - columnheader "Godown" [ref=f11e155] [cursor=pointer]
+              - columnheader "Quality" [ref=f11e159] [cursor=pointer]
+              - columnheader "Marka" [ref=f11e163] [cursor=pointer]
+              - columnheader "Crop Year" [ref=f11e167] [cursor=pointer]
+            - generic: No rows
+            - rowgroup
+          - generic [ref=f11e182]:
+            - paragraph [ref=f11e183]: "Rows per page:"
+            - generic [ref=f11e184]:
+              - 'combobox "Rows per page: 50" [ref=f11e185] [cursor=pointer]': "50"
+              - textbox: "50"
+            - paragraph [ref=f11e186]: 0–0 of 0
+            - generic [ref=f11e187]:
+              - button "Go to previous page" [disabled]
+              - button "Go to next page" [disabled]
+    - button "Raise a support ticket" [ref=f11e188] [cursor=pointer]
+  - region "Notifications (F8)":
+    - list
+  - button "Open Next.js Dev Tools" [ref=f11e201] [cursor=pointer]
+  - alert [ref=f11e205]

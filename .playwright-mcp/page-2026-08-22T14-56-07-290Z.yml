@@ -1,0 +1,273 @@
+- generic [ref=f2e1]:
+  - generic [ref=f2e2]:
+    - generic [ref=f2e5]:
+      - img "Logo" [ref=f2e8]
+      - paragraph [ref=f2e11]
+      - generic [ref=f2e63]:
+        - generic [ref=f2e65]:
+          - generic [ref=f2e66] [cursor=pointer]
+          - link "Jute Procurement" [ref=f2e69] [cursor=pointer]:
+            - /url: /dashboardportal/jutePurchase
+        - generic [ref=f2e71]:
+          - generic [ref=f2e72] [cursor=pointer]
+          - link "Procurement" [ref=f2e75] [cursor=pointer]:
+            - /url: /dashboardportal/procurement
+        - generic [ref=f2e77]:
+          - generic [ref=f2e78] [cursor=pointer]
+          - link "Masters" [ref=f2e81] [cursor=pointer]:
+            - /url: /dashboardportal/masters
+        - generic [ref=f2e83]:
+          - generic [ref=f2e84] [cursor=pointer]
+          - link "Inventory" [ref=f2e87] [cursor=pointer]:
+            - /url: /dashboardportal/inventory
+        - generic [ref=f2e89]:
+          - generic [ref=f2e90] [cursor=pointer]
+          - link "Sales" [ref=f2e93] [cursor=pointer]:
+            - /url: /dashboardportal/sales
+        - generic [ref=f2e95]:
+          - generic [ref=f2e96] [cursor=pointer]
+          - link "HRMS" [ref=f2e99] [cursor=pointer]:
+            - /url: /dashboardportal/hrms
+        - generic [ref=f2e101]:
+          - generic [ref=f2e102] [cursor=pointer]
+          - link "BOM and Costing" [ref=f2e105] [cursor=pointer]:
+            - /url: /dashboardportal/BomCosting
+        - generic [ref=f2e107]:
+          - generic [ref=f2e108] [cursor=pointer]
+          - link "Accounting" [ref=f2e111] [cursor=pointer]:
+            - /url: /dashboardportal/accounting
+        - generic [ref=f2e113]:
+          - generic [ref=f2e114] [cursor=pointer]
+          - link "HRMS Master" [ref=f2e117] [cursor=pointer]:
+            - /url: /dashboardportal/hrmsmasters
+        - generic [ref=f2e119]:
+          - generic [ref=f2e120] [cursor=pointer]
+          - link "Jute Production" [ref=f2e123] [cursor=pointer]:
+            - /url: /dashboardportal/juteProduction
+        - generic [ref=f2e125]:
+          - generic [ref=f2e126] [cursor=pointer]
+          - link "Jute SQC" [ref=f2e129] [cursor=pointer]:
+            - /url: /dashboardportal/juteSQC
+        - generic [ref=f2e131]:
+          - link:
+            - /url: /dashboardportal/null
+      - generic [ref=f2e14] [cursor=pointer]
+    - main [ref=f2e21]:
+      - button [ref=f2e158] [cursor=pointer]
+      - generic [ref=f2e162]:
+        - heading "Jute MR Issue Detail - EJM/F/JMR/25-26/00003 | 2026-01-03 | LAHOTY BROTHERS PRIVATE LIMITED (all issues, dates ignored)" [level=5] [ref=f2e845]
+        - generic [ref=f2e165]:
+          - generic [ref=f2e167]:
+            - generic [ref=f2e168]: Branch
+            - generic [ref=f2e169]:
+              - combobox "Branch" [ref=f2e170]: Factory
+              - button "Open" [ref=f2e172] [cursor=pointer]
+              - group:
+                - generic: Branch
+          - generic [ref=f2e175]:
+            - generic [ref=f2e176]: From Date
+            - generic [ref=f2e177]:
+              - textbox "From Date" [ref=f2e178]: 2025-04-01
+              - group:
+                - generic: From Date
+          - generic [ref=f2e179]:
+            - generic [ref=f2e180]: To Date
+            - generic [ref=f2e181]:
+              - textbox "To Date" [ref=f2e182]: 2026-12-31
+              - group:
+                - generic: To Date
+          - generic [ref=f2e184]:
+            - generic [ref=f2e514]: MR (blank = all)
+            - generic [ref=f2e185]:
+              - combobox "MR (blank = all)" [expanded] [active] [ref=f2e186]
+              - button "Close" [ref=f2e894] [cursor=pointer]
+              - group:
+                - generic: MR (blank = all)
+          - button "Submit" [ref=f2e262] [cursor=pointer]
+          - button "Export to Excel" [ref=f2e263] [cursor=pointer]
+        - generic [ref=f2e197]:
+          - grid [ref=f2e198]:
+            - row [ref=f2e627]:
+              - 'columnheader "MR #" [ref=f2e628] [cursor=pointer]'
+              - columnheader "MR / Inward Date Sort" [ref=f2e204] [cursor=pointer]:
+                - generic [ref=f2e205]: MR / Inward Date
+                - generic "Sort" [ref=f2e208]:
+                  - button "Sort" [ref=f2e209]
+              - 'columnheader "GE #" [ref=f2e213] [cursor=pointer]'
+              - columnheader "Party" [ref=f2e217] [cursor=pointer]
+              - columnheader "Godown" [ref=f2e221] [cursor=pointer]
+              - columnheader "Quality" [ref=f2e225] [cursor=pointer]
+              - columnheader "Marka" [ref=f2e229] [cursor=pointer]
+              - columnheader "Crop Year" [ref=f2e233] [cursor=pointer]
+              - columnheader "Recv Qty" [ref=f2e237] [cursor=pointer]
+              - columnheader "Recv Wt" [ref=f2e265] [cursor=pointer]
+              - columnheader "Rate" [ref=f2e269] [cursor=pointer]
+              - 'columnheader "Issue #" [ref=f2e273] [cursor=pointer]'
+              - columnheader "Issue Date" [ref=f2e277] [cursor=pointer]
+              - columnheader "Issued Qty" [ref=f2e281] [cursor=pointer]
+              - columnheader "Issued Wt" [ref=f2e285] [cursor=pointer]
+              - columnheader "Issue Value" [ref=f2e289] [cursor=pointer]
+              - columnheader "Issue Item" [ref=f2e293] [cursor=pointer]
+              - columnheader "Yarn Type" [ref=f2e297] [cursor=pointer]
+              - columnheader "Issue Status" [ref=f2e301] [cursor=pointer]
+              - columnheader "Bal Qty" [ref=f2e305] [cursor=pointer]
+              - columnheader "Bal Wt" [ref=f2e309] [cursor=pointer]
+              - columnheader "Updated By" [ref=f2e313] [cursor=pointer]
+              - columnheader "Updated On" [ref=f2e317] [cursor=pointer]
+            - rowgroup [ref=f2e321]:
+              - row [ref=f2e846]:
+                - gridcell "EJM/F/JMR/25-26/00003" [ref=f2e847]
+                - gridcell "2026-01-03" [ref=f2e848]
+                - gridcell "84" [ref=f2e849]
+                - gridcell "LAHOTY BROTHERS PRIVATE LIMITED" [ref=f2e850]
+                - gridcell "2" [ref=f2e851]
+                - gridcell "D TD 5" [ref=f2e852]
+                - gridcell [ref=f2e853]
+                - gridcell [ref=f2e854]
+                - gridcell "126.00" [ref=f2e855]
+                - gridcell "4812.00" [ref=f2e856]
+                - gridcell "12000.00" [ref=f2e857]
+                - gridcell [ref=f2e858]
+                - gridcell [ref=f2e859]
+                - gridcell [ref=f2e860]
+                - gridcell [ref=f2e861]
+                - gridcell [ref=f2e862]
+                - gridcell [ref=f2e863]
+                - gridcell [ref=f2e864]
+                - gridcell [ref=f2e865]
+                - gridcell "126.00" [ref=f2e866]
+                - gridcell "4812.00" [ref=f2e867]
+                - gridcell [ref=f2e868]
+                - gridcell [ref=f2e869]
+              - row [ref=f2e870]:
+                - gridcell "EJM/F/JMR/25-26/00003" [ref=f2e871]
+                - gridcell "2026-01-03" [ref=f2e872]
+                - gridcell "84" [ref=f2e873]
+                - gridcell "LAHOTY BROTHERS PRIVATE LIMITED" [ref=f2e874]
+                - gridcell "2" [ref=f2e875]
+                - gridcell "D TD 6" [ref=f2e876]
+                - gridcell [ref=f2e877]
+                - gridcell [ref=f2e878]
+                - gridcell "84.00" [ref=f2e879]
+                - gridcell "3208.00" [ref=f2e880]
+                - gridcell "11800.00" [ref=f2e881]
+                - gridcell [ref=f2e882]
+                - gridcell [ref=f2e883]
+                - gridcell [ref=f2e884]
+                - gridcell [ref=f2e885]
+                - gridcell [ref=f2e886]
+                - gridcell [ref=f2e887]
+                - gridcell [ref=f2e888]
+                - gridcell [ref=f2e889]
+                - gridcell "84.00" [ref=f2e890]
+                - gridcell "3208.00" [ref=f2e891]
+                - gridcell [ref=f2e892]
+                - gridcell [ref=f2e893]
+          - generic [ref=f2e248]:
+            - paragraph [ref=f2e249]: "Rows per page:"
+            - generic [ref=f2e250]:
+              - 'combobox "Rows per page: 50" [ref=f2e251] [cursor=pointer]': "50"
+              - textbox: "50"
+            - paragraph [ref=f2e252]: 1–2 of 2
+            - generic [ref=f2e253]:
+              - button "Go to previous page" [disabled]
+              - button "Go to next page" [disabled]
+    - button "Raise a support ticket" [ref=f2e46] [cursor=pointer]
+  - region "Notifications (F8)":
+    - list
+  - button "Open Next.js Dev Tools" [ref=f2e59] [cursor=pointer]
+  - alert [ref=f2e134]
+  - listbox "MR (blank = all)" [ref=f2e896]:
+    - option "GE-10 | 2026-08-10 | HONEYWELL COMMERCIAL P.LTD" [ref=f2e897] [cursor=pointer]
+    - option "GE-9 | 2026-08-09 | SHIVAM ENTERPRISES" [ref=f2e898] [cursor=pointer]
+    - option "GE-8 | 2026-08-09" [ref=f2e899] [cursor=pointer]
+    - option "GE-7 | 2026-08-09" [ref=f2e900] [cursor=pointer]
+    - option "GE-6 | 2026-08-05" [ref=f2e901] [cursor=pointer]
+    - option "GE-5 | 2026-04-19 | SHEMA JUTE AGENCY" [ref=f2e902] [cursor=pointer]
+    - option "GE-4 | 2026-04-03 | LAHOTY BROTHERS PRIVATE LIMITED" [ref=f2e903] [cursor=pointer]
+    - option "GE-3 | 2026-04-02" [ref=f2e904] [cursor=pointer]
+    - option "EJM/F/JMR/26-27/00001 | 2026-04-01 | SIDDHARTHA ELECTROTEC & TRADING PVT LTD" [ref=f2e905] [cursor=pointer]
+    - option "GE-1 | 2026-04-01 | HONEYWELL COMMERCIAL P.LTD" [ref=f2e906] [cursor=pointer]
+    - option "EJM/F/JMR/25-26/00007 | 2026-03-28 | SHEMA JUTE AGENCY" [ref=f2e907] [cursor=pointer]
+    - option "EJM/F/JMR/25-26/00003 | 2026-02-28 | KHETULAL PUGALIA" [ref=f2e908] [cursor=pointer]
+    - option "GE-56 | 2026-02-25 | HONEYWELL COMMERCIAL P.LTD" [ref=f2e909] [cursor=pointer]
+    - option "GE-55 | 2026-02-25 | HONEYWELL COMMERCIAL P.LTD" [ref=f2e910] [cursor=pointer]
+    - option "EJM/F/JMR/25-26/00002 | 2026-02-20 | SUKUMAR SAHA" [ref=f2e911] [cursor=pointer]
+    - option "GE-39 | 2026-01-23 | SHEMA JUTE AGENCY" [ref=f2e912] [cursor=pointer]
+    - option "GE-38 | 2026-01-22 | SUSHIL KR.PUGALIA." [ref=f2e913] [cursor=pointer]
+    - option "GE-37 | 2026-01-21 | SHEMA JUTE AGENCY" [ref=f2e914] [cursor=pointer]
+    - option "GE-40 | 2026-01-19 | SHIVAM ENTERPRISES" [ref=f2e915] [cursor=pointer]
+    - option "GE-36 | 2026-01-18 | SHEMA JUTE AGENCY" [ref=f2e916] [cursor=pointer]
+    - option "GE-33 | 2026-01-17 | SHEMA JUTE AGENCY" [ref=f2e917] [cursor=pointer]
+    - option "GE-32 | 2026-01-16 | SHEMA JUTE AGENCY" [ref=f2e918] [cursor=pointer]
+    - option "GE-35 | 2026-01-13 | SHIVAM ENTERPRISES" [ref=f2e919] [cursor=pointer]
+    - option "GE-31 | 2026-01-13 | SHEMA JUTE AGENCY" [ref=f2e920] [cursor=pointer]
+    - option "GE-34 | 2026-01-12 | SHIVAM ENTERPRISES" [ref=f2e921] [cursor=pointer]
+    - option "GE-30 | 2026-01-10 | SHEMA JUTE AGENCY" [ref=f2e922] [cursor=pointer]
+    - option "GE-28 | 2026-01-06 | HAFIJUL ALI" [ref=f2e923] [cursor=pointer]
+    - option "EJM/F/JMR/25-26/00019 | 2026-01-05 | LAHOTY BROTHERS PRIVATE LIMITED" [ref=f2e924] [cursor=pointer]
+    - option "EJM/F/JMR/25-26/00018 | 2026-01-05 | LAHOTY BROTHERS PRIVATE LIMITED" [ref=f2e925] [cursor=pointer]
+    - option "EJM/F/JMR/25-26/00017 | 2026-01-05 | LAHOTY BROTHERS PRIVATE LIMITED" [ref=f2e926] [cursor=pointer]
+    - option "GE-29 | 2026-01-05 | JAY TULSI JUTE SUPPLY" [ref=f2e927] [cursor=pointer]
+    - option "GE-27 | 2026-01-05 | HAFIJUL ALI" [ref=f2e928] [cursor=pointer]
+    - option "GE-26 | 2026-01-05 | SUSHIL KR.PUGALIA." [ref=f2e929] [cursor=pointer]
+    - option "GE-25 | 2026-01-05 | SHEMA JUTE AGENCY" [ref=f2e930] [cursor=pointer]
+    - option "EJM/F/JMR/25-26/00003 | 2026-01-03 | LAHOTY BROTHERS PRIVATE LIMITED" [ref=f2e931] [cursor=pointer]
+    - option "GE-24 | 2026-01-03 | SHEMA JUTE AGENCY" [ref=f2e932] [cursor=pointer]
+    - option "GE-23 | 2025-12-31 | SHIVAM ENTERPRISES" [ref=f2e933] [cursor=pointer]
+    - option "GE-22 | 2025-12-30 | SHEMA JUTE AGENCY" [ref=f2e934] [cursor=pointer]
+    - option "GE-19 | 2025-12-29 | SHEMA JUTE AGENCY" [ref=f2e935] [cursor=pointer]
+    - option "GE-18 | 2025-12-29 | SHIVAM ENTERPRISES" [ref=f2e936] [cursor=pointer]
+    - option "GE-17 | 2025-12-26 | Limelight Commercial Private Limited" [ref=f2e937] [cursor=pointer]
+    - option "GE-16 | 2025-12-25 | SHEMA JUTE AGENCY" [ref=f2e938] [cursor=pointer]
+    - option "GE-15 | 2025-12-23 | SHEMA JUTE AGENCY" [ref=f2e939] [cursor=pointer]
+    - option "GE-21 | 2025-12-22 | SHEMA JUTE AGENCY" [ref=f2e940] [cursor=pointer]
+    - option "GE-20 | 2025-12-20 | SHEMA JUTE AGENCY" [ref=f2e941] [cursor=pointer]
+    - option "GE-14 | 2025-12-20" [ref=f2e942] [cursor=pointer]
+    - option "GE-13 | 2025-12-19 | SHEMA JUTE AGENCY" [ref=f2e943] [cursor=pointer]
+    - option "GE-12 | 2025-12-17 | SANDIA JUTE AGENCY" [ref=f2e944] [cursor=pointer]
+    - option "GE-11 | 2025-12-15 | SUKUMAR SAHA (HUF)" [ref=f2e945] [cursor=pointer]
+    - option "GE-10 | 2025-12-10 | SHIVAM ENTERPRISES" [ref=f2e946] [cursor=pointer]
+    - option "GE-9 | 2025-12-09 | SHIVAM ENTERPRISES" [ref=f2e947] [cursor=pointer]
+    - option "GE-8 | 2025-12-08 | SHIVAM ENTERPRISES" [ref=f2e948] [cursor=pointer]
+    - option "GE-7 | 2025-12-04 | SHIVAM ENTERPRISES" [ref=f2e949] [cursor=pointer]
+    - option "GE-6 | 2025-12-03 | SHIVAM ENTERPRISES" [ref=f2e950] [cursor=pointer]
+    - option "GE-5 | 2025-12-03 | SHIVAM ENTERPRISES" [ref=f2e951] [cursor=pointer]
+    - option "GE-4 | 2025-12-03 | MANOJ KUMAR KOTHARI" [ref=f2e952] [cursor=pointer]
+    - option "EJM/F/JMR/25-26/00004 | 2025-12-02 | Limelight Commercial Private Limited" [ref=f2e953] [cursor=pointer]
+    - option "GE-2 | 2025-12-01 | HONEYWELL COMMERCIAL P.LTD" [ref=f2e954] [cursor=pointer]
+    - option "GE-1 | 2025-12-01 | Limelight Commercial Private Limited" [ref=f2e955] [cursor=pointer]
+    - option "GE-53 | 2025-11-29 | MANOJ KUMAR KOTHARI" [ref=f2e956] [cursor=pointer]
+    - option "GE-52 | 2025-11-29 | BASUKI JUTE SUPPLY" [ref=f2e957] [cursor=pointer]
+    - option "GE-51 | 2025-11-28 | HONEYWELL COMMERCIAL P.LTD" [ref=f2e958] [cursor=pointer]
+    - option "GE-50 | 2025-11-28 | HONEYWELL COMMERCIAL P.LTD" [ref=f2e959] [cursor=pointer]
+    - option "GE-48 | 2025-11-28 | SHIVAM ENTERPRISES" [ref=f2e960] [cursor=pointer]
+    - option "GE-49 | 2025-11-27 | SHIVAM ENTERPRISES" [ref=f2e961] [cursor=pointer]
+    - option "GE-46 | 2025-11-26 | SHIVAM ENTERPRISES" [ref=f2e962] [cursor=pointer]
+    - option "GE-47 | 2025-11-23 | HONEYWELL COMMERCIAL P.LTD" [ref=f2e963] [cursor=pointer]
+    - option "EJM/F/JMR/25-26/00010 | 2025-10-21 | APANAPAN VANIJYA LLP" [ref=f2e964] [cursor=pointer]
+    - option "EJM/F/JMR/25-26/00008 | 2025-10-17 | UTTAM KUMAR JAJU" [ref=f2e965] [cursor=pointer]
+    - option "EJM/F/JMR/25-26/00011 | 2025-10-16 | VIVIDH COMMERCIAL PVT. LTD." [ref=f2e966] [cursor=pointer]
+    - option "EJM/F/JMR/25-26/00009 | 2025-10-16 | APANAPAN VANIJYA LLP" [ref=f2e967] [cursor=pointer]
+    - option "EJM/F/JMR/25-26/00005 | 2025-10-16" [ref=f2e968] [cursor=pointer]
+    - option "EJM/F/JMR/25-26/00016 | 2025-10-13 | SHIVAM ENTERPRISES" [ref=f2e969] [cursor=pointer]
+    - option "EJM/F/JMR/25-26/00015 | 2025-10-13 | SHIVAM ENTERPRISES" [ref=f2e970] [cursor=pointer]
+    - option "GE-59 | 2025-10-12 | SHIVAM ENTERPRISES" [ref=f2e971] [cursor=pointer]
+    - option "EJM/F/JMR/25-26/00014 | 2025-10-11 | SHIVAM ENTERPRISES" [ref=f2e972] [cursor=pointer]
+    - option "EJM/F/JMR/25-26/00013 | 2025-10-10 | BISHNU KUMAR BAJAJ" [ref=f2e973] [cursor=pointer]
+    - option "EJM/F/JMR/25-26/00006 | 2025-10-08 | The Empire Jute Company Limited" [ref=f2e974] [cursor=pointer]
+    - option "GE-60 | 2025-10-05 | UTTAM KUMAR JAJU" [ref=f2e975] [cursor=pointer]
+    - option "EJM/F/JMR/25-26/00012 | 2025-10-04 | Shema Jute Agency" [ref=f2e976] [cursor=pointer]
+    - option "EJM/F/JMR/25-26/00001 | 2025-06-12 | LAHOTY BROTHERS PRIVATE LIMITED" [ref=f2e977] [cursor=pointer]
+    - option "EJM/F/JMR/25-26/00001 | 2025-05-24 | Anurashi Commotrade Pvt ltd" [ref=f2e978] [cursor=pointer]
+    - option "EJM/F/JMR/25-26/00001 | 2025-05-23 | Anurashi Commotrade Pvt ltd" [ref=f2e979] [cursor=pointer]
+    - option "GE-80 | 2025-05-12" [ref=f2e980] [cursor=pointer]
+    - option "GE-77 | 2025-05-12 | ANIL KUMAR BAJAJ HUF" [ref=f2e981] [cursor=pointer]
+    - option "GE-76 | 2025-05-12 | JAYSHREE JUTE SUPPLY" [ref=f2e982] [cursor=pointer]
+    - option "GE-75 | 2025-05-10 | SARIKA KOTHARI" [ref=f2e983] [cursor=pointer]
+    - option "GE-74 | 2025-05-10 | M/S. PRAMILA JUTE SUPPLY" [ref=f2e984] [cursor=pointer]
+    - option "GE-73 | 2025-05-03 | Shema Jute Agency" [ref=f2e985] [cursor=pointer]
+    - option "EJM/F/JMR/25-26/00001 | 2025-05-03 | LAHOTY BROTHERS PRIVATE LIMITED" [ref=f2e986] [cursor=pointer]
+    - option "GE-79 | 2025-05-02" [ref=f2e987] [cursor=pointer]
+    - option "GE-78 | 2025-05-02 | SHIVAM ENTERPRISES" [ref=f2e988] [cursor=pointer]
+    - option "GE-41 | 2025-01-12 | SHIVAM ENTERPRISES" [ref=f2e989] [cursor=pointer]

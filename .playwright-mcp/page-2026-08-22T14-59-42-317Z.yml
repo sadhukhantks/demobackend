@@ -1,0 +1,74 @@
+- generic [active] [ref=f5e1]:
+  - generic [ref=f5e2]:
+    - generic [ref=f5e5]:
+      - img "Logo" [ref=f5e8]
+      - paragraph [ref=f5e11]
+      - generic [ref=f5e13]:
+        - generic [ref=f5e15]:
+          - generic [ref=f5e16] [cursor=pointer]
+          - link "Jute Procurement" [ref=f5e19] [cursor=pointer]:
+            - /url: /dashboardportal/jutePurchase
+        - generic [ref=f5e21]:
+          - generic [ref=f5e22] [cursor=pointer]
+          - link "Procurement" [ref=f5e25] [cursor=pointer]:
+            - /url: /dashboardportal/procurement
+        - generic [ref=f5e27]:
+          - generic [ref=f5e28] [cursor=pointer]
+          - link "Masters" [ref=f5e31] [cursor=pointer]:
+            - /url: /dashboardportal/masters
+        - generic [ref=f5e33]:
+          - generic [ref=f5e34] [cursor=pointer]
+          - link "Inventory" [ref=f5e37] [cursor=pointer]:
+            - /url: /dashboardportal/inventory
+        - generic [ref=f5e39]:
+          - generic [ref=f5e40] [cursor=pointer]
+          - link "Sales" [ref=f5e43] [cursor=pointer]:
+            - /url: /dashboardportal/sales
+        - generic [ref=f5e45]:
+          - generic [ref=f5e46] [cursor=pointer]
+          - link "HRMS" [ref=f5e49] [cursor=pointer]:
+            - /url: /dashboardportal/hrms
+        - generic [ref=f5e51]:
+          - generic [ref=f5e52] [cursor=pointer]
+          - link "BOM and Costing" [ref=f5e55] [cursor=pointer]:
+            - /url: /dashboardportal/BomCosting
+        - generic [ref=f5e57]:
+          - generic [ref=f5e58] [cursor=pointer]
+          - link "Accounting" [ref=f5e61] [cursor=pointer]:
+            - /url: /dashboardportal/accounting
+        - generic [ref=f5e63]:
+          - generic [ref=f5e64] [cursor=pointer]
+          - link "HRMS Master" [ref=f5e67] [cursor=pointer]:
+            - /url: /dashboardportal/hrmsmasters
+        - generic [ref=f5e69]:
+          - generic [ref=f5e70] [cursor=pointer]
+          - link "Jute Production" [ref=f5e73] [cursor=pointer]:
+            - /url: /dashboardportal/juteProduction
+        - generic [ref=f5e75]:
+          - generic [ref=f5e76] [cursor=pointer]
+          - link "Jute SQC" [ref=f5e79] [cursor=pointer]:
+            - /url: /dashboardportal/juteSQC
+        - generic [ref=f5e81]:
+          - link:
+            - /url: /dashboardportal/null
+      - generic [ref=f5e83] [cursor=pointer]
+    - main [ref=f5e90]:
+      - generic [ref=f5e91]:
+        - generic [ref=f5e92]:
+          - heading "Dashboard" [level=1] [ref=f5e93]
+          - generic [ref=f5e94]: 2024-2025
+        - generic [ref=f5e95]:
+          - generic [ref=f5e96]:
+            - heading "Total Sales" [level=3] [ref=f5e97]
+            - paragraph [ref=f5e98]: ₹45,231
+          - generic [ref=f5e99]:
+            - heading "Total Orders" [level=3] [ref=f5e100]
+            - paragraph [ref=f5e101]: "124"
+          - generic [ref=f5e102]:
+            - heading "Active Projects" [level=3] [ref=f5e103]
+            - paragraph [ref=f5e104]: "8"
+    - button "Raise a support ticket" [ref=f5e105] [cursor=pointer]
+  - region "Notifications (F8)":
+    - list
+  - button "Open Next.js Dev Tools" [ref=f5e118] [cursor=pointer]
+  - alert [ref=f5e122]

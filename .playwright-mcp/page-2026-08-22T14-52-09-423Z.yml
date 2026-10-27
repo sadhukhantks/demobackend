@@ -1,0 +1,36 @@
+- generic [active] [ref=f2e1]:
+  - generic [ref=f2e2]:
+    - generic [ref=f2e5]:
+      - img "Logo" [ref=f2e8]
+      - paragraph [ref=f2e11]
+      - generic [ref=f2e14] [cursor=pointer]
+    - main [ref=f2e21]:
+      - generic [ref=f2e22]:
+        - heading "Jute Procurement Reports" [level=5] [ref=f2e23]
+        - generic [ref=f2e25]:
+          - generic [ref=f2e27]:
+            - generic: Report
+            - generic [ref=f2e28]:
+              - combobox "Report" [ref=f2e29]
+              - button "Open" [ref=f2e31] [cursor=pointer]
+              - group:
+                - generic: Report
+          - generic [ref=f2e35]:
+            - generic:
+              - text: Branch
+              - generic: "*"
+            - generic [ref=f2e36]:
+              - combobox "Branch" [ref=f2e37]
+              - button "Open" [ref=f2e39] [cursor=pointer]
+              - group:
+                - generic: Branch *
+          - generic [ref=f2e42]:
+            - generic [ref=f2e43]: Report Date
+            - generic [ref=f2e44]:
+              - textbox "Report Date" [ref=f2e45]: 2026-08-21
+              - group:
+                - generic: Report Date
+    - button "Raise a support ticket" [ref=f2e46] [cursor=pointer]
+  - region "Notifications (F8)":
+    - list
+  - button "Open Next.js Dev Tools" [ref=f2e59] [cursor=pointer]

@@ -1,0 +1,38 @@
+old_line_id,old_inv,sls_inv,mr_line_id,old_qtl,sls_qtl,delta_qtl,cause,old_hdr_status,old_line_active,quality_id,old_inv_date,sls_inv_date,sls_status
+4111,2937,,8226,158.8,0.0,158.8,sales line SKIPPED by migration (no map row),3,1,697,2020-07-06,,
+4114,2939,,8229,59.67,0.0,59.67,sales line SKIPPED by migration (no map row),3,1,697,2020-07-07,,
+4116,2940,,8231,13.06,0.0,13.06,sales line SKIPPED by migration (no map row),3,1,697,2020-07-07,,
+4120,2944,,7952,114.1,0.0,114.1,"sales line on rejected/void invoice, dropped (old view still counted it)",4,1,656,2020-07-04,,
+6055,4146,2771,11279,96.0,0.0,96.0,sls jute_mr_li_id NULL -> unlinked,0,1,814,2021-05-07,2021-05-07,1
+6056,4146,2771,11280,5.0,0.0,5.0,sls jute_mr_li_id NULL -> unlinked,0,1,992,2021-05-07,2021-05-07,1
+9298,6199,4660,15352,117.03,0.0,117.03,sls invoice status != 3,1,1,738,2022-03-07,2022-03-07,1
+9299,6199,4660,15353,45.92,0.0,45.92,sls invoice status != 3,1,1,815,2022-03-07,2022-03-07,1
+9300,6200,4661,15354,20.19,0.0,20.19,sls invoice status != 3,1,1,742,2022-03-07,2022-03-07,1
+9301,6200,4661,15355,45.38,0.0,45.38,sls invoice status != 3,1,1,742,2022-03-07,2022-03-07,1
+9302,6200,4661,15356,24.23,0.0,24.23,sls invoice status != 3,1,1,1055,2022-03-07,2022-03-07,1
+9303,6200,4661,15357,60.52,0.0,60.52,sls invoice status != 3,1,1,1055,2022-03-07,2022-03-07,1
+9304,6201,4662,15358,110.42,0.0,110.42,sls invoice status != 3,1,1,738,2022-03-08,2022-03-08,1
+9305,6201,4662,15359,51.53,0.0,51.53,sls invoice status != 3,1,1,815,2022-03-08,2022-03-08,1
+9306,6202,4663,15360,125.8,0.0,125.8,sls invoice status != 3,1,1,738,2022-03-08,2022-03-08,1
+9307,6202,4663,15361,36.63,0.0,36.63,sls invoice status != 3,1,1,815,2022-03-08,2022-03-08,1
+9308,6203,4664,15362,121.76,0.0,121.76,sls invoice status != 3,1,1,738,2022-03-09,2022-03-09,1
+9309,6203,4664,15363,36.55,0.0,36.55,sls invoice status != 3,1,1,815,2022-03-09,2022-03-09,1
+9310,6204,4665,15364,121.4,0.0,121.4,sls invoice status != 3,1,1,738,2022-03-09,2022-03-09,1
+9311,6204,4665,15365,35.71,0.0,35.71,sls invoice status != 3,1,1,815,2022-03-09,2022-03-09,1
+9312,6205,4666,15366,69.42,0.0,69.42,sls invoice status != 3,1,1,1119,2022-03-09,2022-03-09,1
+9313,6205,4666,15367,57.85,0.0,57.85,sls invoice status != 3,1,1,1120,2022-03-09,2022-03-09,1
+11774,7649,,19057,152.5,0.0,152.5,sales line SKIPPED by migration (no map row),3,1,697,2022-12-13,,
+11786,7658,,19083,153.2,0.0,153.2,sales line SKIPPED by migration (no map row),3,1,697,2022-12-15,,
+15195,9759,,23848,157.9,0.0,157.9,sales line SKIPPED by migration (no map row),3,1,697,2022-12-19,,
+16743,10727,,25655,161.9,0.0,161.9,sales line SKIPPED by migration (no map row),3,1,697,2023-06-07,,
+19984,12730,,29334,155.65,0.0,155.65,sales line SKIPPED by migration (no map row),3,1,697,2023-04-13,,
+19992,12737,,29342,156.7,0.0,156.7,sales line SKIPPED by migration (no map row),3,1,697,2023-05-12,,
+20885,13301,,30184,183.0,0.0,183.0,sales line SKIPPED by migration (no map row),3,1,697,2023-11-08,,
+20905,13313,,30204,187.4,0.0,187.4,sales line SKIPPED by migration (no map row),3,1,697,2023-11-13,,
+21965,13973,,31876,166.0,0.0,166.0,sales line SKIPPED by migration (no map row),3,1,697,2023-12-28,,
+21969,13976,,31880,164.0,0.0,164.0,sales line SKIPPED by migration (no map row),3,1,697,2023-12-28,,
+21977,13981,,31888,163.2,0.0,163.2,sales line SKIPPED by migration (no map row),3,1,697,2023-12-28,,
+21986,13988,,31897,173.0,0.0,173.0,sales line SKIPPED by migration (no map row),3,1,697,2023-12-29,,
+22786,14474,,32725,160.4,0.0,160.4,sales line SKIPPED by migration (no map row),3,1,697,2024-01-21,,
+22788,14476,,32727,163.4,0.0,163.4,sales line SKIPPED by migration (no map row),3,1,697,2024-01-22,,
+23352,14817,,29344,167.55,0.0,167.55,sales line SKIPPED by migration (no map row),3,1,697,2023-05-12,,

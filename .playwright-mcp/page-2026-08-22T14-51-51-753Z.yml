@@ -1,0 +1,24 @@
+- generic [active] [ref=f1e1]:
+  - generic [ref=f1e2]:
+    - button "Toggle menu" [ref=f1e4]
+    - generic [ref=f1e8]:
+      - img "Logo" [ref=f1e11]
+      - paragraph [ref=f1e14]
+    - main [ref=f1e23]:
+      - generic [ref=f1e24]:
+        - generic [ref=f1e25]:
+          - heading "Dashboard" [level=1] [ref=f1e26]
+          - generic [ref=f1e27]: 2024-2025
+        - generic [ref=f1e28]:
+          - generic [ref=f1e29]:
+            - heading "Total Sales" [level=3] [ref=f1e30]
+            - paragraph [ref=f1e31]: ₹45,231
+          - generic [ref=f1e32]:
+            - heading "Total Orders" [level=3] [ref=f1e33]
+            - paragraph [ref=f1e34]: "124"
+          - generic [ref=f1e35]:
+            - heading "Active Projects" [level=3] [ref=f1e36]
+            - paragraph [ref=f1e37]: "8"
+    - button "Raise a support ticket" [ref=f1e38] [cursor=pointer]
+  - region "Notifications (F8)":
+    - list

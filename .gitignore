@@ -1,0 +1,12 @@
+*.pyc
+__pycache__/
+.env
+VOWERP3BE.egg-info/
+.venv
+
+# nohup log from the local dev server (see OFFLINE_SYNC_DEPLOYMENT.md)
+backend.log
+
+# generated prototype outputs (contain real tenant data)
+docs/prototypes/**/data.json
+docs/prototypes/**/index.html

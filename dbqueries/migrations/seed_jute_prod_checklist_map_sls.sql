@@ -1,0 +1,62 @@
+-- =============================================================================
+-- SEED TEMPLATE — jute_prod_checklist_map on sls (NOT YET RUN ANYWHERE)
+--
+-- Everything below is COMMENTED OUT on purpose. Prune the lines you do not
+-- want, uncomment the rest, then run:
+--     python tools/run_sql_migration.py sls dbqueries/migrations/seed_jute_prod_checklist_map_sls.sql
+-- (add_jute_prod_checklist_map.sql must be applied first — it already is on
+-- dev3 and sls.)
+--
+-- The finishing checklist reads NOTHING but this table: an unconfigured branch
+-- returns an empty grid. Names below are the live designation_mst.desig values
+-- on sls, verified against the ids on 2026-08-25.
+--
+-- HOW TO ADD MORE
+--   winding   ref_type 'designation', ref_id = designation_mst.designation_id.
+--             Without rows the checklist keeps its 'winder%' name match, so add
+--             rows ONLY to override that (all-or-nothing per branch).
+--   beaming   ref_type 'machine_type', ref_id = machine_type_mst.machine_type_id
+--             (sls: 5 = 'BEAMING'). Without rows it keeps matching the type
+--             NAME 'beaming', so add rows only to widen/replace that.
+--   disable   set active = 0 — never DELETE, so the decision stays visible:
+--             UPDATE jute_prod_checklist_map SET active = 0
+--              WHERE branch_id = 87 AND checklist = 'finishing' AND ref_id = 2021;
+--
+-- Re-runnable as written (ON DUPLICATE KEY UPDATE on uq_chk_map is a no-op).
+-- ROLLBACK: DELETE FROM jute_prod_checklist_map WHERE checklist = 'finishing';
+-- =============================================================================
+
+-- ---------------------------------------------------------------------------
+-- Branch 29 (co 2) — finishing designations
+-- ---------------------------------------------------------------------------
+-- INSERT INTO jute_prod_checklist_map (branch_id, checklist, ref_type, ref_id, active) VALUES
+--   (29, 'finishing', 'designation', 105, 1),   -- HEMMING OPERATOR
+--   (29, 'finishing', 'designation', 106, 1),   -- HEMMING HELPER
+--   (29, 'finishing', 'designation', 107, 1),   -- MAZDOOR HMG TO HERACLE
+--   (29, 'finishing', 'designation', 108, 1),   -- HERACLE OPERATOR
+--   (29, 'finishing', 'designation', 109, 1),   -- HERACLE HELPER
+--   (29, 'finishing', 'designation', 110, 1),   -- HERACLE LIFTER
+--   (29, 'finishing', 'designation', 111, 1),   -- HERACLE/HMG JOINT SEWING
+--   (29, 'finishing', 'designation', 239, 1),   -- HAND SEWER
+--   (29, 'finishing', 'designation', 288, 1),   -- SACK SEWING TRAINEE
+--   (29, 'finishing', 'designation', 289, 1)    -- SACK SEWING  EXTRA
+-- ON DUPLICATE KEY UPDATE active = VALUES(active);
+
+-- ---------------------------------------------------------------------------
+-- Branch 87 (co 106) — finishing designations
+-- Aug-2026 attendance row counts are noted where the designation was used, so
+-- an unused line is easy to spot before uncommenting.
+-- ---------------------------------------------------------------------------
+-- INSERT INTO jute_prod_checklist_map (branch_id, checklist, ref_type, ref_id, active) VALUES
+--   (87, 'finishing', 'designation', 1702, 1),  -- HEMMING MAZDOOR            (0 rows in Aug-2026)
+--   (87, 'finishing', 'designation', 1757, 1),  -- HAND SEWING SARDAR         (17)
+--   (87, 'finishing', 'designation', 1758, 1),  -- CUTTING TO HEMMING MAZDOOR (15)
+--   (87, 'finishing', 'designation', 1864, 1),  -- HAND SEWER                 (147)
+--   (87, 'finishing', 'designation', 1865, 1),  -- HERAKALE HELPER            (89)
+--   (87, 'finishing', 'designation', 1866, 1),  -- HERAKALE OPERATOR          (123)
+--   (87, 'finishing', 'designation', 1867, 1),  -- HERAKALE SARDAR            (18)
+--   (87, 'finishing', 'designation', 1870, 1),  -- J BAG SEWER                (20)
+--   (87, 'finishing', 'designation', 1871, 1),  -- MOUTH HEMMING HELPER       (65)
+--   (87, 'finishing', 'designation', 1872, 1),  -- MOUTH HEMMING OPERATOR     (94)
+--   (87, 'finishing', 'designation', 2021, 1)   -- Hand Sewer ( Trainee)      (0 rows in Aug-2026)
+-- ON DUPLICATE KEY UPDATE active = VALUES(active);

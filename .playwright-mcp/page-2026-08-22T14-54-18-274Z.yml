@@ -1,0 +1,347 @@
+- generic [active] [ref=f2e1]:
+  - generic [ref=f2e2]:
+    - generic [ref=f2e5]:
+      - img "Logo" [ref=f2e8]
+      - paragraph [ref=f2e11]
+      - generic [ref=f2e63]:
+        - generic [ref=f2e65]:
+          - generic [ref=f2e66] [cursor=pointer]
+          - link "Jute Procurement" [ref=f2e69] [cursor=pointer]:
+            - /url: /dashboardportal/jutePurchase
+        - generic [ref=f2e71]:
+          - generic [ref=f2e72] [cursor=pointer]
+          - link "Procurement" [ref=f2e75] [cursor=pointer]:
+            - /url: /dashboardportal/procurement
+        - generic [ref=f2e77]:
+          - generic [ref=f2e78] [cursor=pointer]
+          - link "Masters" [ref=f2e81] [cursor=pointer]:
+            - /url: /dashboardportal/masters
+        - generic [ref=f2e83]:
+          - generic [ref=f2e84] [cursor=pointer]
+          - link "Inventory" [ref=f2e87] [cursor=pointer]:
+            - /url: /dashboardportal/inventory
+        - generic [ref=f2e89]:
+          - generic [ref=f2e90] [cursor=pointer]
+          - link "Sales" [ref=f2e93] [cursor=pointer]:
+            - /url: /dashboardportal/sales
+        - generic [ref=f2e95]:
+          - generic [ref=f2e96] [cursor=pointer]
+          - link "HRMS" [ref=f2e99] [cursor=pointer]:
+            - /url: /dashboardportal/hrms
+        - generic [ref=f2e101]:
+          - generic [ref=f2e102] [cursor=pointer]
+          - link "BOM and Costing" [ref=f2e105] [cursor=pointer]:
+            - /url: /dashboardportal/BomCosting
+        - generic [ref=f2e107]:
+          - generic [ref=f2e108] [cursor=pointer]
+          - link "Accounting" [ref=f2e111] [cursor=pointer]:
+            - /url: /dashboardportal/accounting
+        - generic [ref=f2e113]:
+          - generic [ref=f2e114] [cursor=pointer]
+          - link "HRMS Master" [ref=f2e117] [cursor=pointer]:
+            - /url: /dashboardportal/hrmsmasters
+        - generic [ref=f2e119]:
+          - generic [ref=f2e120] [cursor=pointer]
+          - link "Jute Production" [ref=f2e123] [cursor=pointer]:
+            - /url: /dashboardportal/juteProduction
+        - generic [ref=f2e125]:
+          - generic [ref=f2e126] [cursor=pointer]
+          - link "Jute SQC" [ref=f2e129] [cursor=pointer]:
+            - /url: /dashboardportal/juteSQC
+        - generic [ref=f2e131]:
+          - link:
+            - /url: /dashboardportal/null
+      - generic [ref=f2e14] [cursor=pointer]
+    - main [ref=f2e21]:
+      - button [ref=f2e158] [cursor=pointer]
+      - generic [ref=f2e162]:
+        - heading "Jute MR Issue Detail - GE-24 | 2026-01-03 | SHEMA JUTE AGENCY (all issues, dates ignored)" [level=5] [ref=f2e626]
+        - generic [ref=f2e165]:
+          - generic [ref=f2e167]:
+            - generic [ref=f2e168]: Branch
+            - generic [ref=f2e169]:
+              - combobox "Branch" [ref=f2e170]: Factory
+              - button "Open" [ref=f2e172] [cursor=pointer]
+              - group:
+                - generic: Branch
+          - generic [ref=f2e175]:
+            - generic [ref=f2e176]: From Date
+            - generic [ref=f2e177]:
+              - textbox "From Date" [ref=f2e178]: 2026-04-01
+              - group:
+                - generic: From Date
+          - generic [ref=f2e179]:
+            - generic [ref=f2e180]: To Date
+            - generic [ref=f2e181]:
+              - textbox "To Date" [ref=f2e182]: 2026-08-21
+              - group:
+                - generic: To Date
+          - generic [ref=f2e184]:
+            - generic [ref=f2e514]: MR (blank = all)
+            - generic [ref=f2e185]:
+              - combobox "MR (blank = all)" [ref=f2e186]: GE-24 | 2026-01-03 | SHEMA JUTE AGENCY
+              - button "Open" [ref=f2e614] [cursor=pointer]
+              - group:
+                - generic: MR (blank = all)
+          - button "Submit" [ref=f2e262] [cursor=pointer]
+          - button "Export to Excel" [ref=f2e263] [cursor=pointer]
+        - generic [ref=f2e197]:
+          - grid [ref=f2e198]:
+            - row [ref=f2e627]:
+              - 'columnheader "MR #" [ref=f2e628] [cursor=pointer]'
+              - columnheader "MR / Inward Date Sort" [ref=f2e204] [cursor=pointer]:
+                - generic [ref=f2e205]: MR / Inward Date
+                - generic "Sort" [ref=f2e208]:
+                  - button "Sort" [ref=f2e209]
+              - 'columnheader "GE #" [ref=f2e213] [cursor=pointer]'
+              - columnheader "Party" [ref=f2e217] [cursor=pointer]
+              - columnheader "Godown" [ref=f2e221] [cursor=pointer]
+              - columnheader "Quality" [ref=f2e225] [cursor=pointer]
+              - columnheader "Marka" [ref=f2e229] [cursor=pointer]
+              - columnheader "Crop Year" [ref=f2e233] [cursor=pointer]
+              - columnheader "Recv Qty" [ref=f2e237] [cursor=pointer]
+              - columnheader "Recv Wt" [ref=f2e265] [cursor=pointer]
+              - columnheader "Rate" [ref=f2e269] [cursor=pointer]
+              - 'columnheader "Issue #" [ref=f2e273] [cursor=pointer]'
+              - columnheader "Issue Date" [ref=f2e277] [cursor=pointer]
+              - columnheader "Issued Qty" [ref=f2e281] [cursor=pointer]
+              - columnheader "Issued Wt" [ref=f2e285] [cursor=pointer]
+              - columnheader "Issue Value" [ref=f2e289] [cursor=pointer]
+              - columnheader "Issue Item" [ref=f2e293] [cursor=pointer]
+              - columnheader "Yarn Type" [ref=f2e297] [cursor=pointer]
+              - columnheader "Issue Status" [ref=f2e301] [cursor=pointer]
+              - columnheader "Bal Qty" [ref=f2e305] [cursor=pointer]
+              - columnheader "Bal Wt" [ref=f2e309] [cursor=pointer]
+              - columnheader "Updated By" [ref=f2e313] [cursor=pointer]
+              - columnheader "Updated On" [ref=f2e317] [cursor=pointer]
+            - rowgroup [ref=f2e321]:
+              - row [ref=f2e629]:
+                - gridcell "GE-24" [ref=f2e630]
+                - gridcell "2026-01-03" [ref=f2e631]
+                - gridcell "24" [ref=f2e632]
+                - gridcell "SHEMA JUTE AGENCY" [ref=f2e633]
+                - gridcell "Sel Shed" [ref=f2e634]
+                - gridcell "D TD 5" [ref=f2e635]
+                - gridcell [ref=f2e636]
+                - gridcell [ref=f2e637]
+                - gridcell "126.00" [ref=f2e638]
+                - gridcell "4812.00" [ref=f2e639]
+                - gridcell "12000.00" [ref=f2e640]
+                - gridcell "81533" [ref=f2e641]
+                - gridcell "2026-01-03" [ref=f2e642]
+                - gridcell "27.00" [ref=f2e643]
+                - gridcell "1031.14" [ref=f2e644]
+                - gridcell "123737.14" [ref=f2e645]
+                - gridcell "D TD 5" [ref=f2e646]
+                - gridcell "9-HSWP" [ref=f2e647]
+                - gridcell "APPROVED" [ref=f2e648]
+                - gridcell "0.00" [ref=f2e649]
+                - gridcell "0.01" [ref=f2e650]
+                - gridcell "system" [ref=f2e651]
+                - gridcell "2026-02-17T12:55:28" [ref=f2e652]
+              - row [ref=f2e653]:
+                - gridcell "GE-24" [ref=f2e654]
+                - gridcell "2026-01-03" [ref=f2e655]
+                - gridcell "24" [ref=f2e656]
+                - gridcell "SHEMA JUTE AGENCY" [ref=f2e657]
+                - gridcell "Sel Shed" [ref=f2e658]
+                - gridcell "D TD 5" [ref=f2e659]
+                - gridcell [ref=f2e660]
+                - gridcell [ref=f2e661]
+                - gridcell "126.00" [ref=f2e662]
+                - gridcell "4812.00" [ref=f2e663]
+                - gridcell "12000.00" [ref=f2e664]
+                - gridcell "81534" [ref=f2e665]
+                - gridcell "2026-01-03" [ref=f2e666]
+                - gridcell "26.00" [ref=f2e667]
+                - gridcell "992.95" [ref=f2e668]
+                - gridcell "119154.29" [ref=f2e669]
+                - gridcell "D TD 5" [ref=f2e670]
+                - gridcell "13-SKWP" [ref=f2e671]
+                - gridcell "APPROVED" [ref=f2e672]
+                - gridcell "0.00" [ref=f2e673]
+                - gridcell "0.01" [ref=f2e674]
+                - gridcell "system" [ref=f2e675]
+                - gridcell "2026-02-17T12:55:28" [ref=f2e676]
+              - row [ref=f2e677]:
+                - gridcell "GE-24" [ref=f2e678]
+                - gridcell "2026-01-03" [ref=f2e679]
+                - gridcell "24" [ref=f2e680]
+                - gridcell "SHEMA JUTE AGENCY" [ref=f2e681]
+                - gridcell "Sel Shed" [ref=f2e682]
+                - gridcell "D TD 5" [ref=f2e683]
+                - gridcell [ref=f2e684]
+                - gridcell [ref=f2e685]
+                - gridcell "126.00" [ref=f2e686]
+                - gridcell "4812.00" [ref=f2e687]
+                - gridcell "12000.00" [ref=f2e688]
+                - gridcell "81535" [ref=f2e689]
+                - gridcell "2026-01-03" [ref=f2e690]
+                - gridcell "27.00" [ref=f2e691]
+                - gridcell "1031.14" [ref=f2e692]
+                - gridcell "123737.14" [ref=f2e693]
+                - gridcell "D TD 5" [ref=f2e694]
+                - gridcell "16-SKWP" [ref=f2e695]
+                - gridcell "APPROVED" [ref=f2e696]
+                - gridcell "0.00" [ref=f2e697]
+                - gridcell "0.01" [ref=f2e698]
+                - gridcell "system" [ref=f2e699]
+                - gridcell "2026-02-17T12:55:28" [ref=f2e700]
+              - row [ref=f2e701]:
+                - gridcell "GE-24" [ref=f2e702]
+                - gridcell "2026-01-03" [ref=f2e703]
+                - gridcell "24" [ref=f2e704]
+                - gridcell "SHEMA JUTE AGENCY" [ref=f2e705]
+                - gridcell "Sel Shed" [ref=f2e706]
+                - gridcell "D TD 5" [ref=f2e707]
+                - gridcell [ref=f2e708]
+                - gridcell [ref=f2e709]
+                - gridcell "126.00" [ref=f2e710]
+                - gridcell "4812.00" [ref=f2e711]
+                - gridcell "12000.00" [ref=f2e712]
+                - gridcell "81536" [ref=f2e713]
+                - gridcell "2026-01-03" [ref=f2e714]
+                - gridcell "5.00" [ref=f2e715]
+                - gridcell "190.95" [ref=f2e716]
+                - gridcell "22914.29" [ref=f2e717]
+                - gridcell "D TD 5" [ref=f2e718]
+                - gridcell "20-SKWP" [ref=f2e719]
+                - gridcell "APPROVED" [ref=f2e720]
+                - gridcell "0.00" [ref=f2e721]
+                - gridcell "0.01" [ref=f2e722]
+                - gridcell "system" [ref=f2e723]
+                - gridcell "2026-02-17T12:55:28" [ref=f2e724]
+              - row [ref=f2e725]:
+                - gridcell "GE-24" [ref=f2e726]
+                - gridcell "2026-01-03" [ref=f2e727]
+                - gridcell "24" [ref=f2e728]
+                - gridcell "SHEMA JUTE AGENCY" [ref=f2e729]
+                - gridcell "Sel Shed" [ref=f2e730]
+                - gridcell "D TD 6" [ref=f2e731]
+                - gridcell [ref=f2e732]
+                - gridcell [ref=f2e733]
+                - gridcell "84.00" [ref=f2e734]
+                - gridcell "3208.00" [ref=f2e735]
+                - gridcell "11800.00" [ref=f2e736]
+                - gridcell "81537" [ref=f2e737]
+                - gridcell "2026-01-03" [ref=f2e738]
+                - gridcell "22.00" [ref=f2e739]
+                - gridcell "840.19" [ref=f2e740]
+                - gridcell "99142.48" [ref=f2e741]
+                - gridcell "D TD 6" [ref=f2e742]
+                - gridcell "9-HSWP" [ref=f2e743]
+                - gridcell "APPROVED" [ref=f2e744]
+                - gridcell "0.00" [ref=f2e745]
+                - gridcell "0.00" [ref=f2e746]
+                - gridcell "system" [ref=f2e747]
+                - gridcell "2026-02-17T12:55:28" [ref=f2e748]
+              - row [ref=f2e749]:
+                - gridcell "GE-24" [ref=f2e750]
+                - gridcell "2026-01-03" [ref=f2e751]
+                - gridcell "24" [ref=f2e752]
+                - gridcell "SHEMA JUTE AGENCY" [ref=f2e753]
+                - gridcell "Sel Shed" [ref=f2e754]
+                - gridcell "D TD 6" [ref=f2e755]
+                - gridcell [ref=f2e756]
+                - gridcell [ref=f2e757]
+                - gridcell "84.00" [ref=f2e758]
+                - gridcell "3208.00" [ref=f2e759]
+                - gridcell "11800.00" [ref=f2e760]
+                - gridcell "81538" [ref=f2e761]
+                - gridcell "2026-01-03" [ref=f2e762]
+                - gridcell "23.00" [ref=f2e763]
+                - gridcell "878.38" [ref=f2e764]
+                - gridcell "103648.95" [ref=f2e765]
+                - gridcell "D TD 6" [ref=f2e766]
+                - gridcell "13-SKWP" [ref=f2e767]
+                - gridcell "APPROVED" [ref=f2e768]
+                - gridcell "0.00" [ref=f2e769]
+                - gridcell "0.00" [ref=f2e770]
+                - gridcell "system" [ref=f2e771]
+                - gridcell "2026-02-17T12:55:28" [ref=f2e772]
+              - row [ref=f2e773]:
+                - gridcell "GE-24" [ref=f2e774]
+                - gridcell "2026-01-03" [ref=f2e775]
+                - gridcell "24" [ref=f2e776]
+                - gridcell "SHEMA JUTE AGENCY" [ref=f2e777]
+                - gridcell "Sel Shed" [ref=f2e778]
+                - gridcell "D TD 6" [ref=f2e779]
+                - gridcell [ref=f2e780]
+                - gridcell [ref=f2e781]
+                - gridcell "84.00" [ref=f2e782]
+                - gridcell "3208.00" [ref=f2e783]
+                - gridcell "11800.00" [ref=f2e784]
+                - gridcell "81539" [ref=f2e785]
+                - gridcell "2026-01-03" [ref=f2e786]
+                - gridcell "23.00" [ref=f2e787]
+                - gridcell "878.38" [ref=f2e788]
+                - gridcell "103648.95" [ref=f2e789]
+                - gridcell "D TD 6" [ref=f2e790]
+                - gridcell "16-SKWP" [ref=f2e791]
+                - gridcell "APPROVED" [ref=f2e792]
+                - gridcell "0.00" [ref=f2e793]
+                - gridcell "0.00" [ref=f2e794]
+                - gridcell "system" [ref=f2e795]
+                - gridcell "2026-02-17T12:55:28" [ref=f2e796]
+              - row [ref=f2e797]:
+                - gridcell "GE-24" [ref=f2e798]
+                - gridcell "2026-01-03" [ref=f2e799]
+                - gridcell "24" [ref=f2e800]
+                - gridcell "SHEMA JUTE AGENCY" [ref=f2e801]
+                - gridcell "Sel Shed" [ref=f2e802]
+                - gridcell "D TD 6" [ref=f2e803]
+                - gridcell [ref=f2e804]
+                - gridcell [ref=f2e805]
+                - gridcell "84.00" [ref=f2e806]
+                - gridcell "3208.00" [ref=f2e807]
+                - gridcell "11800.00" [ref=f2e808]
+                - gridcell "81540" [ref=f2e809]
+                - gridcell "2026-01-03" [ref=f2e810]
+                - gridcell "16.00" [ref=f2e811]
+                - gridcell "611.05" [ref=f2e812]
+                - gridcell "72103.62" [ref=f2e813]
+                - gridcell "D TD 6" [ref=f2e814]
+                - gridcell "20-SKWP" [ref=f2e815]
+                - gridcell "APPROVED" [ref=f2e816]
+                - gridcell "0.00" [ref=f2e817]
+                - gridcell "0.00" [ref=f2e818]
+                - gridcell "system" [ref=f2e819]
+                - gridcell "2026-02-17T12:55:28" [ref=f2e820]
+              - row [ref=f2e821]:
+                - gridcell "GE-24" [ref=f2e822]
+                - gridcell "2026-01-03" [ref=f2e823]
+                - gridcell "24" [ref=f2e824]
+                - gridcell "SHEMA JUTE AGENCY" [ref=f2e825]
+                - gridcell "Sel Shed" [ref=f2e826]
+                - gridcell "D TD 5" [ref=f2e827]
+                - gridcell [ref=f2e828]
+                - gridcell [ref=f2e829]
+                - gridcell "126.00" [ref=f2e830]
+                - gridcell "4812.00" [ref=f2e831]
+                - gridcell "12000.00" [ref=f2e832]
+                - gridcell "81544" [ref=f2e833]
+                - gridcell "2026-01-05" [ref=f2e834]
+                - gridcell "41.00" [ref=f2e835]
+                - gridcell "1565.81" [ref=f2e836]
+                - gridcell "187897.14" [ref=f2e837]
+                - gridcell "D TD 5" [ref=f2e838]
+                - gridcell "10-SLYN-Gold" [ref=f2e839]
+                - gridcell "APPROVED" [ref=f2e840]
+                - gridcell "0.00" [ref=f2e841]
+                - gridcell "0.01" [ref=f2e842]
+                - gridcell "system" [ref=f2e843]
+                - gridcell "2026-02-17T12:57:28" [ref=f2e844]
+          - generic [ref=f2e248]:
+            - paragraph [ref=f2e249]: "Rows per page:"
+            - generic [ref=f2e250]:
+              - 'combobox "Rows per page: 50" [ref=f2e251] [cursor=pointer]': "50"
+              - textbox: "50"
+            - paragraph [ref=f2e252]: 1–9 of 9
+            - generic [ref=f2e253]:
+              - button "Go to previous page" [disabled]
+              - button "Go to next page" [disabled]
+    - button "Raise a support ticket" [ref=f2e46] [cursor=pointer]
+  - region "Notifications (F8)":
+    - list
+  - button "Open Next.js Dev Tools" [ref=f2e59] [cursor=pointer]
+  - alert [ref=f2e134]

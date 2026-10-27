@@ -1,0 +1,234 @@
+[
+ {
+  "fne_qual_traget_id": 1,
+  "quality_id": 475,
+  "dept_id": 21,
+  "eff_pc": "65.00",
+  "period_id": 17,
+  "status_id": 3
+ },
+ {
+  "fne_qual_traget_id": 2,
+  "quality_id": 335563,
+  "dept_id": 154,
+  "eff_pc": "345.00",
+  "period_id": 17,
+  "status_id": 21
+ },
+ {
+  "fne_qual_traget_id": 3,
+  "quality_id": 21,
+  "dept_id": 20,
+  "eff_pc": "67.00",
+  "period_id": 18,
+  "status_id": 3
+ },
+ {
+  "fne_qual_traget_id": 4,
+  "quality_id": 20,
+  "dept_id": 20,
+  "eff_pc": "67.00",
+  "period_id": 18,
+  "status_id": 3
+ },
+ {
+  "fne_qual_traget_id": 5,
+  "quality_id": 19,
+  "dept_id": 20,
+  "eff_pc": "67.00",
+  "period_id": 18,
+  "status_id": 3
+ },
+ {
+  "fne_qual_traget_id": 6,
+  "quality_id": 18,
+  "dept_id": 20,
+  "eff_pc": "67.00",
+  "period_id": 18,
+  "status_id": 3
+ },
+ {
+  "fne_qual_traget_id": 7,
+  "quality_id": 17,
+  "dept_id": 20,
+  "eff_pc": "67.00",
+  "period_id": 18,
+  "status_id": 3
+ },
+ {
+  "fne_qual_traget_id": 8,
+  "quality_id": 16,
+  "dept_id": 20,
+  "eff_pc": "67.00",
+  "period_id": 18,
+  "status_id": 3
+ },
+ {
+  "fne_qual_traget_id": 9,
+  "quality_id": 335563,
+  "dept_id": 19,
+  "eff_pc": "400.00",
+  "period_id": 18,
+  "status_id": 3
+ },
+ {
+  "fne_qual_traget_id": 10,
+  "quality_id": 335564,
+  "dept_id": 19,
+  "eff_pc": "400.00",
+  "period_id": 18,
+  "status_id": 3
+ },
+ {
+  "fne_qual_traget_id": 11,
+  "quality_id": 335659,
+  "dept_id": 19,
+  "eff_pc": "400.00",
+  "period_id": 18,
+  "status_id": 21
+ },
+ {
+  "fne_qual_traget_id": 12,
+  "quality_id": 335865,
+  "dept_id": 19,
+  "eff_pc": "400.00",
+  "period_id": 18,
+  "status_id": 3
+ },
+ {
+  "fne_qual_traget_id": 13,
+  "quality_id": 335571,
+  "dept_id": 19,
+  "eff_pc": "400.00",
+  "period_id": 18,
+  "status_id": 21
+ },
+ {
+  "fne_qual_traget_id": 14,
+  "quality_id": 335961,
+  "dept_id": 154,
+  "eff_pc": "14.00",
+  "period_id": 18,
+  "status_id": 21
+ },
+ {
+  "fne_qual_traget_id": 15,
+  "quality_id": 335869,
+  "dept_id": 19,
+  "eff_pc": "400.00",
+  "period_id": 18,
+  "status_id": 3
+ },
+ {
+  "fne_qual_traget_id": 16,
+  "quality_id": 335985,
+  "dept_id": 19,
+  "eff_pc": "370.00",
+  "period_id": 18,
+  "status_id": 3
+ },
+ {
+  "fne_qual_traget_id": 17,
+  "quality_id": 145,
+  "dept_id": 21,
+  "eff_pc": "64.00",
+  "period_id": 18,
+  "status_id": 3
+ },
+ {
+  "fne_qual_traget_id": 18,
+  "quality_id": 344,
+  "dept_id": 21,
+  "eff_pc": "52.00",
+  "period_id": 18,
+  "status_id": 3
+ },
+ {
+  "fne_qual_traget_id": 19,
+  "quality_id": 514,
+  "dept_id": 21,
+  "eff_pc": "60.00",
+  "period_id": 18,
+  "status_id": 3
+ },
+ {
+  "fne_qual_traget_id": 20,
+  "quality_id": 475,
+  "dept_id": 21,
+  "eff_pc": "75.00",
+  "period_id": 18,
+  "status_id": 3
+ },
+ {
+  "fne_qual_traget_id": 21,
+  "quality_id": 188,
+  "dept_id": 21,
+  "eff_pc": "54.00",
+  "period_id": 18,
+  "status_id": 3
+ },
+ {
+  "fne_qual_traget_id": 22,
+  "quality_id": 335563,
+  "dept_id": 157,
+  "eff_pc": "400.00",
+  "period_id": 18,
+  "status_id": 3
+ },
+ {
+  "fne_qual_traget_id": 23,
+  "quality_id": 335564,
+  "dept_id": 157,
+  "eff_pc": "400.00",
+  "period_id": 18,
+  "status_id": 3
+ },
+ {
+  "fne_qual_traget_id": 24,
+  "quality_id": 335865,
+  "dept_id": 157,
+  "eff_pc": "400.00",
+  "period_id": 18,
+  "status_id": 3
+ },
+ {
+  "fne_qual_traget_id": 25,
+  "quality_id": 335559,
+  "dept_id": 157,
+  "eff_pc": "370.00",
+  "period_id": 18,
+  "status_id": 3
+ },
+ {
+  "fne_qual_traget_id": 26,
+  "quality_id": 335985,
+  "dept_id": 157,
+  "eff_pc": "370.00",
+  "period_id": 18,
+  "status_id": 3
+ },
+ {
+  "fne_qual_traget_id": 27,
+  "quality_id": 335961,
+  "dept_id": 157,
+  "eff_pc": "14.00",
+  "period_id": 18,
+  "status_id": 3
+ },
+ {
+  "fne_qual_traget_id": 28,
+  "quality_id": 335869,
+  "dept_id": 157,
+  "eff_pc": "400.00",
+  "period_id": 18,
+  "status_id": 3
+ },
+ {
+  "fne_qual_traget_id": 29,
+  "quality_id": 16,
+  "dept_id": 22,
+  "eff_pc": "58.00",
+  "period_id": 18,
+  "status_id": 3
+ }
+]

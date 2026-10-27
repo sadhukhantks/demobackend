@@ -1,0 +1,9 @@
+
+## 2026-08-24 - Review of weaving Q7 eb_id attendance resolution (6 files, uncommitted on bug-fix4)
+- **Total issues found:** FAIL: 1, WARN: 3, INFO: 3
+- **Most common issue:** parity gaps against the spinning implementation the change claims to mirror (unit-scope filter on ambiguity, branch predicate on the WARN query)
+- **[NEW-RULE]** Mutation-test the ordering/threading claims instead of trusting positional mock `side_effect` lists. Reordering the stamp past the freeze failed 3 tests (order IS enforced), but nulling the `ignore_designation` threading survived every test — positional mocks catch ORDER, never VALUE. Propose checklist item: "for any new request field threaded into binds, assert the bind value, not just call position".
+- **[NEW-RULE]** When a diff says "mirrors <other module>'s X", diff the two side by side to the END of the caller, not just the SQL. Here the SQL was byte-parity with spinning but the Python caller dropped spinning's `[a for a in ambiguous if a["machine_id"] in scope_mcs]` unit-scope filter.
+- **[NEW-RULE]** When two queries are documented as sharing eligibility ("the WARN must not disagree with the stamp"), diff their predicate SETS column by column. Here candidates had `da.branch_id = :branch_id` and the no_worker WARN had no `da.branch_id` predicate at all — the docstring promised an invariant the SQL does not hold.
+- **[PATTERN-DRIFT]** `int(r.eb_id)` on a NULLABLE `daily_attendance.eb_id` is copied verbatim from spinning_entry.py:1212. 0 NULL rows on dev3 and sls today, so it is latent in both modules — a shared-root fix, not a weaving-only one.
+- **Checklist items that need updating:** add a "claims-vs-code" pass (verify every invariant a new docstring asserts is actually enforced by the SQL/Python) and a "mutation spot-check" pass for tests that use positional mock side_effect lists.

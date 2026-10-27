@@ -1,0 +1,246 @@
+name: Deploy BE (ECS EC2)
+
+on:
+  # push:
+  #   branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+env:
+  AWS_REGION: ap-south-1
+  ECS_CLUSTER: default
+  ECR_REPOSITORY: vowerp3be-main
+  ECS_SERVICE: vowerp3be-main
+  ECS_TASK_DEFINITION: .aws/task-definition-be.json
+  CONTAINER_NAME: vowerp3be-main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ env.AWS_REGION }}
+
+      - name: Login to Amazon ECR
+        id: login-ecr
+        uses: aws-actions/amazon-ecr-login@v2
+
+      - name: Build, tag, and push image
+        id: build-image
+        env:
+          ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
+          IMAGE_TAG: ${{ github.sha }}
+        run: |
+          docker build \
+            --build-arg DATABASE_USER=${{ secrets.DATABASE_USER }} \
+            --build-arg DATABASE_PASSWORD=${{ secrets.DATABASE_PASSWORD }} \
+            --build-arg DATABASE_HOST=${{ secrets.DATABASE_HOST }} \
+            --build-arg DATABASE_PORT=${{ secrets.DATABASE_PORT }} \
+            --build-arg DATABASE_DEFAULT=${{ secrets.DATABASE_DEFAULT }} \
+            --build-arg ENV=production \
+            -t $ECR_REGISTRY/${{ env.ECR_REPOSITORY }}:$IMAGE_TAG .
+
+          docker push $ECR_REGISTRY/${{ env.ECR_REPOSITORY }}:$IMAGE_TAG
+          echo "image=$ECR_REGISTRY/${{ env.ECR_REPOSITORY }}:$IMAGE_TAG" >> $GITHUB_OUTPUT
+
+      - name: Enforce rolling config (stop then start on same hostPort)
+        run: |
+          aws ecs update-service \
+            --cluster ${{ env.ECS_CLUSTER }} \
+            --service ${{ env.ECS_SERVICE }} \
+            --deployment-configuration minimumHealthyPercent=0,maximumPercent=101
+
+      - name: Render task definition (inject image)
+        id: task-def
+        uses: aws-actions/amazon-ecs-render-task-definition@v1
+        with:
+          task-definition: ${{ env.ECS_TASK_DEFINITION }}
+          container-name: ${{ env.CONTAINER_NAME }}
+          image: ${{ steps.build-image.outputs.image }}
+
+      - name: Deploy task definition
+        uses: aws-actions/amazon-ecs-deploy-task-definition@v2
+        with:
+          cluster: ${{ env.ECS_CLUSTER }}
+          service: ${{ env.ECS_SERVICE }}
+          task-definition: ${{ steps.task-def.outputs.task-definition }}
+          wait-for-service-stability: true
+
+
+
+
+
+# # name: Deploy
+
+# # on:
+# #   pull_request:
+# #     branches:
+# #       - main
+
+# # env:
+# #   AWS_REGION: ${{ secrets.AWS_REGION }}                  # set this to your preferred AWS region, e.g. us-west-1
+# #   ECR_REPOSITORY: vowerp3be-main          # set this to your Amazon ECR repository name
+# #   ECS_SERVICE: vowerp3ui-main                 # set this to your Amazon ECS service name
+# #   ECS_CLUSTER: default                 # set this to your Amazon ECS cluster name
+# #   ECS_TASK_DEFINITION: .aws/task-definition.json # set this to the path to your Amazon ECS task definition
+# #                                                # file, e.g. .aws/task-definition.json
+# #   CONTAINER_NAME: vowerp3ui-main 
+
+# # jobs:
+# #   test-and-deploy-dev:
+# #     if: github.ref == 'refs/heads/main' || (github.event_name == 'pull_request' && github.base_ref == 'main')
+# #     runs-on: ubuntu-latest
+# #     steps:
+# #       - name: Checkout
+# #         uses: actions/checkout@v2
+
+# #       - name: Setup python-fastapi
+# #         uses: actions/setup-python@v2
+# #         with:
+# #           python-version: '3.x'
+
+# #       - name: Install dependencies
+# #         run: |
+# #           python -m pip install --upgrade pip
+# #           pip install -r requirements.txt
+
+# #       # - name: Run tests
+# #       #   run: 
+
+
+# #         #build docker image in pipeline
+# #       - name: Build Docker image
+# #         id: build-image
+# #         env:
+# #           IMAGE_TAG: ${{ github.sha }}
+# #         run: |
+# #           docker build \
+# #             --build-arg DATABASE_USER=${{ secrets.DATABASE_USER }} \
+# #             --build-arg DATABASE_PASSWORD=${{ secrets.DATABASE_PASSWORD }} \
+# #             --build-arg DATABASE_HOST=${{ secrets.DATABASE_HOST }} \
+# #             --build-arg DATABASE_PORT=${{ secrets.DATABASE_PORT }} \
+# #             --build-arg DATABASE_DEFAULT=${{ secrets.DATABASE_DEFAULT }} \
+# #             --build-arg ENV=production \
+# #             -t vowerp3be-main:$IMAGE_TAG .
+      
+# #           docker tag vowerp3be-main:$IMAGE_TAG ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.${{ env.AWS_REGION }}.amazonaws.com/vowerp3be-main:$IMAGE_TAG
+# #           docker push ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.${{ env.AWS_REGION }}.amazonaws.com/vowerp3be-main:$IMAGE_TAG
+# #           echo "image=${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.${{ env.AWS_REGION }}.amazonaws.com/vowerp3be-main:$IMAGE_TAG" >> $GITHUB_OUTPUT
+      
+
+# #       - name: Configure AWS credentials
+# #         uses: aws-actions/configure-aws-credentials@v1
+# #         with:
+# #           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+# #           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+# #           aws-region: ${{ env.AWS_REGION }}
+
+# #       - name: Login to Amazon ECR
+# #         id: login-ecr
+# #         uses: aws-actions/amazon-ecr-login@v1
+
+# # #update task definition
+# #       - name: Update ECS Task Definition
+# #         id: task-def
+# #         uses: aws-actions/amazon-ecs-render-task-definition@v1
+# #         with:
+# #           task-definition: ${{ env.ECS_TASK_DEFINITION }}
+# #           container-name: ${{ env.CONTAINER_NAME }}
+# #           image: ${{ steps.build-image.outputs.image }}
+
+          
+# #       - name: Test application availability
+# #         run: |
+# #           curl -f http://13.233.237.141:8000 || exit 1
+
+# name: Deploy
+
+# on:
+#   pull_request:
+#     branches:
+#       - main
+
+# env:
+#   AWS_REGION: ${{ secrets.AWS_REGION }}
+#   ECR_REPOSITORY: vowerp3be-main
+#   ECS_SERVICE: vowerp3ui-main
+#   ECS_CLUSTER: default
+#   ECS_TASK_DEFINITION: .aws/task-definition.json
+#   CONTAINER_NAME: vowerp3ui-main
+
+# jobs:
+#   test-and-deploy-dev:
+#     if: github.ref == 'refs/heads/main' || (github.event_name == 'pull_request' && github.base_ref == 'main')
+#     runs-on: ubuntu-latest
+
+#     steps:
+#       - name: Checkout code
+#         uses: actions/checkout@v2
+
+#       - name: Set up Python (for FastAPI)
+#         uses: actions/setup-python@v2
+#         with:
+#           python-version: '3.x'
+
+#       - name: Install dependencies
+#         run: |
+#           python -m pip install --upgrade pip
+#           pip install -r requirements.txt
+
+#       # ✅ Authenticate to AWS before building or pushing Docker image
+#       - name: Configure AWS credentials
+#         uses: aws-actions/configure-aws-credentials@v1
+#         with:
+#           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+#           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+#           aws-region: ${{ env.AWS_REGION }}
+
+#       - name: Login to Amazon ECR
+#         id: login-ecr
+#         uses: aws-actions/amazon-ecr-login@v1
+
+#       # 🔧 Build, tag, and push Docker image
+#       - name: Build and push Docker image to ECR
+#         id: build-image
+#         env:
+#           IMAGE_TAG: ${{ github.sha }}
+#         run: |
+#           echo "Building Docker image with tag $IMAGE_TAG"
+
+#           docker build \
+#             --build-arg DATABASE_USER=${{ secrets.DATABASE_USER }} \
+#             --build-arg DATABASE_PASSWORD=${{ secrets.DATABASE_PASSWORD }} \
+#             --build-arg DATABASE_HOST=${{ secrets.DATABASE_HOST }} \
+#             --build-arg DATABASE_PORT=${{ secrets.DATABASE_PORT }} \
+#             --build-arg DATABASE_DEFAULT=${{ secrets.DATABASE_DEFAULT }} \
+#             --build-arg ENV=production \
+#             -t vowerp3be-main:$IMAGE_TAG .
+
+#           docker tag vowerp3be-main:$IMAGE_TAG ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.${{ env.AWS_REGION }}.amazonaws.com/${{ env.ECR_REPOSITORY }}:$IMAGE_TAG
+#           docker push ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.${{ env.AWS_REGION }}.amazonaws.com/${{ env.ECR_REPOSITORY }}:$IMAGE_TAG
+
+#           echo "image=${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.${{ env.AWS_REGION }}.amazonaws.com/${{ env.ECR_REPOSITORY }}:$IMAGE_TAG" >> $GITHUB_OUTPUT
+
+#       # ✅ Update ECS task definition with the new image
+#       - name: Update ECS Task Definition
+#         id: task-def
+#         uses: aws-actions/amazon-ecs-render-task-definition@v1
+#         with:
+#           task-definition: ${{ env.ECS_TASK_DEFINITION }}
+#           container-name: ${{ env.CONTAINER_NAME }}
+#           image: ${{ steps.build-image.outputs.image }}
+
+#       # 🚀 OPTIONAL: Add a step to check deployment or curl a health check endpoint
+#       - name: Test application availability
+#         run: |
+#           echo "Waiting for service to start..."
+#           sleep 10
+#           curl -f http://13.233.237.141:8000 || (echo "App not reachable" && exit 1)

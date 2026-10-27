@@ -1,0 +1,2058 @@
+old_invoice_id,sls_invoice_id,col,old,sls,old_status
+3952,2598,status,0.0,1.0,0
+4146,2771,status,0.0,1.0,0
+2902,1612,invoice_type (2 vs 5),2,5,3
+2903,1613,invoice_type (2 vs 5),2,5,3
+2904,1614,invoice_type (2 vs 5),2,5,3
+2905,1615,invoice_type (2 vs 5),2,5,3
+2906,1616,invoice_type (2 vs 5),2,5,3
+2907,1617,invoice_type (2 vs 5),2,5,3
+2908,1618,invoice_type (2 vs 5),2,5,3
+2909,1619,invoice_type (2 vs 5),2,5,3
+2910,1620,invoice_type (2 vs 5),2,5,3
+2911,1621,invoice_type (2 vs 5),2,5,3
+2912,1622,invoice_type (2 vs 5),2,5,3
+2913,1623,invoice_type (2 vs 5),2,5,3
+2918,1627,invoice_type (2 vs 5),2,5,3
+2920,1629,invoice_type (2 vs 5),2,5,3
+2921,1630,invoice_type (2 vs 5),2,5,3
+2924,1633,invoice_type (2 vs 5),2,5,3
+2925,1634,invoice_type (2 vs 5),2,5,3
+2926,1635,invoice_type (2 vs 5),2,5,3
+2927,1636,invoice_type (2 vs 5),2,5,3
+2928,1637,invoice_type (2 vs 5),2,5,3
+2929,1638,invoice_type (2 vs 5),2,5,3
+2930,1639,invoice_type (2 vs 5),2,5,3
+2931,1640,invoice_type (2 vs 5),2,5,3
+2936,1645,invoice_type (2 vs 5),2,5,3
+2937,1646,invoice_type (2 vs 5),2,5,3
+2938,1647,invoice_type (2 vs 5),2,5,3
+2939,1648,invoice_type (2 vs 5),2,5,3
+2940,1649,invoice_type (2 vs 5),2,5,3
+2943,1650,invoice_type (2 vs 5),2,5,3
+3349,2041,invoice_type (2 vs 5),2,5,3
+3350,2042,invoice_type (2 vs 5),2,5,3
+3351,2043,invoice_type (2 vs 5),2,5,3
+3352,2044,invoice_type (2 vs 5),2,5,3
+3353,2045,invoice_type (2 vs 5),2,5,3
+3354,2046,invoice_type (2 vs 5),2,5,3
+3355,2047,invoice_type (2 vs 5),2,5,3
+3356,2048,invoice_type (2 vs 5),2,5,3
+3357,2049,invoice_type (2 vs 5),2,5,3
+3358,2050,invoice_type (2 vs 5),2,5,3
+3359,2051,invoice_type (2 vs 5),2,5,3
+3360,2052,invoice_type (2 vs 5),2,5,3
+3361,2053,invoice_type (2 vs 5),2,5,3
+3362,2054,invoice_type (2 vs 5),2,5,3
+3363,2055,invoice_type (2 vs 5),2,5,3
+3364,2056,invoice_type (2 vs 5),2,5,3
+3365,2057,invoice_type (2 vs 5),2,5,3
+3459,2144,invoice_type (2 vs 5),2,5,3
+3460,2145,invoice_type (2 vs 5),2,5,3
+3461,2146,invoice_type (2 vs 5),2,5,3
+3462,2147,invoice_type (2 vs 5),2,5,3
+3463,2148,invoice_type (2 vs 5),2,5,3
+3464,2149,invoice_type (2 vs 5),2,5,3
+3465,2150,invoice_type (2 vs 5),2,5,3
+3467,2152,invoice_type (2 vs 5),2,5,3
+3469,2154,invoice_type (2 vs 5),2,5,3
+3470,2155,invoice_type (2 vs 5),2,5,3
+3472,2157,invoice_type (2 vs 5),2,5,3
+3474,2159,invoice_type (2 vs 5),2,5,3
+3475,2160,invoice_type (2 vs 5),2,5,3
+3477,2162,invoice_type (2 vs 5),2,5,3
+3478,2163,invoice_type (2 vs 5),2,5,3
+3480,2165,invoice_type (2 vs 5),2,5,3
+3482,2167,invoice_type (2 vs 5),2,5,3
+3483,2168,invoice_type (2 vs 5),2,5,3
+3488,2173,invoice_type (2 vs 5),2,5,3
+3490,2175,invoice_type (2 vs 5),2,5,3
+3491,2176,invoice_type (2 vs 5),2,5,3
+3492,2177,invoice_type (2 vs 5),2,5,3
+3493,2178,invoice_type (2 vs 5),2,5,3
+3664,2338,invoice_type (2 vs 5),2,5,3
+3665,2339,invoice_type (2 vs 5),2,5,3
+3666,2340,invoice_type (2 vs 5),2,5,3
+3667,2341,invoice_type (2 vs 5),2,5,3
+3668,2342,invoice_type (2 vs 5),2,5,3
+3669,2343,invoice_type (2 vs 5),2,5,3
+3670,2344,invoice_type (2 vs 5),2,5,3
+3671,2345,invoice_type (2 vs 5),2,5,3
+3673,2346,invoice_type (2 vs 5),2,5,3
+3674,2347,invoice_type (2 vs 5),2,5,3
+3675,2348,invoice_type (2 vs 5),2,5,3
+3676,2349,invoice_type (2 vs 5),2,5,3
+3677,2350,invoice_type (2 vs 5),2,5,3
+3678,2351,invoice_type (2 vs 5),2,5,3
+3679,2352,invoice_type (2 vs 5),2,5,3
+3680,2353,invoice_type (2 vs 5),2,5,3
+3817,2487,invoice_type (2 vs 5),2,5,3
+3818,2488,invoice_type (2 vs 5),2,5,3
+3820,2489,invoice_type (2 vs 5),2,5,3
+3821,2490,invoice_type (2 vs 5),2,5,3
+3822,2491,invoice_type (2 vs 5),2,5,3
+3823,2492,invoice_type (2 vs 5),2,5,3
+3846,2514,invoice_type (2 vs 5),2,5,3
+3950,2596,invoice_type (2 vs 5),2,5,3
+3952,2598,invoice_type (2 vs 5),2,5,0
+3953,2599,invoice_type (2 vs 5),2,5,3
+3954,2600,invoice_type (2 vs 5),2,5,3
+3955,2601,invoice_type (2 vs 5),2,5,3
+3957,2603,invoice_type (2 vs 5),2,5,3
+3959,2605,invoice_type (2 vs 5),2,5,3
+3960,2606,invoice_type (2 vs 5),2,5,3
+3961,2607,invoice_type (2 vs 5),2,5,3
+3962,2608,invoice_type (2 vs 5),2,5,3
+3964,2610,invoice_type (2 vs 5),2,5,3
+3965,2611,invoice_type (2 vs 5),2,5,3
+3966,2612,invoice_type (2 vs 5),2,5,3
+3967,2613,invoice_type (2 vs 5),2,5,3
+3968,2614,invoice_type (2 vs 5),2,5,3
+4146,2771,invoice_type (2 vs 5),2,5,0
+4148,2772,invoice_type (2 vs 5),2,5,3
+4149,2773,invoice_type (2 vs 5),2,5,3
+4150,2774,invoice_type (2 vs 5),2,5,3
+4151,2775,invoice_type (2 vs 5),2,5,3
+4152,2776,invoice_type (2 vs 5),2,5,3
+4153,2777,invoice_type (2 vs 5),2,5,3
+4159,2783,invoice_type (2 vs 5),2,5,3
+4160,2784,invoice_type (2 vs 5),2,5,3
+4161,2785,invoice_type (2 vs 5),2,5,3
+4162,2786,invoice_type (2 vs 5),2,5,3
+4163,2787,invoice_type (2 vs 5),2,5,3
+4164,2788,invoice_type (2 vs 5),2,5,3
+4165,2789,invoice_type (2 vs 5),2,5,3
+4167,2791,invoice_type (2 vs 5),2,5,3
+4168,2792,invoice_type (2 vs 5),2,5,3
+4170,2794,invoice_type (2 vs 5),2,5,3
+4176,2800,invoice_type (2 vs 5),2,5,3
+4179,2803,invoice_type (2 vs 5),2,5,3
+4181,2805,invoice_type (2 vs 5),2,5,3
+4270,2892,invoice_type (2 vs 5),2,5,3
+4309,2931,invoice_type (2 vs 5),2,5,3
+4310,2932,invoice_type (2 vs 5),2,5,3
+4311,2933,invoice_type (2 vs 5),2,5,3
+4410,3032,invoice_type (2 vs 5),2,5,3
+4411,3033,invoice_type (2 vs 5),2,5,3
+4412,3034,invoice_type (2 vs 5),2,5,3
+4467,3088,invoice_type (2 vs 5),2,5,3
+4468,3089,invoice_type (2 vs 5),2,5,3
+4469,3090,invoice_type (2 vs 5),2,5,3
+4470,3091,invoice_type (2 vs 5),2,5,3
+4471,3092,invoice_type (2 vs 5),2,5,3
+4472,3093,invoice_type (2 vs 5),2,5,3
+4519,3114,invoice_type (2 vs 5),2,5,3
+4561,3155,invoice_type (2 vs 5),2,5,3
+4766,3338,invoice_type (2 vs 5),2,5,3
+4767,3339,invoice_type (2 vs 5),2,5,3
+4768,3340,invoice_type (2 vs 5),2,5,3
+4769,3341,invoice_type (2 vs 5),2,5,3
+4770,3342,invoice_type (2 vs 5),2,5,3
+4772,3343,invoice_type (2 vs 5),2,5,3
+4773,3344,invoice_type (2 vs 5),2,5,3
+4774,3345,invoice_type (2 vs 5),2,5,3
+4820,3391,invoice_type (2 vs 5),2,5,3
+4857,3427,invoice_type (2 vs 5),2,5,3
+4858,3428,invoice_type (2 vs 5),2,5,3
+4859,3429,invoice_type (2 vs 5),2,5,3
+4861,3430,invoice_type (2 vs 5),2,5,3
+4862,3431,invoice_type (2 vs 5),2,5,3
+4863,3432,invoice_type (2 vs 5),2,5,3
+4865,3433,invoice_type (2 vs 5),2,5,3
+4866,3434,invoice_type (2 vs 5),2,5,3
+4867,3435,invoice_type (2 vs 5),2,5,3
+4868,3436,invoice_type (2 vs 5),2,5,3
+4885,3452,invoice_type (2 vs 5),2,5,3
+5231,3776,invoice_type (2 vs 5),2,5,3
+5234,3779,invoice_type (2 vs 5),2,5,3
+5235,3780,invoice_type (2 vs 5),2,5,3
+5237,3782,invoice_type (2 vs 5),2,5,3
+5238,3783,invoice_type (2 vs 5),2,5,3
+5239,3784,invoice_type (2 vs 5),2,5,3
+5240,3785,invoice_type (2 vs 5),2,5,3
+5241,3786,invoice_type (2 vs 5),2,5,3
+5242,3787,invoice_type (2 vs 5),2,5,3
+5243,3788,invoice_type (2 vs 5),2,5,3
+5244,3789,invoice_type (2 vs 5),2,5,3
+5245,3790,invoice_type (2 vs 5),2,5,3
+5246,3791,invoice_type (2 vs 5),2,5,3
+5247,3792,invoice_type (2 vs 5),2,5,3
+5249,3794,invoice_type (2 vs 5),2,5,3
+5250,3795,invoice_type (2 vs 5),2,5,3
+5251,3796,invoice_type (2 vs 5),2,5,3
+5253,3798,invoice_type (2 vs 5),2,5,3
+5256,3801,invoice_type (2 vs 5),2,5,3
+5258,3803,invoice_type (2 vs 5),2,5,3
+5259,3804,invoice_type (2 vs 5),2,5,3
+5260,3805,invoice_type (2 vs 5),2,5,3
+5261,3806,invoice_type (2 vs 5),2,5,3
+5262,3807,invoice_type (2 vs 5),2,5,3
+5263,3808,invoice_type (2 vs 5),2,5,3
+5264,3809,invoice_type (2 vs 5),2,5,3
+5265,3810,invoice_type (2 vs 5),2,5,3
+5266,3811,invoice_type (2 vs 5),2,5,3
+5267,3812,invoice_type (2 vs 5),2,5,3
+5268,3813,invoice_type (2 vs 5),2,5,3
+5420,3955,invoice_type (2 vs 5),2,5,3
+5421,3956,invoice_type (2 vs 5),2,5,3
+5422,3957,invoice_type (2 vs 5),2,5,3
+5423,3958,invoice_type (2 vs 5),2,5,3
+5519,4053,invoice_type (2 vs 5),2,5,3
+5520,4054,invoice_type (2 vs 5),2,5,3
+5521,4055,invoice_type (2 vs 5),2,5,3
+5522,4056,invoice_type (2 vs 5),2,5,3
+5523,4057,invoice_type (2 vs 5),2,5,3
+5524,4058,invoice_type (2 vs 5),2,5,3
+5525,4059,invoice_type (2 vs 5),2,5,3
+5526,4060,invoice_type (2 vs 5),2,5,3
+5539,4073,invoice_type (2 vs 5),2,5,3
+5540,4074,invoice_type (2 vs 5),2,5,3
+5541,4075,invoice_type (2 vs 5),2,5,3
+5542,4076,invoice_type (2 vs 5),2,5,3
+5543,4077,invoice_type (2 vs 5),2,5,3
+5544,4078,invoice_type (2 vs 5),2,5,3
+6199,4660,invoice_type (2 vs 5),2,5,1
+6200,4661,invoice_type (2 vs 5),2,5,1
+6201,4662,invoice_type (2 vs 5),2,5,1
+6202,4663,invoice_type (2 vs 5),2,5,1
+6203,4664,invoice_type (2 vs 5),2,5,1
+6204,4665,invoice_type (2 vs 5),2,5,1
+6205,4666,invoice_type (2 vs 5),2,5,1
+6243,4692,invoice_type (2 vs 5),2,5,3
+6244,4693,invoice_type (2 vs 5),2,5,3
+6245,4694,invoice_type (2 vs 5),2,5,3
+6246,4695,invoice_type (2 vs 5),2,5,3
+6346,4767,invoice_type (2 vs 5),2,5,3
+6347,4768,invoice_type (2 vs 5),2,5,3
+6348,4769,invoice_type (2 vs 5),2,5,3
+6349,4770,invoice_type (2 vs 5),2,5,3
+6350,4771,invoice_type (2 vs 5),2,5,3
+6351,4772,invoice_type (2 vs 5),2,5,3
+6352,4773,invoice_type (2 vs 5),2,5,3
+6353,4774,invoice_type (2 vs 5),2,5,3
+6354,4775,invoice_type (2 vs 5),2,5,3
+6355,4776,invoice_type (2 vs 5),2,5,3
+6356,4777,invoice_type (2 vs 5),2,5,3
+6357,4778,invoice_type (2 vs 5),2,5,3
+6446,4831,invoice_type (2 vs 5),2,5,3
+6447,4832,invoice_type (2 vs 5),2,5,3
+6449,4834,invoice_type (2 vs 5),2,5,3
+6450,4835,invoice_type (2 vs 5),2,5,3
+6451,4836,invoice_type (2 vs 5),2,5,3
+6455,4840,invoice_type (2 vs 5),2,5,3
+6456,4841,invoice_type (2 vs 5),2,5,3
+6457,4842,invoice_type (2 vs 5),2,5,3
+6459,4844,invoice_type (2 vs 5),2,5,3
+6461,4846,invoice_type (2 vs 5),2,5,3
+6462,4847,invoice_type (2 vs 5),2,5,3
+6465,4850,invoice_type (2 vs 5),2,5,3
+6466,4851,invoice_type (2 vs 5),2,5,3
+7611,5876,invoice_type (2 vs 5),2,5,3
+7612,5877,invoice_type (2 vs 5),2,5,3
+7613,5878,invoice_type (2 vs 5),2,5,3
+7614,5879,invoice_type (2 vs 5),2,5,3
+7615,5880,invoice_type (2 vs 5),2,5,3
+7616,5881,invoice_type (2 vs 5),2,5,3
+7617,5882,invoice_type (2 vs 5),2,5,3
+7618,5883,invoice_type (2 vs 5),2,5,3
+7619,5884,invoice_type (2 vs 5),2,5,3
+7620,5885,invoice_type (2 vs 5),2,5,3
+7621,5886,invoice_type (2 vs 5),2,5,3
+7622,5887,invoice_type (2 vs 5),2,5,3
+7623,5888,invoice_type (2 vs 5),2,5,3
+7624,5889,invoice_type (2 vs 5),2,5,3
+7625,5890,invoice_type (2 vs 5),2,5,3
+7626,5891,invoice_type (2 vs 5),2,5,3
+7627,5892,invoice_type (2 vs 5),2,5,3
+7628,5893,invoice_type (2 vs 5),2,5,3
+7629,5894,invoice_type (2 vs 5),2,5,3
+7630,5895,invoice_type (2 vs 5),2,5,3
+7631,5896,invoice_type (2 vs 5),2,5,3
+7632,5897,invoice_type (2 vs 5),2,5,3
+7633,5898,invoice_type (2 vs 5),2,5,3
+7634,5899,invoice_type (2 vs 5),2,5,3
+7635,5900,invoice_type (2 vs 5),2,5,3
+7636,5901,invoice_type (2 vs 5),2,5,3
+7637,5902,invoice_type (2 vs 5),2,5,3
+7638,5903,invoice_type (2 vs 5),2,5,3
+7639,5904,invoice_type (2 vs 5),2,5,3
+7640,5905,invoice_type (2 vs 5),2,5,3
+7641,5906,invoice_type (2 vs 5),2,5,3
+7642,5907,invoice_type (2 vs 5),2,5,3
+7643,5908,invoice_type (2 vs 5),2,5,3
+7644,5909,invoice_type (2 vs 5),2,5,3
+7645,5910,invoice_type (2 vs 5),2,5,3
+7646,5911,invoice_type (2 vs 5),2,5,3
+7647,5912,invoice_type (2 vs 5),2,5,3
+7648,5913,invoice_type (2 vs 5),2,5,3
+7649,5914,invoice_type (2 vs 5),2,5,3
+7650,5915,invoice_type (2 vs 5),2,5,3
+7651,5916,invoice_type (2 vs 5),2,5,3
+7652,5917,invoice_type (2 vs 5),2,5,3
+7653,5918,invoice_type (2 vs 5),2,5,3
+7654,5919,invoice_type (2 vs 5),2,5,3
+7655,5920,invoice_type (2 vs 5),2,5,3
+7656,5921,invoice_type (2 vs 5),2,5,3
+7658,5923,invoice_type (2 vs 5),2,5,3
+7659,5924,invoice_type (2 vs 5),2,5,3
+7787,6033,invoice_type (2 vs 5),2,5,3
+7788,6034,invoice_type (2 vs 5),2,5,3
+7789,6035,invoice_type (2 vs 5),2,5,3
+7790,6036,invoice_type (2 vs 5),2,5,3
+7791,6037,invoice_type (2 vs 5),2,5,3
+7792,6038,invoice_type (2 vs 5),2,5,3
+7793,6039,invoice_type (2 vs 5),2,5,3
+7794,6040,invoice_type (2 vs 5),2,5,3
+7795,6041,invoice_type (2 vs 5),2,5,3
+7796,6042,invoice_type (2 vs 5),2,5,3
+7797,6043,invoice_type (2 vs 5),2,5,3
+7798,6044,invoice_type (2 vs 5),2,5,3
+7799,6045,invoice_type (2 vs 5),2,5,3
+7800,6046,invoice_type (2 vs 5),2,5,3
+7801,6047,invoice_type (2 vs 5),2,5,3
+7802,6048,invoice_type (2 vs 5),2,5,3
+7803,6049,invoice_type (2 vs 5),2,5,3
+7804,6050,invoice_type (2 vs 5),2,5,3
+7805,6051,invoice_type (2 vs 5),2,5,3
+7806,6052,invoice_type (2 vs 5),2,5,3
+7807,6053,invoice_type (2 vs 5),2,5,3
+7808,6054,invoice_type (2 vs 5),2,5,3
+7809,6055,invoice_type (2 vs 5),2,5,3
+7810,6056,invoice_type (2 vs 5),2,5,3
+7811,6057,invoice_type (2 vs 5),2,5,3
+7812,6058,invoice_type (2 vs 5),2,5,3
+8366,6593,invoice_type (2 vs 5),2,5,3
+8367,6594,invoice_type (2 vs 5),2,5,3
+8368,6595,invoice_type (2 vs 5),2,5,3
+8369,6596,invoice_type (2 vs 5),2,5,3
+8370,6597,invoice_type (2 vs 5),2,5,3
+8492,6718,invoice_type (2 vs 5),2,5,3
+8493,6719,invoice_type (2 vs 5),2,5,3
+8494,6720,invoice_type (2 vs 5),2,5,3
+8877,7101,invoice_type (2 vs 5),2,5,3
+8878,7102,invoice_type (2 vs 5),2,5,3
+8879,7103,invoice_type (2 vs 5),2,5,3
+8880,7104,invoice_type (2 vs 5),2,5,3
+8881,7105,invoice_type (2 vs 5),2,5,3
+8882,7106,invoice_type (2 vs 5),2,5,3
+8883,7107,invoice_type (2 vs 5),2,5,3
+8884,7108,invoice_type (2 vs 5),2,5,3
+8885,7109,invoice_type (2 vs 5),2,5,3
+8886,7110,invoice_type (2 vs 5),2,5,3
+8887,7111,invoice_type (2 vs 5),2,5,3
+8888,7112,invoice_type (2 vs 5),2,5,3
+8889,7113,invoice_type (2 vs 5),2,5,3
+8890,7114,invoice_type (2 vs 5),2,5,3
+8891,7115,invoice_type (2 vs 5),2,5,3
+9505,7716,invoice_type (2 vs 5),2,5,3
+9506,7717,invoice_type (2 vs 5),2,5,3
+9507,7718,invoice_type (2 vs 5),2,5,3
+9508,7719,invoice_type (2 vs 5),2,5,3
+9509,7720,invoice_type (2 vs 5),2,5,3
+9510,7721,invoice_type (2 vs 5),2,5,3
+9511,7722,invoice_type (2 vs 5),2,5,3
+9512,7723,invoice_type (2 vs 5),2,5,3
+9513,7724,invoice_type (2 vs 5),2,5,3
+9514,7725,invoice_type (2 vs 5),2,5,3
+9515,7726,invoice_type (2 vs 5),2,5,3
+9516,7727,invoice_type (2 vs 5),2,5,3
+9517,7728,invoice_type (2 vs 5),2,5,3
+9518,7729,invoice_type (2 vs 5),2,5,3
+9519,7730,invoice_type (2 vs 5),2,5,3
+9520,7731,invoice_type (2 vs 5),2,5,3
+9521,7732,invoice_type (2 vs 5),2,5,3
+9522,7733,invoice_type (2 vs 5),2,5,3
+9724,7930,invoice_type (2 vs 5),2,5,3
+9725,7931,invoice_type (2 vs 5),2,5,3
+9726,7932,invoice_type (2 vs 5),2,5,3
+9727,7933,invoice_type (2 vs 5),2,5,3
+9728,7934,invoice_type (2 vs 5),2,5,3
+9729,7935,invoice_type (2 vs 5),2,5,3
+9730,7936,invoice_type (2 vs 5),2,5,3
+9731,7937,invoice_type (2 vs 5),2,5,3
+9732,7938,invoice_type (2 vs 5),2,5,3
+9733,7939,invoice_type (2 vs 5),2,5,3
+9734,7940,invoice_type (2 vs 5),2,5,3
+9735,7941,invoice_type (2 vs 5),2,5,3
+9736,7942,invoice_type (2 vs 5),2,5,3
+9737,7943,invoice_type (2 vs 5),2,5,3
+9738,7944,invoice_type (2 vs 5),2,5,3
+9739,7945,invoice_type (2 vs 5),2,5,3
+9740,7946,invoice_type (2 vs 5),2,5,3
+9741,7947,invoice_type (2 vs 5),2,5,3
+9742,7948,invoice_type (2 vs 5),2,5,3
+9743,7949,invoice_type (2 vs 5),2,5,3
+9744,7950,invoice_type (2 vs 5),2,5,3
+9745,7951,invoice_type (2 vs 5),2,5,3
+9746,7952,invoice_type (2 vs 5),2,5,3
+9747,7953,invoice_type (2 vs 5),2,5,3
+9748,7954,invoice_type (2 vs 5),2,5,3
+9749,7955,invoice_type (2 vs 5),2,5,3
+9750,7956,invoice_type (2 vs 5),2,5,3
+9751,7957,invoice_type (2 vs 5),2,5,3
+9752,7958,invoice_type (2 vs 5),2,5,3
+9753,7959,invoice_type (2 vs 5),2,5,3
+9754,7960,invoice_type (2 vs 5),2,5,3
+9755,7961,invoice_type (2 vs 5),2,5,3
+9756,7962,invoice_type (2 vs 5),2,5,3
+9757,7963,invoice_type (2 vs 5),2,5,3
+9758,7964,invoice_type (2 vs 5),2,5,3
+9759,7965,invoice_type (2 vs 5),2,5,3
+9762,7967,invoice_type (2 vs 5),2,5,3
+9763,7968,invoice_type (2 vs 5),2,5,3
+9764,7969,invoice_type (2 vs 5),2,5,3
+9765,7970,invoice_type (2 vs 5),2,5,3
+9766,7971,invoice_type (2 vs 5),2,5,3
+9767,7972,invoice_type (2 vs 5),2,5,3
+9768,7973,invoice_type (2 vs 5),2,5,3
+10166,8359,invoice_type (2 vs 5),2,5,3
+10167,8360,invoice_type (2 vs 5),2,5,3
+10168,8361,invoice_type (2 vs 5),2,5,3
+10169,8362,invoice_type (2 vs 5),2,5,3
+10170,8363,invoice_type (2 vs 5),2,5,3
+10171,8364,invoice_type (2 vs 5),2,5,3
+10380,8571,invoice_type (2 vs 5),2,5,3
+10445,8632,invoice_type (2 vs 5),2,5,3
+10446,8633,invoice_type (2 vs 5),2,5,3
+10447,8634,invoice_type (2 vs 5),2,5,3
+10452,8639,invoice_type (2 vs 5),2,5,3
+10453,8640,invoice_type (2 vs 5),2,5,3
+10454,8641,invoice_type (2 vs 5),2,5,3
+10513,8700,invoice_type (2 vs 5),2,5,3
+10725,8908,invoice_type (2 vs 5),2,5,3
+10726,8909,invoice_type (2 vs 5),2,5,3
+10727,8910,invoice_type (2 vs 5),2,5,3
+10728,8911,invoice_type (2 vs 5),2,5,3
+10729,8912,invoice_type (2 vs 5),2,5,3
+10730,8913,invoice_type (2 vs 5),2,5,3
+10731,8914,invoice_type (2 vs 5),2,5,3
+10732,8915,invoice_type (2 vs 5),2,5,3
+10733,8916,invoice_type (2 vs 5),2,5,3
+10734,8917,invoice_type (2 vs 5),2,5,3
+10735,8918,invoice_type (2 vs 5),2,5,3
+10736,8919,invoice_type (2 vs 5),2,5,3
+10737,8920,invoice_type (2 vs 5),2,5,3
+10738,8921,invoice_type (2 vs 5),2,5,3
+10739,8922,invoice_type (2 vs 5),2,5,3
+10740,8923,invoice_type (2 vs 5),2,5,3
+10741,8924,invoice_type (2 vs 5),2,5,3
+10742,8925,invoice_type (2 vs 5),2,5,3
+10743,8926,invoice_type (2 vs 5),2,5,3
+10744,8927,invoice_type (2 vs 5),2,5,3
+10745,8928,invoice_type (2 vs 5),2,5,3
+10746,8929,invoice_type (2 vs 5),2,5,3
+10747,8930,invoice_type (2 vs 5),2,5,3
+10748,8931,invoice_type (2 vs 5),2,5,3
+10749,8932,invoice_type (2 vs 5),2,5,3
+10750,8933,invoice_type (2 vs 5),2,5,3
+10751,8934,invoice_type (2 vs 5),2,5,3
+10752,8935,invoice_type (2 vs 5),2,5,3
+10753,8936,invoice_type (2 vs 5),2,5,3
+10754,8937,invoice_type (2 vs 5),2,5,3
+10755,8938,invoice_type (2 vs 5),2,5,3
+10756,8939,invoice_type (2 vs 5),2,5,3
+10757,8940,invoice_type (2 vs 5),2,5,3
+10758,8941,invoice_type (2 vs 5),2,5,3
+10759,8942,invoice_type (2 vs 5),2,5,3
+10760,8943,invoice_type (2 vs 5),2,5,3
+10761,8944,invoice_type (2 vs 5),2,5,3
+10762,8945,invoice_type (2 vs 5),2,5,3
+10763,8946,invoice_type (2 vs 5),2,5,3
+10764,8947,invoice_type (2 vs 5),2,5,3
+11691,9866,invoice_type (2 vs 5),2,5,3
+11692,9867,invoice_type (2 vs 5),2,5,3
+11693,9868,invoice_type (2 vs 5),2,5,3
+11694,9869,invoice_type (2 vs 5),2,5,3
+11695,9870,invoice_type (2 vs 5),2,5,3
+11696,9871,invoice_type (2 vs 5),2,5,3
+12561,10718,invoice_type (2 vs 5),2,5,3
+12563,10720,invoice_type (2 vs 5),2,5,3
+12564,10721,invoice_type (2 vs 5),2,5,3
+12565,10722,invoice_type (2 vs 5),2,5,3
+12566,10723,invoice_type (2 vs 5),2,5,3
+12567,10724,invoice_type (2 vs 5),2,5,3
+12568,10725,invoice_type (2 vs 5),2,5,3
+12569,10726,invoice_type (2 vs 5),2,5,3
+12570,10727,invoice_type (2 vs 5),2,5,3
+12571,10728,invoice_type (2 vs 5),2,5,3
+12572,10729,invoice_type (2 vs 5),2,5,3
+12573,10730,invoice_type (2 vs 5),2,5,3
+12574,10731,invoice_type (2 vs 5),2,5,3
+12575,10732,invoice_type (2 vs 5),2,5,3
+12576,10733,invoice_type (2 vs 5),2,5,3
+12577,10734,invoice_type (2 vs 5),2,5,3
+12578,10735,invoice_type (2 vs 5),2,5,3
+12579,10736,invoice_type (2 vs 5),2,5,3
+12580,10737,invoice_type (2 vs 5),2,5,3
+12581,10738,invoice_type (2 vs 5),2,5,3
+12582,10739,invoice_type (2 vs 5),2,5,3
+12583,10740,invoice_type (2 vs 5),2,5,3
+12584,10741,invoice_type (2 vs 5),2,5,3
+12585,10742,invoice_type (2 vs 5),2,5,3
+12586,10743,invoice_type (2 vs 5),2,5,3
+12587,10744,invoice_type (2 vs 5),2,5,3
+12588,10745,invoice_type (2 vs 5),2,5,3
+12589,10746,invoice_type (2 vs 5),2,5,3
+12590,10747,invoice_type (2 vs 5),2,5,3
+12591,10748,invoice_type (2 vs 5),2,5,3
+12592,10749,invoice_type (2 vs 5),2,5,3
+12720,10877,invoice_type (2 vs 5),2,5,3
+12721,10878,invoice_type (2 vs 5),2,5,3
+12722,10879,invoice_type (2 vs 5),2,5,3
+12723,10880,invoice_type (2 vs 5),2,5,3
+12724,10881,invoice_type (2 vs 5),2,5,3
+12725,10882,invoice_type (2 vs 5),2,5,3
+12726,10883,invoice_type (2 vs 5),2,5,3
+12727,10884,invoice_type (2 vs 5),2,5,3
+12728,10885,invoice_type (2 vs 5),2,5,3
+12729,10886,invoice_type (2 vs 5),2,5,3
+12730,10887,invoice_type (2 vs 5),2,5,3
+12731,10888,invoice_type (2 vs 5),2,5,3
+12732,10889,invoice_type (2 vs 5),2,5,3
+12733,10890,invoice_type (2 vs 5),2,5,3
+12734,10891,invoice_type (2 vs 5),2,5,3
+12735,10892,invoice_type (2 vs 5),2,5,3
+12736,10893,invoice_type (2 vs 5),2,5,3
+12737,10894,invoice_type (2 vs 5),2,5,3
+12738,10895,invoice_type (2 vs 5),2,5,3
+12739,10896,invoice_type (2 vs 5),2,5,3
+12744,10901,invoice_type (2 vs 5),2,5,3
+12746,10903,invoice_type (2 vs 5),2,5,3
+12747,10904,invoice_type (2 vs 5),2,5,3
+12748,10905,invoice_type (2 vs 5),2,5,3
+12749,10906,invoice_type (2 vs 5),2,5,3
+12750,10907,invoice_type (2 vs 5),2,5,3
+12751,10908,invoice_type (2 vs 5),2,5,3
+12752,10909,invoice_type (2 vs 5),2,5,3
+12753,10910,invoice_type (2 vs 5),2,5,3
+12754,10911,invoice_type (2 vs 5),2,5,3
+12755,10912,invoice_type (2 vs 5),2,5,3
+12756,10913,invoice_type (2 vs 5),2,5,3
+12757,10914,invoice_type (2 vs 5),2,5,3
+12758,10915,invoice_type (2 vs 5),2,5,3
+12759,10916,invoice_type (2 vs 5),2,5,3
+12760,10917,invoice_type (2 vs 5),2,5,3
+12761,10918,invoice_type (2 vs 5),2,5,3
+12762,10919,invoice_type (2 vs 5),2,5,3
+12763,10920,invoice_type (2 vs 5),2,5,3
+12764,10921,invoice_type (2 vs 5),2,5,3
+12765,10922,invoice_type (2 vs 5),2,5,3
+12766,10923,invoice_type (2 vs 5),2,5,3
+12767,10924,invoice_type (2 vs 5),2,5,3
+12768,10925,invoice_type (2 vs 5),2,5,3
+12769,10926,invoice_type (2 vs 5),2,5,3
+12770,10927,invoice_type (2 vs 5),2,5,3
+12771,10928,invoice_type (2 vs 5),2,5,3
+12772,10929,invoice_type (2 vs 5),2,5,3
+12773,10930,invoice_type (2 vs 5),2,5,3
+12774,10931,invoice_type (2 vs 5),2,5,3
+12781,10938,invoice_type (2 vs 5),2,5,3
+12782,10939,invoice_type (2 vs 5),2,5,3
+12784,10941,invoice_type (2 vs 5),2,5,3
+12785,10942,invoice_type (2 vs 5),2,5,3
+12786,10943,invoice_type (2 vs 5),2,5,3
+12787,10944,invoice_type (2 vs 5),2,5,3
+12816,10973,invoice_type (2 vs 5),2,5,3
+12817,10974,invoice_type (2 vs 5),2,5,3
+12818,10975,invoice_type (2 vs 5),2,5,3
+12819,10976,invoice_type (2 vs 5),2,5,3
+12820,10977,invoice_type (2 vs 5),2,5,3
+12821,10978,invoice_type (2 vs 5),2,5,3
+12822,10979,invoice_type (2 vs 5),2,5,3
+12823,10980,invoice_type (2 vs 5),2,5,3
+12824,10981,invoice_type (2 vs 5),2,5,3
+12825,10982,invoice_type (2 vs 5),2,5,3
+12826,10983,invoice_type (2 vs 5),2,5,3
+13195,11349,invoice_type (2 vs 5),2,5,3
+13296,11447,invoice_type (2 vs 5),2,5,3
+13297,11448,invoice_type (2 vs 5),2,5,3
+13298,11449,invoice_type (2 vs 5),2,5,3
+13299,11450,invoice_type (2 vs 5),2,5,3
+13300,11451,invoice_type (2 vs 5),2,5,3
+13301,11452,invoice_type (2 vs 5),2,5,3
+13302,11453,invoice_type (2 vs 5),2,5,3
+13303,11454,invoice_type (2 vs 5),2,5,3
+13304,11455,invoice_type (2 vs 5),2,5,3
+13305,11456,invoice_type (2 vs 5),2,5,3
+13306,11457,invoice_type (2 vs 5),2,5,3
+13307,11458,invoice_type (2 vs 5),2,5,3
+13308,11459,invoice_type (2 vs 5),2,5,3
+13309,11460,invoice_type (2 vs 5),2,5,3
+13310,11461,invoice_type (2 vs 5),2,5,3
+13311,11462,invoice_type (2 vs 5),2,5,3
+13312,11463,invoice_type (2 vs 5),2,5,3
+13313,11464,invoice_type (2 vs 5),2,5,3
+13314,11465,invoice_type (2 vs 5),2,5,3
+13315,11466,invoice_type (2 vs 5),2,5,3
+13316,11467,invoice_type (2 vs 5),2,5,3
+13317,11468,invoice_type (2 vs 5),2,5,3
+13448,11597,invoice_type (2 vs 5),2,5,3
+13449,11598,invoice_type (2 vs 5),2,5,3
+13450,11599,invoice_type (2 vs 5),2,5,3
+13451,11600,invoice_type (2 vs 5),2,5,3
+13452,11601,invoice_type (2 vs 5),2,5,3
+13453,11602,invoice_type (2 vs 5),2,5,3
+13454,11603,invoice_type (2 vs 5),2,5,3
+13455,11604,invoice_type (2 vs 5),2,5,3
+13456,11605,invoice_type (2 vs 5),2,5,3
+13457,11606,invoice_type (2 vs 5),2,5,3
+13458,11607,invoice_type (2 vs 5),2,5,3
+13459,11608,invoice_type (2 vs 5),2,5,3
+13460,11609,invoice_type (2 vs 5),2,5,3
+13461,11610,invoice_type (2 vs 5),2,5,3
+13462,11611,invoice_type (2 vs 5),2,5,3
+13463,11612,invoice_type (2 vs 5),2,5,3
+13464,11613,invoice_type (2 vs 5),2,5,3
+13945,12083,invoice_type (2 vs 5),2,5,3
+13946,12084,invoice_type (2 vs 5),2,5,3
+13947,12085,invoice_type (2 vs 5),2,5,3
+13948,12086,invoice_type (2 vs 5),2,5,3
+13949,12087,invoice_type (2 vs 5),2,5,3
+13950,12088,invoice_type (2 vs 5),2,5,3
+13951,12089,invoice_type (2 vs 5),2,5,3
+13952,12090,invoice_type (2 vs 5),2,5,3
+13953,12091,invoice_type (2 vs 5),2,5,3
+13954,12092,invoice_type (2 vs 5),2,5,3
+13955,12093,invoice_type (2 vs 5),2,5,3
+13956,12094,invoice_type (2 vs 5),2,5,3
+13957,12095,invoice_type (2 vs 5),2,5,3
+13958,12096,invoice_type (2 vs 5),2,5,3
+13959,12097,invoice_type (2 vs 5),2,5,3
+13960,12098,invoice_type (2 vs 5),2,5,3
+13961,12099,invoice_type (2 vs 5),2,5,3
+13962,12100,invoice_type (2 vs 5),2,5,3
+13963,12101,invoice_type (2 vs 5),2,5,3
+13964,12102,invoice_type (2 vs 5),2,5,3
+13965,12103,invoice_type (2 vs 5),2,5,3
+13966,12104,invoice_type (2 vs 5),2,5,3
+13967,12105,invoice_type (2 vs 5),2,5,3
+13968,12106,invoice_type (2 vs 5),2,5,3
+13969,12107,invoice_type (2 vs 5),2,5,3
+13970,12108,invoice_type (2 vs 5),2,5,3
+13971,12109,invoice_type (2 vs 5),2,5,3
+13972,12110,invoice_type (2 vs 5),2,5,3
+13973,12111,invoice_type (2 vs 5),2,5,3
+13974,12112,invoice_type (2 vs 5),2,5,3
+13975,12113,invoice_type (2 vs 5),2,5,3
+13976,12114,invoice_type (2 vs 5),2,5,3
+13977,12115,invoice_type (2 vs 5),2,5,3
+13978,12116,invoice_type (2 vs 5),2,5,3
+13979,12117,invoice_type (2 vs 5),2,5,3
+13980,12118,invoice_type (2 vs 5),2,5,3
+13981,12119,invoice_type (2 vs 5),2,5,3
+13982,12120,invoice_type (2 vs 5),2,5,3
+13983,12121,invoice_type (2 vs 5),2,5,3
+13984,12122,invoice_type (2 vs 5),2,5,3
+13985,12123,invoice_type (2 vs 5),2,5,3
+13986,12124,invoice_type (2 vs 5),2,5,3
+13987,12125,invoice_type (2 vs 5),2,5,3
+13988,12126,invoice_type (2 vs 5),2,5,3
+13989,12127,invoice_type (2 vs 5),2,5,3
+13990,12128,invoice_type (2 vs 5),2,5,3
+13991,12129,invoice_type (2 vs 5),2,5,3
+13992,12130,invoice_type (2 vs 5),2,5,3
+14469,12601,invoice_type (2 vs 5),2,5,3
+14470,12602,invoice_type (2 vs 5),2,5,3
+14471,12603,invoice_type (2 vs 5),2,5,3
+14472,12604,invoice_type (2 vs 5),2,5,3
+14473,12605,invoice_type (2 vs 5),2,5,3
+14474,12606,invoice_type (2 vs 5),2,5,3
+14475,12607,invoice_type (2 vs 5),2,5,3
+14476,12608,invoice_type (2 vs 5),2,5,3
+14477,12609,invoice_type (2 vs 5),2,5,3
+14478,12610,invoice_type (2 vs 5),2,5,3
+14479,12611,invoice_type (2 vs 5),2,5,3
+14480,12612,invoice_type (2 vs 5),2,5,3
+14481,12613,invoice_type (2 vs 5),2,5,3
+14697,12825,invoice_type (2 vs 5),2,5,3
+14698,12826,invoice_type (2 vs 5),2,5,3
+14699,12827,invoice_type (2 vs 5),2,5,3
+14700,12828,invoice_type (2 vs 5),2,5,3
+14701,12829,invoice_type (2 vs 5),2,5,3
+14702,12830,invoice_type (2 vs 5),2,5,3
+14703,12831,invoice_type (2 vs 5),2,5,3
+14704,12832,invoice_type (2 vs 5),2,5,3
+14817,12936,invoice_type (2 vs 5),2,5,3
+17743,15701,invoice_type (2 vs 5),2,5,3
+17744,15702,invoice_type (2 vs 5),2,5,3
+17757,15715,invoice_type (2 vs 5),2,5,3
+17758,15716,invoice_type (2 vs 5),2,5,3
+17759,15717,invoice_type (2 vs 5),2,5,3
+17760,15718,invoice_type (2 vs 5),2,5,3
+17761,15719,invoice_type (2 vs 5),2,5,3
+17762,15720,invoice_type (2 vs 5),2,5,3
+17785,15739,invoice_type (2 vs 5),2,5,3
+17786,15740,invoice_type (2 vs 5),2,5,3
+17787,15741,invoice_type (2 vs 5),2,5,3
+17788,15742,invoice_type (2 vs 5),2,5,3
+17789,15743,invoice_type (2 vs 5),2,5,3
+2902,1612,branch_id,23.0,87.0,3
+2903,1613,branch_id,23.0,87.0,3
+2904,1614,branch_id,23.0,87.0,3
+2905,1615,branch_id,23.0,87.0,3
+2906,1616,branch_id,23.0,87.0,3
+2907,1617,branch_id,23.0,87.0,3
+2908,1618,branch_id,23.0,87.0,3
+2909,1619,branch_id,23.0,87.0,3
+2910,1620,branch_id,23.0,87.0,3
+2911,1621,branch_id,23.0,87.0,3
+2912,1622,branch_id,23.0,87.0,3
+2913,1623,branch_id,23.0,87.0,3
+2918,1627,branch_id,23.0,87.0,3
+2920,1629,branch_id,23.0,87.0,3
+2921,1630,branch_id,23.0,87.0,3
+2924,1633,branch_id,23.0,87.0,3
+2925,1634,branch_id,23.0,87.0,3
+2926,1635,branch_id,23.0,87.0,3
+2927,1636,branch_id,23.0,87.0,3
+2928,1637,branch_id,23.0,87.0,3
+2929,1638,branch_id,23.0,87.0,3
+2930,1639,branch_id,23.0,87.0,3
+2931,1640,branch_id,23.0,87.0,3
+2936,1645,branch_id,23.0,87.0,3
+2937,1646,branch_id,23.0,87.0,3
+2938,1647,branch_id,23.0,87.0,3
+2939,1648,branch_id,23.0,87.0,3
+2940,1649,branch_id,23.0,87.0,3
+2943,1650,branch_id,23.0,87.0,3
+3349,2041,branch_id,23.0,87.0,3
+3350,2042,branch_id,23.0,87.0,3
+3351,2043,branch_id,23.0,87.0,3
+3352,2044,branch_id,23.0,87.0,3
+3353,2045,branch_id,23.0,87.0,3
+3354,2046,branch_id,23.0,87.0,3
+3355,2047,branch_id,23.0,87.0,3
+3356,2048,branch_id,23.0,87.0,3
+3357,2049,branch_id,23.0,87.0,3
+3358,2050,branch_id,23.0,87.0,3
+3359,2051,branch_id,23.0,87.0,3
+3360,2052,branch_id,23.0,87.0,3
+3361,2053,branch_id,23.0,87.0,3
+3362,2054,branch_id,23.0,87.0,3
+3363,2055,branch_id,23.0,87.0,3
+3364,2056,branch_id,23.0,87.0,3
+3365,2057,branch_id,23.0,87.0,3
+3459,2144,branch_id,23.0,87.0,3
+3460,2145,branch_id,23.0,87.0,3
+3461,2146,branch_id,23.0,87.0,3
+3462,2147,branch_id,23.0,87.0,3
+3463,2148,branch_id,23.0,87.0,3
+3464,2149,branch_id,23.0,87.0,3
+3465,2150,branch_id,23.0,87.0,3
+3467,2152,branch_id,23.0,87.0,3
+3469,2154,branch_id,23.0,87.0,3
+3470,2155,branch_id,23.0,87.0,3
+3472,2157,branch_id,23.0,87.0,3
+3474,2159,branch_id,23.0,87.0,3
+3475,2160,branch_id,23.0,87.0,3
+3477,2162,branch_id,23.0,87.0,3
+3478,2163,branch_id,23.0,87.0,3
+3480,2165,branch_id,23.0,87.0,3
+3482,2167,branch_id,23.0,87.0,3
+3483,2168,branch_id,23.0,87.0,3
+3488,2173,branch_id,23.0,87.0,3
+3490,2175,branch_id,23.0,87.0,3
+3491,2176,branch_id,23.0,87.0,3
+3492,2177,branch_id,23.0,87.0,3
+3493,2178,branch_id,23.0,87.0,3
+3664,2338,branch_id,23.0,87.0,3
+3665,2339,branch_id,23.0,87.0,3
+3666,2340,branch_id,23.0,87.0,3
+3667,2341,branch_id,23.0,87.0,3
+3668,2342,branch_id,23.0,87.0,3
+3669,2343,branch_id,23.0,87.0,3
+3670,2344,branch_id,23.0,87.0,3
+3671,2345,branch_id,23.0,87.0,3
+3673,2346,branch_id,23.0,87.0,3
+3674,2347,branch_id,23.0,87.0,3
+3675,2348,branch_id,23.0,87.0,3
+3676,2349,branch_id,23.0,87.0,3
+3677,2350,branch_id,23.0,87.0,3
+3678,2351,branch_id,23.0,87.0,3
+3679,2352,branch_id,23.0,87.0,3
+3680,2353,branch_id,23.0,87.0,3
+3817,2487,branch_id,23.0,87.0,3
+3818,2488,branch_id,23.0,87.0,3
+3820,2489,branch_id,23.0,87.0,3
+3821,2490,branch_id,23.0,87.0,3
+3822,2491,branch_id,23.0,87.0,3
+3823,2492,branch_id,23.0,87.0,3
+3846,2514,branch_id,23.0,87.0,3
+3950,2596,branch_id,23.0,87.0,3
+3952,2598,branch_id,23.0,87.0,0
+3953,2599,branch_id,23.0,87.0,3
+3954,2600,branch_id,23.0,87.0,3
+3955,2601,branch_id,23.0,87.0,3
+3957,2603,branch_id,23.0,87.0,3
+3959,2605,branch_id,23.0,87.0,3
+3960,2606,branch_id,23.0,87.0,3
+3961,2607,branch_id,23.0,87.0,3
+3962,2608,branch_id,23.0,87.0,3
+3964,2610,branch_id,23.0,87.0,3
+3965,2611,branch_id,23.0,87.0,3
+3966,2612,branch_id,23.0,87.0,3
+3967,2613,branch_id,23.0,87.0,3
+3968,2614,branch_id,23.0,87.0,3
+4146,2771,branch_id,23.0,87.0,0
+4148,2772,branch_id,23.0,87.0,3
+4149,2773,branch_id,23.0,87.0,3
+4150,2774,branch_id,23.0,87.0,3
+4151,2775,branch_id,23.0,87.0,3
+4152,2776,branch_id,23.0,87.0,3
+4153,2777,branch_id,23.0,87.0,3
+4159,2783,branch_id,23.0,87.0,3
+4160,2784,branch_id,23.0,87.0,3
+4161,2785,branch_id,23.0,87.0,3
+4162,2786,branch_id,23.0,87.0,3
+4163,2787,branch_id,23.0,87.0,3
+4164,2788,branch_id,23.0,87.0,3
+4165,2789,branch_id,23.0,87.0,3
+4167,2791,branch_id,23.0,87.0,3
+4168,2792,branch_id,23.0,87.0,3
+4170,2794,branch_id,23.0,87.0,3
+4176,2800,branch_id,23.0,87.0,3
+4179,2803,branch_id,23.0,87.0,3
+4181,2805,branch_id,23.0,87.0,3
+4270,2892,branch_id,23.0,87.0,3
+4309,2931,branch_id,23.0,87.0,3
+4310,2932,branch_id,23.0,87.0,3
+4311,2933,branch_id,23.0,87.0,3
+4410,3032,branch_id,23.0,87.0,3
+4411,3033,branch_id,23.0,87.0,3
+4412,3034,branch_id,23.0,87.0,3
+4467,3088,branch_id,23.0,87.0,3
+4468,3089,branch_id,23.0,87.0,3
+4469,3090,branch_id,23.0,87.0,3
+4470,3091,branch_id,23.0,87.0,3
+4471,3092,branch_id,23.0,87.0,3
+4472,3093,branch_id,23.0,87.0,3
+4519,3114,branch_id,23.0,87.0,3
+4561,3155,branch_id,23.0,87.0,3
+4766,3338,branch_id,23.0,87.0,3
+4767,3339,branch_id,23.0,87.0,3
+4768,3340,branch_id,23.0,87.0,3
+4769,3341,branch_id,23.0,87.0,3
+4770,3342,branch_id,23.0,87.0,3
+4772,3343,branch_id,23.0,87.0,3
+4773,3344,branch_id,23.0,87.0,3
+4774,3345,branch_id,23.0,87.0,3
+4820,3391,branch_id,23.0,87.0,3
+4857,3427,branch_id,23.0,87.0,3
+4858,3428,branch_id,23.0,87.0,3
+4859,3429,branch_id,23.0,87.0,3
+4861,3430,branch_id,23.0,87.0,3
+4862,3431,branch_id,23.0,87.0,3
+4863,3432,branch_id,23.0,87.0,3
+4865,3433,branch_id,23.0,87.0,3
+4866,3434,branch_id,23.0,87.0,3
+4867,3435,branch_id,23.0,87.0,3
+4868,3436,branch_id,23.0,87.0,3
+4885,3452,branch_id,23.0,87.0,3
+5231,3776,branch_id,23.0,87.0,3
+5234,3779,branch_id,23.0,87.0,3
+5235,3780,branch_id,23.0,87.0,3
+5237,3782,branch_id,23.0,87.0,3
+5238,3783,branch_id,23.0,87.0,3
+5239,3784,branch_id,23.0,87.0,3
+5240,3785,branch_id,23.0,87.0,3
+5241,3786,branch_id,23.0,87.0,3
+5242,3787,branch_id,23.0,87.0,3
+5243,3788,branch_id,23.0,87.0,3
+5244,3789,branch_id,23.0,87.0,3
+5245,3790,branch_id,23.0,87.0,3
+5246,3791,branch_id,23.0,87.0,3
+5247,3792,branch_id,23.0,87.0,3
+5249,3794,branch_id,23.0,87.0,3
+5250,3795,branch_id,23.0,87.0,3
+5251,3796,branch_id,23.0,87.0,3
+5253,3798,branch_id,23.0,87.0,3
+5256,3801,branch_id,23.0,87.0,3
+5258,3803,branch_id,23.0,87.0,3
+5259,3804,branch_id,23.0,87.0,3
+5260,3805,branch_id,23.0,87.0,3
+5261,3806,branch_id,23.0,87.0,3
+5262,3807,branch_id,23.0,87.0,3
+5263,3808,branch_id,23.0,87.0,3
+5264,3809,branch_id,23.0,87.0,3
+5265,3810,branch_id,23.0,87.0,3
+5266,3811,branch_id,23.0,87.0,3
+5267,3812,branch_id,23.0,87.0,3
+5268,3813,branch_id,23.0,87.0,3
+5420,3955,branch_id,23.0,87.0,3
+5421,3956,branch_id,23.0,87.0,3
+5422,3957,branch_id,23.0,87.0,3
+5423,3958,branch_id,23.0,87.0,3
+5519,4053,branch_id,23.0,87.0,3
+5520,4054,branch_id,23.0,87.0,3
+5521,4055,branch_id,23.0,87.0,3
+5522,4056,branch_id,23.0,87.0,3
+5523,4057,branch_id,23.0,87.0,3
+5524,4058,branch_id,23.0,87.0,3
+5525,4059,branch_id,23.0,87.0,3
+5526,4060,branch_id,23.0,87.0,3
+5539,4073,branch_id,23.0,87.0,3
+5540,4074,branch_id,23.0,87.0,3
+5541,4075,branch_id,23.0,87.0,3
+5542,4076,branch_id,23.0,87.0,3
+5543,4077,branch_id,23.0,87.0,3
+5544,4078,branch_id,23.0,87.0,3
+6199,4660,branch_id,23.0,87.0,1
+6200,4661,branch_id,23.0,87.0,1
+6201,4662,branch_id,23.0,87.0,1
+6202,4663,branch_id,23.0,87.0,1
+6203,4664,branch_id,23.0,87.0,1
+6204,4665,branch_id,23.0,87.0,1
+6205,4666,branch_id,23.0,87.0,1
+6243,4692,branch_id,23.0,87.0,3
+6244,4693,branch_id,23.0,87.0,3
+6245,4694,branch_id,23.0,87.0,3
+6246,4695,branch_id,23.0,87.0,3
+6346,4767,branch_id,23.0,87.0,3
+6347,4768,branch_id,23.0,87.0,3
+6348,4769,branch_id,23.0,87.0,3
+6349,4770,branch_id,23.0,87.0,3
+6350,4771,branch_id,23.0,87.0,3
+6351,4772,branch_id,23.0,87.0,3
+6352,4773,branch_id,23.0,87.0,3
+6353,4774,branch_id,23.0,87.0,3
+6354,4775,branch_id,23.0,87.0,3
+6355,4776,branch_id,23.0,87.0,3
+6356,4777,branch_id,23.0,87.0,3
+6357,4778,branch_id,23.0,87.0,3
+6446,4831,branch_id,23.0,87.0,3
+6447,4832,branch_id,23.0,87.0,3
+6449,4834,branch_id,23.0,87.0,3
+6450,4835,branch_id,23.0,87.0,3
+6451,4836,branch_id,23.0,87.0,3
+6455,4840,branch_id,23.0,87.0,3
+6456,4841,branch_id,23.0,87.0,3
+6457,4842,branch_id,23.0,87.0,3
+6459,4844,branch_id,23.0,87.0,3
+6461,4846,branch_id,23.0,87.0,3
+6462,4847,branch_id,23.0,87.0,3
+6465,4850,branch_id,23.0,87.0,3
+6466,4851,branch_id,23.0,87.0,3
+7611,5876,branch_id,23.0,87.0,3
+7612,5877,branch_id,23.0,87.0,3
+7613,5878,branch_id,23.0,87.0,3
+7614,5879,branch_id,23.0,87.0,3
+7615,5880,branch_id,23.0,87.0,3
+7616,5881,branch_id,23.0,87.0,3
+7617,5882,branch_id,23.0,87.0,3
+7618,5883,branch_id,23.0,87.0,3
+7619,5884,branch_id,23.0,87.0,3
+7620,5885,branch_id,23.0,87.0,3
+7621,5886,branch_id,23.0,87.0,3
+7622,5887,branch_id,23.0,87.0,3
+7623,5888,branch_id,23.0,87.0,3
+7624,5889,branch_id,23.0,87.0,3
+7625,5890,branch_id,23.0,87.0,3
+7626,5891,branch_id,23.0,87.0,3
+7627,5892,branch_id,23.0,87.0,3
+7628,5893,branch_id,23.0,87.0,3
+7629,5894,branch_id,23.0,87.0,3
+7630,5895,branch_id,23.0,87.0,3
+7631,5896,branch_id,23.0,87.0,3
+7632,5897,branch_id,23.0,87.0,3
+7633,5898,branch_id,23.0,87.0,3
+7634,5899,branch_id,23.0,87.0,3
+7635,5900,branch_id,23.0,87.0,3
+7636,5901,branch_id,23.0,87.0,3
+7637,5902,branch_id,23.0,87.0,3
+7638,5903,branch_id,23.0,87.0,3
+7639,5904,branch_id,23.0,87.0,3
+7640,5905,branch_id,23.0,87.0,3
+7641,5906,branch_id,23.0,87.0,3
+7642,5907,branch_id,23.0,87.0,3
+7643,5908,branch_id,23.0,87.0,3
+7644,5909,branch_id,23.0,87.0,3
+7645,5910,branch_id,23.0,87.0,3
+7646,5911,branch_id,23.0,87.0,3
+7647,5912,branch_id,23.0,87.0,3
+7648,5913,branch_id,23.0,87.0,3
+7649,5914,branch_id,23.0,87.0,3
+7650,5915,branch_id,23.0,87.0,3
+7651,5916,branch_id,23.0,87.0,3
+7652,5917,branch_id,23.0,87.0,3
+7653,5918,branch_id,23.0,87.0,3
+7654,5919,branch_id,23.0,87.0,3
+7655,5920,branch_id,23.0,87.0,3
+7656,5921,branch_id,23.0,87.0,3
+7658,5923,branch_id,23.0,87.0,3
+7659,5924,branch_id,23.0,87.0,3
+7787,6033,branch_id,23.0,87.0,3
+7788,6034,branch_id,23.0,87.0,3
+7789,6035,branch_id,23.0,87.0,3
+7790,6036,branch_id,23.0,87.0,3
+7791,6037,branch_id,23.0,87.0,3
+7792,6038,branch_id,23.0,87.0,3
+7793,6039,branch_id,23.0,87.0,3
+7794,6040,branch_id,23.0,87.0,3
+7795,6041,branch_id,23.0,87.0,3
+7796,6042,branch_id,23.0,87.0,3
+7797,6043,branch_id,23.0,87.0,3
+7798,6044,branch_id,23.0,87.0,3
+7799,6045,branch_id,23.0,87.0,3
+7800,6046,branch_id,23.0,87.0,3
+7801,6047,branch_id,23.0,87.0,3
+7802,6048,branch_id,23.0,87.0,3
+7803,6049,branch_id,23.0,87.0,3
+7804,6050,branch_id,23.0,87.0,3
+7805,6051,branch_id,23.0,87.0,3
+7806,6052,branch_id,23.0,87.0,3
+7807,6053,branch_id,23.0,87.0,3
+7808,6054,branch_id,23.0,87.0,3
+7809,6055,branch_id,23.0,87.0,3
+7810,6056,branch_id,23.0,87.0,3
+7811,6057,branch_id,23.0,87.0,3
+7812,6058,branch_id,23.0,87.0,3
+8366,6593,branch_id,23.0,87.0,3
+8367,6594,branch_id,23.0,87.0,3
+8368,6595,branch_id,23.0,87.0,3
+8369,6596,branch_id,23.0,87.0,3
+8370,6597,branch_id,23.0,87.0,3
+8492,6718,branch_id,23.0,87.0,3
+8493,6719,branch_id,23.0,87.0,3
+8494,6720,branch_id,23.0,87.0,3
+8877,7101,branch_id,23.0,87.0,3
+8878,7102,branch_id,23.0,87.0,3
+8879,7103,branch_id,23.0,87.0,3
+8880,7104,branch_id,23.0,87.0,3
+8881,7105,branch_id,23.0,87.0,3
+8882,7106,branch_id,23.0,87.0,3
+8883,7107,branch_id,23.0,87.0,3
+8884,7108,branch_id,23.0,87.0,3
+8885,7109,branch_id,23.0,87.0,3
+8886,7110,branch_id,23.0,87.0,3
+8887,7111,branch_id,23.0,87.0,3
+8888,7112,branch_id,23.0,87.0,3
+8889,7113,branch_id,23.0,87.0,3
+8890,7114,branch_id,23.0,87.0,3
+8891,7115,branch_id,23.0,87.0,3
+9505,7716,branch_id,23.0,87.0,3
+9506,7717,branch_id,23.0,87.0,3
+9507,7718,branch_id,23.0,87.0,3
+9508,7719,branch_id,23.0,87.0,3
+9509,7720,branch_id,23.0,87.0,3
+9510,7721,branch_id,23.0,87.0,3
+9511,7722,branch_id,23.0,87.0,3
+9512,7723,branch_id,23.0,87.0,3
+9513,7724,branch_id,23.0,87.0,3
+9514,7725,branch_id,23.0,87.0,3
+9515,7726,branch_id,23.0,87.0,3
+9516,7727,branch_id,23.0,87.0,3
+9517,7728,branch_id,23.0,87.0,3
+9518,7729,branch_id,23.0,87.0,3
+9519,7730,branch_id,23.0,87.0,3
+9520,7731,branch_id,23.0,87.0,3
+9521,7732,branch_id,23.0,87.0,3
+9522,7733,branch_id,23.0,87.0,3
+9724,7930,branch_id,23.0,87.0,3
+9725,7931,branch_id,23.0,87.0,3
+9726,7932,branch_id,23.0,87.0,3
+9727,7933,branch_id,23.0,87.0,3
+9728,7934,branch_id,23.0,87.0,3
+9729,7935,branch_id,23.0,87.0,3
+9730,7936,branch_id,23.0,87.0,3
+9731,7937,branch_id,23.0,87.0,3
+9732,7938,branch_id,23.0,87.0,3
+9733,7939,branch_id,23.0,87.0,3
+9734,7940,branch_id,23.0,87.0,3
+9735,7941,branch_id,23.0,87.0,3
+9736,7942,branch_id,23.0,87.0,3
+9737,7943,branch_id,23.0,87.0,3
+9738,7944,branch_id,23.0,87.0,3
+9739,7945,branch_id,23.0,87.0,3
+9740,7946,branch_id,23.0,87.0,3
+9741,7947,branch_id,23.0,87.0,3
+9742,7948,branch_id,23.0,87.0,3
+9743,7949,branch_id,23.0,87.0,3
+9744,7950,branch_id,23.0,87.0,3
+9745,7951,branch_id,23.0,87.0,3
+9746,7952,branch_id,23.0,87.0,3
+9747,7953,branch_id,23.0,87.0,3
+9748,7954,branch_id,23.0,87.0,3
+9749,7955,branch_id,23.0,87.0,3
+9750,7956,branch_id,23.0,87.0,3
+9751,7957,branch_id,23.0,87.0,3
+9752,7958,branch_id,23.0,87.0,3
+9753,7959,branch_id,23.0,87.0,3
+9754,7960,branch_id,23.0,87.0,3
+9755,7961,branch_id,23.0,87.0,3
+9756,7962,branch_id,23.0,87.0,3
+9757,7963,branch_id,23.0,87.0,3
+9758,7964,branch_id,23.0,87.0,3
+9759,7965,branch_id,23.0,87.0,3
+9762,7967,branch_id,23.0,87.0,3
+9763,7968,branch_id,23.0,87.0,3
+9764,7969,branch_id,23.0,87.0,3
+9765,7970,branch_id,23.0,87.0,3
+9766,7971,branch_id,23.0,87.0,3
+9767,7972,branch_id,23.0,87.0,3
+9768,7973,branch_id,23.0,87.0,3
+10166,8359,branch_id,23.0,87.0,3
+10167,8360,branch_id,23.0,87.0,3
+10168,8361,branch_id,23.0,87.0,3
+10169,8362,branch_id,23.0,87.0,3
+10170,8363,branch_id,23.0,87.0,3
+10171,8364,branch_id,23.0,87.0,3
+10380,8571,branch_id,23.0,87.0,3
+10445,8632,branch_id,23.0,87.0,3
+10446,8633,branch_id,23.0,87.0,3
+10447,8634,branch_id,23.0,87.0,3
+10452,8639,branch_id,23.0,87.0,3
+10453,8640,branch_id,23.0,87.0,3
+10454,8641,branch_id,23.0,87.0,3
+10513,8700,branch_id,23.0,87.0,3
+10725,8908,branch_id,23.0,87.0,3
+10726,8909,branch_id,23.0,87.0,3
+10727,8910,branch_id,23.0,87.0,3
+10728,8911,branch_id,23.0,87.0,3
+10729,8912,branch_id,23.0,87.0,3
+10730,8913,branch_id,23.0,87.0,3
+10731,8914,branch_id,23.0,87.0,3
+10732,8915,branch_id,23.0,87.0,3
+10733,8916,branch_id,23.0,87.0,3
+10734,8917,branch_id,23.0,87.0,3
+10735,8918,branch_id,23.0,87.0,3
+10736,8919,branch_id,23.0,87.0,3
+10737,8920,branch_id,23.0,87.0,3
+10738,8921,branch_id,23.0,87.0,3
+10739,8922,branch_id,23.0,87.0,3
+10740,8923,branch_id,23.0,87.0,3
+10741,8924,branch_id,23.0,87.0,3
+10742,8925,branch_id,23.0,87.0,3
+10743,8926,branch_id,23.0,87.0,3
+10744,8927,branch_id,23.0,87.0,3
+10745,8928,branch_id,23.0,87.0,3
+10746,8929,branch_id,23.0,87.0,3
+10747,8930,branch_id,23.0,87.0,3
+10748,8931,branch_id,23.0,87.0,3
+10749,8932,branch_id,23.0,87.0,3
+10750,8933,branch_id,23.0,87.0,3
+10751,8934,branch_id,23.0,87.0,3
+10752,8935,branch_id,23.0,87.0,3
+10753,8936,branch_id,23.0,87.0,3
+10754,8937,branch_id,23.0,87.0,3
+10755,8938,branch_id,23.0,87.0,3
+10756,8939,branch_id,23.0,87.0,3
+10757,8940,branch_id,23.0,87.0,3
+10758,8941,branch_id,23.0,87.0,3
+10759,8942,branch_id,23.0,87.0,3
+10760,8943,branch_id,23.0,87.0,3
+10761,8944,branch_id,23.0,87.0,3
+10762,8945,branch_id,23.0,87.0,3
+10763,8946,branch_id,23.0,87.0,3
+10764,8947,branch_id,23.0,87.0,3
+11691,9866,branch_id,23.0,87.0,3
+11692,9867,branch_id,23.0,87.0,3
+11693,9868,branch_id,23.0,87.0,3
+11694,9869,branch_id,23.0,87.0,3
+11695,9870,branch_id,23.0,87.0,3
+11696,9871,branch_id,23.0,87.0,3
+12561,10718,branch_id,23.0,87.0,3
+12563,10720,branch_id,23.0,87.0,3
+12564,10721,branch_id,23.0,87.0,3
+12565,10722,branch_id,23.0,87.0,3
+12566,10723,branch_id,23.0,87.0,3
+12567,10724,branch_id,23.0,87.0,3
+12568,10725,branch_id,23.0,87.0,3
+12569,10726,branch_id,23.0,87.0,3
+12570,10727,branch_id,23.0,87.0,3
+12571,10728,branch_id,23.0,87.0,3
+12572,10729,branch_id,23.0,87.0,3
+12573,10730,branch_id,23.0,87.0,3
+12574,10731,branch_id,23.0,87.0,3
+12575,10732,branch_id,23.0,87.0,3
+12576,10733,branch_id,23.0,87.0,3
+12577,10734,branch_id,23.0,87.0,3
+12578,10735,branch_id,23.0,87.0,3
+12579,10736,branch_id,23.0,87.0,3
+12580,10737,branch_id,23.0,87.0,3
+12581,10738,branch_id,23.0,87.0,3
+12582,10739,branch_id,23.0,87.0,3
+12583,10740,branch_id,23.0,87.0,3
+12584,10741,branch_id,23.0,87.0,3
+12585,10742,branch_id,23.0,87.0,3
+12586,10743,branch_id,23.0,87.0,3
+12587,10744,branch_id,23.0,87.0,3
+12588,10745,branch_id,23.0,87.0,3
+12589,10746,branch_id,23.0,87.0,3
+12590,10747,branch_id,23.0,87.0,3
+12591,10748,branch_id,23.0,87.0,3
+12592,10749,branch_id,23.0,87.0,3
+12720,10877,branch_id,23.0,87.0,3
+12721,10878,branch_id,23.0,87.0,3
+12722,10879,branch_id,23.0,87.0,3
+12723,10880,branch_id,23.0,87.0,3
+12724,10881,branch_id,23.0,87.0,3
+12725,10882,branch_id,23.0,87.0,3
+12726,10883,branch_id,23.0,87.0,3
+12727,10884,branch_id,23.0,87.0,3
+12728,10885,branch_id,23.0,87.0,3
+12729,10886,branch_id,23.0,87.0,3
+12730,10887,branch_id,23.0,87.0,3
+12731,10888,branch_id,23.0,87.0,3
+12732,10889,branch_id,23.0,87.0,3
+12733,10890,branch_id,23.0,87.0,3
+12734,10891,branch_id,23.0,87.0,3
+12735,10892,branch_id,23.0,87.0,3
+12736,10893,branch_id,23.0,87.0,3
+12737,10894,branch_id,23.0,87.0,3
+12738,10895,branch_id,23.0,87.0,3
+12739,10896,branch_id,23.0,87.0,3
+12744,10901,branch_id,23.0,87.0,3
+12746,10903,branch_id,23.0,87.0,3
+12747,10904,branch_id,23.0,87.0,3
+12748,10905,branch_id,23.0,87.0,3
+12749,10906,branch_id,23.0,87.0,3
+12750,10907,branch_id,23.0,87.0,3
+12751,10908,branch_id,23.0,87.0,3
+12752,10909,branch_id,23.0,87.0,3
+12753,10910,branch_id,23.0,87.0,3
+12754,10911,branch_id,23.0,87.0,3
+12755,10912,branch_id,23.0,87.0,3
+12756,10913,branch_id,23.0,87.0,3
+12757,10914,branch_id,23.0,87.0,3
+12758,10915,branch_id,23.0,87.0,3
+12759,10916,branch_id,23.0,87.0,3
+12760,10917,branch_id,23.0,87.0,3
+12761,10918,branch_id,23.0,87.0,3
+12762,10919,branch_id,23.0,87.0,3
+12763,10920,branch_id,23.0,87.0,3
+12764,10921,branch_id,23.0,87.0,3
+12765,10922,branch_id,23.0,87.0,3
+12766,10923,branch_id,23.0,87.0,3
+12767,10924,branch_id,23.0,87.0,3
+12768,10925,branch_id,23.0,87.0,3
+12769,10926,branch_id,23.0,87.0,3
+12770,10927,branch_id,23.0,87.0,3
+12771,10928,branch_id,23.0,87.0,3
+12772,10929,branch_id,23.0,87.0,3
+12773,10930,branch_id,23.0,87.0,3
+12774,10931,branch_id,23.0,87.0,3
+12781,10938,branch_id,23.0,87.0,3
+12782,10939,branch_id,23.0,87.0,3
+12784,10941,branch_id,23.0,87.0,3
+12785,10942,branch_id,23.0,87.0,3
+12786,10943,branch_id,23.0,87.0,3
+12787,10944,branch_id,23.0,87.0,3
+12816,10973,branch_id,23.0,87.0,3
+12817,10974,branch_id,23.0,87.0,3
+12818,10975,branch_id,23.0,87.0,3
+12819,10976,branch_id,23.0,87.0,3
+12820,10977,branch_id,23.0,87.0,3
+12821,10978,branch_id,23.0,87.0,3
+12822,10979,branch_id,23.0,87.0,3
+12823,10980,branch_id,23.0,87.0,3
+12824,10981,branch_id,23.0,87.0,3
+12825,10982,branch_id,23.0,87.0,3
+12826,10983,branch_id,23.0,87.0,3
+13195,11349,branch_id,23.0,87.0,3
+13296,11447,branch_id,23.0,87.0,3
+13297,11448,branch_id,23.0,87.0,3
+13298,11449,branch_id,23.0,87.0,3
+13299,11450,branch_id,23.0,87.0,3
+13300,11451,branch_id,23.0,87.0,3
+13301,11452,branch_id,23.0,87.0,3
+13302,11453,branch_id,23.0,87.0,3
+13303,11454,branch_id,23.0,87.0,3
+13304,11455,branch_id,23.0,87.0,3
+13305,11456,branch_id,23.0,87.0,3
+13306,11457,branch_id,23.0,87.0,3
+13307,11458,branch_id,23.0,87.0,3
+13308,11459,branch_id,23.0,87.0,3
+13309,11460,branch_id,23.0,87.0,3
+13310,11461,branch_id,23.0,87.0,3
+13311,11462,branch_id,23.0,87.0,3
+13312,11463,branch_id,23.0,87.0,3
+13313,11464,branch_id,23.0,87.0,3
+13314,11465,branch_id,23.0,87.0,3
+13315,11466,branch_id,23.0,87.0,3
+13316,11467,branch_id,23.0,87.0,3
+13317,11468,branch_id,23.0,87.0,3
+13448,11597,branch_id,23.0,87.0,3
+13449,11598,branch_id,23.0,87.0,3
+13450,11599,branch_id,23.0,87.0,3
+13451,11600,branch_id,23.0,87.0,3
+13452,11601,branch_id,23.0,87.0,3
+13453,11602,branch_id,23.0,87.0,3
+13454,11603,branch_id,23.0,87.0,3
+13455,11604,branch_id,23.0,87.0,3
+13456,11605,branch_id,23.0,87.0,3
+13457,11606,branch_id,23.0,87.0,3
+13458,11607,branch_id,23.0,87.0,3
+13459,11608,branch_id,23.0,87.0,3
+13460,11609,branch_id,23.0,87.0,3
+13461,11610,branch_id,23.0,87.0,3
+13462,11611,branch_id,23.0,87.0,3
+13463,11612,branch_id,23.0,87.0,3
+13464,11613,branch_id,23.0,87.0,3
+13945,12083,branch_id,23.0,87.0,3
+13946,12084,branch_id,23.0,87.0,3
+13947,12085,branch_id,23.0,87.0,3
+13948,12086,branch_id,23.0,87.0,3
+13949,12087,branch_id,23.0,87.0,3
+13950,12088,branch_id,23.0,87.0,3
+13951,12089,branch_id,23.0,87.0,3
+13952,12090,branch_id,23.0,87.0,3
+13953,12091,branch_id,23.0,87.0,3
+13954,12092,branch_id,23.0,87.0,3
+13955,12093,branch_id,23.0,87.0,3
+13956,12094,branch_id,23.0,87.0,3
+13957,12095,branch_id,23.0,87.0,3
+13958,12096,branch_id,23.0,87.0,3
+13959,12097,branch_id,23.0,87.0,3
+13960,12098,branch_id,23.0,87.0,3
+13961,12099,branch_id,23.0,87.0,3
+13962,12100,branch_id,23.0,87.0,3
+13963,12101,branch_id,23.0,87.0,3
+13964,12102,branch_id,23.0,87.0,3
+13965,12103,branch_id,23.0,87.0,3
+13966,12104,branch_id,23.0,87.0,3
+13967,12105,branch_id,23.0,87.0,3
+13968,12106,branch_id,23.0,87.0,3
+13969,12107,branch_id,23.0,87.0,3
+13970,12108,branch_id,23.0,87.0,3
+13971,12109,branch_id,23.0,87.0,3
+13972,12110,branch_id,23.0,87.0,3
+13973,12111,branch_id,23.0,87.0,3
+13974,12112,branch_id,23.0,87.0,3
+13975,12113,branch_id,23.0,87.0,3
+13976,12114,branch_id,23.0,87.0,3
+13977,12115,branch_id,23.0,87.0,3
+13978,12116,branch_id,23.0,87.0,3
+13979,12117,branch_id,23.0,87.0,3
+13980,12118,branch_id,23.0,87.0,3
+13981,12119,branch_id,23.0,87.0,3
+13982,12120,branch_id,23.0,87.0,3
+13983,12121,branch_id,23.0,87.0,3
+13984,12122,branch_id,23.0,87.0,3
+13985,12123,branch_id,23.0,87.0,3
+13986,12124,branch_id,23.0,87.0,3
+13987,12125,branch_id,23.0,87.0,3
+13988,12126,branch_id,23.0,87.0,3
+13989,12127,branch_id,23.0,87.0,3
+13990,12128,branch_id,23.0,87.0,3
+13991,12129,branch_id,23.0,87.0,3
+13992,12130,branch_id,23.0,87.0,3
+14469,12601,branch_id,23.0,87.0,3
+14470,12602,branch_id,23.0,87.0,3
+14471,12603,branch_id,23.0,87.0,3
+14472,12604,branch_id,23.0,87.0,3
+14473,12605,branch_id,23.0,87.0,3
+14474,12606,branch_id,23.0,87.0,3
+14475,12607,branch_id,23.0,87.0,3
+14476,12608,branch_id,23.0,87.0,3
+14477,12609,branch_id,23.0,87.0,3
+14478,12610,branch_id,23.0,87.0,3
+14479,12611,branch_id,23.0,87.0,3
+14480,12612,branch_id,23.0,87.0,3
+14481,12613,branch_id,23.0,87.0,3
+14697,12825,branch_id,23.0,87.0,3
+14698,12826,branch_id,23.0,87.0,3
+14699,12827,branch_id,23.0,87.0,3
+14700,12828,branch_id,23.0,87.0,3
+14701,12829,branch_id,23.0,87.0,3
+14702,12830,branch_id,23.0,87.0,3
+14703,12831,branch_id,23.0,87.0,3
+14704,12832,branch_id,23.0,87.0,3
+14817,12936,branch_id,23.0,87.0,3
+17743,15701,branch_id,23.0,87.0,3
+17744,15702,branch_id,23.0,87.0,3
+17757,15715,branch_id,23.0,87.0,3
+17758,15716,branch_id,23.0,87.0,3
+17759,15717,branch_id,23.0,87.0,3
+17760,15718,branch_id,23.0,87.0,3
+17761,15719,branch_id,23.0,87.0,3
+17762,15720,branch_id,23.0,87.0,3
+17785,15739,branch_id,23.0,87.0,3
+17786,15740,branch_id,23.0,87.0,3
+17787,15741,branch_id,23.0,87.0,3
+17788,15742,branch_id,23.0,87.0,3
+17789,15743,branch_id,23.0,87.0,3
+2902,1612,customer_id vs party_id,3223.0,8756.0,3
+2903,1613,customer_id vs party_id,3223.0,8756.0,3
+2904,1614,customer_id vs party_id,3223.0,8756.0,3
+2905,1615,customer_id vs party_id,3223.0,8756.0,3
+2906,1616,customer_id vs party_id,3223.0,8756.0,3
+2907,1617,customer_id vs party_id,3223.0,8756.0,3
+2908,1618,customer_id vs party_id,3223.0,8756.0,3
+2909,1619,customer_id vs party_id,3223.0,8756.0,3
+2910,1620,customer_id vs party_id,3223.0,8756.0,3
+2911,1621,customer_id vs party_id,3223.0,8756.0,3
+2912,1622,customer_id vs party_id,3223.0,8756.0,3
+2913,1623,customer_id vs party_id,3223.0,8756.0,3
+2918,1627,customer_id vs party_id,3223.0,8756.0,3
+2920,1629,customer_id vs party_id,3223.0,8756.0,3
+2921,1630,customer_id vs party_id,3223.0,8756.0,3
+2924,1633,customer_id vs party_id,3223.0,8756.0,3
+2925,1634,customer_id vs party_id,3223.0,8756.0,3
+2926,1635,customer_id vs party_id,3223.0,8756.0,3
+2927,1636,customer_id vs party_id,3223.0,8756.0,3
+2928,1637,customer_id vs party_id,3223.0,8756.0,3
+2929,1638,customer_id vs party_id,3223.0,8756.0,3
+2930,1639,customer_id vs party_id,3223.0,8756.0,3
+2931,1640,customer_id vs party_id,3223.0,8756.0,3
+2936,1645,customer_id vs party_id,3220.0,2527.0,3
+2937,1646,customer_id vs party_id,3220.0,2527.0,3
+2938,1647,customer_id vs party_id,3220.0,2527.0,3
+2939,1648,customer_id vs party_id,3220.0,2527.0,3
+2940,1649,customer_id vs party_id,3220.0,2527.0,3
+2943,1650,customer_id vs party_id,3226.0,8001.0,3
+3349,2041,customer_id vs party_id,3221.0,100002095.0,3
+3350,2042,customer_id vs party_id,3221.0,100002095.0,3
+3351,2043,customer_id vs party_id,3221.0,100002095.0,3
+3352,2044,customer_id vs party_id,3221.0,100002095.0,3
+3353,2045,customer_id vs party_id,3221.0,100002095.0,3
+3354,2046,customer_id vs party_id,3221.0,100002095.0,3
+3355,2047,customer_id vs party_id,3221.0,100002095.0,3
+3356,2048,customer_id vs party_id,3221.0,100002095.0,3
+3357,2049,customer_id vs party_id,3221.0,100002095.0,3
+3358,2050,customer_id vs party_id,3221.0,100002095.0,3
+3359,2051,customer_id vs party_id,3221.0,100002095.0,3
+3360,2052,customer_id vs party_id,3221.0,100002095.0,3
+3361,2053,customer_id vs party_id,3221.0,100002095.0,3
+3362,2054,customer_id vs party_id,3221.0,100002095.0,3
+3363,2055,customer_id vs party_id,3221.0,100002095.0,3
+3364,2056,customer_id vs party_id,3221.0,100002095.0,3
+3365,2057,customer_id vs party_id,3221.0,100002095.0,3
+3459,2144,customer_id vs party_id,3226.0,8001.0,3
+3460,2145,customer_id vs party_id,3226.0,8001.0,3
+3461,2146,customer_id vs party_id,3226.0,8001.0,3
+3462,2147,customer_id vs party_id,3226.0,8001.0,3
+3463,2148,customer_id vs party_id,3226.0,8001.0,3
+3464,2149,customer_id vs party_id,3226.0,8001.0,3
+3465,2150,customer_id vs party_id,3226.0,8001.0,3
+3467,2152,customer_id vs party_id,3226.0,8001.0,3
+3469,2154,customer_id vs party_id,3226.0,8001.0,3
+3470,2155,customer_id vs party_id,3226.0,8001.0,3
+3472,2157,customer_id vs party_id,3226.0,8001.0,3
+3474,2159,customer_id vs party_id,3226.0,8001.0,3
+3475,2160,customer_id vs party_id,3226.0,8001.0,3
+3477,2162,customer_id vs party_id,3226.0,8001.0,3
+3478,2163,customer_id vs party_id,3226.0,8001.0,3
+3480,2165,customer_id vs party_id,3226.0,8001.0,3
+3482,2167,customer_id vs party_id,3226.0,8001.0,3
+3483,2168,customer_id vs party_id,3226.0,8001.0,3
+3488,2173,customer_id vs party_id,3226.0,8001.0,3
+3490,2175,customer_id vs party_id,3226.0,8001.0,3
+3491,2176,customer_id vs party_id,3226.0,8001.0,3
+3492,2177,customer_id vs party_id,3226.0,8001.0,3
+3493,2178,customer_id vs party_id,3226.0,8001.0,3
+3664,2338,customer_id vs party_id,3221.0,100002095.0,3
+3665,2339,customer_id vs party_id,3221.0,100002095.0,3
+3666,2340,customer_id vs party_id,3221.0,100002095.0,3
+3667,2341,customer_id vs party_id,3221.0,100002095.0,3
+3668,2342,customer_id vs party_id,3221.0,100002095.0,3
+3669,2343,customer_id vs party_id,3221.0,100002095.0,3
+3670,2344,customer_id vs party_id,3221.0,100002095.0,3
+3671,2345,customer_id vs party_id,3221.0,100002095.0,3
+3673,2346,customer_id vs party_id,3221.0,100002095.0,3
+3674,2347,customer_id vs party_id,3221.0,100002095.0,3
+3675,2348,customer_id vs party_id,3221.0,100002095.0,3
+3676,2349,customer_id vs party_id,3221.0,100002095.0,3
+3677,2350,customer_id vs party_id,3221.0,100002095.0,3
+3678,2351,customer_id vs party_id,3221.0,100002095.0,3
+3679,2352,customer_id vs party_id,3221.0,100002095.0,3
+3680,2353,customer_id vs party_id,3221.0,100002095.0,3
+3817,2487,customer_id vs party_id,3221.0,100002095.0,3
+3818,2488,customer_id vs party_id,3221.0,100002095.0,3
+3820,2489,customer_id vs party_id,3221.0,100002095.0,3
+3821,2490,customer_id vs party_id,3221.0,100002095.0,3
+3822,2491,customer_id vs party_id,3221.0,100002095.0,3
+3823,2492,customer_id vs party_id,3221.0,100002095.0,3
+3846,2514,customer_id vs party_id,3221.0,100002095.0,3
+3950,2596,customer_id vs party_id,3221.0,100002095.0,3
+3952,2598,customer_id vs party_id,3221.0,100002095.0,0
+3953,2599,customer_id vs party_id,3221.0,100002095.0,3
+3954,2600,customer_id vs party_id,3221.0,100002095.0,3
+3955,2601,customer_id vs party_id,3221.0,100002095.0,3
+3957,2603,customer_id vs party_id,3221.0,100002095.0,3
+3959,2605,customer_id vs party_id,3221.0,100002095.0,3
+3960,2606,customer_id vs party_id,3221.0,100002095.0,3
+3961,2607,customer_id vs party_id,3221.0,100002095.0,3
+3962,2608,customer_id vs party_id,3221.0,100002095.0,3
+3964,2610,customer_id vs party_id,3221.0,100002095.0,3
+3965,2611,customer_id vs party_id,3221.0,100002095.0,3
+3966,2612,customer_id vs party_id,3221.0,100002095.0,3
+3967,2613,customer_id vs party_id,3221.0,100002095.0,3
+3968,2614,customer_id vs party_id,3221.0,100002095.0,3
+4146,2771,customer_id vs party_id,3221.0,100002095.0,0
+4148,2772,customer_id vs party_id,3220.0,2527.0,3
+4149,2773,customer_id vs party_id,3220.0,2527.0,3
+4150,2774,customer_id vs party_id,3220.0,2527.0,3
+4151,2775,customer_id vs party_id,3220.0,2527.0,3
+4152,2776,customer_id vs party_id,3220.0,2527.0,3
+4153,2777,customer_id vs party_id,3220.0,2527.0,3
+4159,2783,customer_id vs party_id,3220.0,2527.0,3
+4160,2784,customer_id vs party_id,3220.0,2527.0,3
+4161,2785,customer_id vs party_id,3220.0,2527.0,3
+4162,2786,customer_id vs party_id,3220.0,2527.0,3
+4163,2787,customer_id vs party_id,3220.0,2527.0,3
+4164,2788,customer_id vs party_id,3220.0,2527.0,3
+4165,2789,customer_id vs party_id,3220.0,2527.0,3
+4167,2791,customer_id vs party_id,3221.0,100002095.0,3
+4168,2792,customer_id vs party_id,3220.0,2527.0,3
+4170,2794,customer_id vs party_id,3220.0,2527.0,3
+4176,2800,customer_id vs party_id,3220.0,2527.0,3
+4179,2803,customer_id vs party_id,3220.0,2527.0,3
+4181,2805,customer_id vs party_id,3220.0,2527.0,3
+4270,2892,customer_id vs party_id,3226.0,8001.0,3
+4309,2931,customer_id vs party_id,3226.0,8001.0,3
+4310,2932,customer_id vs party_id,3226.0,8001.0,3
+4311,2933,customer_id vs party_id,3226.0,8001.0,3
+4410,3032,customer_id vs party_id,3221.0,100002095.0,3
+4411,3033,customer_id vs party_id,3221.0,100002095.0,3
+4412,3034,customer_id vs party_id,3221.0,100002095.0,3
+4467,3088,customer_id vs party_id,3220.0,2527.0,3
+4468,3089,customer_id vs party_id,3220.0,2527.0,3
+4469,3090,customer_id vs party_id,3220.0,2527.0,3
+4470,3091,customer_id vs party_id,3220.0,2527.0,3
+4471,3092,customer_id vs party_id,3220.0,2527.0,3
+4472,3093,customer_id vs party_id,3220.0,2527.0,3
+4519,3114,customer_id vs party_id,3221.0,100002095.0,3
+4561,3155,customer_id vs party_id,3221.0,100002095.0,3
+4766,3338,customer_id vs party_id,3220.0,2527.0,3
+4767,3339,customer_id vs party_id,3220.0,2527.0,3
+4768,3340,customer_id vs party_id,3220.0,2527.0,3
+4769,3341,customer_id vs party_id,3220.0,2527.0,3
+4770,3342,customer_id vs party_id,3220.0,2527.0,3
+4772,3343,customer_id vs party_id,3220.0,2527.0,3
+4773,3344,customer_id vs party_id,3220.0,2527.0,3
+4774,3345,customer_id vs party_id,3220.0,2527.0,3
+4820,3391,customer_id vs party_id,3220.0,2527.0,3
+4857,3427,customer_id vs party_id,3220.0,2527.0,3
+4858,3428,customer_id vs party_id,3220.0,2527.0,3
+4859,3429,customer_id vs party_id,3220.0,2527.0,3
+4861,3430,customer_id vs party_id,3220.0,2527.0,3
+4862,3431,customer_id vs party_id,3220.0,2527.0,3
+4863,3432,customer_id vs party_id,3220.0,2527.0,3
+4865,3433,customer_id vs party_id,3220.0,2527.0,3
+4866,3434,customer_id vs party_id,3220.0,2527.0,3
+4867,3435,customer_id vs party_id,3220.0,2527.0,3
+4868,3436,customer_id vs party_id,3220.0,2527.0,3
+4885,3452,customer_id vs party_id,3220.0,2527.0,3
+5231,3776,customer_id vs party_id,3221.0,100002095.0,3
+5234,3779,customer_id vs party_id,3221.0,100002095.0,3
+5235,3780,customer_id vs party_id,3221.0,100002095.0,3
+5237,3782,customer_id vs party_id,3221.0,100002095.0,3
+5238,3783,customer_id vs party_id,3221.0,100002095.0,3
+5239,3784,customer_id vs party_id,3221.0,100002095.0,3
+5240,3785,customer_id vs party_id,3221.0,100002095.0,3
+5241,3786,customer_id vs party_id,3221.0,100002095.0,3
+5242,3787,customer_id vs party_id,3221.0,100002095.0,3
+5243,3788,customer_id vs party_id,3221.0,100002095.0,3
+5244,3789,customer_id vs party_id,3221.0,100002095.0,3
+5245,3790,customer_id vs party_id,3221.0,100002095.0,3
+5246,3791,customer_id vs party_id,3221.0,100002095.0,3
+5247,3792,customer_id vs party_id,3221.0,100002095.0,3
+5249,3794,customer_id vs party_id,3221.0,100002095.0,3
+5250,3795,customer_id vs party_id,3221.0,100002095.0,3
+5251,3796,customer_id vs party_id,3221.0,100002095.0,3
+5253,3798,customer_id vs party_id,3221.0,100002095.0,3
+5256,3801,customer_id vs party_id,3221.0,100002095.0,3
+5258,3803,customer_id vs party_id,3221.0,100002095.0,3
+5259,3804,customer_id vs party_id,3221.0,100002095.0,3
+5260,3805,customer_id vs party_id,3221.0,100002095.0,3
+5261,3806,customer_id vs party_id,3221.0,100002095.0,3
+5262,3807,customer_id vs party_id,3221.0,100002095.0,3
+5263,3808,customer_id vs party_id,3221.0,100002095.0,3
+5264,3809,customer_id vs party_id,3221.0,100002095.0,3
+5265,3810,customer_id vs party_id,3221.0,100002095.0,3
+5266,3811,customer_id vs party_id,3221.0,100002095.0,3
+5267,3812,customer_id vs party_id,3221.0,100002095.0,3
+5268,3813,customer_id vs party_id,3221.0,100002095.0,3
+5420,3955,customer_id vs party_id,3221.0,100002095.0,3
+5421,3956,customer_id vs party_id,3221.0,100002095.0,3
+5422,3957,customer_id vs party_id,3221.0,100002095.0,3
+5423,3958,customer_id vs party_id,3221.0,100002095.0,3
+5519,4053,customer_id vs party_id,3221.0,100002095.0,3
+5520,4054,customer_id vs party_id,3221.0,100002095.0,3
+5521,4055,customer_id vs party_id,3221.0,100002095.0,3
+5522,4056,customer_id vs party_id,3221.0,100002095.0,3
+5523,4057,customer_id vs party_id,3221.0,100002095.0,3
+5524,4058,customer_id vs party_id,3221.0,100002095.0,3
+5525,4059,customer_id vs party_id,3221.0,100002095.0,3
+5526,4060,customer_id vs party_id,3221.0,100002095.0,3
+5539,4073,customer_id vs party_id,3221.0,100002095.0,3
+5540,4074,customer_id vs party_id,3221.0,100002095.0,3
+5541,4075,customer_id vs party_id,3221.0,100002095.0,3
+5542,4076,customer_id vs party_id,3221.0,100002095.0,3
+5543,4077,customer_id vs party_id,3221.0,100002095.0,3
+5544,4078,customer_id vs party_id,3221.0,100002095.0,3
+6199,4660,customer_id vs party_id,3220.0,2527.0,1
+6200,4661,customer_id vs party_id,3220.0,2527.0,1
+6201,4662,customer_id vs party_id,3220.0,2527.0,1
+6202,4663,customer_id vs party_id,3220.0,2527.0,1
+6203,4664,customer_id vs party_id,3220.0,2527.0,1
+6204,4665,customer_id vs party_id,3220.0,2527.0,1
+6205,4666,customer_id vs party_id,3220.0,2527.0,1
+6243,4692,customer_id vs party_id,3221.0,100002095.0,3
+6244,4693,customer_id vs party_id,3221.0,100002095.0,3
+6245,4694,customer_id vs party_id,3221.0,100002095.0,3
+6246,4695,customer_id vs party_id,3221.0,100002095.0,3
+6346,4767,customer_id vs party_id,3221.0,100002095.0,3
+6347,4768,customer_id vs party_id,3221.0,100002095.0,3
+6348,4769,customer_id vs party_id,3221.0,100002095.0,3
+6349,4770,customer_id vs party_id,3221.0,100002095.0,3
+6350,4771,customer_id vs party_id,3221.0,100002095.0,3
+6351,4772,customer_id vs party_id,3221.0,100002095.0,3
+6352,4773,customer_id vs party_id,3221.0,100002095.0,3
+6353,4774,customer_id vs party_id,3221.0,100002095.0,3
+6354,4775,customer_id vs party_id,3221.0,100002095.0,3
+6355,4776,customer_id vs party_id,3221.0,100002095.0,3
+6356,4777,customer_id vs party_id,3221.0,100002095.0,3
+6357,4778,customer_id vs party_id,3221.0,100002095.0,3
+6446,4831,customer_id vs party_id,3221.0,100002095.0,3
+6447,4832,customer_id vs party_id,3221.0,100002095.0,3
+6449,4834,customer_id vs party_id,3221.0,100002095.0,3
+6450,4835,customer_id vs party_id,3221.0,100002095.0,3
+6451,4836,customer_id vs party_id,3221.0,100002095.0,3
+6455,4840,customer_id vs party_id,3221.0,100002095.0,3
+6456,4841,customer_id vs party_id,3221.0,100002095.0,3
+6457,4842,customer_id vs party_id,3221.0,100002095.0,3
+6459,4844,customer_id vs party_id,3221.0,100002095.0,3
+6461,4846,customer_id vs party_id,3221.0,100002095.0,3
+6462,4847,customer_id vs party_id,3221.0,100002095.0,3
+6465,4850,customer_id vs party_id,3221.0,100002095.0,3
+6466,4851,customer_id vs party_id,3221.0,100002095.0,3
+7611,5876,customer_id vs party_id,3221.0,100002095.0,3
+7612,5877,customer_id vs party_id,3221.0,100002095.0,3
+7613,5878,customer_id vs party_id,3221.0,100002095.0,3
+7614,5879,customer_id vs party_id,3221.0,100002095.0,3
+7615,5880,customer_id vs party_id,3221.0,100002095.0,3
+7616,5881,customer_id vs party_id,3221.0,100002095.0,3
+7617,5882,customer_id vs party_id,3221.0,100002095.0,3
+7618,5883,customer_id vs party_id,3221.0,100002095.0,3
+7619,5884,customer_id vs party_id,3221.0,100002095.0,3
+7620,5885,customer_id vs party_id,3221.0,100002095.0,3
+7621,5886,customer_id vs party_id,3221.0,100002095.0,3
+7622,5887,customer_id vs party_id,3221.0,100002095.0,3
+7623,5888,customer_id vs party_id,3221.0,100002095.0,3
+7624,5889,customer_id vs party_id,3221.0,100002095.0,3
+7625,5890,customer_id vs party_id,3221.0,100002095.0,3
+7626,5891,customer_id vs party_id,3221.0,100002095.0,3
+7627,5892,customer_id vs party_id,3221.0,100002095.0,3
+7628,5893,customer_id vs party_id,3221.0,100002095.0,3
+7629,5894,customer_id vs party_id,3221.0,100002095.0,3
+7630,5895,customer_id vs party_id,3221.0,100002095.0,3
+7631,5896,customer_id vs party_id,3221.0,100002095.0,3
+7632,5897,customer_id vs party_id,3221.0,100002095.0,3
+7633,5898,customer_id vs party_id,3221.0,100002095.0,3
+7634,5899,customer_id vs party_id,3221.0,100002095.0,3
+7635,5900,customer_id vs party_id,3221.0,100002095.0,3
+7636,5901,customer_id vs party_id,3221.0,100002095.0,3
+7637,5902,customer_id vs party_id,3221.0,100002095.0,3
+7638,5903,customer_id vs party_id,3221.0,100002095.0,3
+7639,5904,customer_id vs party_id,3221.0,100002095.0,3
+7640,5905,customer_id vs party_id,3221.0,100002095.0,3
+7641,5906,customer_id vs party_id,3221.0,100002095.0,3
+7642,5907,customer_id vs party_id,3221.0,100002095.0,3
+7643,5908,customer_id vs party_id,3221.0,100002095.0,3
+7644,5909,customer_id vs party_id,3221.0,100002095.0,3
+7645,5910,customer_id vs party_id,3221.0,100002095.0,3
+7646,5911,customer_id vs party_id,3221.0,100002095.0,3
+7647,5912,customer_id vs party_id,3254.0,379.0,3
+7648,5913,customer_id vs party_id,3254.0,379.0,3
+7649,5914,customer_id vs party_id,3254.0,379.0,3
+7650,5915,customer_id vs party_id,3254.0,379.0,3
+7651,5916,customer_id vs party_id,3254.0,379.0,3
+7652,5917,customer_id vs party_id,3254.0,379.0,3
+7653,5918,customer_id vs party_id,3254.0,379.0,3
+7654,5919,customer_id vs party_id,3254.0,379.0,3
+7655,5920,customer_id vs party_id,3254.0,379.0,3
+7656,5921,customer_id vs party_id,3254.0,379.0,3
+7658,5923,customer_id vs party_id,3254.0,379.0,3
+7659,5924,customer_id vs party_id,3254.0,379.0,3
+7787,6033,customer_id vs party_id,3221.0,100002095.0,3
+7788,6034,customer_id vs party_id,3221.0,100002095.0,3
+7789,6035,customer_id vs party_id,3254.0,379.0,3
+7790,6036,customer_id vs party_id,3254.0,379.0,3
+7791,6037,customer_id vs party_id,3254.0,379.0,3
+7792,6038,customer_id vs party_id,3254.0,379.0,3
+7793,6039,customer_id vs party_id,3254.0,379.0,3
+7794,6040,customer_id vs party_id,3254.0,379.0,3
+7795,6041,customer_id vs party_id,3254.0,379.0,3
+7796,6042,customer_id vs party_id,3253.0,8517.0,3
+7797,6043,customer_id vs party_id,3253.0,8517.0,3
+7798,6044,customer_id vs party_id,3253.0,8517.0,3
+7799,6045,customer_id vs party_id,3253.0,8517.0,3
+7800,6046,customer_id vs party_id,3253.0,8517.0,3
+7801,6047,customer_id vs party_id,3253.0,8517.0,3
+7802,6048,customer_id vs party_id,3253.0,8517.0,3
+7803,6049,customer_id vs party_id,3253.0,8517.0,3
+7804,6050,customer_id vs party_id,3253.0,8517.0,3
+7805,6051,customer_id vs party_id,3253.0,8517.0,3
+7806,6052,customer_id vs party_id,3253.0,8517.0,3
+7807,6053,customer_id vs party_id,3253.0,8517.0,3
+7808,6054,customer_id vs party_id,3253.0,8517.0,3
+7809,6055,customer_id vs party_id,3253.0,8517.0,3
+7810,6056,customer_id vs party_id,3253.0,8517.0,3
+7811,6057,customer_id vs party_id,3253.0,8517.0,3
+7812,6058,customer_id vs party_id,3253.0,8517.0,3
+8366,6593,customer_id vs party_id,3253.0,8517.0,3
+8367,6594,customer_id vs party_id,3253.0,8517.0,3
+8368,6595,customer_id vs party_id,3253.0,8517.0,3
+8369,6596,customer_id vs party_id,3253.0,8517.0,3
+8370,6597,customer_id vs party_id,3253.0,8517.0,3
+8492,6718,customer_id vs party_id,3254.0,379.0,3
+8493,6719,customer_id vs party_id,3254.0,379.0,3
+8494,6720,customer_id vs party_id,3254.0,379.0,3
+8877,7101,customer_id vs party_id,3221.0,100002095.0,3
+8878,7102,customer_id vs party_id,3221.0,100002095.0,3
+8879,7103,customer_id vs party_id,3221.0,100002095.0,3
+8880,7104,customer_id vs party_id,3221.0,100002095.0,3
+8881,7105,customer_id vs party_id,3221.0,100002095.0,3
+8882,7106,customer_id vs party_id,3221.0,100002095.0,3
+8883,7107,customer_id vs party_id,3221.0,100002095.0,3
+8884,7108,customer_id vs party_id,3221.0,100002095.0,3
+8885,7109,customer_id vs party_id,3221.0,100002095.0,3
+8886,7110,customer_id vs party_id,3221.0,100002095.0,3
+8887,7111,customer_id vs party_id,3221.0,100002095.0,3
+8888,7112,customer_id vs party_id,3221.0,100002095.0,3
+8889,7113,customer_id vs party_id,3221.0,100002095.0,3
+8890,7114,customer_id vs party_id,3221.0,100002095.0,3
+8891,7115,customer_id vs party_id,3221.0,100002095.0,3
+9505,7716,customer_id vs party_id,3221.0,100002095.0,3
+9506,7717,customer_id vs party_id,3221.0,100002095.0,3
+9507,7718,customer_id vs party_id,3221.0,100002095.0,3
+9508,7719,customer_id vs party_id,3221.0,100002095.0,3
+9509,7720,customer_id vs party_id,3221.0,100002095.0,3
+9510,7721,customer_id vs party_id,3221.0,100002095.0,3
+9511,7722,customer_id vs party_id,3221.0,100002095.0,3
+9512,7723,customer_id vs party_id,3221.0,100002095.0,3
+9513,7724,customer_id vs party_id,3221.0,100002095.0,3
+9514,7725,customer_id vs party_id,3221.0,100002095.0,3
+9515,7726,customer_id vs party_id,3221.0,100002095.0,3
+9516,7727,customer_id vs party_id,3221.0,100002095.0,3
+9517,7728,customer_id vs party_id,3221.0,100002095.0,3
+9518,7729,customer_id vs party_id,3220.0,2527.0,3
+9519,7730,customer_id vs party_id,3220.0,2527.0,3
+9520,7731,customer_id vs party_id,3220.0,2527.0,3
+9521,7732,customer_id vs party_id,3220.0,2527.0,3
+9522,7733,customer_id vs party_id,3220.0,2527.0,3
+9724,7930,customer_id vs party_id,3220.0,2527.0,3
+9725,7931,customer_id vs party_id,3220.0,2527.0,3
+9726,7932,customer_id vs party_id,3220.0,2527.0,3
+9727,7933,customer_id vs party_id,3220.0,2527.0,3
+9728,7934,customer_id vs party_id,3220.0,2527.0,3
+9729,7935,customer_id vs party_id,3220.0,2527.0,3
+9730,7936,customer_id vs party_id,3220.0,2527.0,3
+9731,7937,customer_id vs party_id,3220.0,2527.0,3
+9732,7938,customer_id vs party_id,3220.0,2527.0,3
+9733,7939,customer_id vs party_id,3220.0,2527.0,3
+9734,7940,customer_id vs party_id,3220.0,2527.0,3
+9735,7941,customer_id vs party_id,3220.0,2527.0,3
+9736,7942,customer_id vs party_id,3220.0,2527.0,3
+9737,7943,customer_id vs party_id,3220.0,2527.0,3
+9738,7944,customer_id vs party_id,3220.0,2527.0,3
+9739,7945,customer_id vs party_id,3220.0,2527.0,3
+9740,7946,customer_id vs party_id,3220.0,2527.0,3
+9741,7947,customer_id vs party_id,3220.0,2527.0,3
+9742,7948,customer_id vs party_id,3220.0,2527.0,3
+9743,7949,customer_id vs party_id,3220.0,2527.0,3
+9744,7950,customer_id vs party_id,3253.0,8517.0,3
+9745,7951,customer_id vs party_id,3253.0,8517.0,3
+9746,7952,customer_id vs party_id,3220.0,2527.0,3
+9747,7953,customer_id vs party_id,3220.0,2527.0,3
+9748,7954,customer_id vs party_id,3220.0,2527.0,3
+9749,7955,customer_id vs party_id,3220.0,2527.0,3
+9750,7956,customer_id vs party_id,3220.0,2527.0,3
+9751,7957,customer_id vs party_id,3220.0,2527.0,3
+9752,7958,customer_id vs party_id,3253.0,8517.0,3
+9753,7959,customer_id vs party_id,3253.0,8517.0,3
+9754,7960,customer_id vs party_id,3253.0,8517.0,3
+9755,7961,customer_id vs party_id,3253.0,8517.0,3
+9756,7962,customer_id vs party_id,3253.0,8517.0,3
+9757,7963,customer_id vs party_id,3253.0,8517.0,3
+9758,7964,customer_id vs party_id,3253.0,8517.0,3
+9759,7965,customer_id vs party_id,3253.0,8517.0,3
+9762,7967,customer_id vs party_id,3220.0,2527.0,3
+9763,7968,customer_id vs party_id,3220.0,2527.0,3
+9764,7969,customer_id vs party_id,3220.0,2527.0,3
+9765,7970,customer_id vs party_id,3220.0,2527.0,3
+9766,7971,customer_id vs party_id,3220.0,2527.0,3
+9767,7972,customer_id vs party_id,3220.0,2527.0,3
+9768,7973,customer_id vs party_id,3221.0,100002095.0,3
+10166,8359,customer_id vs party_id,3220.0,2527.0,3
+10167,8360,customer_id vs party_id,3220.0,2527.0,3
+10168,8361,customer_id vs party_id,3220.0,2527.0,3
+10169,8362,customer_id vs party_id,3220.0,2527.0,3
+10170,8363,customer_id vs party_id,3220.0,2527.0,3
+10171,8364,customer_id vs party_id,3220.0,2527.0,3
+10380,8571,customer_id vs party_id,3220.0,2527.0,3
+10445,8632,customer_id vs party_id,3254.0,379.0,3
+10446,8633,customer_id vs party_id,3254.0,379.0,3
+10447,8634,customer_id vs party_id,3254.0,379.0,3
+10452,8639,customer_id vs party_id,3254.0,379.0,3
+10453,8640,customer_id vs party_id,3254.0,379.0,3
+10454,8641,customer_id vs party_id,3254.0,379.0,3
+10513,8700,customer_id vs party_id,3221.0,100002095.0,3
+10725,8908,customer_id vs party_id,3254.0,379.0,3
+10726,8909,customer_id vs party_id,3254.0,379.0,3
+10727,8910,customer_id vs party_id,3254.0,379.0,3
+10728,8911,customer_id vs party_id,3254.0,379.0,3
+10729,8912,customer_id vs party_id,3254.0,379.0,3
+10730,8913,customer_id vs party_id,3254.0,379.0,3
+10731,8914,customer_id vs party_id,3254.0,379.0,3
+10732,8915,customer_id vs party_id,3254.0,379.0,3
+10733,8916,customer_id vs party_id,3254.0,379.0,3
+10734,8917,customer_id vs party_id,3254.0,379.0,3
+10735,8918,customer_id vs party_id,3254.0,379.0,3
+10736,8919,customer_id vs party_id,3254.0,379.0,3
+10737,8920,customer_id vs party_id,3254.0,379.0,3
+10738,8921,customer_id vs party_id,3254.0,379.0,3
+10739,8922,customer_id vs party_id,3254.0,379.0,3
+10740,8923,customer_id vs party_id,3254.0,379.0,3
+10741,8924,customer_id vs party_id,3254.0,379.0,3
+10742,8925,customer_id vs party_id,3254.0,379.0,3
+10743,8926,customer_id vs party_id,3254.0,379.0,3
+10744,8927,customer_id vs party_id,3254.0,379.0,3
+10745,8928,customer_id vs party_id,3254.0,379.0,3
+10746,8929,customer_id vs party_id,3254.0,379.0,3
+10747,8930,customer_id vs party_id,3253.0,8517.0,3
+10748,8931,customer_id vs party_id,3253.0,8517.0,3
+10749,8932,customer_id vs party_id,3253.0,8517.0,3
+10750,8933,customer_id vs party_id,3253.0,8517.0,3
+10751,8934,customer_id vs party_id,3253.0,8517.0,3
+10752,8935,customer_id vs party_id,3253.0,8517.0,3
+10753,8936,customer_id vs party_id,3253.0,8517.0,3
+10754,8937,customer_id vs party_id,3254.0,379.0,3
+10755,8938,customer_id vs party_id,3254.0,379.0,3
+10756,8939,customer_id vs party_id,3254.0,379.0,3
+10757,8940,customer_id vs party_id,3254.0,379.0,3
+10758,8941,customer_id vs party_id,3254.0,379.0,3
+10759,8942,customer_id vs party_id,3254.0,379.0,3
+10760,8943,customer_id vs party_id,3254.0,379.0,3
+10761,8944,customer_id vs party_id,3254.0,379.0,3
+10762,8945,customer_id vs party_id,3254.0,379.0,3
+10763,8946,customer_id vs party_id,3253.0,8517.0,3
+10764,8947,customer_id vs party_id,3253.0,8517.0,3
+11691,9866,customer_id vs party_id,3254.0,379.0,3
+11692,9867,customer_id vs party_id,3254.0,379.0,3
+11693,9868,customer_id vs party_id,3254.0,379.0,3
+11694,9869,customer_id vs party_id,3254.0,379.0,3
+11695,9870,customer_id vs party_id,3254.0,379.0,3
+11696,9871,customer_id vs party_id,3254.0,379.0,3
+12561,10718,customer_id vs party_id,3253.0,8517.0,3
+12563,10720,customer_id vs party_id,3253.0,8517.0,3
+12564,10721,customer_id vs party_id,3253.0,8517.0,3
+12565,10722,customer_id vs party_id,3253.0,8517.0,3
+12566,10723,customer_id vs party_id,3253.0,8517.0,3
+12567,10724,customer_id vs party_id,3253.0,8517.0,3
+12568,10725,customer_id vs party_id,3253.0,8517.0,3
+12569,10726,customer_id vs party_id,3253.0,8517.0,3
+12570,10727,customer_id vs party_id,3253.0,8517.0,3
+12571,10728,customer_id vs party_id,3253.0,8517.0,3
+12572,10729,customer_id vs party_id,3253.0,8517.0,3
+12573,10730,customer_id vs party_id,3253.0,8517.0,3
+12574,10731,customer_id vs party_id,3253.0,8517.0,3
+12575,10732,customer_id vs party_id,3253.0,8517.0,3
+12576,10733,customer_id vs party_id,3253.0,8517.0,3
+12577,10734,customer_id vs party_id,3253.0,8517.0,3
+12578,10735,customer_id vs party_id,3253.0,8517.0,3
+12579,10736,customer_id vs party_id,3253.0,8517.0,3
+12580,10737,customer_id vs party_id,3253.0,8517.0,3
+12581,10738,customer_id vs party_id,3226.0,8001.0,3
+12582,10739,customer_id vs party_id,3226.0,8001.0,3
+12583,10740,customer_id vs party_id,3226.0,8001.0,3
+12584,10741,customer_id vs party_id,3226.0,8001.0,3
+12585,10742,customer_id vs party_id,3226.0,8001.0,3
+12586,10743,customer_id vs party_id,3226.0,8001.0,3
+12587,10744,customer_id vs party_id,3226.0,8001.0,3
+12588,10745,customer_id vs party_id,3226.0,8001.0,3
+12589,10746,customer_id vs party_id,3253.0,8517.0,3
+12590,10747,customer_id vs party_id,3253.0,8517.0,3
+12591,10748,customer_id vs party_id,3253.0,8517.0,3
+12592,10749,customer_id vs party_id,3253.0,8517.0,3
+12720,10877,customer_id vs party_id,3220.0,2527.0,3
+12721,10878,customer_id vs party_id,3220.0,2527.0,3
+12722,10879,customer_id vs party_id,3220.0,2527.0,3
+12723,10880,customer_id vs party_id,3220.0,2527.0,3
+12724,10881,customer_id vs party_id,3220.0,2527.0,3
+12725,10882,customer_id vs party_id,3220.0,2527.0,3
+12726,10883,customer_id vs party_id,3220.0,2527.0,3
+12727,10884,customer_id vs party_id,3220.0,2527.0,3
+12728,10885,customer_id vs party_id,3220.0,2527.0,3
+12729,10886,customer_id vs party_id,3220.0,2527.0,3
+12730,10887,customer_id vs party_id,3220.0,2527.0,3
+12731,10888,customer_id vs party_id,3220.0,2527.0,3
+12732,10889,customer_id vs party_id,3220.0,2527.0,3
+12733,10890,customer_id vs party_id,3220.0,2527.0,3
+12734,10891,customer_id vs party_id,3220.0,2527.0,3
+12735,10892,customer_id vs party_id,3220.0,2527.0,3
+12736,10893,customer_id vs party_id,3253.0,8517.0,3
+12737,10894,customer_id vs party_id,3253.0,8517.0,3
+12738,10895,customer_id vs party_id,3253.0,8517.0,3
+12739,10896,customer_id vs party_id,3253.0,8517.0,3
+12744,10901,customer_id vs party_id,3253.0,8517.0,3
+12746,10903,customer_id vs party_id,3253.0,8517.0,3
+12747,10904,customer_id vs party_id,3253.0,8517.0,3
+12748,10905,customer_id vs party_id,3253.0,8517.0,3
+12749,10906,customer_id vs party_id,3253.0,8517.0,3
+12750,10907,customer_id vs party_id,3253.0,8517.0,3
+12751,10908,customer_id vs party_id,3253.0,8517.0,3
+12752,10909,customer_id vs party_id,3253.0,8517.0,3
+12753,10910,customer_id vs party_id,3253.0,8517.0,3
+12754,10911,customer_id vs party_id,3253.0,8517.0,3
+12755,10912,customer_id vs party_id,3253.0,8517.0,3
+12756,10913,customer_id vs party_id,3220.0,2527.0,3
+12757,10914,customer_id vs party_id,3220.0,2527.0,3
+12758,10915,customer_id vs party_id,3220.0,2527.0,3
+12759,10916,customer_id vs party_id,3220.0,2527.0,3
+12760,10917,customer_id vs party_id,3220.0,2527.0,3
+12761,10918,customer_id vs party_id,3220.0,2527.0,3
+12762,10919,customer_id vs party_id,3220.0,2527.0,3
+12763,10920,customer_id vs party_id,3220.0,2527.0,3
+12764,10921,customer_id vs party_id,3220.0,2527.0,3
+12765,10922,customer_id vs party_id,3220.0,2527.0,3
+12766,10923,customer_id vs party_id,3220.0,2527.0,3
+12767,10924,customer_id vs party_id,3220.0,2527.0,3
+12768,10925,customer_id vs party_id,3220.0,2527.0,3
+12769,10926,customer_id vs party_id,3220.0,2527.0,3
+12770,10927,customer_id vs party_id,3220.0,2527.0,3
+12771,10928,customer_id vs party_id,3220.0,2527.0,3
+12772,10929,customer_id vs party_id,3220.0,2527.0,3
+12773,10930,customer_id vs party_id,3220.0,2527.0,3
+12774,10931,customer_id vs party_id,3220.0,2527.0,3
+12781,10938,customer_id vs party_id,3220.0,2527.0,3
+12782,10939,customer_id vs party_id,3220.0,2527.0,3
+12784,10941,customer_id vs party_id,3220.0,2527.0,3
+12785,10942,customer_id vs party_id,3220.0,2527.0,3
+12786,10943,customer_id vs party_id,3220.0,2527.0,3
+12787,10944,customer_id vs party_id,3220.0,2527.0,3
+12816,10973,customer_id vs party_id,3220.0,2527.0,3
+12817,10974,customer_id vs party_id,3220.0,2527.0,3
+12818,10975,customer_id vs party_id,3220.0,2527.0,3
+12819,10976,customer_id vs party_id,3220.0,2527.0,3
+12820,10977,customer_id vs party_id,3220.0,2527.0,3
+12821,10978,customer_id vs party_id,3220.0,2527.0,3
+12822,10979,customer_id vs party_id,3220.0,2527.0,3
+12823,10980,customer_id vs party_id,3220.0,2527.0,3
+12824,10981,customer_id vs party_id,3220.0,2527.0,3
+12825,10982,customer_id vs party_id,3220.0,2527.0,3
+12826,10983,customer_id vs party_id,3220.0,2527.0,3
+13195,11349,customer_id vs party_id,3220.0,2527.0,3
+13296,11447,customer_id vs party_id,3220.0,2527.0,3
+13297,11448,customer_id vs party_id,3220.0,2527.0,3
+13298,11449,customer_id vs party_id,3220.0,2527.0,3
+13299,11450,customer_id vs party_id,3220.0,2527.0,3
+13300,11451,customer_id vs party_id,3220.0,2527.0,3
+13301,11452,customer_id vs party_id,3220.0,2527.0,3
+13302,11453,customer_id vs party_id,3220.0,2527.0,3
+13303,11454,customer_id vs party_id,3220.0,2527.0,3
+13304,11455,customer_id vs party_id,3220.0,2527.0,3
+13305,11456,customer_id vs party_id,3220.0,2527.0,3
+13306,11457,customer_id vs party_id,3220.0,2527.0,3
+13307,11458,customer_id vs party_id,3220.0,2527.0,3
+13308,11459,customer_id vs party_id,3220.0,2527.0,3
+13309,11460,customer_id vs party_id,3220.0,2527.0,3
+13310,11461,customer_id vs party_id,3220.0,2527.0,3
+13311,11462,customer_id vs party_id,3220.0,2527.0,3
+13312,11463,customer_id vs party_id,3220.0,2527.0,3
+13313,11464,customer_id vs party_id,3220.0,2527.0,3
+13314,11465,customer_id vs party_id,3220.0,2527.0,3
+13315,11466,customer_id vs party_id,3220.0,2527.0,3
+13316,11467,customer_id vs party_id,3220.0,2527.0,3
+13317,11468,customer_id vs party_id,3220.0,2527.0,3
+13448,11597,customer_id vs party_id,3253.0,8517.0,3
+13449,11598,customer_id vs party_id,3253.0,8517.0,3
+13450,11599,customer_id vs party_id,3253.0,8517.0,3
+13451,11600,customer_id vs party_id,3253.0,8517.0,3
+13452,11601,customer_id vs party_id,3253.0,8517.0,3
+13453,11602,customer_id vs party_id,3253.0,8517.0,3
+13454,11603,customer_id vs party_id,3253.0,8517.0,3
+13455,11604,customer_id vs party_id,3253.0,8517.0,3
+13456,11605,customer_id vs party_id,3253.0,8517.0,3
+13457,11606,customer_id vs party_id,3253.0,8517.0,3
+13458,11607,customer_id vs party_id,3253.0,8517.0,3
+13459,11608,customer_id vs party_id,3253.0,8517.0,3
+13460,11609,customer_id vs party_id,3253.0,8517.0,3
+13461,11610,customer_id vs party_id,3253.0,8517.0,3
+13462,11611,customer_id vs party_id,3253.0,8517.0,3
+13463,11612,customer_id vs party_id,3253.0,8517.0,3
+13464,11613,customer_id vs party_id,3253.0,8517.0,3
+13945,12083,customer_id vs party_id,3254.0,379.0,3
+13946,12084,customer_id vs party_id,3254.0,379.0,3
+13947,12085,customer_id vs party_id,3254.0,379.0,3
+13948,12086,customer_id vs party_id,3254.0,379.0,3
+13949,12087,customer_id vs party_id,3254.0,379.0,3
+13950,12088,customer_id vs party_id,3254.0,379.0,3
+13951,12089,customer_id vs party_id,3254.0,379.0,3
+13952,12090,customer_id vs party_id,3254.0,379.0,3
+13953,12091,customer_id vs party_id,3254.0,379.0,3
+13954,12092,customer_id vs party_id,3254.0,379.0,3
+13955,12093,customer_id vs party_id,3254.0,379.0,3
+13956,12094,customer_id vs party_id,3254.0,379.0,3
+13957,12095,customer_id vs party_id,3254.0,379.0,3
+13958,12096,customer_id vs party_id,3254.0,379.0,3
+13959,12097,customer_id vs party_id,3254.0,379.0,3
+13960,12098,customer_id vs party_id,3254.0,379.0,3
+13961,12099,customer_id vs party_id,3254.0,379.0,3
+13962,12100,customer_id vs party_id,3254.0,379.0,3
+13963,12101,customer_id vs party_id,3254.0,379.0,3
+13964,12102,customer_id vs party_id,3254.0,379.0,3
+13965,12103,customer_id vs party_id,3254.0,379.0,3
+13966,12104,customer_id vs party_id,3254.0,379.0,3
+13967,12105,customer_id vs party_id,3254.0,379.0,3
+13968,12106,customer_id vs party_id,3254.0,379.0,3
+13969,12107,customer_id vs party_id,3254.0,379.0,3
+13970,12108,customer_id vs party_id,3254.0,379.0,3
+13971,12109,customer_id vs party_id,3254.0,379.0,3
+13972,12110,customer_id vs party_id,3253.0,8517.0,3
+13973,12111,customer_id vs party_id,3220.0,2527.0,3
+13974,12112,customer_id vs party_id,3220.0,2527.0,3
+13975,12113,customer_id vs party_id,3220.0,2527.0,3
+13976,12114,customer_id vs party_id,3220.0,2527.0,3
+13977,12115,customer_id vs party_id,3220.0,2527.0,3
+13978,12116,customer_id vs party_id,3220.0,2527.0,3
+13979,12117,customer_id vs party_id,3220.0,2527.0,3
+13980,12118,customer_id vs party_id,3220.0,2527.0,3
+13981,12119,customer_id vs party_id,3220.0,2527.0,3
+13982,12120,customer_id vs party_id,3220.0,2527.0,3
+13983,12121,customer_id vs party_id,3220.0,2527.0,3
+13984,12122,customer_id vs party_id,3220.0,2527.0,3
+13985,12123,customer_id vs party_id,3220.0,2527.0,3
+13986,12124,customer_id vs party_id,3220.0,2527.0,3
+13987,12125,customer_id vs party_id,3220.0,2527.0,3
+13988,12126,customer_id vs party_id,3220.0,2527.0,3
+13989,12127,customer_id vs party_id,3220.0,2527.0,3
+13990,12128,customer_id vs party_id,3220.0,2527.0,3
+13991,12129,customer_id vs party_id,3220.0,2527.0,3
+13992,12130,customer_id vs party_id,3220.0,2527.0,3
+14469,12601,customer_id vs party_id,3220.0,2527.0,3
+14470,12602,customer_id vs party_id,3220.0,2527.0,3
+14471,12603,customer_id vs party_id,3220.0,2527.0,3
+14472,12604,customer_id vs party_id,3220.0,2527.0,3
+14473,12605,customer_id vs party_id,3220.0,2527.0,3
+14474,12606,customer_id vs party_id,3220.0,2527.0,3
+14475,12607,customer_id vs party_id,3220.0,2527.0,3
+14476,12608,customer_id vs party_id,3220.0,2527.0,3
+14477,12609,customer_id vs party_id,3220.0,2527.0,3
+14478,12610,customer_id vs party_id,3220.0,2527.0,3
+14479,12611,customer_id vs party_id,3220.0,2527.0,3
+14480,12612,customer_id vs party_id,3220.0,2527.0,3
+14481,12613,customer_id vs party_id,3220.0,2527.0,3
+14697,12825,customer_id vs party_id,3220.0,2527.0,3
+14698,12826,customer_id vs party_id,3220.0,2527.0,3
+14699,12827,customer_id vs party_id,3220.0,2527.0,3
+14700,12828,customer_id vs party_id,3220.0,2527.0,3
+14701,12829,customer_id vs party_id,3220.0,2527.0,3
+14702,12830,customer_id vs party_id,3220.0,2527.0,3
+14703,12831,customer_id vs party_id,3220.0,2527.0,3
+14704,12832,customer_id vs party_id,3220.0,2527.0,3
+14817,12936,customer_id vs party_id,3253.0,8517.0,3
+17743,15701,customer_id vs party_id,3221.0,100002095.0,3
+17744,15702,customer_id vs party_id,3221.0,100002095.0,3
+17757,15715,customer_id vs party_id,3221.0,100002095.0,3
+17758,15716,customer_id vs party_id,3221.0,100002095.0,3
+17759,15717,customer_id vs party_id,3221.0,100002095.0,3
+17760,15718,customer_id vs party_id,3221.0,100002095.0,3
+17761,15719,customer_id vs party_id,3221.0,100002095.0,3
+17762,15720,customer_id vs party_id,3221.0,100002095.0,3
+17785,15739,customer_id vs party_id,3221.0,100002095.0,3
+17786,15740,customer_id vs party_id,3221.0,100002095.0,3
+17787,15741,customer_id vs party_id,3221.0,100002095.0,3
+17788,15742,customer_id vs party_id,3221.0,100002095.0,3
+17789,15743,customer_id vs party_id,3221.0,100002095.0,3

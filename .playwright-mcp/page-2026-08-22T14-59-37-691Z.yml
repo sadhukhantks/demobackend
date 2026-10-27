@@ -1,0 +1,356 @@
+- generic [ref=f4e1]:
+  - generic [ref=f4e2]:
+    - generic [ref=f4e5]:
+      - generic [ref=f4e9]:
+        - generic [ref=f4e453]:
+          - generic [ref=f4e454]: Company
+          - generic [ref=f4e455]:
+            - combobox [expanded] [ref=f4e456] [cursor=pointer]: Limelight Commercial Private Limited
+            - textbox: "9"
+            - group:
+              - generic: Company
+        - generic [ref=f4e458]:
+          - generic [ref=f4e459]: Branches
+          - generic [ref=f4e460]:
+            - combobox [ref=f4e461] [cursor=pointer]: Factory
+            - textbox: "12"
+            - group:
+              - generic: Branches
+      - generic [ref=f4e13]:
+        - generic [ref=f4e15]:
+          - generic [ref=f4e16] [cursor=pointer]
+          - link [ref=f4e474] [cursor=pointer]:
+            - /url: /dashboardportal/jutePurchase
+            - text: Jute Procurement
+        - generic [ref=f4e21]:
+          - generic [ref=f4e22] [cursor=pointer]
+          - link [ref=f4e475] [cursor=pointer]:
+            - /url: /dashboardportal/procurement
+            - text: Procurement
+        - generic [ref=f4e27]:
+          - generic [ref=f4e28] [cursor=pointer]
+          - link [ref=f4e476] [cursor=pointer]:
+            - /url: /dashboardportal/masters
+            - text: Masters
+        - generic [ref=f4e33]:
+          - generic [ref=f4e34] [cursor=pointer]
+          - link [ref=f4e477] [cursor=pointer]:
+            - /url: /dashboardportal/inventory
+            - text: Inventory
+        - generic [ref=f4e39]:
+          - generic [ref=f4e40] [cursor=pointer]
+          - link [ref=f4e478] [cursor=pointer]:
+            - /url: /dashboardportal/sales
+            - text: Sales
+        - generic [ref=f4e45]:
+          - generic [ref=f4e46] [cursor=pointer]
+          - link [ref=f4e479] [cursor=pointer]:
+            - /url: /dashboardportal/hrms
+            - text: HRMS
+        - generic [ref=f4e51]:
+          - generic [ref=f4e52] [cursor=pointer]
+          - link [ref=f4e480] [cursor=pointer]:
+            - /url: /dashboardportal/BomCosting
+            - text: BOM and Costing
+        - generic [ref=f4e57]:
+          - generic [ref=f4e58] [cursor=pointer]
+          - link [ref=f4e481] [cursor=pointer]:
+            - /url: /dashboardportal/accounting
+            - text: Accounting
+        - generic [ref=f4e63]:
+          - generic [ref=f4e64] [cursor=pointer]
+          - link [ref=f4e482] [cursor=pointer]:
+            - /url: /dashboardportal/hrmsmasters
+            - text: HRMS Master
+        - generic [ref=f4e69]:
+          - generic [ref=f4e70] [cursor=pointer]
+          - link [ref=f4e483] [cursor=pointer]:
+            - /url: /dashboardportal/juteProduction
+            - text: Jute Production
+        - generic [ref=f4e75]:
+          - generic [ref=f4e76] [cursor=pointer]
+          - link [ref=f4e484] [cursor=pointer]:
+            - /url: /dashboardportal/juteSQC
+            - text: Jute SQC
+      - generic [ref=f4e82]:
+        - generic [ref=f4e83] [cursor=pointer]: User Settings
+        - generic [ref=f4e463]:
+          - link [ref=f4e485] [cursor=pointer]:
+            - /url: /
+            - text: Logout
+          - link [ref=f4e486] [cursor=pointer]:
+            - /url: /reset-password
+            - text: Change Password
+    - main [ref=f4e90]:
+      - button [ref=f4e487] [cursor=pointer]: Back to Reports
+      - generic [ref=f4e96]:
+        - heading [level=5] [ref=f4e488]: Jute MR Issue Detail (all MRs in period)
+        - generic [ref=f4e99]:
+          - generic [ref=f4e101]:
+            - generic [ref=f4e102]: Branch
+            - generic [ref=f4e103]:
+              - combobox [ref=f4e489]: Factory
+              - button [ref=f4e490] [cursor=pointer]
+              - group:
+                - generic: Branch
+          - generic [ref=f4e109]:
+            - generic [ref=f4e110]: From Date
+            - generic [ref=f4e111]:
+              - textbox [ref=f4e491]: 2026-04-01
+              - group:
+                - generic: From Date
+          - generic [ref=f4e113]:
+            - generic [ref=f4e114]: To Date
+            - generic [ref=f4e115]:
+              - textbox [ref=f4e492]: 2026-08-22
+              - group:
+                - generic: To Date
+          - generic [ref=f4e118]:
+            - generic: MR (blank = all)
+            - generic [ref=f4e119]:
+              - combobox [ref=f4e493]
+              - button [ref=f4e494] [cursor=pointer]
+              - group:
+                - generic: MR (blank = all)
+          - button [ref=f4e495] [cursor=pointer]: Submit
+          - button [ref=f4e496] [cursor=pointer]: Export to Excel
+        - generic [ref=f4e129]:
+          - grid [ref=f4e130]:
+            - row [ref=f4e497]:
+              - columnheader [ref=f4e498] [cursor=pointer]:
+                - generic [ref=f4e133]: "MR #"
+              - columnheader [ref=f4e499] [cursor=pointer]:
+                - generic [ref=f4e137]: MR / Inward Date
+                - button [ref=f4e501]
+              - columnheader [ref=f4e502] [cursor=pointer]:
+                - generic [ref=f4e146]: "GE #"
+              - columnheader [ref=f4e503] [cursor=pointer]:
+                - generic [ref=f4e150]: Party
+              - columnheader [ref=f4e504] [cursor=pointer]:
+                - generic [ref=f4e154]: Godown
+              - columnheader [ref=f4e505] [cursor=pointer]:
+                - generic [ref=f4e158]: Quality
+              - columnheader [ref=f4e506] [cursor=pointer]:
+                - generic [ref=f4e162]: Marka
+              - columnheader [ref=f4e507] [cursor=pointer]:
+                - generic [ref=f4e166]: Crop Year
+              - columnheader [ref=f4e508] [cursor=pointer]:
+                - generic [ref=f4e170]: Recv Qty
+              - columnheader [ref=f4e509] [cursor=pointer]:
+                - generic [ref=f4e208]: Recv Wt
+              - columnheader [ref=f4e510] [cursor=pointer]:
+                - generic [ref=f4e212]: Rate
+              - columnheader [ref=f4e511] [cursor=pointer]:
+                - generic [ref=f4e216]: "Issue #"
+              - columnheader [ref=f4e512] [cursor=pointer]:
+                - generic [ref=f4e220]: Issue Date
+              - columnheader [ref=f4e513] [cursor=pointer]:
+                - generic [ref=f4e224]: Issued Qty
+              - columnheader [ref=f4e514] [cursor=pointer]:
+                - generic [ref=f4e228]: Issued Wt
+              - columnheader [ref=f4e515] [cursor=pointer]:
+                - generic [ref=f4e232]: Issue Value
+              - columnheader [ref=f4e516] [cursor=pointer]:
+                - generic [ref=f4e236]: Issue Item
+              - columnheader [ref=f4e517] [cursor=pointer]:
+                - generic [ref=f4e240]: Yarn Type
+              - columnheader [ref=f4e518] [cursor=pointer]:
+                - generic [ref=f4e244]: Issue Status
+              - columnheader [ref=f4e519] [cursor=pointer]:
+                - generic [ref=f4e248]: Bal Qty
+              - columnheader [ref=f4e520] [cursor=pointer]:
+                - generic [ref=f4e252]: Bal Wt
+              - columnheader [ref=f4e521] [cursor=pointer]:
+                - generic [ref=f4e256]: Updated By
+              - columnheader [ref=f4e522] [cursor=pointer]:
+                - generic [ref=f4e260]: Updated On
+            - rowgroup [ref=f4e263]:
+              - row [ref=f4e523]:
+                - gridcell [ref=f4e524]: GE-6
+                - gridcell [ref=f4e525]: 2026-05-04
+                - gridcell [ref=f4e526]: "6"
+                - gridcell [ref=f4e527]: LALIT AGRAWAL
+                - gridcell [ref=f4e528]: LCPL Jute-01
+                - gridcell [ref=f4e529]: ROPS
+                - gridcell [ref=f4e271]
+                - gridcell [ref=f4e272]
+                - gridcell [ref=f4e530]: "667.00"
+                - gridcell [ref=f4e531]: "11090.00"
+                - gridcell [ref=f4e532]: "12000.00"
+                - gridcell [ref=f4e276]
+                - gridcell [ref=f4e277]
+                - gridcell [ref=f4e278]
+                - gridcell [ref=f4e279]
+                - gridcell [ref=f4e280]
+                - gridcell [ref=f4e281]
+                - gridcell [ref=f4e282]
+                - gridcell [ref=f4e283]
+                - gridcell [ref=f4e533]: "667.00"
+                - gridcell [ref=f4e534]: "11090.00"
+                - gridcell [ref=f4e286]
+                - gridcell [ref=f4e287]
+              - row [ref=f4e535]:
+                - gridcell [ref=f4e536]: GE-5
+                - gridcell [ref=f4e537]: 2026-04-17
+                - gridcell [ref=f4e538]: "5"
+                - gridcell [ref=f4e539]: M/S. PRAMILA JUTE SUPPLY
+                - gridcell [ref=f4e540]: LCPL Jute-01
+                - gridcell [ref=f4e541]: A-TD9(U)
+                - gridcell [ref=f4e295]
+                - gridcell [ref=f4e296]
+                - gridcell [ref=f4e542]: "320.00"
+                - gridcell [ref=f4e543]: "14800.00"
+                - gridcell [ref=f4e544]: "17075.00"
+                - gridcell [ref=f4e300]
+                - gridcell [ref=f4e301]
+                - gridcell [ref=f4e302]
+                - gridcell [ref=f4e303]
+                - gridcell [ref=f4e304]
+                - gridcell [ref=f4e305]
+                - gridcell [ref=f4e306]
+                - gridcell [ref=f4e307]
+                - gridcell [ref=f4e545]: "320.00"
+                - gridcell [ref=f4e546]: "14800.00"
+                - gridcell [ref=f4e310]
+                - gridcell [ref=f4e311]
+              - row [ref=f4e547]:
+                - gridcell [ref=f4e548]: LCPL/FAC/JMR/26-27/00003
+                - gridcell [ref=f4e549]: 2026-04-14
+                - gridcell [ref=f4e550]: "4"
+                - gridcell [ref=f4e551]: GOPAL BAJAJ AND SONS
+                - gridcell [ref=f4e317]
+                - gridcell [ref=f4e552]: D TD-6
+                - gridcell [ref=f4e319]
+                - gridcell [ref=f4e320]
+                - gridcell [ref=f4e553]: "80.00"
+                - gridcell [ref=f4e554]: "0.00"
+                - gridcell [ref=f4e323]
+                - gridcell [ref=f4e324]
+                - gridcell [ref=f4e325]
+                - gridcell [ref=f4e326]
+                - gridcell [ref=f4e327]
+                - gridcell [ref=f4e328]
+                - gridcell [ref=f4e329]
+                - gridcell [ref=f4e330]
+                - gridcell [ref=f4e331]
+                - gridcell [ref=f4e555]: "80.00"
+                - gridcell [ref=f4e556]: "0.00"
+                - gridcell [ref=f4e334]
+                - gridcell [ref=f4e335]
+              - row [ref=f4e557]:
+                - gridcell [ref=f4e558]: LCPL/FAC/JMR/26-27/00004
+                - gridcell [ref=f4e559]: 2026-04-14
+                - gridcell [ref=f4e560]: "3"
+                - gridcell [ref=f4e561]: GOPAL BAJAJ AND SONS
+                - gridcell [ref=f4e341]
+                - gridcell [ref=f4e562]: J TD-7
+                - gridcell [ref=f4e343]
+                - gridcell [ref=f4e344]
+                - gridcell [ref=f4e563]: "110.00"
+                - gridcell [ref=f4e564]: "0.00"
+                - gridcell [ref=f4e347]
+                - gridcell [ref=f4e348]
+                - gridcell [ref=f4e349]
+                - gridcell [ref=f4e350]
+                - gridcell [ref=f4e351]
+                - gridcell [ref=f4e352]
+                - gridcell [ref=f4e353]
+                - gridcell [ref=f4e354]
+                - gridcell [ref=f4e355]
+                - gridcell [ref=f4e565]: "110.00"
+                - gridcell [ref=f4e566]: "0.00"
+                - gridcell [ref=f4e358]
+                - gridcell [ref=f4e359]
+              - row [ref=f4e567]:
+                - gridcell [ref=f4e568]: GE-4
+                - gridcell [ref=f4e569]: 2026-04-14
+                - gridcell [ref=f4e570]: "4"
+                - gridcell [ref=f4e571]: Shema Jute Agency
+                - gridcell [ref=f4e365]
+                - gridcell [ref=f4e572]: D TD-5
+                - gridcell [ref=f4e367]
+                - gridcell [ref=f4e368]
+                - gridcell [ref=f4e573]: "140.00"
+                - gridcell [ref=f4e574]: "0.00"
+                - gridcell [ref=f4e371]
+                - gridcell [ref=f4e372]
+                - gridcell [ref=f4e373]
+                - gridcell [ref=f4e374]
+                - gridcell [ref=f4e375]
+                - gridcell [ref=f4e376]
+                - gridcell [ref=f4e377]
+                - gridcell [ref=f4e378]
+                - gridcell [ref=f4e379]
+                - gridcell [ref=f4e575]: "140.00"
+                - gridcell [ref=f4e576]: "0.00"
+                - gridcell [ref=f4e382]
+                - gridcell [ref=f4e383]
+              - row [ref=f4e577]:
+                - gridcell [ref=f4e578]: LCPL/FAC/JMR/26-27/00002
+                - gridcell [ref=f4e579]: 2026-04-02
+                - gridcell [ref=f4e580]: "1"
+                - gridcell [ref=f4e581]: Highland Vyapar Pvt Ltd
+                - gridcell [ref=f4e582]: LCPL Jute-01
+                - gridcell [ref=f4e583]: A-TD9(U)
+                - gridcell [ref=f4e391]
+                - gridcell [ref=f4e392]
+                - gridcell [ref=f4e584]: "98.00"
+                - gridcell [ref=f4e585]: "14850.00"
+                - gridcell [ref=f4e586]: "6050.00"
+                - gridcell [ref=f4e396]
+                - gridcell [ref=f4e397]
+                - gridcell [ref=f4e398]
+                - gridcell [ref=f4e399]
+                - gridcell [ref=f4e400]
+                - gridcell [ref=f4e401]
+                - gridcell [ref=f4e402]
+                - gridcell [ref=f4e403]
+                - gridcell [ref=f4e587]: "98.00"
+                - gridcell [ref=f4e588]: "14850.00"
+                - gridcell [ref=f4e406]
+                - gridcell [ref=f4e407]
+              - row [ref=f4e589]:
+                - gridcell [ref=f4e590]: GE-2
+                - gridcell [ref=f4e591]: 2026-04-02
+                - gridcell [ref=f4e592]: "2"
+                - gridcell [ref=f4e593]: M/s Shree Shyam Agency
+                - gridcell [ref=f4e413]
+                - gridcell [ref=f4e594]: C TD-5
+                - gridcell [ref=f4e415]
+                - gridcell [ref=f4e416]
+                - gridcell [ref=f4e595]: "208.00"
+                - gridcell [ref=f4e596]: "0.00"
+                - gridcell [ref=f4e419]
+                - gridcell [ref=f4e420]
+                - gridcell [ref=f4e421]
+                - gridcell [ref=f4e422]
+                - gridcell [ref=f4e423]
+                - gridcell [ref=f4e424]
+                - gridcell [ref=f4e425]
+                - gridcell [ref=f4e426]
+                - gridcell [ref=f4e427]
+                - gridcell [ref=f4e597]: "208.00"
+                - gridcell [ref=f4e598]: "0.00"
+                - gridcell [ref=f4e430]
+                - gridcell [ref=f4e431]
+          - generic [ref=f4e180]:
+            - paragraph [ref=f4e181]: "Rows per page:"
+            - generic [ref=f4e182]:
+              - combobox [ref=f4e599] [cursor=pointer]: "50"
+              - textbox: "50"
+            - paragraph [ref=f4e184]: 1–7 of 7
+            - generic [ref=f4e185]:
+              - button [disabled]
+              - button [disabled]
+    - button [ref=f4e600] [cursor=pointer]
+  - list
+  - button "Open Next.js Dev Tools" [ref=f4e199] [cursor=pointer]
+  - alert [ref=f4e203]
+  - listbox [ref=f4e603]:
+    - option "Select Company" [disabled]
+    - option "The Empire Jute Company Limited" [ref=f4e604] [cursor=pointer]
+    - option "Anurashi Commotrade Pvt ltd" [ref=f4e605] [cursor=pointer]
+    - option "Jagrati Trade Services Pvt Ltd" [ref=f4e606] [cursor=pointer]
+    - option "Snehjyoti Commerce Pvt Ltd." [ref=f4e607] [cursor=pointer]
+    - option "procurement demo" [ref=f4e608] [cursor=pointer]
+    - option "Limelight Commercial Private Limited" [active] [selected] [ref=f4e609] [cursor=pointer]

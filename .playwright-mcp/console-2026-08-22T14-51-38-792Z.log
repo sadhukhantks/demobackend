@@ -1,0 +1,23 @@
+[    1156ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://dev3.localhost:3000/_next/static/chunks/5ce7f_next_dist_b6c93851._.js:2297
+[    1225ms] [LOG] [HMR] connected @ http://dev3.localhost:3000/_next/static/chunks/5ce7f_next_dist_b6c93851._.js:2297
+[   12172ms] [LOG] Login API Response: {data: Object, status: 200, statusText: OK, headers: AxiosHeaders, config: Object} @ http://dev3.localhost:3000/_next/static/chunks/5ce7f_next_dist_b6c93851._.js:2297
+[   12307ms] [LOG] [Fast Refresh] rebuilding @ http://dev3.localhost:3000/_next/static/chunks/5ce7f_next_dist_b6c93851._.js:2297
+[   12897ms] [LOG] [Fast Refresh] done in 693ms @ http://dev3.localhost:3000/_next/static/chunks/5ce7f_next_dist_b6c93851._.js:2297
+[   13182ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://dev3.localhost:3000/_next/static/chunks/5ce7f_next_dist_b6c93851._.js:2297
+[   13201ms] [LOG] [HMR] connected @ http://dev3.localhost:3000/_next/static/chunks/5ce7f_next_dist_b6c93851._.js:2297
+[   13396ms] [LOG] Detected Host: dev3.localhost:3000 http://dev3.localhost:3000/dashboardportal @ http://dev3.localhost:3000/_next/static/chunks/5ce7f_next_dist_b6c93851._.js:2297
+[   13396ms] [LOG] Detected Host: dev3.localhost:3000 http://dev3.localhost:3000/dashboardportal @ http://dev3.localhost:3000/_next/static/chunks/5ce7f_next_dist_b6c93851._.js:2297
+[   13413ms] [LOG] Detected Host: dev3.localhost:3000 http://dev3.localhost:3000/dashboardportal @ http://dev3.localhost:3000/_next/static/chunks/5ce7f_next_dist_b6c93851._.js:2297
+[   13413ms] [LOG] Detected Host: dev3.localhost:3000 http://dev3.localhost:3000/dashboardportal @ http://dev3.localhost:3000/_next/static/chunks/5ce7f_next_dist_b6c93851._.js:2297
+[   13414ms] [LOG] Detected Host: dev3.localhost:3000 http://dev3.localhost:3000/dashboardportal @ http://dev3.localhost:3000/_next/static/chunks/5ce7f_next_dist_b6c93851._.js:2297
+[   13415ms] [LOG] Detected Host: dev3.localhost:3000 http://dev3.localhost:3000/dashboardportal @ http://dev3.localhost:3000/_next/static/chunks/5ce7f_next_dist_b6c93851._.js:2297
+[   13421ms] [LOG] Detected Host: dev3.localhost:3000 http://dev3.localhost:3000/dashboardportal @ http://dev3.localhost:3000/_next/static/chunks/5ce7f_next_dist_b6c93851._.js:2297
+[   13421ms] [LOG] Detected Host: dev3.localhost:3000 http://dev3.localhost:3000/dashboardportal @ http://dev3.localhost:3000/_next/static/chunks/5ce7f_next_dist_b6c93851._.js:2297
+[   13785ms] [LOG] Detected Host: dev3.localhost:3000 http://dev3.localhost:3000/dashboardportal @ http://dev3.localhost:3000/_next/static/chunks/5ce7f_next_dist_b6c93851._.js:2297
+[   13785ms] [LOG] Detected Host: dev3.localhost:3000 http://dev3.localhost:3000/dashboardportal @ http://dev3.localhost:3000/_next/static/chunks/5ce7f_next_dist_b6c93851._.js:2297
+[   13790ms] [LOG] Detected Host: dev3.localhost:3000 http://dev3.localhost:3000/dashboardportal @ http://dev3.localhost:3000/_next/static/chunks/5ce7f_next_dist_b6c93851._.js:2297
+[   13790ms] [LOG] Detected Host: dev3.localhost:3000 http://dev3.localhost:3000/dashboardportal @ http://dev3.localhost:3000/_next/static/chunks/5ce7f_next_dist_b6c93851._.js:2297
+[   13794ms] [LOG] Detected Host: dev3.localhost:3000 http://dev3.localhost:3000/dashboardportal @ http://dev3.localhost:3000/_next/static/chunks/5ce7f_next_dist_b6c93851._.js:2297
+[   13794ms] [LOG] Detected Host: dev3.localhost:3000 http://dev3.localhost:3000/dashboardportal @ http://dev3.localhost:3000/_next/static/chunks/5ce7f_next_dist_b6c93851._.js:2297
+[   13817ms] [LOG] Detected Host: dev3.localhost:3000 http://dev3.localhost:3000/dashboardportal @ http://dev3.localhost:3000/_next/static/chunks/5ce7f_next_dist_b6c93851._.js:2297
+[   13818ms] [LOG] Detected Host: dev3.localhost:3000 http://dev3.localhost:3000/dashboardportal @ http://dev3.localhost:3000/_next/static/chunks/5ce7f_next_dist_b6c93851._.js:2297

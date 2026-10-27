@@ -1,0 +1,179 @@
+- generic [active] [ref=f11e1]:
+  - generic [ref=f11e2]:
+    - generic [ref=f11e5]:
+      - img "Logo" [ref=f11e8]
+      - paragraph [ref=f11e11]
+      - generic [ref=f11e13]:
+        - generic [ref=f11e15]:
+          - generic [ref=f11e16] [cursor=pointer]
+          - link "Jute Procurement" [ref=f11e19] [cursor=pointer]:
+            - /url: /dashboardportal/jutePurchase
+        - generic [ref=f11e21]:
+          - generic [ref=f11e22] [cursor=pointer]
+          - link "Procurement" [ref=f11e25] [cursor=pointer]:
+            - /url: /dashboardportal/procurement
+        - generic [ref=f11e27]:
+          - generic [ref=f11e28] [cursor=pointer]
+          - link "Masters" [ref=f11e31] [cursor=pointer]:
+            - /url: /dashboardportal/masters
+        - generic [ref=f11e33]:
+          - generic [ref=f11e34] [cursor=pointer]
+          - link "Inventory" [ref=f11e37] [cursor=pointer]:
+            - /url: /dashboardportal/inventory
+        - generic [ref=f11e39]:
+          - generic [ref=f11e40] [cursor=pointer]
+          - link "Sales" [ref=f11e43] [cursor=pointer]:
+            - /url: /dashboardportal/sales
+        - generic [ref=f11e45]:
+          - generic [ref=f11e46] [cursor=pointer]
+          - link "HRMS" [ref=f11e49] [cursor=pointer]:
+            - /url: /dashboardportal/hrms
+        - generic [ref=f11e51]:
+          - generic [ref=f11e52] [cursor=pointer]
+          - link "BOM and Costing" [ref=f11e55] [cursor=pointer]:
+            - /url: /dashboardportal/BomCosting
+        - generic [ref=f11e57]:
+          - generic [ref=f11e58] [cursor=pointer]
+          - link "Accounting" [ref=f11e61] [cursor=pointer]:
+            - /url: /dashboardportal/accounting
+        - generic [ref=f11e63]:
+          - generic [ref=f11e64] [cursor=pointer]
+          - link "HRMS Master" [ref=f11e67] [cursor=pointer]:
+            - /url: /dashboardportal/hrmsmasters
+        - generic [ref=f11e69]:
+          - generic [ref=f11e70] [cursor=pointer]
+          - link "Jute Production" [ref=f11e73] [cursor=pointer]:
+            - /url: /dashboardportal/juteProduction
+        - generic [ref=f11e75]:
+          - generic [ref=f11e76] [cursor=pointer]
+          - link "Jute SQC" [ref=f11e79] [cursor=pointer]:
+            - /url: /dashboardportal/juteSQC
+        - generic [ref=f11e81]:
+          - link:
+            - /url: /dashboardportal/null
+      - generic [ref=f11e83] [cursor=pointer]
+    - main [ref=f11e90]:
+      - button [ref=f11e92] [cursor=pointer]
+      - generic [ref=f11e96]:
+        - heading "Jute MR Issue Detail - EJM/F/JMR/25-26/00003 | 2026-01-03 | LAHOTY BROTHERS PRIVATE LIMITED (all issues, dates ignored)" [level=5] [ref=f11e1054]
+        - generic [ref=f11e99]:
+          - generic [ref=f11e101]:
+            - generic [ref=f11e102]: Branch
+            - generic [ref=f11e103]:
+              - combobox "Branch" [ref=f11e104]: Factory
+              - button "Open" [ref=f11e106] [cursor=pointer]
+              - group:
+                - generic: Branch
+          - generic [ref=f11e109]:
+            - generic [ref=f11e110]: From Date
+            - generic [ref=f11e111]:
+              - textbox "From Date" [ref=f11e112]: 2030-01-01
+              - group:
+                - generic: From Date
+          - generic [ref=f11e113]:
+            - generic [ref=f11e114]: To Date
+            - generic [ref=f11e115]:
+              - textbox "To Date" [ref=f11e116]: 2030-12-31
+              - group:
+                - generic: To Date
+          - generic [ref=f11e118]:
+            - generic [ref=f11e659]: MR (blank = all)
+            - generic [ref=f11e119]:
+              - combobox "MR (blank = all)" [ref=f11e120]: EJM/F/JMR/25-26/00003 | 2026-01-03 | LAHOTY BROTHERS PRIVATE LIMITED
+              - button "Open" [ref=f11e122] [cursor=pointer]
+              - group:
+                - generic: MR (blank = all)
+          - button "Submit" [ref=f11e206] [cursor=pointer]
+          - button "Export to Excel" [ref=f11e207] [cursor=pointer]
+        - generic [ref=f11e131]:
+          - grid [ref=f11e132]:
+            - row [ref=f11e1055]:
+              - 'columnheader "MR #" [ref=f11e1056] [cursor=pointer]'
+              - columnheader "MR / Inward Date Sort" [ref=f11e138] [cursor=pointer]:
+                - generic [ref=f11e139]: MR / Inward Date
+                - generic "Sort" [ref=f11e142]:
+                  - button "Sort" [ref=f11e143]
+              - 'columnheader "GE #" [ref=f11e147] [cursor=pointer]'
+              - columnheader "Party" [ref=f11e151] [cursor=pointer]
+              - columnheader "Godown" [ref=f11e155] [cursor=pointer]
+              - columnheader "Quality" [ref=f11e159] [cursor=pointer]
+              - columnheader "Marka" [ref=f11e163] [cursor=pointer]
+              - columnheader "Crop Year" [ref=f11e167] [cursor=pointer]
+              - columnheader "Recv Qty" [ref=f11e677] [cursor=pointer]
+              - columnheader "Recv Wt" [ref=f11e681] [cursor=pointer]
+              - columnheader "Rate" [ref=f11e685] [cursor=pointer]
+              - 'columnheader "Issue #" [ref=f11e689] [cursor=pointer]'
+              - columnheader "Issue Date" [ref=f11e693] [cursor=pointer]
+              - columnheader "Issued Qty" [ref=f11e697] [cursor=pointer]
+              - columnheader "Issued Wt" [ref=f11e701] [cursor=pointer]
+              - columnheader "Issue Value" [ref=f11e705] [cursor=pointer]
+              - columnheader "Issue Item" [ref=f11e709] [cursor=pointer]
+              - columnheader "Yarn Type" [ref=f11e713] [cursor=pointer]
+              - columnheader "Issue Status" [ref=f11e717] [cursor=pointer]
+              - columnheader "Bal Qty" [ref=f11e721] [cursor=pointer]
+              - columnheader "Bal Wt" [ref=f11e725] [cursor=pointer]
+              - columnheader "Updated By" [ref=f11e729] [cursor=pointer]
+              - columnheader "Updated On" [ref=f11e733] [cursor=pointer]
+            - rowgroup [ref=f11e265]:
+              - row [ref=f11e1057]:
+                - gridcell "EJM/F/JMR/25-26/00003" [ref=f11e1058]
+                - gridcell "2026-01-03" [ref=f11e1059]
+                - gridcell "84" [ref=f11e1060]
+                - gridcell "LAHOTY BROTHERS PRIVATE LIMITED" [ref=f11e1061]
+                - gridcell "2" [ref=f11e1062]
+                - gridcell "D TD 5" [ref=f11e1063]
+                - gridcell [ref=f11e1064]
+                - gridcell [ref=f11e1065]
+                - gridcell "126.00" [ref=f11e1066]
+                - gridcell "4812.00" [ref=f11e1067]
+                - gridcell "12000.00" [ref=f11e1068]
+                - gridcell [ref=f11e1069]
+                - gridcell [ref=f11e1070]
+                - gridcell [ref=f11e1071]
+                - gridcell [ref=f11e1072]
+                - gridcell [ref=f11e1073]
+                - gridcell [ref=f11e1074]
+                - gridcell [ref=f11e1075]
+                - gridcell [ref=f11e1076]
+                - gridcell "126.00" [ref=f11e1077]
+                - gridcell "4812.00" [ref=f11e1078]
+                - gridcell [ref=f11e1079]
+                - gridcell [ref=f11e1080]
+              - row [ref=f11e1081]:
+                - gridcell "EJM/F/JMR/25-26/00003" [ref=f11e1082]
+                - gridcell "2026-01-03" [ref=f11e1083]
+                - gridcell "84" [ref=f11e1084]
+                - gridcell "LAHOTY BROTHERS PRIVATE LIMITED" [ref=f11e1085]
+                - gridcell "2" [ref=f11e1086]
+                - gridcell "D TD 6" [ref=f11e1087]
+                - gridcell [ref=f11e1088]
+                - gridcell [ref=f11e1089]
+                - gridcell "84.00" [ref=f11e1090]
+                - gridcell "3208.00" [ref=f11e1091]
+                - gridcell "11800.00" [ref=f11e1092]
+                - gridcell [ref=f11e1093]
+                - gridcell [ref=f11e1094]
+                - gridcell [ref=f11e1095]
+                - gridcell [ref=f11e1096]
+                - gridcell [ref=f11e1097]
+                - gridcell [ref=f11e1098]
+                - gridcell [ref=f11e1099]
+                - gridcell [ref=f11e1100]
+                - gridcell "84.00" [ref=f11e1101]
+                - gridcell "3208.00" [ref=f11e1102]
+                - gridcell [ref=f11e1103]
+                - gridcell [ref=f11e1104]
+          - generic [ref=f11e182]:
+            - paragraph [ref=f11e183]: "Rows per page:"
+            - generic [ref=f11e184]:
+              - 'combobox "Rows per page: 50" [ref=f11e185] [cursor=pointer]': "50"
+              - textbox: "50"
+            - paragraph [ref=f11e186]: 1–2 of 2
+            - generic [ref=f11e187]:
+              - button "Go to previous page" [disabled]
+              - button "Go to next page" [disabled]
+    - button "Raise a support ticket" [ref=f11e188] [cursor=pointer]
+  - region "Notifications (F8)":
+    - list
+  - button "Open Next.js Dev Tools" [ref=f11e201] [cursor=pointer]
+  - alert [ref=f11e205]

@@ -1,0 +1,54 @@
+TASK 2 - OLD SYSTEM (vowsls) SOURCE-DATA ANOMALIES, company 106, legacy <= 2026-03-31
+ALL WEIGHTS IN QUINTAL unless the column name says _kg. accepted_weight in the DB is KG; /100 = qtl.
+
+BASELINE (verified two ways: python ledger + pure SQL)
+  active, non-rejected legacy MR lines .. 1,818 lines
+  receipts (accepted_weight/100) ........ 151,148.56 qtl   [mill/actual_weight basis = 151,715.35, delta 566.79]
+  issues  (status 3, is_active 1) ....... 60,951.72 qtl
+  sales   (hdr status 3, line active) ... 87,808.56 qtl
+  CLOSING 31-Mar-2026 ................... 2,388.28 qtl over 41 lines
+
+CLOSING SENSITIVITY (same receipts + issues, only the sales definition changes)
+  approved invoices, dated only ................................. 2,501.38
+  approved invoices incl the NULL-dated one ..................... 2,388.28
+  approved + draft, dated only (the 88,876.80 baseline) ......... 1,421.04
+  everything view_jute_receipt_issue_sale counts (no status filter) 1,307.94
+  => spread 1,193.44 qtl on a ~1.3-2.5k qtl answer.  Add the 566.79 mill-vs-accepted
+     basis choice and the total ambiguity is ~1,760 qtl - up to 135% of the number itself.
+
+FILES (count = data rows)
+ A01 963  status-31 "AUTO GENERATED" MR lines           78,033.49 qtl, all branch NULL
+ A42 599  ... their MR headers
+ A02   9  MRs in status 24 TRANSFER PENDING with weight    939.55
+ A03-A09  0 rows each: no NULL/future-dated issues, no dangling / cross-company /
+          rejected-target / inactive-target issue stock_id. jute_issue referential integrity is CLEAN.
+ A10   1  issue dated before its MR receipt                 34.79
+ A11   4  suspected split-yarn double-posted issues         15.00 surplus
+ A12   2  lines on the NULL-dated approved invoice 17744   113.10
+ A13  18  draft/open invoices (status 0/1) holding stock  1,181.34
+ A14   0  sales lines with mr_line_id NULL/0
+ A15   1  sales line -> non-existent MR line                110.10
+ A16   3  sales lines -> MR line of another company         215.10
+ A17   1  negative-stock line (approved basis)                0.01
+ A38   1  negative-stock line (old-view basis)                0.01
+ A18   0  transactions on an already-exhausted line
+ A19/A20 0 qty-vs-weight residue either direction
+ A21 682  accepted vs mill not explained by shortage_kgs     434.25 unexplained
+ A22   9  rate 0 / NULL - ALL on rejected MRs, 0 qtl impact on closing
+ A23   1  actual_quality not in jute_quality_price_master    150.69
+ A24/A25 0 issue / sales quality ids all resolvable
+ A26   0  MR unit_conversion NULL
+ A27   1  unit_conversion inconsistent with bale/loose       105.95
+ A28   0  MR header weight vs sum of lines - all match
+ A29  17  denorm sales_weight vs real invoices             1,190.44
+ A30 701  denorm weight_consumed is 0 everywhere          60,951.72 of issues invisible
+ A31  17  denorm sales_bales vs real invoices (bales)
+ A32   7  soft-deleted lines still carrying weight            590.95
+ A33  21  rejected (status 4) MR lines                     1,738.58
+ A34  18  pre-FY25 lines never issued or sold              1,341.13  (incl line 7950 / MR 5320)
+ A35   9  co-106 lines still open that are mirrored downstream 312.96
+ A36  42  every line with a non-zero 31-Mar balance        2,388.28  <== THE ANSWER SET
+ A37   3  branch slice: NULL +78,033.49 / br87 -44,885.87 / br23 -30,759.34
+ A39 1109 view_jute_mr_in_stock phantom NEGATIVE groups   -88,888.90
+ A40 1120 view_jute_mr_in_stock positive groups           +89,677.82
+ A41 150  transfer mirrors whose source line is still open on co 1 / co 2  4,427.39

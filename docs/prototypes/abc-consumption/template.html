@@ -1,0 +1,685 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>ABC Consumption Analysis – prototype</title>
+<style>
+  :root {
+    color-scheme: light;
+    --page: #f9f9f7; --surface: #fcfcfb; --ink: #0b0b0b; --ink-2: #52514e; --muted: #898781;
+    --grid: #e1e0d9; --axis: #c3c2b7; --ring: rgba(11,11,11,0.10);
+    --s1: #2a78d6; --s2: #eb6834;
+    --cA: #1c5cab; --cB: #2a78d6; --cC: #5598e7; --cD: #86b6ef;
+    --good: #006300; --crit: #d03b3b; --warn: #fab219;
+    --brand: #0C3C60;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: var(--page); color: var(--ink);
+    font: 14px/1.4 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  header { background: var(--brand); color: #fff; padding: 10px 14px; }
+  header h1 { font-size: 17px; margin: 0; font-weight: 600; }
+  header .sub { font-size: 12px; opacity: .85; margin-top: 2px; }
+  main { padding: 10px 12px 60px; max-width: 1400px; margin: 0 auto; }
+  .card { background: var(--surface); border: 1px solid var(--ring); border-radius: 10px; padding: 12px; margin-bottom: 12px; }
+  .card h2 { font-size: 15px; margin: 0 0 8px; font-weight: 600; }
+  .card h3 { font-size: 13px; margin: 12px 0 6px; font-weight: 600; color: var(--ink-2); }
+  .filters { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center; }
+  .group { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+  .group > label.t { font-size: 12px; color: var(--ink-2); margin-right: 2px; white-space: nowrap; }
+  .chip { border: 1px solid var(--axis); border-radius: 999px; padding: 4px 10px; font-size: 13px;
+    background: var(--surface); color: var(--ink); cursor: pointer; user-select: none; line-height: 1.2; }
+  .chip.on { background: var(--brand); color: #fff; border-color: var(--brand); }
+  .chip:focus-visible, button:focus-visible, select:focus-visible, input:focus-visible { outline: 2px solid var(--s1); outline-offset: 1px; }
+  select, input[type=number], input[type=search] { font: inherit; padding: 5px 8px; border: 1px solid var(--axis); border-radius: 6px; background: var(--surface); color: var(--ink); }
+  input[type=number] { width: 68px; }
+  input[type=search] { min-width: 180px; }
+  button.btn { font: inherit; padding: 6px 12px; border-radius: 6px; border: 1px solid var(--brand); background: var(--brand); color: #fff; cursor: pointer; }
+  button.btn.ghost { background: var(--surface); color: var(--brand); }
+  .tabs { display: flex; gap: 4px; flex-wrap: wrap; margin: 4px 0 10px; }
+  .tabs button { font: inherit; font-weight: 600; padding: 7px 12px; border: 1px solid var(--ring); background: var(--surface); color: var(--ink-2); border-radius: 8px; cursor: pointer; }
+  .tabs button.on { color: #fff; background: var(--brand); border-color: var(--brand); }
+  .kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 8px; }
+  .kpi { background: var(--surface); border: 1px solid var(--ring); border-radius: 10px; padding: 10px 12px; }
+  .kpi .l { font-size: 12px; color: var(--ink-2); }
+  .kpi .v { font-size: 26px; font-weight: 600; line-height: 1.15; margin-top: 2px; }
+  .kpi .d { font-size: 12px; color: var(--muted); margin-top: 2px; }
+  .scroll-x { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  table { border-collapse: collapse; width: 100%; font-size: 13px; }
+  th, td { padding: 5px 7px; border-bottom: 1px solid var(--grid); white-space: nowrap; text-align: left; vertical-align: top; }
+  th { font-weight: 600; color: var(--ink-2); font-size: 12px; background: var(--surface); position: sticky; top: 0; cursor: pointer; }
+  th.num, td.num { text-align: right; font-variant-numeric: tabular-nums; }
+  td.name { white-space: normal; min-width: 220px; max-width: 360px; }
+  tr.total td { font-weight: 600; border-top: 2px solid var(--axis); }
+  .cls { display: inline-block; min-width: 22px; text-align: center; padding: 1px 6px; border-radius: 6px; color: #fff; font-weight: 600; font-size: 12px; }
+  .cls.A { background: var(--cA); } .cls.B { background: var(--cB); } .cls.C { background: var(--cC); } .cls.D { background: var(--cD); color: var(--ink); }
+  .cls.E, .cls.F, .cls.G, .cls.H, .cls.I, .cls.J { background: var(--grid); color: var(--ink); }
+  .tr-up { color: var(--good); } .tr-down { color: var(--crit); } .tr-flat, .tr-na { color: var(--muted); }
+  .bar-row { display: grid; grid-template-columns: minmax(110px, 36%) 1fr auto; gap: 8px; align-items: center; padding: 3px 0; font-size: 13px; }
+  .bar-name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: var(--ink-2); }
+  .bar-track { height: 14px; }
+  .bar-fill { height: 14px; background: var(--s1); border-radius: 0 4px 4px 0; }
+  .bar-val { white-space: nowrap; font-variant-numeric: tabular-nums; }
+  .charts { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 12px; }
+  svg { width: 100%; height: auto; display: block; }
+  .axis-text { fill: var(--muted); font-size: 11px; }
+  .lbl { fill: var(--ink-2); font-size: 11px; }
+  .tip { position: fixed; pointer-events: none; background: var(--ink); color: #fff; padding: 6px 8px; border-radius: 6px; font-size: 12px; z-index: 50; display: none; max-width: 280px; }
+  .tip b { font-size: 13px; }
+  .note { font-size: 12px; color: var(--ink-2); margin: 6px 0 0; }
+  .muted { color: var(--muted); }
+  .row-actions { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; margin: 8px 0; }
+  .method p, .method li { font-size: 13px; }
+  .method code { background: var(--grid); padding: 1px 4px; border-radius: 4px; }
+  .pill { display: inline-block; padding: 1px 7px; border-radius: 999px; background: var(--grid); font-size: 11px; color: var(--ink-2); }
+  @media (max-width: 600px) { .kpi .v { font-size: 22px; } main { padding: 8px 8px 60px; } }
+</style>
+</head>
+<body>
+<header>
+  <h1>ABC Consumption Analysis <span class="pill" style="background:rgba(255,255,255,.2);color:#fff">prototype</span></h1>
+  <div class="sub" id="subhead"></div>
+</header>
+<main>
+  <div class="card">
+    <div class="filters">
+      <div class="group"><label class="t">Branch</label><select id="branch"></select></div>
+      <div class="group" id="years"><label class="t">Years</label></div>
+      <div class="group" id="ets"><label class="t">Expense types</label></div>
+    </div>
+    <div class="filters" style="margin-top:8px">
+      <div class="group"><label class="t">Class rule</label>
+        <button class="chip" data-rule="fixed">Fixed buckets</button>
+        <button class="chip" data-rule="pareto">Pareto (% of value)</button>
+      </div>
+      <div class="group" id="fixedOpts"><label class="t">Items per class</label><input type="number" id="bucket" min="10" step="10" value="100">
+        <label class="t">Named classes</label><input type="number" id="nClasses" min="1" max="9" value="3"><span class="muted" id="restNote"></span></div>
+      <div class="group" id="paretoOpts" hidden><label class="t">A up to</label><input type="number" id="pA" min="1" max="99" value="70"><span class="muted">%</span>
+        <label class="t">B up to</label><input type="number" id="pB" min="2" max="100" value="90"><span class="muted">%</span></div>
+      <div class="group"><label class="t">Qty rank</label>
+        <button class="chip" data-qs="uom">within UOM</button>
+        <button class="chip" data-qs="all">overall</button>
+      </div>
+      <div class="group"><label class="t">Items</label>
+        <button class="chip" data-act="1">active only</button>
+        <button class="chip" data-act="0">all</button>
+      </div>
+      <div class="group"><input type="search" id="search" placeholder="Search item / code / group"></div>
+      <div class="group"><label class="t">Exclude names/groups containing</label><input type="search" id="exclude" placeholder="comma separated"></div>
+    </div>
+  </div>
+
+  <div class="tabs">
+    <button data-tab="overview">Overview</button>
+    <button data-tab="abc">ABC classification</button>
+    <button data-tab="plan">Suggested purchase</button>
+    <button data-tab="method">Method &amp; options</button>
+  </div>
+
+  <section id="tab-overview">
+    <div class="kpis" id="kpis"></div>
+    <div class="charts" style="margin-top:12px">
+      <div class="card"><h2>Pareto curve – cumulative value by item rank</h2><div id="pareto"></div>
+        <p class="note">Hairlines at 70% and 90% of value; vertical ticks mark the class boundaries under the current rule.</p></div>
+      <div class="card"><h2>Class breakdown</h2><div class="scroll-x"><table id="clsTable"></table></div>
+        <h3>Issue value by year (₹ lakh)</h3><div id="yearBars"></div></div>
+    </div>
+    <div class="card"><h2>Top 20 items by value</h2><div id="topBars"></div></div>
+  </section>
+
+  <section id="tab-abc" hidden>
+    <div class="card">
+      <div class="row-actions">
+        <span class="group" id="classChips"><label class="t">Show classes</label></span>
+        <span class="muted" id="abcCount"></span>
+        <button class="btn ghost" id="abcCsv">Download CSV</button>
+      </div>
+      <div class="scroll-x"><table id="abcTable"></table></div>
+      <div class="row-actions"><button class="btn ghost" id="abcMore">Show more</button><button class="btn ghost" id="abcAll">Show all</button></div>
+    </div>
+  </section>
+
+  <section id="tab-plan" hidden>
+    <div class="card">
+      <div class="filters">
+        <div class="group"><label class="t">Horizon (months)</label><input type="number" id="horizon" min="1" max="36" value="12"></div>
+        <div class="group"><label class="t">Safety stock (months)</label><input type="number" id="safety" min="0" max="12" step="0.5" value="1"></div>
+        <div class="group" id="planChips"><label class="t">Classes</label></div>
+        <div class="group"><button class="chip" id="onlyPos">only items needing purchase</button></div>
+        <div class="group"><button class="chip" id="netPending">deduct pending PO + indent</button></div>
+        <div class="group"><label class="t">Only items issued since</label><select id="sinceYear"></select></div>
+      </div>
+      <div class="kpis" id="planKpis" style="margin-top:10px"></div>
+      <div class="row-actions"><span class="muted" id="planCount"></span><button class="btn ghost" id="planCsv">Download CSV</button></div>
+      <div class="scroll-x"><table id="planTable"></table></div>
+      <div class="row-actions"><button class="btn ghost" id="planMore">Show more</button><button class="btn ghost" id="planAll">Show all</button></div>
+    </div>
+  </section>
+
+  <section id="tab-method" hidden>
+    <div class="card method">
+      <h2>What this prototype does</h2>
+      <p>It is a read-only snapshot of <b>sls</b> issue data (stores issues, statuses Open/Approved/Closed/Pending, valued at the receipt-lot rate the stock, ledger and consumption reports use). Every option on the page recomputes on your phone; nothing is written anywhere. The real report will run the same rules live in the Inventory reports hub.</p>
+      <h3>Classification</h3>
+      <ul>
+        <li><b>Value rank</b>: items sorted by total issue value in the selected years and expense types. <b>Fixed buckets</b>: rank 1–N = A, N+1–2N = B, … and everything after the named classes falls in the last class. <b>Pareto</b>: A until the cumulative value share reaches the first threshold, B until the second, C after that.</li>
+        <li><b>Qty rank</b>: the same rule applied to total issued quantity, either within each unit of measure (default, because 5 lakh stickers in PCS and 5 lakh litres of oil are not comparable) or across all items.</li>
+        <li><b>Exclude names/groups containing</b> (default "CHARGES, MISC EXPNS") removes service and expense lines such as "Other Charges" or repair charges that are booked through stores but are not stock to buy. Clear it to rank everything.</li>
+        <li><b>Years active</b> = calendar years with an issue; <b>months active</b> = distinct months with an issue in the selected years.</li>
+        <li><b>Trend</b> compares the average of the last two selected years with the average of the earlier selected years (missing years count as zero). Up / Down beyond ±15%, otherwise Flat. "New" = issued only in the recent years.</li>
+      </ul>
+      <h3>Suggested purchase</h3>
+      <ul>
+        <li><b>Avg annual qty</b> = total qty ÷ years active (not ÷ 5, so an item used in 3 of 5 years is not diluted).</li>
+        <li><b>Projected need</b> = avg annual qty × horizon ÷ 12. <b>Safety</b> = avg annual qty × safety months ÷ 12.</li>
+        <li><b>Suggested qty</b> = projected + safety − current stock − pending PO − pending indent (the last two only when "deduct pending" is on), floored at 0. Stock, pending PO and pending indent are today's position at the branch, computed from base tables (not the min-max views).</li>
+        <li><b>Only items issued since</b> (default 2022) drops items whose last issue at the branch is older: while the mill ran normally in 2021–2023 an item not issued after 2021 was most likely replaced by another code (the duplicate oil masters are the clearest case). Set it to "any time" to see everything.</li>
+        <li><b>Suggested value</b> = suggested qty × latest approved receipt rate for the item in the company (falls back to the historic average rate when the item was never received).</li>
+      </ul>
+      <h3>Known data caveats seen in this snapshot</h3>
+      <ul>
+        <li>2024 is already a weak year (about a third of 2021–2023), and 2020 is low as well. Toggle years off to test a 2021–2023 baseline.</li>
+        <li>Capital and Overhauling are off by default: one-off capital issues (PV module structure, loom spares) otherwise land in class A.</li>
+        <li>Duplicate item masters split consumption (e.g. "SERVO ECOFIN J" vs "SERVO ECO FIN J"). Search "SERVO" to see them side by side.</li>
+        <li>Branch 4 belongs to company 1 and has no issues after 2024; branch 29 is company 2 and is the live factory.</li>
+      </ul>
+      <h3>Options to decide for the real build</h3>
+      <ol>
+        <li>Class rule and bucket size (and how many named classes).</li>
+        <li>Quantity classes within UOM, overall, or not at all.</li>
+        <li>Expense types excluded by default.</li>
+        <li>Default baseline years.</li>
+        <li>Planning horizon and safety months defaults.</li>
+        <li>Whether to deduct pending PO / indent by default.</li>
+        <li>Store the class on the item (for indent/PO screens) or compute on the fly.</li>
+      </ol>
+      <p class="muted" id="genInfo"></p>
+    </div>
+  </section>
+</main>
+<div class="tip" id="tip"></div>
+<script id="abc-data" type="application/json">/*__DATA__*/</script>
+<script>
+(function () {
+  "use strict";
+  var DATA = JSON.parse(document.getElementById("abc-data").textContent);
+  var LS_KEY = "abcProtoState";
+  var CLASS_LETTERS = "ABCDEFGHIJ";
+
+  var state = {
+    branch: DATA.branches[0].branch_id, years: DATA.years.slice(), ets: [],
+    rule: "fixed", bucket: 100, nClasses: 3, pA: 70, pB: 90, qtyScope: "uom", activeOnly: true,
+    search: "", exclude: "CHARGES, MISC EXPNS", tab: "overview", showClasses: null, abcSort: ["value_rank", 1], abcLimit: 200,
+    horizon: 12, safety: 1, planClasses: ["A", "B"], onlyPos: true, netPending: true,
+    planSort: ["sugg_value", -1], planLimit: 200, sinceYear: 2022
+  };
+  // Capital / Overhauling off by default (one-off, not consumption).
+  DATA.expense_types.forEach(function (n, i) {
+    var l = n.toLowerCase();
+    if (l.indexOf("capital") !== 0 && l.indexOf("overhaul") !== 0) state.ets.push(i);
+  });
+  try {
+    var saved = JSON.parse(localStorage.getItem(LS_KEY) || "null");
+    if (saved && saved.v === 1) Object.keys(saved.s).forEach(function (k) { state[k] = saved.s[k]; });
+  } catch (e) { /* ignore */ }
+  function persist() { try { localStorage.setItem(LS_KEY, JSON.stringify({ v: 1, s: state })); } catch (e) { /* ignore */ } }
+
+  // ---------- formatting ----------
+  var nfInt = new Intl.NumberFormat("en-IN", { maximumFractionDigits: 0 });
+  var nfQty = new Intl.NumberFormat("en-IN", { maximumFractionDigits: 2 });
+  var nfRate = new Intl.NumberFormat("en-IN", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+  function fInt(x) { return x == null ? "" : nfInt.format(Math.round(x)); }
+  function fQty(x) { return x == null ? "" : nfQty.format(x); }
+  function fRate(x) { return x == null ? "–" : nfRate.format(x); }
+  function fLakh(x) { return x == null ? "" : (x / 1e5).toLocaleString("en-IN", { maximumFractionDigits: 1 }) + " L"; }
+  function fPct(x, d) { return x == null ? "" : x.toFixed(d == null ? 1 : d) + "%"; }
+  function popcount(m) { var c = 0; while (m) { c += m & 1; m >>>= 1; } return c; }
+  function el(tag, cls, text) { var e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
+  function clear(node) { while (node.firstChild) node.removeChild(node.firstChild); }
+
+  // ---------- compute ----------
+  function classify(sorted, key, rule) {
+    // sorted: rows sorted desc by key. Assigns rank, class and cum share into the given fields.
+    var total = 0, i;
+    for (i = 0; i < sorted.length; i++) total += Math.max(0, sorted[i][key] || 0);
+    var cum = 0;
+    for (i = 0; i < sorted.length; i++) {
+      var r = sorted[i], rank = i + 1, before = total > 0 ? (cum / total) * 100 : 0;
+      cum += Math.max(0, r[key] || 0);
+      var cls;
+      if (rule.rule === "pareto") cls = before < rule.pA ? "A" : before < rule.pB ? "B" : "C";
+      else { var idx = Math.floor(i / rule.bucket); cls = CLASS_LETTERS[Math.min(idx, rule.nClasses)]; }
+      r[key + "_rank"] = rank;
+      r[key + "_class"] = cls;
+      r[key + "_cum"] = total > 0 ? (cum / total) * 100 : 0;
+      r[key + "_share"] = total > 0 ? ((r[key] || 0) / total) * 100 : 0;
+    }
+    return total;
+  }
+
+  function compute() {
+    var br = DATA.branches.filter(function (b) { return b.branch_id === state.branch; })[0] || DATA.branches[0];
+    var years = state.years.slice().sort(), ySet = {}, eSet = {};
+    years.forEach(function (y) { ySet[y] = true; });
+    state.ets.forEach(function (i) { eSet[i] = true; });
+    var agg = {};
+    br.cons.forEach(function (c) {
+      var item = c[0], yr = c[1], et = c[2], qty = c[3], val = c[4], mask = c[5];
+      if (!ySet[yr] || !eSet[et]) return;
+      var a = agg[item];
+      if (!a) { a = agg[item] = { qty: 0, value: 0, y: {} }; }
+      a.qty += qty; a.value += val;
+      var yy = a.y[yr] || (a.y[yr] = { q: 0, v: 0, m: 0 });
+      yy.q += qty; yy.v += val; yy.m |= mask;
+    });
+    var rows = [];
+    var excl = (state.exclude || "").split(",").map(function (x) { return x.trim().toLowerCase(); }).filter(Boolean);
+    br.items.forEach(function (it) {
+      var a = agg[it.id];
+      if (!a) return;
+      if (state.activeOnly && !it.active) return;
+      if (excl.length) { var hay = ((it.name || "") + " | " + (it.grp || "")).toLowerCase(); if (excl.some(function (x) { return hay.indexOf(x) >= 0; })) return; }
+      var yearsActive = 0, months = 0, perYear = {};
+      years.forEach(function (y) {
+        var yy = a.y[y];
+        perYear[y] = yy ? yy.q : 0;
+        if (yy && yy.q > 0) { yearsActive++; months += popcount(yy.m); }
+      });
+      var avgAnnual = yearsActive ? a.qty / yearsActive : 0;
+      // trend: last two selected years vs the earlier ones
+      var trend = null, trendLabel = "n/a";
+      if (years.length >= 3) {
+        var recent = years.slice(-2), base = years.slice(0, -2), rm = 0, bm = 0;
+        recent.forEach(function (y) { rm += perYear[y]; }); rm /= recent.length;
+        base.forEach(function (y) { bm += perYear[y]; }); bm /= base.length;
+        if (bm > 0) { trend = (rm / bm - 1) * 100; trendLabel = trend >= 15 ? "Up" : trend <= -15 ? "Down" : "Flat"; }
+        else if (rm > 0) { trendLabel = "New"; }
+      }
+      var rate = it.lrate != null ? it.lrate : (a.qty > 0 ? a.value / a.qty : null);
+      rows.push({
+        id: it.id, code: it.code, name: it.name, grp: it.grp, uom: it.uom, active: it.active,
+        qty: a.qty, value: a.value, perYear: perYear, years_active: yearsActive, months_active: months,
+        avg_annual: avgAnnual, trend: trend, trend_label: trendLabel,
+        stock: it.stock, ppo: it.ppo, pind: it.pind, lrate: it.lrate, lrdate: it.lrdate, lissue: it.lissue, rate: rate
+      });
+    });
+    var rule = { rule: state.rule, bucket: Math.max(1, state.bucket | 0), nClasses: Math.min(9, Math.max(1, state.nClasses | 0)), pA: +state.pA, pB: +state.pB };
+    rows.sort(function (x, y) { return (y.value - x.value) || (x.id - y.id); });
+    var totalValue = classify(rows, "value", rule);
+    // qty classes within UOM (or overall)
+    var groups = {};
+    rows.forEach(function (r) { var k = state.qtyScope === "uom" ? (r.uom || "?") : "*"; (groups[k] || (groups[k] = [])).push(r); });
+    Object.keys(groups).forEach(function (k) {
+      var g = groups[k].slice().sort(function (x, y) { return (y.qty - x.qty) || (x.id - y.id); });
+      classify(g, "qty", rule);
+    });
+    // plan figures
+    var H = Math.max(0, +state.horizon || 0), S = Math.max(0, +state.safety || 0);
+    rows.forEach(function (r) {
+      r.projected = r.avg_annual * H / 12;
+      r.safety_qty = r.avg_annual * S / 12;
+      var deduct = r.stock + (state.netPending ? (r.ppo + r.pind) : 0);
+      r.sugg_qty = Math.max(0, r.projected + r.safety_qty - deduct);
+      r.sugg_value = r.rate != null ? r.sugg_qty * r.rate : 0;
+    });
+    // class summary
+    var classes = {}, order = [];
+    rows.forEach(function (r) {
+      var c = classes[r.value_class];
+      if (!c) { c = classes[r.value_class] = { cls: r.value_class, items: 0, value: 0 }; order.push(r.value_class); }
+      c.items++; c.value += r.value;
+    });
+    order.sort();
+    var yearTotals = years.map(function (y) { var t = 0; rows.forEach(function (r) { t += (agg[r.id].y[y] || { v: 0 }).v; }); return { year: y, value: t }; });
+    return { rows: rows, totalValue: totalValue, classes: order.map(function (k) { return classes[k]; }), years: years, yearTotals: yearTotals, branch: br };
+  }
+
+  // ---------- UI: filters ----------
+  var $ = function (id) { return document.getElementById(id); };
+  function chip(label, on, onClick) { var b = el("button", "chip" + (on ? " on" : ""), label); b.type = "button"; b.addEventListener("click", onClick); return b; }
+
+  function renderFilters() {
+    var sel = $("branch"); clear(sel);
+    DATA.branches.forEach(function (b) { var o = el("option", null, "Branch " + b.branch_id + " – " + b.label); o.value = b.branch_id; if (b.branch_id === state.branch) o.selected = true; sel.appendChild(o); });
+    var yc = $("years"); while (yc.children.length > 1) yc.removeChild(yc.lastChild);
+    DATA.years.forEach(function (y) {
+      yc.appendChild(chip(String(y), state.years.indexOf(y) >= 0, function () {
+        var i = state.years.indexOf(y); if (i >= 0) { if (state.years.length > 1) state.years.splice(i, 1); } else state.years.push(y);
+        update();
+      }));
+    });
+    var ec = $("ets"); while (ec.children.length > 1) ec.removeChild(ec.lastChild);
+    DATA.expense_types.forEach(function (n, i) {
+      ec.appendChild(chip(n, state.ets.indexOf(i) >= 0, function () {
+        var k = state.ets.indexOf(i); if (k >= 0) state.ets.splice(k, 1); else state.ets.push(i); update();
+      }));
+    });
+    document.querySelectorAll("[data-rule]").forEach(function (b) { b.classList.toggle("on", b.getAttribute("data-rule") === state.rule); });
+    document.querySelectorAll("[data-qs]").forEach(function (b) { b.classList.toggle("on", b.getAttribute("data-qs") === state.qtyScope); });
+    document.querySelectorAll("[data-act]").forEach(function (b) { b.classList.toggle("on", (b.getAttribute("data-act") === "1") === state.activeOnly); });
+    $("fixedOpts").hidden = state.rule !== "fixed"; $("paretoOpts").hidden = state.rule !== "pareto";
+    $("bucket").value = state.bucket; $("nClasses").value = state.nClasses; $("pA").value = state.pA; $("pB").value = state.pB;
+    $("restNote").textContent = "→ " + CLASS_LETTERS.slice(0, Math.min(9, Math.max(1, state.nClasses | 0))).split("").join(", ") + " then " + CLASS_LETTERS[Math.min(9, Math.max(1, state.nClasses | 0))] + " = rest";
+    $("search").value = state.search; $("exclude").value = state.exclude; $("horizon").value = state.horizon; $("safety").value = state.safety;
+    $("onlyPos").classList.toggle("on", state.onlyPos); $("netPending").classList.toggle("on", state.netPending);
+    var sy = $("sinceYear"); clear(sy);
+    [0].concat(DATA.years).concat([DATA.years[DATA.years.length - 1] + 1, DATA.years[DATA.years.length - 1] + 2]).forEach(function (y) {
+      var o = el("option", null, y ? String(y) : "any time"); o.value = y; if (y === state.sinceYear) o.selected = true; sy.appendChild(o);
+    });
+    document.querySelectorAll("[data-tab]").forEach(function (b) { b.classList.toggle("on", b.getAttribute("data-tab") === state.tab); });
+    ["overview", "abc", "plan", "method"].forEach(function (t) { $("tab-" + t).hidden = t !== state.tab; });
+  }
+
+  function wire() {
+    $("branch").addEventListener("change", function () { state.branch = +this.value; update(); });
+    document.querySelectorAll("[data-rule]").forEach(function (b) { b.addEventListener("click", function () { state.rule = b.getAttribute("data-rule"); update(); }); });
+    document.querySelectorAll("[data-qs]").forEach(function (b) { b.addEventListener("click", function () { state.qtyScope = b.getAttribute("data-qs"); update(); }); });
+    document.querySelectorAll("[data-act]").forEach(function (b) { b.addEventListener("click", function () { state.activeOnly = b.getAttribute("data-act") === "1"; update(); }); });
+    document.querySelectorAll("[data-tab]").forEach(function (b) { b.addEventListener("click", function () { state.tab = b.getAttribute("data-tab"); update(); }); });
+    [["bucket", "bucket"], ["nClasses", "nClasses"], ["pA", "pA"], ["pB", "pB"], ["horizon", "horizon"], ["safety", "safety"]].forEach(function (p) {
+      $(p[0]).addEventListener("change", function () { state[p[1]] = +this.value; update(); });
+    });
+    var t; $("search").addEventListener("input", function () { clearTimeout(t); var v = this.value; t = setTimeout(function () { state.search = v; state.abcLimit = 200; state.planLimit = 200; update(); }, 200); });
+    var t2; $("exclude").addEventListener("input", function () { clearTimeout(t2); var v = this.value; t2 = setTimeout(function () { state.exclude = v; update(); }, 300); });
+    $("onlyPos").addEventListener("click", function () { state.onlyPos = !state.onlyPos; update(); });
+    $("netPending").addEventListener("click", function () { state.netPending = !state.netPending; update(); });
+    $("sinceYear").addEventListener("change", function () { state.sinceYear = +this.value; state.planLimit = 200; update(); });
+    $("abcMore").addEventListener("click", function () { state.abcLimit += 200; update(); });
+    $("abcAll").addEventListener("click", function () { state.abcLimit = 1e9; update(); });
+    $("planMore").addEventListener("click", function () { state.planLimit += 200; update(); });
+    $("planAll").addEventListener("click", function () { state.planLimit = 1e9; update(); });
+    $("abcCsv").addEventListener("click", function () { downloadCsv(ABC_COLS, lastAbcRows, "abc-classification.csv"); });
+    $("planCsv").addEventListener("click", function () { downloadCsv(planCols(), lastPlanRows, "suggested-purchase.csv"); });
+  }
+
+  // ---------- tooltip ----------
+  var tip = $("tip");
+  function showTip(x, y, lines) {
+    clear(tip);
+    lines.forEach(function (l, i) { var d = el("div"); if (i === 0) { var b = el("b", null, l); d.appendChild(b); } else d.textContent = l; tip.appendChild(d); });
+    tip.style.display = "block";
+    var w = tip.offsetWidth, h = tip.offsetHeight, vw = window.innerWidth, vh = window.innerHeight;
+    var left = x + 12, top = y + 12; if (left + w > vw - 8) left = x - w - 12; if (top + h > vh - 8) top = y - h - 12;
+    tip.style.left = Math.max(4, left) + "px"; tip.style.top = Math.max(4, top) + "px";
+  }
+  function hideTip() { tip.style.display = "none"; }
+
+  // ---------- charts ----------
+  var NS = "http://www.w3.org/2000/svg";
+  function svgEl(tag, attrs) { var e = document.createElementNS(NS, tag); Object.keys(attrs || {}).forEach(function (k) { e.setAttribute(k, attrs[k]); }); return e; }
+  function cssVar(n) { return getComputedStyle(document.documentElement).getPropertyValue(n).trim(); }
+
+  function renderPareto(res) {
+    var host = $("pareto"); clear(host);
+    var rows = res.rows, n = rows.length; if (!n) { host.appendChild(el("p", "muted", "No data for this selection.")); return; }
+    var W = 720, H = 280, L = 44, R = 16, T = 14, B = 36, pw = W - L - R, ph = H - T - B;
+    var svg = svgEl("svg", { viewBox: "0 0 " + W + " " + H, role: "img", "aria-label": "Cumulative value share by item rank" });
+    var ln = Math.log10(Math.max(n, 2));
+    var xs = function (rank) { return L + (Math.log10(Math.max(rank, 1)) / ln) * pw; }, ys = function (p) { return T + ph - (p / 100) * ph; };
+    var rankAt = function (px) { return Math.min(n, Math.max(1, Math.round(Math.pow(10, ((px - L) / pw) * ln)))); };
+    [0, 25, 50, 75, 100].forEach(function (p) {
+      svg.appendChild(svgEl("line", { x1: L, x2: W - R, y1: ys(p), y2: ys(p), stroke: cssVar("--grid"), "stroke-width": 1 }));
+      var t = svgEl("text", { x: L - 6, y: ys(p) + 4, "text-anchor": "end", "class": "axis-text" }); t.textContent = p + "%"; svg.appendChild(t);
+    });
+    [70, 90].forEach(function (p) {
+      svg.appendChild(svgEl("line", { x1: L, x2: W - R, y1: ys(p), y2: ys(p), stroke: cssVar("--axis"), "stroke-width": 1 }));
+      var t = svgEl("text", { x: W - R, y: ys(p) - 4, "text-anchor": "end", "class": "lbl" }); t.textContent = p + "% of value"; svg.appendChild(t);
+    });
+    // class boundaries
+    var bounds = [], seen = {};
+    rows.forEach(function (r, i) { if (!seen[r.value_class]) { seen[r.value_class] = true; if (i > 0) bounds.push({ rank: i, cls: r.value_class }); } });
+    bounds.forEach(function (b, k) {
+      svg.appendChild(svgEl("line", { x1: xs(b.rank + 1), x2: xs(b.rank + 1), y1: T, y2: T + ph, stroke: cssVar("--axis"), "stroke-width": 1 }));
+      var t = svgEl("text", { x: xs(b.rank + 1) + 3, y: T + ph - 4 - (k % 2) * 13, "class": "lbl" }); t.textContent = b.cls + " from #" + (b.rank + 1); svg.appendChild(t);
+    });
+    var d = "", i, last = -1;
+    for (i = 1; i <= n; i++) {
+      var px = Math.round(xs(i));
+      if (px === last && i !== n) continue;
+      last = px;
+      d += (d ? " L" : "M") + xs(i).toFixed(1) + " " + ys(rows[i - 1].value_cum).toFixed(1);
+    }
+    svg.appendChild(svgEl("path", { d: d, fill: "none", stroke: cssVar("--s1"), "stroke-width": 2, "stroke-linejoin": "round", "stroke-linecap": "round" }));
+    svg.appendChild(svgEl("line", { x1: L, x2: W - R, y1: T + ph, y2: T + ph, stroke: cssVar("--axis"), "stroke-width": 1 }));
+    var ticks = [1, 10, 100, 1000, 10000].filter(function (v) { return v < n; }).concat([n]);
+    ticks.forEach(function (v, k) { var t = svgEl("text", { x: xs(v), y: H - 18, "text-anchor": k === 0 ? "start" : k === ticks.length - 1 ? "end" : "middle", "class": "axis-text" }); t.textContent = "#" + fInt(v); svg.appendChild(t); });
+    var xl = svgEl("text", { x: L + pw / 2, y: H - 4, "text-anchor": "middle", "class": "axis-text" }); xl.textContent = "item rank by value, log scale (" + fInt(n) + " items)"; svg.appendChild(xl);
+    // crosshair layer
+    var cross = svgEl("line", { x1: 0, x2: 0, y1: T, y2: T + ph, stroke: cssVar("--ink-2"), "stroke-width": 1, visibility: "hidden" });
+    var dot = svgEl("circle", { r: 4.5, fill: cssVar("--s1"), stroke: cssVar("--surface"), "stroke-width": 2, visibility: "hidden" });
+    svg.appendChild(cross); svg.appendChild(dot);
+    var hit = svgEl("rect", { x: L, y: T, width: pw, height: ph, fill: "transparent" });
+    hit.addEventListener("pointermove", function (ev) {
+      var pt = svg.createSVGPoint(); pt.x = ev.clientX; pt.y = ev.clientY; var p = pt.matrixTransform(svg.getScreenCTM().inverse());
+      var rank = rankAt(p.x), r = rows[rank - 1];
+      cross.setAttribute("x1", xs(rank)); cross.setAttribute("x2", xs(rank)); cross.setAttribute("visibility", "visible");
+      dot.setAttribute("cx", xs(rank)); dot.setAttribute("cy", ys(r.value_cum)); dot.setAttribute("visibility", "visible");
+      showTip(ev.clientX, ev.clientY, [fPct(r.value_cum) + " of value in top " + fInt(rank), "#" + rank + " " + r.name, "class " + r.value_class + " · " + fLakh(r.value)]);
+    });
+    hit.addEventListener("pointerleave", function () { cross.setAttribute("visibility", "hidden"); dot.setAttribute("visibility", "hidden"); hideTip(); });
+    svg.appendChild(hit);
+    host.appendChild(svg);
+  }
+
+  function renderYearBars(res) {
+    var host = $("yearBars"); clear(host);
+    var data = res.yearTotals, n = data.length; if (!n) return;
+    var W = 420, H = 170, L = 40, R = 10, T = 18, B = 26, pw = W - L - R, ph = H - T - B;
+    var max = Math.max.apply(null, data.map(function (d) { return d.value; })) || 1;
+    var svg = svgEl("svg", { viewBox: "0 0 " + W + " " + H, role: "img", "aria-label": "Issue value by year" });
+    var band = pw / n, bw = Math.min(24, band * 0.6);
+    [0, 0.5, 1].forEach(function (f) {
+      var y = T + ph - f * ph; svg.appendChild(svgEl("line", { x1: L, x2: W - R, y1: y, y2: y, stroke: cssVar("--grid") }));
+      var t = svgEl("text", { x: L - 5, y: y + 4, "text-anchor": "end", "class": "axis-text" }); t.textContent = (f * max / 1e5).toFixed(0) + "L"; svg.appendChild(t);
+    });
+    data.forEach(function (d, i) {
+      var h = (d.value / max) * ph, x = L + band * i + (band - bw) / 2, y = T + ph - h;
+      var r = svgEl("path", { d: roundTop(x, y, bw, h, 4), fill: cssVar("--s1") });
+      var g = svgEl("g"); g.appendChild(r);
+      var lab = svgEl("text", { x: x + bw / 2, y: y - 4, "text-anchor": "middle", "class": "lbl" }); lab.textContent = (d.value / 1e5).toFixed(0); g.appendChild(lab);
+      var xt = svgEl("text", { x: x + bw / 2, y: H - 8, "text-anchor": "middle", "class": "axis-text" }); xt.textContent = d.year; g.appendChild(xt);
+      var hit = svgEl("rect", { x: L + band * i, y: T, width: band, height: ph, fill: "transparent" });
+      hit.addEventListener("pointermove", function (ev) { r.setAttribute("opacity", "0.8"); showTip(ev.clientX, ev.clientY, ["₹ " + fInt(d.value), "issue value " + d.year]); });
+      hit.addEventListener("pointerleave", function () { r.removeAttribute("opacity"); hideTip(); });
+      g.appendChild(hit); svg.appendChild(g);
+    });
+    svg.appendChild(svgEl("line", { x1: L, x2: W - R, y1: T + ph, y2: T + ph, stroke: cssVar("--axis") }));
+    host.appendChild(svg);
+  }
+  function roundTop(x, y, w, h, r) {
+    if (h <= 0) return "";
+    r = Math.min(r, w / 2, h);
+    return "M" + x + " " + (y + h) + " V" + (y + r) + " Q" + x + " " + y + " " + (x + r) + " " + y + " H" + (x + w - r) + " Q" + (x + w) + " " + y + " " + (x + w) + " " + (y + r) + " V" + (y + h) + " Z";
+  }
+  function roundRight(x, y, w, h, r) {
+    if (w <= 0) return "";
+    r = Math.min(r, h / 2, w);
+    return "M" + x + " " + y + " H" + (x + w - r) + " Q" + (x + w) + " " + y + " " + (x + w) + " " + (y + r) + " V" + (y + h - r) + " Q" + (x + w) + " " + (y + h) + " " + (x + w - r) + " " + (y + h) + " H" + x + " Z";
+  }
+
+  function renderTopBars(res) {
+    var host = $("topBars"); clear(host);
+    var top = res.rows.slice(0, 20); if (!top.length) return;
+    var max = top[0].value || 1;
+    top.forEach(function (r) {
+      var row = el("div", "bar-row");
+      row.appendChild(el("div", "bar-name", r.name));
+      var track = el("div", "bar-track"), fill = el("div", "bar-fill"); fill.style.width = Math.max(0.5, (r.value / max) * 100) + "%"; track.appendChild(fill); row.appendChild(track);
+      var v = el("div", "bar-val"); v.appendChild(document.createTextNode(fLakh(r.value) + " ")); v.appendChild(clsSpan(r.value_class)); row.appendChild(v);
+      row.addEventListener("pointermove", function (ev) { fill.style.opacity = "0.8"; showTip(ev.clientX, ev.clientY, ["₹ " + fInt(r.value), r.name, fQty(r.qty) + " " + r.uom + " · rank #" + r.value_rank + " · class " + r.value_class]); });
+      row.addEventListener("pointerleave", function () { fill.style.opacity = ""; hideTip(); });
+      host.appendChild(row);
+    });
+  }
+
+  // ---------- tables ----------
+  function clsSpan(c) { return el("span", "cls " + c, c); }
+  function trendCell(r) {
+    var td = el("td"); var s;
+    if (r.trend_label === "Up") s = el("span", "tr-up", "▲ Up " + fPct(r.trend, 0));
+    else if (r.trend_label === "Down") s = el("span", "tr-down", "▼ Down " + fPct(r.trend, 0));
+    else if (r.trend_label === "Flat") s = el("span", "tr-flat", "● Flat " + fPct(r.trend, 0));
+    else s = el("span", "tr-na", r.trend_label);
+    td.appendChild(s); return td;
+  }
+  function yearCols(years) { return years.map(function (y) { return { key: "y" + y, label: String(y), num: true, get: function (r) { return r.perYear[y]; }, fmt: fQty }; }); }
+
+  var ABC_COLS = [];
+  function abcCols(years) {
+    return [
+      { key: "value_rank", label: "Rank", num: true, get: function (r) { return r.value_rank; }, fmt: fInt },
+      { key: "value_class", label: "Class", get: function (r) { return r.value_class; }, cell: function (r) { var td = el("td"); td.appendChild(clsSpan(r.value_class)); return td; } },
+      { key: "qty_class", label: "Qty class", get: function (r) { return r.qty_class; }, cell: function (r) { var td = el("td"); td.appendChild(clsSpan(r.qty_class)); td.appendChild(document.createTextNode(" #" + r.qty_rank)); return td; } },
+      { key: "code", label: "Code", get: function (r) { return r.code; } },
+      { key: "name", label: "Item", get: function (r) { return r.name; }, cls: "name" },
+      { key: "grp", label: "Group", get: function (r) { return r.grp; } },
+      { key: "uom", label: "UOM", get: function (r) { return r.uom; } },
+      { key: "qty", label: "Total qty", num: true, get: function (r) { return r.qty; }, fmt: fQty },
+      { key: "value", label: "Total value ₹", num: true, get: function (r) { return r.value; }, fmt: fInt },
+      { key: "value_share", label: "% value", num: true, get: function (r) { return r.value_share; }, fmt: function (x) { return fPct(x, 2); } },
+      { key: "value_cum", label: "Cum %", num: true, get: function (r) { return r.value_cum; }, fmt: fPct }
+    ].concat(yearCols(years)).concat([
+      { key: "years_active", label: "Yrs", num: true, get: function (r) { return r.years_active; }, fmt: fInt },
+      { key: "months_active", label: "Months", num: true, get: function (r) { return r.months_active; }, fmt: fInt },
+      { key: "avg_annual", label: "Avg / yr", num: true, get: function (r) { return r.avg_annual; }, fmt: fQty },
+      { key: "trend", label: "Trend", get: function (r) { return r.trend == null ? r.trend_label : r.trend.toFixed(0) + "%"; }, cell: trendCell, sortVal: function (r) { return r.trend == null ? -1e9 : r.trend; } },
+      { key: "lrate", label: "Latest rate", num: true, get: function (r) { return r.lrate; }, fmt: fRate },
+      { key: "lissue", label: "Last issued", get: function (r) { return r.lissue || ""; } }
+    ]);
+  }
+  function planCols() {
+    return [
+      { key: "value_class", label: "Class", get: function (r) { return r.value_class; }, cell: function (r) { var td = el("td"); td.appendChild(clsSpan(r.value_class)); return td; } },
+      { key: "code", label: "Code", get: function (r) { return r.code; } },
+      { key: "name", label: "Item", get: function (r) { return r.name; }, cls: "name" },
+      { key: "uom", label: "UOM", get: function (r) { return r.uom; } },
+      { key: "avg_annual", label: "Avg / yr", num: true, get: function (r) { return r.avg_annual; }, fmt: fQty },
+      { key: "trend", label: "Trend", get: function (r) { return r.trend == null ? r.trend_label : r.trend.toFixed(0) + "%"; }, cell: trendCell, sortVal: function (r) { return r.trend == null ? -1e9 : r.trend; } },
+      { key: "projected", label: "Projected", num: true, get: function (r) { return r.projected; }, fmt: fQty },
+      { key: "safety_qty", label: "Safety", num: true, get: function (r) { return r.safety_qty; }, fmt: fQty },
+      { key: "stock", label: "Stock", num: true, get: function (r) { return r.stock; }, fmt: fQty },
+      { key: "ppo", label: "Pending PO", num: true, get: function (r) { return r.ppo; }, fmt: fQty },
+      { key: "pind", label: "Pending indent", num: true, get: function (r) { return r.pind; }, fmt: fQty },
+      { key: "sugg_qty", label: "Suggested qty", num: true, get: function (r) { return r.sugg_qty; }, fmt: fQty },
+      { key: "rate", label: "Rate used", num: true, get: function (r) { return r.rate; }, fmt: fRate },
+      { key: "lrdate", label: "Last receipt", get: function (r) { return r.lrdate || ""; } },
+      { key: "sugg_value", label: "Suggested value ₹", num: true, get: function (r) { return r.sugg_value; }, fmt: fInt },
+      { key: "lissue", label: "Last issued", get: function (r) { return r.lissue || ""; } }
+    ];
+  }
+
+  function sortRows(rows, cols, sort) {
+    var col = cols.filter(function (c) { return c.key === sort[0]; })[0]; if (!col) return rows;
+    var dir = sort[1], sv = col.sortVal || col.get;
+    return rows.slice().sort(function (a, b) {
+      var x = sv(a), y = sv(b);
+      if (x == null) x = typeof y === "number" ? -1e18 : ""; if (y == null) y = typeof x === "number" ? -1e18 : "";
+      if (typeof x === "number" && typeof y === "number") return (x - y) * dir;
+      return String(x).localeCompare(String(y)) * dir;
+    });
+  }
+  function renderTable(table, cols, rows, limit, sort, onSort, totals) {
+    clear(table);
+    var thead = el("thead"), tr = el("tr");
+    cols.forEach(function (c) {
+      var th = el("th", c.num ? "num" : null, c.label + (sort[0] === c.key ? (sort[1] > 0 ? " ▲" : " ▼") : ""));
+      th.addEventListener("click", function () { onSort(c.key); }); tr.appendChild(th);
+    });
+    thead.appendChild(tr); table.appendChild(thead);
+    var tbody = el("tbody"), frag = document.createDocumentFragment();
+    rows.slice(0, limit).forEach(function (r) {
+      var tr = el("tr");
+      cols.forEach(function (c) {
+        if (c.cell) { tr.appendChild(c.cell(r)); return; }
+        var v = c.get(r); tr.appendChild(el("td", (c.num ? "num " : "") + (c.cls || ""), c.fmt ? c.fmt(v) : (v == null ? "" : String(v))));
+      });
+      frag.appendChild(tr);
+    });
+    if (totals) {
+      var tt = el("tr", "total");
+      cols.forEach(function (c, i) { var v = totals[c.key]; tt.appendChild(el("td", c.num ? "num" : null, i === 0 ? "Total" : v == null ? "" : (c.fmt ? c.fmt(v) : String(v)))); });
+      frag.appendChild(tt);
+    }
+    tbody.appendChild(frag); table.appendChild(tbody);
+  }
+  function matches(r, q) { if (!q) return true; q = q.toLowerCase(); return (r.name || "").toLowerCase().indexOf(q) >= 0 || (r.code || "").toLowerCase().indexOf(q) >= 0 || (r.grp || "").toLowerCase().indexOf(q) >= 0; }
+
+  function downloadCsv(cols, rows, filename) {
+    var lines = [cols.map(function (c) { return '"' + c.label.replace(/"/g, '""') + '"'; }).join(",")];
+    rows.forEach(function (r) { lines.push(cols.map(function (c) { var v = c.get(r); if (v == null) v = ""; if (typeof v === "number") return String(Math.round(v * 1000) / 1000); return '"' + String(v).replace(/"/g, '""') + '"'; }).join(",")); });
+    var blob = new Blob(["﻿" + lines.join("\r\n")], { type: "text/csv;charset=utf-8" });
+    var a = document.createElement("a"); a.href = URL.createObjectURL(blob); a.download = filename; document.body.appendChild(a); a.click(); setTimeout(function () { URL.revokeObjectURL(a.href); a.remove(); }, 500);
+  }
+
+  // ---------- main update ----------
+  var lastAbcRows = [], lastPlanRows = [];
+  function update() {
+    persist(); renderFilters();
+    var res = compute(), allClasses = res.classes.map(function (c) { return c.cls; });
+    if (!state.showClasses || !state.showClasses.length) state.showClasses = allClasses.slice();
+    state.showClasses = state.showClasses.filter(function (c) { return allClasses.indexOf(c) >= 0; }); if (!state.showClasses.length) state.showClasses = allClasses.slice();
+    state.planClasses = state.planClasses.filter(function (c) { return allClasses.indexOf(c) >= 0; }); if (!state.planClasses.length) state.planClasses = allClasses.slice(0, 2);
+    $("subhead").textContent = "sls · branch " + res.branch.branch_id + " · years " + res.years.join(", ") + " · " + (state.rule === "fixed" ? "fixed buckets of " + state.bucket : "Pareto " + state.pA + "/" + state.pB + "%") + " · snapshot " + DATA.generated.replace("T", " ");
+    $("genInfo").textContent = "Snapshot generated " + DATA.generated.replace("T", " ") + " from sls (read-only). Window " + DATA.window.join(" to ") + ".";
+
+    // overview
+    var k = $("kpis"); clear(k);
+    var a = res.classes[0];
+    [["Items consumed", fInt(res.rows.length), "with at least one issue in the selected years"],
+     ["Total issue value", fLakh(res.totalValue), "₹ " + fInt(res.totalValue)],
+     ["Class A share", a ? fPct(a.value / (res.totalValue || 1) * 100) : "–", a ? fInt(a.items) + " items" : ""],
+     ["Items for 80% of value", fInt(res.rows.filter(function (r) { return r.value_cum - r.value_share < 80; }).length), "cumulative rule"]
+    ].forEach(function (t) { var d = el("div", "kpi"); d.appendChild(el("div", "l", t[0])); d.appendChild(el("div", "v", t[1])); d.appendChild(el("div", "d", t[2])); k.appendChild(d); });
+    renderPareto(res); renderYearBars(res); renderTopBars(res);
+    var ct = $("clsTable"); clear(ct);
+    var th = el("tr"); ["Class", "Items", "% items", "Value ₹", "% value", "Avg value / item"].forEach(function (h, i) { th.appendChild(el("th", i ? "num" : null, h)); }); ct.appendChild(th);
+    res.classes.forEach(function (c) {
+      var tr = el("tr"); var td = el("td"); td.appendChild(clsSpan(c.cls)); tr.appendChild(td);
+      tr.appendChild(el("td", "num", fInt(c.items))); tr.appendChild(el("td", "num", fPct(c.items / res.rows.length * 100)));
+      tr.appendChild(el("td", "num", fInt(c.value))); tr.appendChild(el("td", "num", fPct(c.value / (res.totalValue || 1) * 100)));
+      tr.appendChild(el("td", "num", fInt(c.items ? c.value / c.items : 0))); ct.appendChild(tr);
+    });
+
+    // class chips (abc + plan)
+    function chipRow(host, list, onToggle) {
+      while (host.children.length > 1) host.removeChild(host.lastChild);
+      allClasses.forEach(function (c) { host.appendChild(chip(c, list.indexOf(c) >= 0, function () { onToggle(c); })); });
+    }
+    chipRow($("classChips"), state.showClasses, function (c) { var i = state.showClasses.indexOf(c); if (i >= 0) state.showClasses.splice(i, 1); else state.showClasses.push(c); state.abcLimit = 200; update(); });
+    chipRow($("planChips"), state.planClasses, function (c) { var i = state.planClasses.indexOf(c); if (i >= 0) state.planClasses.splice(i, 1); else state.planClasses.push(c); state.planLimit = 200; update(); });
+
+    // abc table
+    ABC_COLS = abcCols(res.years);
+    var abcRows = res.rows.filter(function (r) { return state.showClasses.indexOf(r.value_class) >= 0 && matches(r, state.search); });
+    abcRows = sortRows(abcRows, ABC_COLS, state.abcSort); lastAbcRows = abcRows;
+    var abcTot = { qty: null, value: 0 }; abcRows.forEach(function (r) { abcTot.value += r.value; });
+    renderTable($("abcTable"), ABC_COLS, abcRows, state.abcLimit, state.abcSort, function (key) { state.abcSort = state.abcSort[0] === key ? [key, -state.abcSort[1]] : [key, key === "name" || key === "code" || key === "grp" || key === "uom" || key === "value_rank" ? 1 : -1]; update(); }, abcTot);
+    $("abcCount").textContent = fInt(Math.min(state.abcLimit, abcRows.length)) + " of " + fInt(abcRows.length) + " items shown";
+    $("abcMore").hidden = $("abcAll").hidden = abcRows.length <= state.abcLimit;
+
+    // plan
+    var PC = planCols();
+    var planRows = res.rows.filter(function (r) {
+      if (state.planClasses.indexOf(r.value_class) < 0 || !matches(r, state.search)) return false;
+      if (state.onlyPos && !(r.sugg_qty > 0)) return false;
+      if (state.sinceYear && !(r.lissue && +r.lissue.slice(0, 4) >= state.sinceYear)) return false;
+      return true;
+    });
+    planRows = sortRows(planRows, PC, state.planSort); lastPlanRows = planRows;
+    var pt = { sugg_value: 0, n: 0 }; planRows.forEach(function (r) { pt.sugg_value += r.sugg_value; if (r.sugg_qty > 0) pt.n++; });
+    var pk = $("planKpis"); clear(pk);
+    [["Items to purchase", fInt(pt.n), "suggested qty > 0 in classes " + state.planClasses.join("")],
+     ["Suggested value", fLakh(pt.sugg_value), "₹ " + fInt(pt.sugg_value) + " at latest rates"],
+     ["Horizon", state.horizon + " months", "+ " + state.safety + " month safety" + (state.sinceYear ? " · issued since " + state.sinceYear : "")]
+    ].forEach(function (t) { var d = el("div", "kpi"); d.appendChild(el("div", "l", t[0])); d.appendChild(el("div", "v", t[1])); d.appendChild(el("div", "d", t[2])); pk.appendChild(d); });
+    renderTable($("planTable"), PC, planRows, state.planLimit, state.planSort, function (key) { state.planSort = state.planSort[0] === key ? [key, -state.planSort[1]] : [key, key === "name" || key === "code" || key === "uom" ? 1 : -1]; update(); }, { sugg_value: pt.sugg_value });
+    $("planCount").textContent = fInt(Math.min(state.planLimit, planRows.length)) + " of " + fInt(planRows.length) + " items shown";
+    $("planMore").hidden = $("planAll").hidden = planRows.length <= state.planLimit;
+  }
+
+  wire(); update();
+})();
+</script>
+</body>
+</html>

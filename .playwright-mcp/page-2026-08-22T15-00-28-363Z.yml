@@ -1,0 +1,328 @@
+- generic [ref=f6e1]:
+  - generic [ref=f6e2]:
+    - generic [ref=f6e5]:
+      - img "Logo" [ref=f6e8]
+      - paragraph [ref=f6e11]
+      - generic [ref=f6e13]:
+        - generic [ref=f6e15]:
+          - generic [ref=f6e16] [cursor=pointer]
+          - link "Jute Procurement" [ref=f6e19] [cursor=pointer]:
+            - /url: /dashboardportal/jutePurchase
+        - generic [ref=f6e21]:
+          - generic [ref=f6e22] [cursor=pointer]
+          - link "Procurement" [ref=f6e25] [cursor=pointer]:
+            - /url: /dashboardportal/procurement
+        - generic [ref=f6e27]:
+          - generic [ref=f6e28] [cursor=pointer]
+          - link "Masters" [ref=f6e31] [cursor=pointer]:
+            - /url: /dashboardportal/masters
+        - generic [ref=f6e33]:
+          - generic [ref=f6e34] [cursor=pointer]
+          - link "Inventory" [ref=f6e37] [cursor=pointer]:
+            - /url: /dashboardportal/inventory
+        - generic [ref=f6e39]:
+          - generic [ref=f6e40] [cursor=pointer]
+          - link "Sales" [ref=f6e43] [cursor=pointer]:
+            - /url: /dashboardportal/sales
+        - generic [ref=f6e45]:
+          - generic [ref=f6e46] [cursor=pointer]
+          - link "HRMS" [ref=f6e49] [cursor=pointer]:
+            - /url: /dashboardportal/hrms
+        - generic [ref=f6e51]:
+          - generic [ref=f6e52] [cursor=pointer]
+          - link "BOM and Costing" [ref=f6e55] [cursor=pointer]:
+            - /url: /dashboardportal/BomCosting
+        - generic [ref=f6e57]:
+          - generic [ref=f6e58] [cursor=pointer]
+          - link "Accounting" [ref=f6e61] [cursor=pointer]:
+            - /url: /dashboardportal/accounting
+        - generic [ref=f6e63]:
+          - generic [ref=f6e64] [cursor=pointer]
+          - link "HRMS Master" [ref=f6e67] [cursor=pointer]:
+            - /url: /dashboardportal/hrmsmasters
+        - generic [ref=f6e69]:
+          - generic [ref=f6e70] [cursor=pointer]
+          - link "Jute Production" [ref=f6e73] [cursor=pointer]:
+            - /url: /dashboardportal/juteProduction
+        - generic [ref=f6e75]:
+          - generic [ref=f6e76] [cursor=pointer]
+          - link "Jute SQC" [ref=f6e79] [cursor=pointer]:
+            - /url: /dashboardportal/juteSQC
+        - generic [ref=f6e81]:
+          - link:
+            - /url: /dashboardportal/null
+      - generic [ref=f6e83] [cursor=pointer]
+    - main [ref=f6e90]:
+      - button [ref=f6e92] [cursor=pointer]
+      - generic [ref=f6e96]:
+        - heading "Jute MR Issue Detail (all MRs in period)" [level=5] [ref=f6e97]
+        - generic [ref=f6e99]:
+          - generic [ref=f6e101]:
+            - generic [ref=f6e102]: Branch
+            - generic [ref=f6e103]:
+              - combobox "Branch" [expanded] [active] [ref=f6e104]: Factory
+              - generic [ref=f6e105]:
+                - button "Clear" [ref=f6e206] [cursor=pointer]
+                - button "Close" [ref=f6e209] [cursor=pointer]
+              - group:
+                - generic: Branch
+          - generic [ref=f6e109]:
+            - generic [ref=f6e110]: From Date
+            - generic [ref=f6e111]:
+              - textbox "From Date" [ref=f6e112]: 2026-04-01
+              - group:
+                - generic: From Date
+          - generic [ref=f6e113]:
+            - generic [ref=f6e114]: To Date
+            - generic [ref=f6e115]:
+              - textbox "To Date" [ref=f6e116]: 2026-08-21
+              - group:
+                - generic: To Date
+          - generic [ref=f6e118]:
+            - generic: MR (blank = all)
+            - generic [ref=f6e119]:
+              - combobox "MR (blank = all)" [ref=f6e120]
+              - button "Open" [ref=f6e122] [cursor=pointer]
+              - group:
+                - generic: MR (blank = all)
+          - button "Submit" [ref=f6e210] [cursor=pointer]
+          - button "Export to Excel" [ref=f6e211] [cursor=pointer]
+        - generic [ref=f6e131]:
+          - grid [ref=f6e132]:
+            - row [ref=f6e212]:
+              - 'columnheader "MR #" [ref=f6e134] [cursor=pointer]'
+              - columnheader "MR / Inward Date Sort" [ref=f6e138] [cursor=pointer]:
+                - generic [ref=f6e139]: MR / Inward Date
+                - generic "Sort" [ref=f6e142]:
+                  - button "Sort" [ref=f6e143]
+              - 'columnheader "GE #" [ref=f6e147] [cursor=pointer]'
+              - columnheader "Party" [ref=f6e151] [cursor=pointer]
+              - columnheader "Godown" [ref=f6e155] [cursor=pointer]
+              - columnheader "Quality" [ref=f6e159] [cursor=pointer]
+              - columnheader "Marka" [ref=f6e163] [cursor=pointer]
+              - columnheader "Crop Year" [ref=f6e167] [cursor=pointer]
+              - columnheader "Recv Qty" [ref=f6e171] [cursor=pointer]
+              - columnheader "Recv Wt" [ref=f6e213] [cursor=pointer]
+              - columnheader "Rate" [ref=f6e217] [cursor=pointer]
+              - 'columnheader "Issue #" [ref=f6e221] [cursor=pointer]'
+              - columnheader "Issue Date" [ref=f6e225] [cursor=pointer]
+              - columnheader "Issued Qty" [ref=f6e229] [cursor=pointer]
+              - columnheader "Issued Wt" [ref=f6e233] [cursor=pointer]
+              - columnheader "Issue Value" [ref=f6e237] [cursor=pointer]
+              - columnheader "Issue Item" [ref=f6e241] [cursor=pointer]
+              - columnheader "Yarn Type" [ref=f6e245] [cursor=pointer]
+              - columnheader "Issue Status" [ref=f6e249] [cursor=pointer]
+              - columnheader "Bal Qty" [ref=f6e253] [cursor=pointer]
+              - columnheader "Bal Wt" [ref=f6e257] [cursor=pointer]
+              - columnheader "Updated By" [ref=f6e261] [cursor=pointer]
+              - columnheader "Updated On" [ref=f6e265] [cursor=pointer]
+            - rowgroup [ref=f6e269]:
+              - row [ref=f6e270]:
+                - gridcell "GE-10" [ref=f6e271]
+                - gridcell "2026-08-10" [ref=f6e272]
+                - gridcell "10" [ref=f6e273]
+                - gridcell "HONEYWELL COMMERCIAL P.LTD" [ref=f6e274]
+                - gridcell "ROW1" [ref=f6e275]
+                - gridcell "DESI" [ref=f6e276]
+                - gridcell [ref=f6e277]
+                - gridcell [ref=f6e278]
+                - gridcell "80.00" [ref=f6e279]
+                - gridcell "0.00" [ref=f6e280]
+                - gridcell "0.00" [ref=f6e281]
+                - gridcell [ref=f6e282]
+                - gridcell [ref=f6e283]
+                - gridcell [ref=f6e284]
+                - gridcell [ref=f6e285]
+                - gridcell [ref=f6e286]
+                - gridcell [ref=f6e287]
+                - gridcell [ref=f6e288]
+                - gridcell [ref=f6e289]
+                - gridcell "80.00" [ref=f6e290]
+                - gridcell "0.00" [ref=f6e291]
+                - gridcell [ref=f6e292]
+                - gridcell [ref=f6e293]
+              - row [ref=f6e294]:
+                - gridcell "GE-10" [ref=f6e295]
+                - gridcell "2026-08-10" [ref=f6e296]
+                - gridcell "10" [ref=f6e297]
+                - gridcell "HONEYWELL COMMERCIAL P.LTD" [ref=f6e298]
+                - gridcell "Sel Shed" [ref=f6e299]
+                - gridcell "DESI" [ref=f6e300]
+                - gridcell [ref=f6e301]
+                - gridcell [ref=f6e302]
+                - gridcell "80.00" [ref=f6e303]
+                - gridcell "0.00" [ref=f6e304]
+                - gridcell "0.00" [ref=f6e305]
+                - gridcell [ref=f6e306]
+                - gridcell [ref=f6e307]
+                - gridcell [ref=f6e308]
+                - gridcell [ref=f6e309]
+                - gridcell [ref=f6e310]
+                - gridcell [ref=f6e311]
+                - gridcell [ref=f6e312]
+                - gridcell [ref=f6e313]
+                - gridcell "80.00" [ref=f6e314]
+                - gridcell "0.00" [ref=f6e315]
+                - gridcell [ref=f6e316]
+                - gridcell [ref=f6e317]
+              - row [ref=f6e318]:
+                - gridcell "GE-9" [ref=f6e319]
+                - gridcell "2026-08-09" [ref=f6e320]
+                - gridcell "9" [ref=f6e321]
+                - gridcell "SHIVAM ENTERPRISES" [ref=f6e322]
+                - gridcell [ref=f6e323]
+                - gridcell "D TD 5" [ref=f6e324]
+                - gridcell [ref=f6e325]
+                - gridcell [ref=f6e326]
+                - gridcell "45.00" [ref=f6e327]
+                - gridcell "0.00" [ref=f6e328]
+                - gridcell "0.00" [ref=f6e329]
+                - gridcell [ref=f6e330]
+                - gridcell [ref=f6e331]
+                - gridcell [ref=f6e332]
+                - gridcell [ref=f6e333]
+                - gridcell [ref=f6e334]
+                - gridcell [ref=f6e335]
+                - gridcell [ref=f6e336]
+                - gridcell [ref=f6e337]
+                - gridcell "45.00" [ref=f6e338]
+                - gridcell "0.00" [ref=f6e339]
+                - gridcell [ref=f6e340]
+                - gridcell [ref=f6e341]
+              - row [ref=f6e342]:
+                - gridcell "GE-5" [ref=f6e343]
+                - gridcell "2026-04-19" [ref=f6e344]
+                - gridcell "5" [ref=f6e345]
+                - gridcell "SHEMA JUTE AGENCY" [ref=f6e346]
+                - gridcell "Sel Shed" [ref=f6e347]
+                - gridcell "D TD 5" [ref=f6e348]
+                - gridcell [ref=f6e349]
+                - gridcell [ref=f6e350]
+                - gridcell "20.00" [ref=f6e351]
+                - gridcell "2217.00" [ref=f6e352]
+                - gridcell "13500.00" [ref=f6e353]
+                - gridcell [ref=f6e354]
+                - gridcell [ref=f6e355]
+                - gridcell [ref=f6e356]
+                - gridcell [ref=f6e357]
+                - gridcell [ref=f6e358]
+                - gridcell [ref=f6e359]
+                - gridcell [ref=f6e360]
+                - gridcell [ref=f6e361]
+                - gridcell "20.00" [ref=f6e362]
+                - gridcell "2217.00" [ref=f6e363]
+                - gridcell [ref=f6e364]
+                - gridcell [ref=f6e365]
+              - row [ref=f6e366]:
+                - gridcell "GE-5" [ref=f6e367]
+                - gridcell "2026-04-19" [ref=f6e368]
+                - gridcell "5" [ref=f6e369]
+                - gridcell "SHEMA JUTE AGENCY" [ref=f6e370]
+                - gridcell "3A" [ref=f6e371]
+                - gridcell "D TD 6" [ref=f6e372]
+                - gridcell [ref=f6e373]
+                - gridcell [ref=f6e374]
+                - gridcell "60.00" [ref=f6e375]
+                - gridcell "6650.00" [ref=f6e376]
+                - gridcell "13400.00" [ref=f6e377]
+                - gridcell [ref=f6e378]
+                - gridcell [ref=f6e379]
+                - gridcell [ref=f6e380]
+                - gridcell [ref=f6e381]
+                - gridcell [ref=f6e382]
+                - gridcell [ref=f6e383]
+                - gridcell [ref=f6e384]
+                - gridcell [ref=f6e385]
+                - gridcell "60.00" [ref=f6e386]
+                - gridcell "6650.00" [ref=f6e387]
+                - gridcell [ref=f6e388]
+                - gridcell [ref=f6e389]
+              - row [ref=f6e390]:
+                - gridcell "GE-4" [ref=f6e391]
+                - gridcell "2026-04-03" [ref=f6e392]
+                - gridcell "4" [ref=f6e393]
+                - gridcell "LAHOTY BROTHERS PRIVATE LIMITED" [ref=f6e394]
+                - gridcell "1" [ref=f6e395]
+                - gridcell "D TD 6" [ref=f6e396]
+                - gridcell [ref=f6e397]
+                - gridcell [ref=f6e398]
+                - gridcell "80.00" [ref=f6e399]
+                - gridcell "10210.00" [ref=f6e400]
+                - gridcell "9300.00" [ref=f6e401]
+                - gridcell [ref=f6e402]
+                - gridcell [ref=f6e403]
+                - gridcell [ref=f6e404]
+                - gridcell [ref=f6e405]
+                - gridcell [ref=f6e406]
+                - gridcell [ref=f6e407]
+                - gridcell [ref=f6e408]
+                - gridcell [ref=f6e409]
+                - gridcell "80.00" [ref=f6e410]
+                - gridcell "10210.00" [ref=f6e411]
+                - gridcell [ref=f6e412]
+                - gridcell [ref=f6e413]
+              - row [ref=f6e414]:
+                - gridcell "GE-1" [ref=f6e415]
+                - gridcell "2026-04-01" [ref=f6e416]
+                - gridcell "1" [ref=f6e417]
+                - gridcell "HONEYWELL COMMERCIAL P.LTD" [ref=f6e418]
+                - gridcell "2B" [ref=f6e419]
+                - gridcell "D TD 5" [ref=f6e420]
+                - gridcell [ref=f6e421]
+                - gridcell [ref=f6e422]
+                - gridcell "70.00" [ref=f6e423]
+                - gridcell "9800.00" [ref=f6e424]
+                - gridcell "9725.00" [ref=f6e425]
+                - gridcell [ref=f6e426]
+                - gridcell [ref=f6e427]
+                - gridcell [ref=f6e428]
+                - gridcell [ref=f6e429]
+                - gridcell [ref=f6e430]
+                - gridcell [ref=f6e431]
+                - gridcell [ref=f6e432]
+                - gridcell [ref=f6e433]
+                - gridcell "70.00" [ref=f6e434]
+                - gridcell "9800.00" [ref=f6e435]
+                - gridcell [ref=f6e436]
+                - gridcell [ref=f6e437]
+              - row [ref=f6e438]:
+                - gridcell "EJM/F/JMR/26-27/00001" [ref=f6e439]
+                - gridcell "2026-04-01" [ref=f6e440]
+                - gridcell "2" [ref=f6e441]
+                - gridcell "SIDDHARTHA ELECTROTEC & TRADING PVT LTD" [ref=f6e442]
+                - gridcell "3A" [ref=f6e443]
+                - gridcell "D TD 5" [ref=f6e444]
+                - gridcell [ref=f6e445]
+                - gridcell [ref=f6e446]
+                - gridcell "80.00" [ref=f6e447]
+                - gridcell "10930.00" [ref=f6e448]
+                - gridcell "9600.00" [ref=f6e449]
+                - gridcell [ref=f6e450]
+                - gridcell [ref=f6e451]
+                - gridcell [ref=f6e452]
+                - gridcell [ref=f6e453]
+                - gridcell [ref=f6e454]
+                - gridcell [ref=f6e455]
+                - gridcell [ref=f6e456]
+                - gridcell [ref=f6e457]
+                - gridcell "80.00" [ref=f6e458]
+                - gridcell "10930.00" [ref=f6e459]
+                - gridcell [ref=f6e460]
+                - gridcell [ref=f6e461]
+          - generic [ref=f6e182]:
+            - paragraph [ref=f6e183]: "Rows per page:"
+            - generic [ref=f6e184]:
+              - 'combobox "Rows per page: 50" [ref=f6e185] [cursor=pointer]': "50"
+              - textbox: "50"
+            - paragraph [ref=f6e186]: 1–8 of 8
+            - generic [ref=f6e187]:
+              - button "Go to previous page" [disabled]
+              - button "Go to next page" [disabled]
+    - button "Raise a support ticket" [ref=f6e188] [cursor=pointer]
+  - region "Notifications (F8)":
+    - list
+  - button "Open Next.js Dev Tools" [ref=f6e201] [cursor=pointer]
+  - alert [ref=f6e205]
+  - listbox "Branch" [ref=f6e463]:
+    - option "Head Office" [ref=f6e464] [cursor=pointer]
+    - option "Factory" [selected] [ref=f6e465] [cursor=pointer]

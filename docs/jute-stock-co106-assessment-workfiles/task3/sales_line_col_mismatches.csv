@@ -1,0 +1,16 @@
+old_line_id,sls_line_id,col,old,sls,hdr_status,old_line_active
+6055,4315,mr_line_id vs jute_mr_li_id,11279.0,,0,1
+6056,4316,mr_line_id vs jute_mr_li_id,11280.0,,0,1
+4066,2437,item: sls line item vs MR-line item,303295.0,1104.0,3,1
+6055,4315,item: sls line item vs MR-line item,,1154.0,0,1
+6056,4316,item: sls line item vs MR-line item,,1178.0,0,1
+19976,17577,item: sls line item vs MR-line item,335728.0,1101.0,3,1
+20010,17609,item: sls line item vs MR-line item,1101.0,1105.0,3,1
+20016,17615,item: sls line item vs MR-line item,335729.0,1105.0,3,1
+20035,17634,item: sls line item vs MR-line item,335729.0,1105.0,3,1
+20122,17721,item: sls line item vs MR-line item,1140.0,1104.0,3,1
+20123,17722,item: sls line item vs MR-line item,1141.0,1105.0,3,1
+22790,20336,item: sls line item vs MR-line item,1140.0,1104.0,3,1
+22791,20337,item: sls line item vs MR-line item,1141.0,1105.0,3,1
+23154,20696,item: sls line item vs MR-line item,303297.0,1104.0,3,1
+23159,20701,item: sls line item vs MR-line item,335728.0,1105.0,3,1
