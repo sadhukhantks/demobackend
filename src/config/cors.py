@@ -1,4 +1,5 @@
 from fastapi import Request
+from src.config.db import CONSOLE_DB
 from starlette.middleware.base import BaseHTTPMiddleware
 from starlette.responses import Response
 from sqlalchemy.sql import text
@@ -12,9 +13,9 @@ def get_active_subdomains_from_db():
     try:
         with Session(default_engine) as session:
             result = session.execute(
-                text("""
+                text(f"""
                     SELECT LOWER(TRIM(con_org_shortname)) as shortname
-                    FROM vowconsole3.con_org_master
+                    FROM {CONSOLE_DB}.con_org_master
                     WHERE active = 1
                       AND con_org_shortname IS NOT NULL
                       AND TRIM(con_org_shortname) != ''
@@ -30,7 +31,7 @@ def build_allowed_origin(subdomain: str) -> list[str]:
     """Build the allowed origin URLs for a given subdomain."""
     origins = []
     # Development origins
-    origins.append(f"http://{subdomain}.localhost:3000")
+    origins.append(f"http://{subdomain}.localhost:5000")
     # Production origins
     origins.append(f"https://{subdomain}.vowerp.co.in")
     return origins
@@ -46,14 +47,14 @@ def is_origin_allowed(origin: str) -> bool:
 
     # Always allow plain localhost/127.0.0.1 (for dev tools, Postman, etc.)
     always_allowed = [
-        "http://localhost:3000",
-        "http://127.0.0.1:3000",
+        "http://localhost:5000",
+        "http://127.0.0.1:5000",
     ]
     if origin in always_allowed:
         return True
 
     # Extract subdomain from origin
-    # e.g. "http://sls.localhost:3000" -> "sls"
+    # e.g. "http://sls.localhost:5000" -> "sls"
     # e.g. "https://dev3.vowerp.co.in" -> "dev3"
     try:
         from urllib.parse import urlparse
@@ -78,9 +79,9 @@ def is_origin_allowed(origin: str) -> bool:
         try:
             with Session(default_engine) as session:
                 result = session.execute(
-                    text("""
+                    text(f"""
                         SELECT COUNT(*) as cnt
-                        FROM vowconsole3.con_org_master
+                        FROM {CONSOLE_DB}.con_org_master
                         WHERE LOWER(TRIM(con_org_shortname)) = LOWER(TRIM(:subdomain))
                           AND active = 1
                         LIMIT 1

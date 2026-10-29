@@ -45,6 +45,10 @@ missing_vars = [var for var in required_vars if not os.getenv(var)]
 if missing_vars:
     raise ValueError(f"Missing required environment variables: {', '.join(missing_vars)}")
 
+# Control DB name (vowconsole3 in prod, maindemo on the demo box) — raw SQL
+# qualifies console tables with it instead of hardcoding the schema.
+CONSOLE_DB = os.getenv("DATABASE_DEFAULT")
+
 # Default (main) database connection
 DEFAULT_DATABASE_URL = f"mysql+pymysql://{os.getenv('DATABASE_USER')}:{os.getenv('DATABASE_PASSWORD')}@" \
                        f"{os.getenv('DATABASE_HOST')}:{os.getenv('DATABASE_PORT')}/{os.getenv('DATABASE_DEFAULT')}"

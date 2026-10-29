@@ -10,3 +10,6 @@ backend.log
 # generated prototype outputs (contain real tenant data)
 docs/prototypes/**/data.json
 docs/prototypes/**/index.html
+
+env/*.env
+.claude/test-credentials.md

@@ -1,4 +1,5 @@
 #from fastapi import Depends, Request, HTTPException, APIRouter, Query,path
+from src.config.db import CONSOLE_DB
 import select
 from fastapi import APIRouter, Depends, HTTPException, status, Request, Query, Path
 from typing import List, Optional
@@ -297,7 +298,7 @@ def create_portalmenucreate_data(
 
 
             # Fetch the latest menu
-            menusql="""select * from vowconsole3.portal_menu_mst pmm order by pmm.menu_id desc limit 1"""
+            menusql=f"""select * from {CONSOLE_DB}.portal_menu_mst pmm order by pmm.menu_id desc limit 1"""
             menusql = text(menusql)
             with Session(default_engine) as session:
                 result = session.execute(menusql).fetchone()
@@ -309,9 +310,9 @@ def create_portalmenucreate_data(
                     # Do something with the latest menu details
 
             # Fetch all org shortnames with status = 3
-            orgsql = """
+            orgsql = f"""
                 select com.con_org_shortname  
-                from vowconsole3.con_org_master com 
+                from {CONSOLE_DB}.con_org_master com 
                 where com.con_org_master_status = 3 and com.con_org_shortname="sls"
             """
             print(f"Executing orgsql: {orgsql}")
@@ -330,7 +331,7 @@ def create_portalmenucreate_data(
                             menu_id, menu_name, menu_path, active, 
                             menu_parent_id, menu_type_id, menu_icon,
                             module_id,order_by
-                        from vowconsole3.portal_menu_mst 
+                        from {CONSOLE_DB}.portal_menu_mst 
                         where menu_id = {latest_menu_id}
                     """
                     print('menu insert',menuinssql)                     

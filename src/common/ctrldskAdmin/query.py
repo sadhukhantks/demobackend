@@ -1,10 +1,11 @@
 from sqlalchemy.sql import text
+from src.config.db import CONSOLE_DB
 from sqlalchemy.sql import bindparam
 from sqlalchemy.sql.elements import TextClause
 
 def get_portal_menu_details(search: str = None):
     print(f" query get_portal_menu_details called with search: {search} ")
-    sql = """
+    sql = f"""
         SELECT 
             menu.menu_id,
             menu.menu_name,
@@ -13,7 +14,7 @@ def get_portal_menu_details(search: str = None):
             cmm.con_module_name,
             CASE 
                 WHEN menu.menu_parent_id > 0 THEN (SELECT parent.menu_name 
-                                                  FROM vowconsole3.portal_menu_mst parent 
+                                                  FROM {CONSOLE_DB}.portal_menu_mst parent 
                                                   WHERE parent.menu_id = menu.menu_parent_id)
                 ELSE ''
             END AS parent_name,
@@ -21,8 +22,8 @@ def get_portal_menu_details(search: str = None):
             menu.menu_path,
             menu.menu_icon,
             menu.module_id
-        FROM vowconsole3.portal_menu_mst menu
-        LEFT JOIN vowconsole3.con_module_masters cmm ON menu.module_id = cmm.con_module_id 
+        FROM {CONSOLE_DB}.portal_menu_mst menu
+        LEFT JOIN {CONSOLE_DB}.con_module_masters cmm ON menu.module_id = cmm.con_module_id 
         WHERE cmm.active = 1
     """
 
@@ -58,10 +59,10 @@ def get_tenant_counts_query(db_name: str):
 
 
 def get_portal_menu_details_count(search: str = None):
-    sql = """
+    sql = f"""
         SELECT COUNT(*) AS total
-        FROM vowconsole3.portal_menu_mst menu
-        LEFT JOIN vowconsole3.con_module_masters cmm ON menu.module_id = cmm.con_module_id
+        FROM {CONSOLE_DB}.portal_menu_mst menu
+        LEFT JOIN {CONSOLE_DB}.con_module_masters cmm ON menu.module_id = cmm.con_module_id
         WHERE cmm.active = 1
     """
     if search:
@@ -74,11 +75,11 @@ def get_portal_menu_details_count(search: str = None):
 
 def portal_parentmenudetails():
     #print(f" query portal_parentmenudetails called with moduleId: {moduleId} ")
-    sql = """SELECT 
+    sql = f"""SELECT 
                 menu.menu_id,
                 menu.menu_name,
                 menu.module_id
-            FROM vowconsole3.portal_menu_mst menu
+            FROM {CONSOLE_DB}.portal_menu_mst menu
             WHERE menu.menu_parent_id = 0 AND menu.active = 1"""
     sql += " ORDER BY module_id, menu.order_by"""
     #print(f"SQL Query: {sql}{moduleId}")
@@ -91,10 +92,10 @@ def portal_parentmenudetails():
 
 def portalmodulename():
     print(f" query portalmodulename called ")
-    sql="""SELECT 
+    sql=f"""SELECT 
                 menu.con_module_id,
                 menu.con_module_name
-                FROM vowconsole3.con_module_masters menu
+                FROM {CONSOLE_DB}.con_module_masters menu
                 where  menu.active = 1
                 order by menu.con_module_name            
 """
@@ -104,8 +105,8 @@ def portalmodulename():
 
 def portalmenutypedetails():
     print(f" query portalmenutypedetails called ")
-    sql="""SELECT * 
-                FROM vowconsole3.menu_type_mst
+    sql=f"""SELECT * 
+                FROM {CONSOLE_DB}.menu_type_mst
             
 """
     return text(sql)
@@ -113,13 +114,13 @@ def portalmenutypedetails():
 def get_portalmenuname_by_name(name: str = None, menu_id: int = None):
     print(f" query get_portalmenuname_by_name called with name: {name} ")
     if menu_id == 0:
-        sql = """SELECT count(*) as count 
-                FROM vowconsole3.portal_menu_mst menu
+        sql = f"""SELECT count(*) as count 
+                FROM {CONSOLE_DB}.portal_menu_mst menu
                 where menu.menu_name = :name            
         """
     else:
-        sql = """SELECT count(*) as count 
-                FROM vowconsole3.portal_menu_mst menu
+        sql = f"""SELECT count(*) as count 
+                FROM {CONSOLE_DB}.portal_menu_mst menu
                 where menu.menu_name = :name and menu.menu_id != :menu_id            
         """
     return text(sql)
@@ -129,7 +130,7 @@ def get_portalmenuname_by_name(name: str = None, menu_id: int = None):
 def get_menu_by_id_query(co_id: int):
     sql = f"""select menu_id,menu_name,menu_path,active,menu_parent_id,menu_type_id,
     menu_icon,module_id,order_by
-    from vowconsole3.portal_menu_mst
+    from {CONSOLE_DB}.portal_menu_mst
     where menu_id = :co_id;"""
     query = text(sql)
     return query
@@ -140,12 +141,12 @@ def orgmodulename(search: str = None, paged: bool = False):
     print(f" query orgmodulename called ")
     # :search / :limit / :offset are only bound in when asked for — the
     # unpaged caller (orgmodulemapdetails1) supplies no params at all.
-    sql = """SELECT
+    sql = f"""SELECT
             com.con_org_id AS org_id,
             com.con_org_name AS org_name,
             GROUP_CONCAT(cmm.con_module_name SEPARATOR '/') AS module_selected
             FROM
-            vowconsole3.con_org_master com
+            {CONSOLE_DB}.con_org_master com
             LEFT JOIN JSON_TABLE(
             com.con_modules_selected,
             '$[*]' COLUMNS (
@@ -173,9 +174,9 @@ def orgmodulename(search: str = None, paged: bool = False):
 
 def orgmodulename_count(search: str = None):
     # One row per org after the GROUP BY, so counting the base table matches.
-    sql = """
+    sql = f"""
         SELECT COUNT(*) AS total
-        FROM vowconsole3.con_org_master com
+        FROM {CONSOLE_DB}.con_org_master com
         WHERE com.con_org_master_status = 3
     """
     if search:

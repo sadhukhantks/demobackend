@@ -1,4 +1,5 @@
 from fastapi import APIRouter, Depends, Query, HTTPException,Request
+from src.config.db import CONSOLE_DB
 #from fastapi import Column, Integer, String, Text, DateTime, Boolean, JSON
 import json
 from sqlalchemy.orm import Session
@@ -48,8 +49,8 @@ def submit_contact_form(form: ContactFormSchema, db: Session = Depends(get_db)):
     """
     print('form',form)
     try:
-        query = """
-            INSERT INTO vowconsole3.con_org_master (con_org_name, con_org_address)
+        query = f"""
+            INSERT INTO {CONSOLE_DB}.con_org_master (con_org_name, con_org_address)
             VALUES ('abcd', 'uuuu')"""
 
         params = {

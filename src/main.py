@@ -22,6 +22,7 @@ from src.common.portal.roles import router as co_portal_router
 from src.common.portal.users import router as co_portal_users_router
 from src.common.portal.menu import router as co_portal_menu_router
 from src.common.portal.approval import router as co_portal_approval_router
+from src.common.portal.moduleDashboard import router as module_dashboard_router
 from src.common.ctrldskAdmin.roles import router as co_ctrldsk_router
 from src.common.ctrldskAdmin.users import router as co_ctrldsk_users_router
 from src.common.ctrldskAdmin.orgs import router as co_ctrldsk_orgs_router
@@ -259,6 +260,7 @@ app.include_router(co_portal_router, prefix="/api/admin/PortalData", tags=["Port
 app.include_router(co_portal_users_router, prefix="/api/admin/PortalData", tags=["PortalDataInAdmin"])
 app.include_router(co_portal_menu_router, prefix="/api/admin/PortalData", tags=["PortalDataInAdmin"])
 app.include_router(co_portal_approval_router, prefix="/api/admin/PortalData", tags=["PortalDataInAdmin"])
+app.include_router(module_dashboard_router, prefix="/api/moduleDashboard", tags=["module-dashboard"])
 app.include_router(co_ctrldsk_router, prefix="/api/ctrldskAdmin", tags=["ctrldsk-admin-roles"])
 app.include_router(co_ctrldsk_users_router, prefix="/api/ctrldskAdmin", tags=["ctrldsk-admin-users"])
 app.include_router(co_ctrldsk_orgs_router, prefix="/api/ctrldskAdmin", tags=["ctrldsk-admin-orgs"])
@@ -559,5 +561,5 @@ if __name__ == "__main__":
     # reload_dirs: without it StatReload polls the whole repo (incl. .venv)
     # 4x/second and pins a CPU core. Absolute — a relative "src" silently
     # watches nothing when started from another cwd (edits then never reload).
-    uvicorn.run("src.main:app", host="0.0.0.0", port=8000, reload=True,
+    uvicorn.run("src.main:app", host="0.0.0.0", port=9000, reload=True,
                 reload_dirs=[os.path.dirname(os.path.abspath(__file__))])

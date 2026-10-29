@@ -1,4 +1,5 @@
 from fastapi import APIRouter, Request, Response, HTTPException, Header, Depends  # Add Header to the imports
+from src.config.db import CONSOLE_DB
 from starlette.status import HTTP_401_UNAUTHORIZED
 from fastapi.responses import JSONResponse
 from sqlalchemy import create_engine
@@ -236,9 +237,9 @@ def get_valid_origins(request: Request):
     try:
         with Session(default_engine) as session:
             result = session.execute(
-                text("""
+                text(f"""
                     SELECT LOWER(TRIM(con_org_shortname)) as shortname
-                    FROM vowconsole3.con_org_master
+                    FROM {CONSOLE_DB}.con_org_master
                     WHERE active = 1
                       AND con_org_shortname IS NOT NULL
                       AND TRIM(con_org_shortname) != ''

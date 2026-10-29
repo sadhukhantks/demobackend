@@ -1,4 +1,5 @@
 from src.authorization.utils import create_access_token, create_refresh_token, set_access_token_cookie, verify_password
+from src.config.db import CONSOLE_DB
 from fastapi import Request, HTTPException, Response
 from sqlalchemy.sql import text
 from src.config.db import get_db_names, default_engine, Session, extract_subdomain_from_request, get_tenant_engine
@@ -86,8 +87,8 @@ def login_user_console(
             
             # Update refresh token in DB only
             try:
-                update_query = text("""
-                    UPDATE vowconsole3.con_user_master 
+                update_query = text(f"""
+                    UPDATE {CONSOLE_DB}.con_user_master 
                     SET refresh_token = :refresh_token 
                     WHERE con_user_login_email_id = :username
                 """)
